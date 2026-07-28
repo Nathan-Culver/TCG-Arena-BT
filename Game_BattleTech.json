@@ -9,6 +9,7 @@
   "cards": {
     "dataUrl": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech_CardList.json",
     "cardBack": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech-back.png",
+    "cardBackColor": "#171719",
     "extraCardBacks": {}
   },
   "deckBuilding": {
@@ -37,11 +38,12 @@
         "initialBoardSetup": []
       },
       "mulligan": {
-        "info": "BattleTech has no default mulligan in the published rules.",
+        "triggeredByButton": false,
         "startingHandSize": 5,
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "mulliganCount": {
+          "min": 0,
+          "max": 0
+        }
       },
       "newTurn": {
         "drawOnStart": false,
@@ -51,6 +53,23 @@
       },
       "defaultNotes": "Track construction and damage with counters. Attach Pilots and Enhancements by grouping them with their host card.",
       "tokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://YOUR_GITHUB_USERNAME.github.io/TCG-Arena-BattleTech/img/construction-counter.svg"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://YOUR_GITHUB_USERNAME.github.io/TCG-Arena-BattleTech/img/damage-counter.svg"
+        },
+        {
+          "id": "ammunition-counter",
+          "name": "Ammunition Counter",
+          "image": "https://YOUR_GITHUB_USERNAME.github.io/TCG-Arena-BattleTech/img/ammunition-counter.svg"
+        }
+      ],
       "countersStartingValues": [
         0
       ],
