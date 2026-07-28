@@ -1,6 +1,6 @@
 {
   "name": "BattleTech Trading Card Game",
-  "menuBackgroundImage": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/img/BattleTech-back.png",
+  "menuBackgroundImage": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech-back.png",
   "defaultRessources": {
     "backgrounds": []
   },
@@ -8,7 +8,7 @@
   "cardRotation": 0,
   "cards": {
     "dataUrl": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech_CardList.json",
-    "cardBack": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/img/BattleTech-back.png",
+    "cardBack": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech-back.png",
     "extraCardBacks": {}
   },
   "deckBuilding": {
