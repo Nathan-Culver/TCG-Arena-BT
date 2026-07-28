@@ -1,0 +1,337 @@
+{
+  "name": "BattleTech Trading Card Game",
+  "menuBackgroundImage": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/img/BattleTech-back.png",
+  "defaultRessources": {
+    "backgrounds": []
+  },
+  "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty.",
+  "cardRotation": 0,
+  "cards": {
+    "dataUrl": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/BattleTech_CardList.json",
+    "cardBack": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/img/BattleTech-back.png",
+    "extraCardBacks": {}
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "name",
+      "type",
+      "set",
+      "alignment",
+      "affiliation",
+      "assets",
+      "keywords",
+      "cost",
+      "speed"
+    ],
+    "formats": [
+      {
+        "title": "Classic / All Sets",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "mulligan": {
+        "info": "BattleTech has no default mulligan in the published rules.",
+        "startingHandSize": 5,
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 2
+      },
+      "defaultNotes": "Track construction and damage with counters. Attach Pilots and Enhancements by grouping them with their host card.",
+      "tokens": [],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Construction",
+          "CommandPost",
+          "Patrol",
+          "Mission"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "justify-content": "space-between"
+              },
+              "isSymetricalForOpponents": false,
+              "content": [
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "32%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Construction",
+                      "style": false
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "32%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": false
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "32%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Mission",
+                      "style": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "isSymetricalForOpponents": false,
+              "content": [
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "100%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Patrol",
+                      "style": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "Unit": "Construction",
+          "Command": "Construction",
+          "Mission": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Mission": "Discard"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Scrapheap",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Stockpile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mission / Effect",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Construction": {
+            "title": "Construction",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Construction Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost": {
+            "title": "CommandPost",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "autoPayFrom": true
+          },
+          "Patrol": {
+            "title": "Patrol",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission": {
+            "title": "Mission",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Battle Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
