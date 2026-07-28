@@ -1,1 +1,0 @@
-# TCG-Arena-BT
