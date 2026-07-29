@@ -51,6 +51,12 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 2
       },
+      "defaultNotes": "",
+      "tokens": [],
+      "draggableTokens": [],
+      "countersStartingValues": [
+        0
+      ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
