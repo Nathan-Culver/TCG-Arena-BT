@@ -60,10 +60,30 @@
           "CommandPost",
           "Mission",
           "PatrolGuard",
+          "PatrolGuard2",
+          "PatrolGuard3",
+          "PatrolGuard4",
+          "PatrolGuard5",
           "CommandPostGuard",
+          "CommandPostGuard2",
+          "CommandPostGuard3",
+          "CommandPostGuard4",
+          "CommandPostGuard5",
           "AuxiliaryGuard",
+          "AuxiliaryGuard2",
+          "AuxiliaryGuard3",
+          "AuxiliaryGuard4",
+          "AuxiliaryGuard5",
           "ConstructionGuard",
-          "StockpileGuard"
+          "ConstructionGuard2",
+          "ConstructionGuard3",
+          "ConstructionGuard4",
+          "ConstructionGuard5",
+          "StockpileGuard",
+          "StockpileGuard2",
+          "StockpileGuard3",
+          "StockpileGuard4",
+          "StockpileGuard5"
         ],
         "layout": {
           "direction": "column",
@@ -84,10 +104,47 @@
                   "isSymetricalForOpponents": false,
                   "content": [
                     {
-                      "section": "PatrolGuard",
+                      "direction": "column",
                       "style": {
                         "width": "var(--card-width)"
-                      }
+                      },
+                      "isSymetricalForOpponents": false,
+                      "content": [
+                        {
+                          "section": "PatrolGuard",
+                          "style": {
+                            "width": "100%"
+                          }
+                        },
+                        {
+                          "section": "PatrolGuard2",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "PatrolGuard3",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "PatrolGuard4",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "PatrolGuard5",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        }
+                      ]
                     },
                     {
                       "section": "Mission",
@@ -105,10 +162,47 @@
                   "isSymetricalForOpponents": false,
                   "content": [
                     {
-                      "section": "CommandPostGuard",
+                      "direction": "column",
                       "style": {
                         "width": "var(--card-width)"
-                      }
+                      },
+                      "isSymetricalForOpponents": false,
+                      "content": [
+                        {
+                          "section": "CommandPostGuard",
+                          "style": {
+                            "width": "100%"
+                          }
+                        },
+                        {
+                          "section": "CommandPostGuard2",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "CommandPostGuard3",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "CommandPostGuard4",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        },
+                        {
+                          "section": "CommandPostGuard5",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-2.1vh"
+                          }
+                        }
+                      ]
                     },
                     {
                       "section": "CommandPost",
@@ -135,10 +229,47 @@
                   "isSymetricalForOpponents": false,
                   "content": [
                     {
-                      "section": "AuxiliaryGuard",
+                      "direction": "column",
                       "style": {
                         "width": "var(--card-width)"
-                      }
+                      },
+                      "isSymetricalForOpponents": false,
+                      "content": [
+                        {
+                          "section": "AuxiliaryGuard",
+                          "style": {
+                            "width": "100%"
+                          }
+                        },
+                        {
+                          "section": "AuxiliaryGuard2",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "AuxiliaryGuard3",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "AuxiliaryGuard4",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "AuxiliaryGuard5",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        }
+                      ]
                     },
                     {
                       "section": "Resources",
@@ -156,10 +287,47 @@
                   "isSymetricalForOpponents": false,
                   "content": [
                     {
-                      "section": "ConstructionGuard",
+                      "direction": "column",
                       "style": {
                         "width": "var(--card-width)"
-                      }
+                      },
+                      "isSymetricalForOpponents": false,
+                      "content": [
+                        {
+                          "section": "ConstructionGuard",
+                          "style": {
+                            "width": "100%"
+                          }
+                        },
+                        {
+                          "section": "ConstructionGuard2",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "ConstructionGuard3",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "ConstructionGuard4",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        },
+                        {
+                          "section": "ConstructionGuard5",
+                          "style": {
+                            "width": "100%",
+                            "marginTop": "-3.85vh"
+                          }
+                        }
+                      ]
                     },
                     {
                       "section": "Construction",
@@ -172,14 +340,51 @@
               ]
             },
             {
-              "section": "StockpileGuard",
+              "direction": "column",
               "style": {
                 "position": "absolute",
                 "right": "calc(var(--card-width) + 1vh)",
                 "bottom": "0",
                 "width": "var(--card-width)",
                 "zIndex": 5
-              }
+              },
+              "isSymetricalForOpponents": false,
+              "content": [
+                {
+                  "section": "StockpileGuard",
+                  "style": {
+                    "width": "100%"
+                  }
+                },
+                {
+                  "section": "StockpileGuard2",
+                  "style": {
+                    "width": "100%",
+                    "marginTop": "-1.4vh"
+                  }
+                },
+                {
+                  "section": "StockpileGuard3",
+                  "style": {
+                    "width": "100%",
+                    "marginTop": "-1.4vh"
+                  }
+                },
+                {
+                  "section": "StockpileGuard4",
+                  "style": {
+                    "width": "100%",
+                    "marginTop": "-1.4vh"
+                  }
+                },
+                {
+                  "section": "StockpileGuard5",
+                  "style": {
+                    "width": "100%",
+                    "marginTop": "-1.4vh"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -380,8 +585,8 @@
           "PatrolGuard": {
             "title": "PatrolGuard",
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
+            "height": 6,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -389,15 +594,79 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard2": {
+            "title": "PatrolGuard2",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard3": {
+            "title": "PatrolGuard3",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard4": {
+            "title": "PatrolGuard4",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard5": {
+            "title": "PatrolGuard5",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "CommandPostGuard": {
             "title": "CommandPostGuard",
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
+            "height": 6,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -405,15 +674,79 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard2": {
+            "title": "CommandPostGuard2",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard3": {
+            "title": "CommandPostGuard3",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard4": {
+            "title": "CommandPostGuard4",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard5": {
+            "title": "CommandPostGuard5",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "AuxiliaryGuard": {
             "title": "AuxiliaryGuard",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "START",
+            "height": 6,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -421,15 +754,79 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "AuxiliaryGuard2": {
+            "title": "AuxiliaryGuard2",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "AuxiliaryGuard3": {
+            "title": "AuxiliaryGuard3",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "AuxiliaryGuard4": {
+            "title": "AuxiliaryGuard4",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "AuxiliaryGuard5": {
+            "title": "AuxiliaryGuard5",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "ConstructionGuard": {
             "title": "ConstructionGuard",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "START",
+            "height": 6,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -437,15 +834,79 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard2": {
+            "title": "ConstructionGuard2",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard3": {
+            "title": "ConstructionGuard3",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard4": {
+            "title": "ConstructionGuard4",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard5": {
+            "title": "ConstructionGuard5",
+            "isHidden": "no",
+            "height": 6,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "StockpileGuard": {
             "title": "StockpileGuard",
             "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "START",
+            "height": 4,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -453,7 +914,71 @@
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "StockpileGuard2": {
+            "title": "StockpileGuard2",
+            "isHidden": "no",
+            "height": 4,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "StockpileGuard3": {
+            "title": "StockpileGuard3",
+            "isHidden": "no",
+            "height": 4,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "StockpileGuard4": {
+            "title": "StockpileGuard4",
+            "isHidden": "no",
+            "height": 4,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "StockpileGuard5": {
+            "title": "StockpileGuard5",
+            "isHidden": "no",
+            "height": 4,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": " ",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
