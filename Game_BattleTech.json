@@ -166,8 +166,8 @@
             "showHiddenCardInHistory": false,
             "isDefaultSection": true
           },
-          "Discard": {
-            "title": "Discard",
+          "Scrapheap": {
+            "title": "Scrapheap",
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
