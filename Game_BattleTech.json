@@ -395,7 +395,7 @@
           "Mission": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission": "Scrapheap"
         },
         "sectionsDict": {
           "Hand": {
@@ -519,7 +519,7 @@
           },
           "Construction": {
             "title": "Construction",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "HUGE",
             "alignment": "START",
             "opponentAlignment": false,
