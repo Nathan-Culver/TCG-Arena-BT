@@ -56,8 +56,8 @@
       "sections": {
         "customSections": [
           "Construction",
+          "Resources",
           "CommandPost",
-          "Patrol",
           "Mission"
         ],
         "layout": {
@@ -74,33 +74,7 @@
                 {
                   "direction": "column",
                   "style": {
-                    "width": "32%"
-                  },
-                  "isSymetricalForOpponents": false,
-                  "content": [
-                    {
-                      "section": "Construction",
-                      "style": false
-                    }
-                  ]
-                },
-                {
-                  "direction": "column",
-                  "style": {
-                    "width": "32%"
-                  },
-                  "isSymetricalForOpponents": false,
-                  "content": [
-                    {
-                      "section": "CommandPost",
-                      "style": false
-                    }
-                  ]
-                },
-                {
-                  "direction": "column",
-                  "style": {
-                    "width": "32%"
+                    "width": "49%"
                   },
                   "isSymetricalForOpponents": false,
                   "content": [
@@ -109,23 +83,51 @@
                       "style": false
                     }
                   ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "49%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": false
+                    }
+                  ]
                 }
               ]
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "justify-content": "space-between"
+              },
               "isSymetricalForOpponents": false,
               "content": [
                 {
                   "direction": "column",
                   "style": {
-                    "width": "100%"
+                    "width": "49%"
                   },
                   "isSymetricalForOpponents": false,
                   "content": [
                     {
-                      "section": "Patrol",
+                      "section": "Resources",
+                      "style": false
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "49%"
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "Construction",
                       "style": false
                     }
                   ]
@@ -266,7 +268,7 @@
           "Construction": {
             "title": "Construction",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "HUGE",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -278,6 +280,23 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Resources": {
+            "title": "Resources",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Auxiliary Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "autoPayFrom": true
           },
           "CommandPost": {
             "title": "CommandPost",
@@ -293,23 +312,6 @@
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "autoPayFrom": true
-          },
-          "Patrol": {
-            "title": "Patrol",
-            "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Patrol Region",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "Mission": {
@@ -320,7 +322,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Mission / Battle Area",
+            "displayedTitle": "Patrol Region",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
