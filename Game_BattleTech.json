@@ -51,28 +51,6 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 2
       },
-      "defaultNotes": "Track construction and damage with counters. Attach Pilots and Enhancements by grouping them with their host card.",
-      "tokens": [],
-      "draggableTokens": [
-        {
-          "id": "construction-counter",
-          "name": "Construction Counter",
-          "image": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/main/construction-counter.svg"
-        },
-        {
-          "id": "damage-counter",
-          "name": "Damage Counter",
-          "image": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/main/damage-counter.svg"
-        },
-        {
-          "id": "ammunition-counter",
-          "name": "Ammunition Counter",
-          "image": "https://Nathan-Culver.github.io/TCG-Arena-BattleTech/main/ammunition-counter.svg"
-        }
-      ],
-      "countersStartingValues": [
-        0
-      ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
