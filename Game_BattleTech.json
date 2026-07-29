@@ -406,7 +406,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "",
+            "displayedTitle": "Hand",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -415,8 +415,8 @@
             "showHiddenCardInHistory": false,
             "isDefaultSection": true
           },
-          "Discard": {
-            "title": "Discard",
+          "Srapheap": {
+            "title": "Srapheap",
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
@@ -432,8 +432,8 @@
             "showHiddenCardInHistory": false,
             "isDefaultSection": true
           },
-          "Deck": {
-            "title": "Deck",
+          "Stockpile": {
+            "title": "Stockpile",
             "isHidden": "yes",
             "height": "DEFAULT",
             "alignment": "NONE",
@@ -585,7 +585,7 @@
           "PatrolGuard": {
             "title": "PatrolGuard",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -601,7 +601,7 @@
           "PatrolGuard2": {
             "title": "PatrolGuard2",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -617,7 +617,7 @@
           "PatrolGuard3": {
             "title": "PatrolGuard3",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -633,7 +633,7 @@
           "PatrolGuard4": {
             "title": "PatrolGuard4",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -649,7 +649,7 @@
           "PatrolGuard5": {
             "title": "PatrolGuard5",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -665,7 +665,7 @@
           "CommandPostGuard": {
             "title": "CommandPostGuard",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -681,7 +681,7 @@
           "CommandPostGuard2": {
             "title": "CommandPostGuard2",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -697,7 +697,7 @@
           "CommandPostGuard3": {
             "title": "CommandPostGuard3",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -713,7 +713,7 @@
           "CommandPostGuard4": {
             "title": "CommandPostGuard4",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -729,7 +729,7 @@
           "CommandPostGuard5": {
             "title": "CommandPostGuard5",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -745,7 +745,7 @@
           "AuxiliaryGuard": {
             "title": "AuxiliaryGuard",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -761,7 +761,7 @@
           "AuxiliaryGuard2": {
             "title": "AuxiliaryGuard2",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -777,7 +777,7 @@
           "AuxiliaryGuard3": {
             "title": "AuxiliaryGuard3",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -793,7 +793,7 @@
           "AuxiliaryGuard4": {
             "title": "AuxiliaryGuard4",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -809,7 +809,7 @@
           "AuxiliaryGuard5": {
             "title": "AuxiliaryGuard5",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -825,7 +825,7 @@
           "ConstructionGuard": {
             "title": "ConstructionGuard",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -841,7 +841,7 @@
           "ConstructionGuard2": {
             "title": "ConstructionGuard2",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -857,7 +857,7 @@
           "ConstructionGuard3": {
             "title": "ConstructionGuard3",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -873,7 +873,7 @@
           "ConstructionGuard4": {
             "title": "ConstructionGuard4",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -889,7 +889,7 @@
           "ConstructionGuard5": {
             "title": "ConstructionGuard5",
             "isHidden": "no",
-            "height": 6,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -905,7 +905,7 @@
           "StockpileGuard": {
             "title": "StockpileGuard",
             "isHidden": "no",
-            "height": 4,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -921,7 +921,7 @@
           "StockpileGuard2": {
             "title": "StockpileGuard2",
             "isHidden": "no",
-            "height": 4,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -937,7 +937,7 @@
           "StockpileGuard3": {
             "title": "StockpileGuard3",
             "isHidden": "no",
-            "height": 4,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -953,7 +953,7 @@
           "StockpileGuard4": {
             "title": "StockpileGuard4",
             "isHidden": "no",
-            "height": 4,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -969,7 +969,7 @@
           "StockpileGuard5": {
             "title": "StockpileGuard5",
             "isHidden": "no",
-            "height": 4,
+            "height": 12,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
