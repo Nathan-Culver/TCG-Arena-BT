@@ -395,7 +395,7 @@
           "Mission": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Scrapheap"
+          "Mission": "discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -415,8 +415,8 @@
             "showHiddenCardInHistory": false,
             "isDefaultSection": true
           },
-          "Srapheap": {
-            "title": "Srapheap",
+          "Scrapheap": {
+            "title": "Scrapheap",
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
