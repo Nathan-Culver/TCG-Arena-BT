@@ -52,17 +52,17 @@
         {
           "id": "construction-counter",
           "name": "Construction Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.svg"
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction_counter.svg"
         },
         {
           "id": "damage-counter",
           "name": "Damage Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.svg"
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage_counter.svg"
         },
         {
           "id": "depleted-counter",
           "name": "Depleted Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.svg"
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted_counter.svg"
         }
       ],
       "countersStartingValues": [
