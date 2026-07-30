@@ -245,9 +245,10 @@
               "style": {
                 "position": "absolute",
                 "right": "0",
-                "bottom": "0",
+                "top": "23vh",
                 "width": "calc(var(--card-width) + var(--card-width) + 1vh)",
-                "zIndex": 5
+                "height": "15vh",
+                "zIndex": 50
               },
               "isSymetricalForOpponents": false,
               "content": [
