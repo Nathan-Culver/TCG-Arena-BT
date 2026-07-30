@@ -60,9 +60,9 @@
           "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.svg"
         },
         {
-          "id": "ammunition-counter",
-          "name": "Ammunition Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/ammunition-counter.svg"
+          "id": "depleted-counter",
+          "name": "Depleted Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.svg"
         }
       ],
       "countersStartingValues": [
