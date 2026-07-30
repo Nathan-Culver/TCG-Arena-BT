@@ -48,7 +48,23 @@
       },
       "defaultNotes": "",
       "tokens": [],
-      "draggableTokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.svg"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.svg"
+        },
+        {
+          "id": "ammunition-counter",
+          "name": "Ammunition Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/ammunition-counter.svg"
+        }
+      ],
       "countersStartingValues": [
         0
       ],
