@@ -52,17 +52,17 @@
         {
           "id": "construction-counter",
           "name": "Construction Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction_counter.svg"
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.svg"
         },
         {
           "id": "damage-counter",
           "name": "Damage Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage_counter.svg"
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.svg"
         },
         {
-          "id": "depleted-counter",
-          "name": "Depleted Counter",
-          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted_counter.svg"
+          "id": "ammunition-counter",
+          "name": "Ammunition Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/ammunition-counter.svg"
         }
       ],
       "countersStartingValues": [
@@ -194,22 +194,22 @@
                       "isSymetricalForOpponents": false,
                       "content": [
                         {
-                          "section": "AuxiliaryGuard",
+                          "section": "ConstructionGuard",
                           "style": {
                             "width": "100%"
                           }
                         },
                         {
-                          "section": "AuxiliaryGuard2",
+                          "section": "ConstructionGuard2",
                           "style": {
                             "width": "100%",
-                            "marginTop": "-4.4vh"
+                            "marginTop": "-2.2vh"
                           }
                         }
                       ]
                     },
                     {
-                      "section": "Resources",
+                      "section": "Construction",
                       "style": {
                         "width": "calc(100% - var(--card-width) - var(--card-width) - 1vh)"
                       }
@@ -232,22 +232,22 @@
                       "isSymetricalForOpponents": false,
                       "content": [
                         {
-                          "section": "ConstructionGuard",
+                          "section": "AuxiliaryGuard",
                           "style": {
                             "width": "100%"
                           }
                         },
                         {
-                          "section": "ConstructionGuard2",
+                          "section": "AuxiliaryGuard2",
                           "style": {
                             "width": "100%",
-                            "marginTop": "-4.4vh"
+                            "marginTop": "-2.2vh"
                           }
                         }
                       ]
                     },
                     {
-                      "section": "Construction",
+                      "section": "Resources",
                       "style": {
                         "width": "calc(100% - var(--card-width) - var(--card-width) - 1vh)"
                       }
@@ -410,7 +410,7 @@
           "Construction": {
             "title": "Construction",
             "isHidden": "no",
-            "height": "HUGE",
+            "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -426,7 +426,7 @@
           "Resources": {
             "title": "Resources",
             "isHidden": "no",
-            "height": "HUGE",
+            "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -539,7 +539,7 @@
           "AuxiliaryGuard": {
             "title": "AuxiliaryGuard",
             "isHidden": "no",
-            "height": 22,
+            "height": 11,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -555,7 +555,7 @@
           "AuxiliaryGuard2": {
             "title": "AuxiliaryGuard2",
             "isHidden": "no",
-            "height": 22,
+            "height": 11,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -571,7 +571,7 @@
           "ConstructionGuard": {
             "title": "ConstructionGuard",
             "isHidden": "no",
-            "height": 22,
+            "height": 11,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -587,7 +587,7 @@
           "ConstructionGuard2": {
             "title": "ConstructionGuard2",
             "isHidden": "no",
-            "height": 22,
+            "height": 11,
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
