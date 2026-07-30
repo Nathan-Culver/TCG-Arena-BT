@@ -290,7 +290,7 @@
         "sectionsDict": {
           "Hand": {
             "title": "Hand",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
