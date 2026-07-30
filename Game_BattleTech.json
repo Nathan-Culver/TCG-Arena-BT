@@ -409,7 +409,7 @@
           },
           "Construction": {
             "title": "Construction",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
