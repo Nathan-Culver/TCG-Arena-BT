@@ -226,37 +226,33 @@
               "isSymetricalForOpponents": false,
               "content": [
                 {
-                  "section": "ConstructionGuard",
-                  "style": {
-                    "width": "calc(var(--card-width) + 1vh)",
-                    "height": "100%"
-                  }
-                },
-                {
-                  "section": "Construction",
+                  "direction": "row",
                   "style": {
                     "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
-                  }
-                }
-              ]
-            },
-            {
-              "direction": "column",
-              "style": {
-                "position": "absolute",
-                "right": "0",
-                "top": "30vh",
-                "width": "calc(var(--card-width) + 1vh)",
-                "height": "15vh",
-                "zIndex": 50
-              },
-              "isSymetricalForOpponents": false,
-              "content": [
+                  },
+                  "isSymetricalForOpponents": false,
+                  "content": [
+                    {
+                      "section": "ConstructionGuard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Construction",
+                      "style": {
+                        "width": "calc(100% - var(--card-width) - 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
                 {
                   "section": "DeckGuard",
                   "style": {
-                    "width": "100%",
+                    "width": "calc(var(--card-width) + 1vh)",
                     "height": "100%"
                   }
                 }
