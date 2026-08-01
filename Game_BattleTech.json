@@ -2,9 +2,7 @@
   "name": "BattleTech Trading Card Game",
   "menuBackgroundImage": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
   "defaultRessources": {
-    "backgrounds": [
-      "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png"
-    ]
+    "backgrounds": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty.",
   "cardRotation": 0,
