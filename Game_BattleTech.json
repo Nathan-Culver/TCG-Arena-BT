@@ -91,7 +91,7 @@
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": false,
+          "isSymetricalForOpponents": true,
           "content": [
             {
               "direction": "row",
@@ -99,7 +99,6 @@
                 "width": "100%",
                 "height": "15vh"
               },
-              "isSymetricalForOpponents": false,
               "content": [
                 {
                   "section": "PatrolGuard",
@@ -114,7 +113,6 @@
                     "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
-                  "isSymetricalForOpponents": false,
                   "content": [
                     {
                       "section": "Mission",
@@ -161,7 +159,6 @@
                 "width": "100%",
                 "height": "15vh"
               },
-              "isSymetricalForOpponents": false,
               "content": [
                 {
                   "section": "CommandPostGuard",
@@ -176,7 +173,6 @@
                     "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
-                  "isSymetricalForOpponents": false,
                   "content": [
                     {
                       "section": "CommandPost",
@@ -223,7 +219,6 @@
                 "width": "calc(100% - var(--card-width) - 1vh)",
                 "height": "15vh"
               },
-              "isSymetricalForOpponents": false,
               "content": [
                 {
                   "direction": "row",
@@ -231,7 +226,6 @@
                     "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
-                  "isSymetricalForOpponents": false,
                   "content": [
                     {
                       "section": "ConstructionGuard",
@@ -275,7 +269,6 @@
             "isHidden": "opponent-only",
             "height": "DEFAULT",
             "alignment": "CENTER",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
@@ -292,7 +285,6 @@
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Scrapheap",
@@ -309,7 +301,6 @@
             "isHidden": "yes",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Stockpile",
@@ -326,7 +317,6 @@
             "isHidden": "no",
             "height": "HUGE",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Mission / Effect",
@@ -343,7 +333,6 @@
             "isHidden": "yes",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
@@ -360,7 +349,6 @@
             "isHidden": "yes",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
@@ -377,7 +365,6 @@
             "isHidden": "yes",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
@@ -391,10 +378,10 @@
           },
           "Construction": {
             "title": "Construction",
-            "isHidden": "yes",
+            "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Construction Region",
@@ -410,7 +397,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Command Post",
@@ -426,7 +413,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Patrol",
@@ -442,7 +429,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "CENTER",
-            "opponentAlignment": false,
+            "opponentAlignment": "CENTER",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
@@ -458,7 +445,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "CENTER",
-            "opponentAlignment": false,
+            "opponentAlignment": "CENTER",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
@@ -474,7 +461,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "CENTER",
-            "opponentAlignment": false,
+            "opponentAlignment": "CENTER",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
@@ -490,7 +477,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Patrol",
@@ -506,7 +493,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Patrol",
@@ -522,7 +509,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Patrol",
@@ -538,7 +525,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Patrol",
@@ -554,7 +541,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Command Post",
@@ -570,7 +557,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Command Post",
@@ -586,7 +573,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Command Post",
@@ -602,7 +589,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
-            "opponentAlignment": false,
+            "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Command Post",
@@ -618,7 +605,7 @@
             "isHidden": "no",
             "height": 15,
             "alignment": "CENTER",
-            "opponentAlignment": false,
+            "opponentAlignment": "CENTER",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
