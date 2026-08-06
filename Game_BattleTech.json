@@ -4,7 +4,8 @@
   "defaultRessources": {
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
-    ]
+    ],
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty.",
   "cardRotation": 0,
@@ -48,7 +49,7 @@
         "triggeredByButton": false,
         "startingHandSize": 5,
         "mulliganCycle": {
-          "info": "BattleTech TCG Mulligan: Reshuffle your entire hand and draw one fewer card. You may repeat this procedure, down to a hand of zero cards.",
+          "info": "BattleTech TCG Mulligan: You may mulligan only when your current opening hand contains exactly 0 or 1 Resource cards. Reshuffle your entire hand and draw one fewer card. Check the same eligibility condition again before taking another mulligan.",
           "steps": [
             "toTop",
             "shuffle",
