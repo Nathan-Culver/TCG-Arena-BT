@@ -2069,7 +2069,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "width": "calc(100% - (2 * var(--card-width)) - 2vh)",
+                    "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
                   "content": [
@@ -2092,8 +2092,12 @@
                 {
                   "section": "ResourceDeck",
                   "style": {
-                    "width": "calc(var(--card-width) + 1vh)",
-                    "height": "100%"
+                    "position": "absolute",
+                    "bottom": "calc(9vh - var(--card-height))",
+                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "width": "var(--card-width)",
+                    "height": "var(--card-height)",
+                    "zIndex": 5
                   }
                 },
                 {
@@ -2708,7 +2712,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "width": "calc(100% - (2 * var(--card-width)) - 2vh)",
+                    "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
                   "content": [
@@ -2731,8 +2735,12 @@
                 {
                   "section": "ResourceDeck",
                   "style": {
-                    "width": "calc(var(--card-width) + 1vh)",
-                    "height": "100%"
+                    "position": "absolute",
+                    "bottom": "calc(9vh - var(--card-height))",
+                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "width": "var(--card-width)",
+                    "height": "var(--card-height)",
+                    "zIndex": 5
                   }
                 },
                 {
@@ -3335,7 +3343,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "width": "calc(100% - (2 * var(--card-width)) - 2vh)",
+                    "width": "calc(100% - var(--card-width) - 1vh)",
                     "height": "100%"
                   },
                   "content": [
@@ -3358,8 +3366,12 @@
                 {
                   "section": "ResourceDeck",
                   "style": {
-                    "width": "calc(var(--card-width) + 1vh)",
-                    "height": "100%"
+                    "position": "absolute",
+                    "bottom": "calc(9vh - var(--card-height))",
+                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "width": "var(--card-width)",
+                    "height": "var(--card-height)",
+                    "zIndex": 5
                   }
                 },
                 {
