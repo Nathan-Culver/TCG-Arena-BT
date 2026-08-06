@@ -2094,7 +2094,7 @@
                   "style": {
                     "position": "absolute",
                     "bottom": "calc(9vh - var(--card-height))",
-                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "right": "calc((2 * var(--card-width)) + 1vh)",
                     "width": "var(--card-width)",
                     "height": "var(--card-height)",
                     "zIndex": 5
@@ -2481,7 +2481,7 @@
             "height": 15,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Resource Deck",
+            "displayedTitle": "Resources",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "Hand"
@@ -2737,7 +2737,7 @@
                   "style": {
                     "position": "absolute",
                     "bottom": "calc(9vh - var(--card-height))",
-                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "right": "calc((2 * var(--card-width)) + 1vh)",
                     "width": "var(--card-width)",
                     "height": "var(--card-height)",
                     "zIndex": 5
@@ -3124,7 +3124,7 @@
             "height": 15,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Resource Deck",
+            "displayedTitle": "Resources",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "Hand"
@@ -3368,7 +3368,7 @@
                   "style": {
                     "position": "absolute",
                     "bottom": "calc(9vh - var(--card-height))",
-                    "right": "calc((2 * var(--card-width)) + 2vh)",
+                    "right": "calc((2 * var(--card-width)) + 1vh)",
                     "width": "var(--card-width)",
                     "height": "var(--card-height)",
                     "zIndex": 5
@@ -3755,7 +3755,7 @@
             "height": 15,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Resource Deck",
+            "displayedTitle": "Resources",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "Hand"
