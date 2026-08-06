@@ -7,9 +7,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -93,6 +93,102 @@
     }
   },
   {
+    "title": "1997 #1 — Peter Sundholm — Wolf [Separate Resource Deck]",
+    "id": "btwc-1997-01-peter-sundholm-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 5,
+          "id": "commandersedition-dasher-prime-fire-moth"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-fenris-a-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-fenris-prime-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "counterstrike-fenris-b-ice-ferret"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-man-o-war-prime-gargoyle"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-evantha-fetladral"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-good-shooting"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-pushing-the-envelope"
+        },
+        {
+          "count": 2,
+          "id": "counterstrike-superior-navigation"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 10,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-point-defense-system"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-heavy-fog"
+        }
+      ]
+    }
+  },
+  {
     "title": "1997 #2 — Terry Borer — House Steiner",
     "id": "btwc-1997-02-terry-borer",
     "cardCount": 58,
@@ -100,9 +196,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -210,6 +306,126 @@
     }
   },
   {
+    "title": "1997 #2 — Terry Borer — House Steiner [Separate Resource Deck]",
+    "id": "btwc-1997-02-terry-borer-resource-deck",
+    "cardCount": 58,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 3,
+          "id": "commandersedition-black-knight-bl6-knt"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-lancelot-lnc25-01"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-mongoose-mon-66"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-zeus-zeu-9s"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-adam-steiner"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-bearer-of-mckennsy-hammer"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-contract-with-gray-death-legion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-contract-with-kell-hounds"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-melissa-steiner-davion"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-misrouted-command"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 1,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 3,
+          "id": "counterstrike-superior-navigation"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 9,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-think-tank"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "commandersedition-temporary-cease-fire"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-knight-bl6-knt"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-inside-job"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-bribed-pilot"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-superior-navigation"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #1 — Terry Borer — Nightsky/Centurion Hidden Reserves",
     "id": "btwc-1998-01-terry-borer",
     "cardCount": 60,
@@ -217,9 +433,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -324,6 +540,123 @@
     }
   },
   {
+    "title": "1998 #1 — Terry Borer — Nightsky/Centurion Hidden Reserves [Separate Resource Deck]",
+    "id": "btwc-1998-01-terry-borer-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "mercenaries-nightsky-ngs-4s"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-lightning"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-cavalry"
+        },
+        {
+          "count": 6,
+          "id": "arsenal-cyrano"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-hussar-hsr-200-d"
+        }
+      ],
+      "Command": [
+        {
+          "count": 6,
+          "id": "commandersedition-sandhurst-royal-military-academy"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-treachery"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-melissa-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-command-circuit"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 7,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-aerospace-fighter-mission"
+        },
+        {
+          "count": 1,
+          "id": "mechwarrior-financial-collapse"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-com-guard-response-team"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-creative-terraforming"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #2 — Shiu-Yik Au — Nightsky/Centurion Hidden Reserves",
     "id": "btwc-1998-02-shiu-yik-au",
     "cardCount": 60,
@@ -331,9 +664,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -438,6 +771,123 @@
     }
   },
   {
+    "title": "1998 #2 — Shiu-Yik Au — Nightsky/Centurion Hidden Reserves [Separate Resource Deck]",
+    "id": "btwc-1998-02-shiu-yik-au-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "mercenaries-nightsky-ngs-4s"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-lightning"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-cavalry"
+        },
+        {
+          "count": 6,
+          "id": "arsenal-cyrano"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-hussar-hsr-200-d"
+        }
+      ],
+      "Command": [
+        {
+          "count": 6,
+          "id": "commandersedition-sandhurst-royal-military-academy"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-treachery"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-melissa-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-command-circuit"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 7,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-aerospace-fighter-mission"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-com-guard-response-team"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-creative-terraforming"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #3 — Peter Sundholm — Clan Speed",
     "id": "btwc-1998-03-peter-sundholm",
     "cardCount": 60,
@@ -445,9 +895,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -547,6 +997,118 @@
     }
   },
   {
+    "title": "1998 #3 — Peter Sundholm — Clan Speed [Separate Resource Deck]",
+    "id": "btwc-1998-03-peter-sundholm-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "unlimited-fenris-prime-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-dasher-prime-fire-moth"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-phantom-b"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-phantom-a"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-trial-of-grievance"
+        },
+        {
+          "count": 1,
+          "id": "mechwarrior-inferno-missile-retrofit"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 3,
+          "id": "commandersedition-pushing-the-envelope"
+        },
+        {
+          "count": 3,
+          "id": "counterstrike-superior-navigation"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 9,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "mechwarrior-inferno-missile-retrofit"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-creative-terraforming"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-vlad-of-the-wards"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #4 — Barry Young — Steiner Pilots",
     "id": "btwc-1998-04-barry-young",
     "cardCount": 60,
@@ -554,9 +1116,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -680,6 +1242,142 @@
     }
   },
   {
+    "title": "1998 #4 — Barry Young — Steiner Pilots [Separate Resource Deck]",
+    "id": "btwc-1998-04-barry-young-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 4,
+          "id": "commandersedition-zeus-zeu-9s"
+        },
+        {
+          "count": 6,
+          "id": "mercenaries-nightsky-ngs-4s"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-mongoose-mon-66"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-spector-spr-5f"
+        },
+        {
+          "count": 4,
+          "id": "unlimited-hatchetman-hct-3f"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-centurion-cn9-d"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-morgan-kell"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-forged-mission-orders"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-risky-combat-jump"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-leap-before-you-look"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-reactor-breach"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 8,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-temporary-cease-fire"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-leap-before-you-look"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #5 — Sigmund Lam — Clan Logistics",
     "id": "btwc-1998-05-sigmund-lam",
     "cardCount": 60,
@@ -687,9 +1385,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -794,6 +1492,123 @@
     }
   },
   {
+    "title": "1998 #5 — Sigmund Lam — Clan Logistics [Separate Resource Deck]",
+    "id": "btwc-1998-05-sigmund-lam-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 5,
+          "id": "arsenal-blitzkrieg-elemental-point"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-skirmisher-elemental-point"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-fenris-a-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "counterstrike-fenris-b-ice-ferret"
+        },
+        {
+          "count": 5,
+          "id": "unlimited-ryoken-prime-storm-crow"
+        }
+      ],
+      "Command": [
+        {
+          "count": 2,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 1,
+          "id": "mechwarrior-merchant-caste"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-accelerated-turnaround"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-double-time-offense"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 12,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-resource-broker"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-strip-mining-operation"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-double-time-offense"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-accelerated-turnaround"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-man-o-war-prime-gargoyle"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-ryoken-prime-storm-crow"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-mad-cat-a-timber-wolf"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #6 — John Hunka — Steiner Fast Units",
     "id": "btwc-1998-06-john-hunka",
     "cardCount": 60,
@@ -801,9 +1616,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -931,6 +1746,146 @@
     }
   },
   {
+    "title": "1998 #6 — John Hunka — Steiner Fast Units [Separate Resource Deck]",
+    "id": "btwc-1998-06-john-hunka-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "commandersedition-mongoose-mon-66"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 6,
+          "id": "mercenaries-nightsky-ngs-4s"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-spector-spr-5f"
+        },
+        {
+          "count": 4,
+          "id": "unlimited-blackjack-bj2"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-lancelot-lnc25-01"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-dan-allard"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-risky-combat-jump"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-temporary-cease-fire"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-forged-mission-orders"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-final-push"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 9,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "commandersedition-rhonda-snord"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-morgan-kell"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-forged-mission-orders"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-reactor-breach"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-com-guard-response-team"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #7 — Zvi Mowshowitz — Hidden Reserves Resource Engine",
     "id": "btwc-1998-07-zvi-mowshowitz",
     "cardCount": 59,
@@ -938,9 +1893,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1050,6 +2005,128 @@
     }
   },
   {
+    "title": "1998 #7 — Zvi Mowshowitz — Hidden Reserves Resource Engine [Separate Resource Deck]",
+    "id": "btwc-1998-07-zvi-mowshowitz-resource-deck",
+    "cardCount": 59,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Command": [
+        {
+          "count": 2,
+          "id": "mercenaries-rapid-deployment"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-mech-hangar"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-disguised-coordinates"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-fog-shrouded-moors"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-corridor-of-fire"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 1,
+          "id": "mechwarrior-tyra-miraborg"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 5,
+          "id": "arsenal-advanced-manufacturing-techniques"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-staging-ground"
+        },
+        {
+          "count": 5,
+          "id": "counterstrike-field-construction-site"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-strip-mining-operation"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-resource-broker"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "mercenaries-rapid-deployment"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-disguised-coordinates"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-field-construction-site"
+        }
+      ]
+    }
+  },
+  {
     "title": "1998 #8 — David Bryan — Steiner Vehicles and 'Mechs",
     "id": "btwc-1998-08-david-bryan",
     "cardCount": 60,
@@ -1057,9 +2134,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1179,6 +2256,138 @@
     }
   },
   {
+    "title": "1998 #8 — David Bryan — Steiner Vehicles and 'Mechs [Separate Resource Deck]",
+    "id": "btwc-1998-08-david-bryan-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 5,
+          "id": "commandersedition-blackjack-bj2-ob"
+        },
+        {
+          "count": 6,
+          "id": "mechwarrior-owens-ow-1"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-firestarter-fs9-od"
+        },
+        {
+          "count": 5,
+          "id": "mercenaries-nightsky-ngs-4s"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-partisan-3058"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "arsenal-dan-allard"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 1,
+          "id": "commandersedition-reactor-breach"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-risky-combat-jump"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-forged-mission-orders"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 6,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-com-guard-response-team"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-final-push"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 2,
+          "id": "unlimited-leap-before-you-look"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-accidental-collision"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #1 — Marik GorgeMaster — Marik GorgeMaster",
     "id": "btwc-1999-01-marik-gorgemaster",
     "cardCount": 60,
@@ -1186,9 +2395,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1320,6 +2529,150 @@
     }
   },
   {
+    "title": "1999 #1 — Marik GorgeMaster — Marik GorgeMaster [Separate Resource Deck]",
+    "id": "btwc-1999-01-marik-gorgemaster-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 4,
+          "id": "arsenal-saladin"
+        },
+        {
+          "count": 6,
+          "id": "mechwarrior-owens-ow-1"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-owens-revised-ow-1"
+        },
+        {
+          "count": 3,
+          "id": "crusade-firestarter-fs9-of"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-firestarter-fs9-od"
+        },
+        {
+          "count": 3,
+          "id": "crusade-huron-warrior-hur-w0-r4m"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-gallowglas-gal-1gls"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-anvil-revised-anv-3m"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rhonda-s-highlander-hgn-732"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-overwhelm"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-risky-combat-jump"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-forged-mission-orders"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-blitzkrieg"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-studied-move"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-final-push"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 7,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 3,
+          "id": "crusade-falsified-maps"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-reactor-breach"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-saladin"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #2 — Steiner BullDog Oops Swarm — Steiner BullDog...Oops Swarm",
     "id": "btwc-1999-02-steiner-bulldog-oops-swarm",
     "cardCount": 60,
@@ -1327,9 +2680,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1418,6 +2771,107 @@
     }
   },
   {
+    "title": "1999 #2 — Steiner BullDog Oops Swarm — Steiner BullDog...Oops Swarm [Separate Resource Deck]",
+    "id": "btwc-1999-02-steiner-bulldog-oops-swarm-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-spider-revised-sdr-7m"
+        },
+        {
+          "count": 6,
+          "id": "crusade-hollander-bzk-f3"
+        },
+        {
+          "count": 6,
+          "id": "arsenal-yellow-jacket"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-sloth-squad"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-wolfhound-wlf-2"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 5,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 8,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 4,
+          "id": "commandersedition-com-guard-response-team"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-final-push"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-creative-terraforming"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #3 — BoomWolf — BoomWolf",
     "id": "btwc-1999-03-boomwolf",
     "cardCount": 61,
@@ -1425,9 +2879,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1531,6 +2985,122 @@
     }
   },
   {
+    "title": "1999 #3 — BoomWolf — BoomWolf [Separate Resource Deck]",
+    "id": "btwc-1999-03-boomwolf-resource-deck",
+    "cardCount": 61,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "commandersedition-dasher-prime-fire-moth"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-phantom-a"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-phantom-b"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-fenris-prime-ice-ferret"
+        }
+      ],
+      "Command": [
+        {
+          "count": 5,
+          "id": "arsenal-trial-of-grievance"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-fog-shrouded-moors"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-treachery"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-pushing-the-envelope"
+        },
+        {
+          "count": 3,
+          "id": "counterstrike-superior-navigation"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 8,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-trapped"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-vlad-of-the-wards"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #4 — TraderWolf — TraderWolf",
     "id": "btwc-1999-04-traderwolf",
     "cardCount": 66,
@@ -1538,9 +3108,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1618,6 +3188,96 @@
     }
   },
   {
+    "title": "1999 #4 — TraderWolf — TraderWolf [Separate Resource Deck]",
+    "id": "btwc-1999-04-traderwolf-resource-deck",
+    "cardCount": 66,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck"
+      ],
+      "Unit": [
+        {
+          "count": 5,
+          "id": "mercenaries-phantom-d"
+        },
+        {
+          "count": 3,
+          "id": "counterstrike-fenris-b-ice-ferret"
+        },
+        {
+          "count": 3,
+          "id": "unlimited-fenris-a-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-ryoken-prime-storm-crow"
+        },
+        {
+          "count": 3,
+          "id": "unlimited-mad-cat-a-timber-wolf"
+        }
+      ],
+      "Command": [
+        {
+          "count": 6,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 6,
+          "id": "mechwarrior-merchant-caste"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-double-time-offense"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 7,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 6,
+          "id": "crusade-improved-construction-facilities"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-advanced-manufacturing-techniques"
+        },
+        {
+          "count": 6,
+          "id": "arsenal-resource-broker"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #5 — Star League Sandhurst Free Deploy — Star League Sandhurst Free Deploy",
     "id": "btwc-1999-05-star-league-sandhurst-free-deploy",
     "cardCount": 60,
@@ -1625,9 +3285,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1704,6 +3364,95 @@
     }
   },
   {
+    "title": "1999 #5 — Star League Sandhurst Free Deploy — Star League Sandhurst Free Deploy [Separate Resource Deck]",
+    "id": "btwc-1999-05-star-league-sandhurst-free-deploy-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 5,
+          "id": "arsenal-sloth-squad"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-galleon-3058"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-spider-revised-sdr-7m"
+        },
+        {
+          "count": 6,
+          "id": "crusade-hollander-bzk-f3"
+        },
+        {
+          "count": 6,
+          "id": "crusade-charger-cgr-1l"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "crusade-the-star-league"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-sandhurst-royal-military-academy"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-command-circuit"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 8,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-think-tank"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 3,
+          "id": "commandersedition-isf-counterespionage"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-creative-terraforming"
+        },
+        {
+          "count": 3,
+          "id": "crusade-dest-commando-sabotage"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #6 — Invading Clans Big Mech Deck — Invading Clans Big Mech Deck",
     "id": "btwc-1999-06-invading-clans-big-mech-deck",
     "cardCount": 60,
@@ -1711,9 +3460,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1809,6 +3558,114 @@
     }
   },
   {
+    "title": "1999 #6 — Invading Clans Big Mech Deck — Invading Clans Big Mech Deck [Separate Resource Deck]",
+    "id": "btwc-1999-06-invading-clans-big-mech-deck-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "unlimited-black-hawk-b-nova"
+        },
+        {
+          "count": 6,
+          "id": "crusade-crossbow-a"
+        },
+        {
+          "count": 6,
+          "id": "crusade-crossbow-b"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-fenris-a-ice-ferret"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "crusade-the-invading-clans"
+        },
+        {
+          "count": 5,
+          "id": "mechwarrior-merchant-caste"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 1,
+          "id": "arsenal-steel-talons"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-fog"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 9,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 6,
+          "id": "crusade-improved-construction-facilities"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-heavy-fog"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-unopposed"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #7 — Kurita Star League Pilot — Kurita Star League Pilot",
     "id": "btwc-1999-07-kurita-star-league-pilot",
     "cardCount": 59,
@@ -1816,9 +3673,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -1963,6 +3820,163 @@
     }
   },
   {
+    "title": "1999 #7 — Kurita Star League Pilot — Kurita Star League Pilot [Separate Resource Deck]",
+    "id": "btwc-1999-07-kurita-star-league-pilot-resource-deck",
+    "cardCount": 59,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 1,
+          "id": "arsenal-spartan-spt-n2"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-anvil-revised-anv-3m"
+        },
+        {
+          "count": 4,
+          "id": "crusade-huron-warrior-hur-w0-r4m"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-wraith-tr1"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-spector-spr-5f"
+        },
+        {
+          "count": 3,
+          "id": "crusade-firestarter-fs9-of"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-venom-revised-sdr-9k"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-mongoose-mon-66"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "crusade-aris-sung"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-chaos-march-veteran"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kurita-high-command"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-melissa-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "crusade-hasty-alliance"
+        },
+        {
+          "count": 1,
+          "id": "crusade-dest-commando-sabotage"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 8,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 1,
+          "id": "crusade-star-league-proving-grounds"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "crusade-hasty-alliance"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-anastasius-focht"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-doc-trevena"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-candace-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-aerospace-fighter-mission"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 2,
+          "id": "crusade-dest-commando-sabotage"
+        }
+      ]
+    }
+  },
+  {
     "title": "1999 #8 — Davion Pilot Swarm — Davion Pilot Swarm",
     "id": "btwc-1999-08-davion-pilot-swarm",
     "cardCount": 60,
@@ -1970,9 +3984,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -2072,6 +4086,118 @@
     }
   },
   {
+    "title": "1999 #8 — Davion Pilot Swarm — Davion Pilot Swarm [Separate Resource Deck]",
+    "id": "btwc-1999-08-davion-pilot-swarm-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 6,
+          "id": "crusade-wolfhound-wlf-1"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-hatchetman-hct-5s"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-spector-spr-5f"
+        },
+        {
+          "count": 4,
+          "id": "commandersedition-hatchetman-revised-hct-5s"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-risky-combat-jump"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-com-guard-response-team"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 9,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 8,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-unlikely-love-affair"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-com-guard-response-team"
+        }
+      ]
+    }
+  },
+  {
     "title": "2000 #1 — Chad Edwards — Invading Clans",
     "id": "btwc-2000-01-chad-edwards",
     "cardCount": 60,
@@ -2079,9 +4205,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -2189,6 +4315,126 @@
     }
   },
   {
+    "title": "2000 #1 — Chad Edwards — Invading Clans [Separate Resource Deck]",
+    "id": "btwc-2000-01-chad-edwards-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 2,
+          "id": "commandersedition-dasher-b-fire-moth"
+        },
+        {
+          "count": 2,
+          "id": "mercenaries-phantom-d"
+        },
+        {
+          "count": 3,
+          "id": "unlimited-fenris-a-ice-ferret"
+        },
+        {
+          "count": 6,
+          "id": "crusade-crossbow-b"
+        },
+        {
+          "count": 6,
+          "id": "crusade-crossbow-a"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "crusade-the-invading-clans"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-double-time-offense"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-hidden-reserves"
+        },
+        {
+          "count": 6,
+          "id": "mechwarrior-merchant-caste"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 1,
+          "id": "crusade-viper-s-maw"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 8,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-advanced-manufacturing-techniques"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 6,
+          "id": "crusade-improved-construction-facilities"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 2,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-fog-shrouded-moors"
+        },
+        {
+          "count": 2,
+          "id": "crusade-falsified-maps"
+        },
+        {
+          "count": 3,
+          "id": "arsenal-trial-of-possession"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        }
+      ]
+    }
+  },
+  {
     "title": "2000 #2 — Mike Bodey — Davion",
     "id": "btwc-2000-02-mike-bodey",
     "cardCount": 60,
@@ -2196,9 +4442,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -2302,6 +4548,122 @@
     }
   },
   {
+    "title": "2000 #2 — Mike Bodey — Davion [Separate Resource Deck]",
+    "id": "btwc-2000-02-mike-bodey-resource-deck",
+    "cardCount": 60,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Mission",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "crusade-wolfhound-wlf-1"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-wolfhound-wlf-2"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-centurion-cn9-d"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-spector-spr-5f"
+        },
+        {
+          "count": 6,
+          "id": "unlimited-hatchetman-hct-5s"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-kai-allard-liao"
+        }
+      ],
+      "Mission": [
+        {
+          "count": 2,
+          "id": "commandersedition-pushing-the-envelope"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-com-guard-response-team"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 7,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 9,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-solaris-contacts"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "crusade-falsified-maps"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-com-guard-response-team"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-single-combat"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-think-tank"
+        }
+      ]
+    }
+  },
+  {
     "title": "2000 #3 — Tony Mericle — Kurita",
     "id": "btwc-2000-03-tony-mericle",
     "cardCount": 66,
@@ -2309,9 +4671,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -2428,6 +4790,135 @@
     }
   },
   {
+    "title": "2000 #3 — Tony Mericle — Kurita [Separate Resource Deck]",
+    "id": "btwc-2000-03-tony-mericle-resource-deck",
+    "cardCount": 66,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 6,
+          "id": "arsenal-saladin"
+        },
+        {
+          "count": 4,
+          "id": "crusade-raptor-rtx1-oe"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-panther-pnt-10k"
+        },
+        {
+          "count": 5,
+          "id": "commandersedition-falcon-hawk-fnhk-9k1a"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-grand-dragon-drg-5k"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-hatamoto-chi-htm-27t"
+        },
+        {
+          "count": 2,
+          "id": "mechwarrior-daikyu-dai-01"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-gunslinger-gun-1erd"
+        }
+      ],
+      "Command": [
+        {
+          "count": 6,
+          "id": "commandersedition-sandhurst-royal-military-academy"
+        },
+        {
+          "count": 6,
+          "id": "crusade-strategic-bombardment"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 2,
+          "id": "crusade-dest-commando-sabotage"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 12,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 1,
+          "id": "arsenal-advanced-manufacturing-techniques"
+        },
+        {
+          "count": 2,
+          "id": "crusade-improved-construction-facilities"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 4,
+          "id": "arsenal-war-funds"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 4,
+          "id": "crusade-dest-commando-sabotage"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-market-connections"
+        },
+        {
+          "count": 2,
+          "id": "arsenal-unlikely-love-affair"
+        }
+      ]
+    }
+  },
+  {
     "title": "2000 #4 — Chris Smith — The Star League",
     "id": "btwc-2000-04-chris-smith",
     "cardCount": 52,
@@ -2435,9 +4926,9 @@
     "lastModifiedAt": "2026-08-06T00:00:00.000Z",
     "game": "BattleTech Trading Card Game",
     "format": [
-      "BattleTech TCG Mulligan",
-      "London Mulligan",
-      "Free Mulligan"
+      "Classic (Original Mulligan)",
+      "Classic (London Mulligan)",
+      "Classic (Free Mulligan)"
     ],
     "deckList": {
       "categoriesOrder": [
@@ -2515,6 +5006,119 @@
         {
           "count": 6,
           "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Sideboard": [
+        {
+          "count": 1,
+          "id": "mechwarrior-financial-collapse"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-heavy-woods"
+        },
+        {
+          "count": 2,
+          "id": "unlimited-centurion-cn9-a"
+        },
+        {
+          "count": 3,
+          "id": "crusade-dest-commando-sabotage"
+        }
+      ]
+    }
+  },
+  {
+    "title": "2000 #4 — Chris Smith — The Star League [Separate Resource Deck]",
+    "id": "btwc-2000-04-chris-smith-resource-deck",
+    "cardCount": 52,
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "lastModifiedAt": "2026-08-06T00:00:00.000Z",
+    "game": "BattleTech Trading Card Game",
+    "format": [
+      "Resource Deck (Original Mulligan)",
+      "Resource Deck (London Mulligan)",
+      "Resource Deck (Free Mulligan)"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Unit",
+        "Command",
+        "Resource Deck",
+        "Sideboard"
+      ],
+      "Unit": [
+        {
+          "count": 2,
+          "id": "arsenal-warrior-h-8"
+        },
+        {
+          "count": 6,
+          "id": "arsenal-cyrano"
+        },
+        {
+          "count": 6,
+          "id": "crusade-charger-cgr-1l"
+        },
+        {
+          "count": 5,
+          "id": "crusade-hollander-bzk-f3"
+        }
+      ],
+      "Command": [
+        {
+          "count": 1,
+          "id": "crusade-the-star-league"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-dr-ariel-reed"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-melissa-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "unlimited-tsen-shang"
+        },
+        {
+          "count": 1,
+          "id": "crusade-task-force-serpent"
+        },
+        {
+          "count": 6,
+          "id": "commandersedition-hidden-reserves"
+        }
+      ],
+      "Resource Deck": [
+        {
+          "count": 5,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 2,
+          "id": "commandersedition-think-tank"
+        },
+        {
+          "count": 5,
+          "id": "arsenal-war-funds"
+        },
+        {
+          "count": 3,
+          "id": "mercenaries-outreach-mercenary-training"
+        },
+        {
+          "count": 3,
+          "id": "commandersedition-staging-ground"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-black-market-connections"
         }
       ],
       "Sideboard": [
