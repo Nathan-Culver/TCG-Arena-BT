@@ -23,23 +23,1248 @@
     ],
     "formats": [
       {
-        "title": "Classic / All Sets",
-        "gameplay": "Classic",
+        "title": "BattleTech TCG Mulligan",
+        "gameplay": "BattleTech TCG Mulligan",
+        "customCategories": []
+      },
+      {
+        "title": "London Mulligan",
+        "gameplay": "London Mulligan",
+        "customCategories": []
+      },
+      {
+        "title": "Free Mulligan",
+        "gameplay": "Free Mulligan",
         "customCategories": []
       }
     ]
   },
   "gameplay": {
-    "Classic": {
+    "BattleTech TCG Mulligan": {
       "beforeGameStart": {
         "initialBoardSetup": []
       },
       "mulligan": {
         "triggeredByButton": false,
         "startingHandSize": 5,
-        "mulliganCount": {
-          "min": 0,
-          "max": 0
+        "mulliganCycle": {
+          "info": "BattleTech TCG Mulligan: Reshuffle your entire hand and draw one fewer card. You may repeat this procedure, down to a hand of zero cards.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "applyPenalty",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 5
+          },
+          "keepCardsOrder": false
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 2
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.png"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.png"
+        },
+        {
+          "id": "depleted-counter",
+          "name": "Depleted Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.png"
+        }
+      ],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Construction",
+          "CommandPost",
+          "CommandPost2",
+          "CommandPost3",
+          "CommandPost4",
+          "CommandPost5",
+          "Mission",
+          "Mission2",
+          "Mission3",
+          "Mission4",
+          "Mission5",
+          "PatrolGuard",
+          "CommandPostGuard",
+          "ConstructionGuard",
+          "DeckGuard"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "PatrolGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "Mission",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "CommandPostGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "calc(100% - var(--card-width) - 1vh)",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "ConstructionGuard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Construction",
+                      "style": {
+                        "width": "calc(100% - var(--card-width) - 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "section": "DeckGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "Unit": "Construction",
+          "Command": "Construction",
+          "Mission": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Mission": "Discard"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Scrapheap",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Stockpile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mission / Effect",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Construction": {
+            "title": "Construction",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Construction Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost": {
+            "title": "CommandPost",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission": {
+            "title": "Mission",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard": {
+            "title": "PatrolGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard": {
+            "title": "CommandPostGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard": {
+            "title": "ConstructionGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission2": {
+            "title": "Mission2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission3": {
+            "title": "Mission3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission4": {
+            "title": "Mission4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission5": {
+            "title": "Mission5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost2": {
+            "title": "CommandPost2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost3": {
+            "title": "CommandPost3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost4": {
+            "title": "CommandPost4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost5": {
+            "title": "CommandPost5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DeckGuard": {
+            "title": "DeckGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    },
+    "London Mulligan": {
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "mulligan": {
+        "triggeredByButton": false,
+        "startingHandSize": 5,
+        "mulliganCycle": {
+          "info": "London Mulligan: Draw five cards again each time you mulligan. When you keep, put one card on the bottom of your deck for each mulligan you took.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 5
+          },
+          "keepCardsOrder": false
+        },
+        "postMulligan": {
+          "minMulligansToTrigger": 1,
+          "info": "Select one card for each mulligan you took, then put the selected cards on the bottom of your deck.",
+          "steps": [
+            "toBottom"
+          ],
+          "selectionRange": {
+            "min": 0,
+            "max": 5
+          },
+          "keepCardsOrder": true
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 2
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.png"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.png"
+        },
+        {
+          "id": "depleted-counter",
+          "name": "Depleted Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.png"
+        }
+      ],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Construction",
+          "CommandPost",
+          "CommandPost2",
+          "CommandPost3",
+          "CommandPost4",
+          "CommandPost5",
+          "Mission",
+          "Mission2",
+          "Mission3",
+          "Mission4",
+          "Mission5",
+          "PatrolGuard",
+          "CommandPostGuard",
+          "ConstructionGuard",
+          "DeckGuard"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "PatrolGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "Mission",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "CommandPostGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "calc(100% - var(--card-width) - 1vh)",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "ConstructionGuard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Construction",
+                      "style": {
+                        "width": "calc(100% - var(--card-width) - 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "section": "DeckGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "Unit": "Construction",
+          "Command": "Construction",
+          "Mission": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Mission": "Discard"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Scrapheap",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Stockpile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mission / Effect",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Construction": {
+            "title": "Construction",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Construction Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost": {
+            "title": "CommandPost",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission": {
+            "title": "Mission",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard": {
+            "title": "PatrolGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard": {
+            "title": "CommandPostGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard": {
+            "title": "ConstructionGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission2": {
+            "title": "Mission2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission3": {
+            "title": "Mission3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission4": {
+            "title": "Mission4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission5": {
+            "title": "Mission5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost2": {
+            "title": "CommandPost2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost3": {
+            "title": "CommandPost3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost4": {
+            "title": "CommandPost4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost5": {
+            "title": "CommandPost5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DeckGuard": {
+            "title": "DeckGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    },
+    "Free Mulligan": {
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "mulligan": {
+        "triggeredByButton": false,
+        "startingHandSize": 5,
+        "mulliganCycle": {
+          "info": "Free Mulligan: Reshuffle your entire hand and draw five new cards. You may repeat this procedure without reducing your hand size.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 5
+          },
+          "keepCardsOrder": false
         }
       },
       "newTurn": {
