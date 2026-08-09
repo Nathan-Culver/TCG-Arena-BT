@@ -6704,8 +6704,8 @@
                 "left": "0",
                 "width": "calc(100% - 18rem)",
                 "height": "34vh",
-                "zIndex": 15,
-                "background": "rgba(3, 8, 13, 0.94)"
+                "zIndex": 0,
+                "background": "transparent"
               }
             },
             {
