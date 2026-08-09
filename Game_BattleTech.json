@@ -3795,7 +3795,13 @@
     },
     "Draft": {
       "beforeGameStart": {
-        "initialBoardSetup": []
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "ExileHidden"
+          }
+        ]
       },
       "mulligan": {
         "triggeredByButton": true,
@@ -4814,7 +4820,13 @@
     },
     "Sealed": {
       "beforeGameStart": {
-        "initialBoardSetup": []
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "ExileHidden"
+          }
+        ]
       },
       "mulligan": {
         "triggeredByButton": true,
