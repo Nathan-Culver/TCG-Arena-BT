@@ -2,6 +2,7 @@
 
 const GAME_NAME = "BattleTech Trading Card Game";
 const IMPORT_BASE = "https://tcg-arena.fr/import";
+const SETUP_CARD_NAME = "Limited Format Setup Card";
 const SETS = [
   ["Limited", "Limited"],
   ["Unlimited", "Unlimited"],
@@ -118,7 +119,7 @@ function latin1Base64(text) {
 }
 
 function buildDeckList(format, packs) {
-  const lines = [];
+  const lines = [`1 ${SETUP_CARD_NAME}`, ""];
   packs.forEach((pack, index) => {
     lines.push(`${format} Pack ${index + 1}:`);
     const counts = new Map();
@@ -235,7 +236,7 @@ fetch("BattleTech_CardList.json")
     return response.json();
   })
   .then((data) => {
-    cards = Object.values(data).filter((card) => card.set !== "Promo");
+    cards = Object.values(data).filter((card) => card.set !== "Promo" && card.set !== "System");
     generateEl.disabled = false;
     generateEl.textContent = "Generate packs";
     statusEl.textContent = `Loaded ${cards.length} cards from ${SETS.length} booster sets.`;
