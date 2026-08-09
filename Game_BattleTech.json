@@ -10,14 +10,14 @@
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=5",
+    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=6",
     "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
     "cardBackColor": "#171719",
     "extraCardBacks": {}
   },
   "deckBuilding": {
     "mainFilters": [
-      "type",
+      "Card type",
       "Inner Sphere affiliation",
       "Clan affiliation",
       "alignment"
@@ -363,12 +363,28 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -972,12 +988,28 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -1569,12 +1601,28 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -2181,12 +2229,28 @@
           "Resource Deck->ResourceDeck"
         ],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -2824,12 +2888,28 @@
           "Resource Deck->ResourceDeck"
         ],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -3455,12 +3535,28 @@
           "Resource Deck->ResourceDeck"
         ],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "Construction",
+          "Unit 2": "Construction",
+          "Unit 3": "Construction",
+          "Unit 4": "Construction",
+          "Unit 5": "Construction",
+          "Command 1": "Construction",
+          "Command 2": "Construction",
+          "Command 3": "Construction",
+          "Command 4": "Construction",
+          "Command 5": "Construction",
+          "Mission 1": "Stack",
+          "Mission 2": "Stack",
+          "Mission 3": "Stack",
+          "Mission 4": "Stack",
+          "Mission 5": "Stack"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -4637,12 +4733,28 @@
           "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit 1": "DraftCurrent",
+          "Unit 2": "DraftCurrent",
+          "Unit 3": "DraftCurrent",
+          "Unit 4": "DraftCurrent",
+          "Unit 5": "DraftCurrent",
+          "Command 1": "DraftCurrent",
+          "Command 2": "DraftCurrent",
+          "Command 3": "DraftCurrent",
+          "Command 4": "DraftCurrent",
+          "Command 5": "DraftCurrent",
+          "Mission 1": "DraftCurrent",
+          "Mission 2": "DraftCurrent",
+          "Mission 3": "DraftCurrent",
+          "Mission 4": "DraftCurrent",
+          "Mission 5": "DraftCurrent"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -6771,12 +6883,28 @@
           "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
-          "Unit": "Mission",
-          "Command": "CommandPost",
-          "Mission": "CommandPost"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
-          "Mission": "Discard"
+          "Mission 1": "Discard",
+          "Mission 2": "Discard",
+          "Mission 3": "Discard",
+          "Mission 4": "Discard",
+          "Mission 5": "Discard"
         },
         "sectionsDict": {
           "Hand": {
@@ -6989,7 +7117,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7005,7 +7133,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7021,7 +7149,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7037,7 +7165,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7053,7 +7181,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7069,7 +7197,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7085,7 +7213,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7101,7 +7229,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
