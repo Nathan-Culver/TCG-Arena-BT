@@ -5165,7 +5165,6 @@
         "Pool Counterstrike Common",
         "Pool Counterstrike Uncommon",
         "Pool Counterstrike Rare",
-        "Pool Counterstrike Vital",
         "Pool Mercenaries Common",
         "Pool Mercenaries Uncommon",
         "Pool Mercenaries Rare",
@@ -5178,13 +5177,10 @@
         "Pool CommandersEdition Common",
         "Pool CommandersEdition Uncommon",
         "Pool CommandersEdition Rare",
-        "Pool CommandersEdition Vital",
-        "Pool CommandersEdition Box Power",
-        "Pool CommandersEdition New Deck Card",
         "Pool Crusade Common",
         "Pool Crusade Uncommon",
         "Pool Crusade Rare",
-        "Pool Promo Uncommon"
+        "Pool Unused Non Booster"
       ],
       "Setup": [
         {
@@ -7870,12 +7866,6 @@
           "id": "counterstrike-trapped"
         }
       ],
-      "Pool Counterstrike Vital": [
-        {
-          "count": 1,
-          "id": "counterstrike-master-scrounger"
-        }
-      ],
       "Pool Mercenaries Common": [
         {
           "count": 1,
@@ -10480,96 +10470,6 @@
           "id": "commandersedition-trapped"
         }
       ],
-      "Pool CommandersEdition Vital": [
-        {
-          "count": 1,
-          "id": "commandersedition-support-assembly"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-logistics"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-munitions"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-politics"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-tactics"
-        }
-      ],
-      "Pool CommandersEdition Box Power": [
-        {
-          "count": 1,
-          "id": "commandersedition-alshain"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-huntress"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-ironhold"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-luthien"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-new-avalon"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-strana-mechty"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-terra"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-tharkad"
-        }
-      ],
-      "Pool CommandersEdition New Deck Card": [
-        {
-          "count": 1,
-          "id": "commandersedition-comstar-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-davion-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-ghost-bear-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-jade-falcon-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-kurita-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-smoke-jaguar-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-steiner-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-wolf-high-command"
-        }
-      ],
       "Pool Crusade Common": [
         {
           "count": 1,
@@ -11000,10 +10900,98 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Pool Promo Uncommon": [
+      "Pool Unused Non Booster": [
+        {
+          "count": 1,
+          "id": "commandersedition-alshain"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-comstar-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-davion-high-command"
+        },
         {
           "count": 1,
           "id": "promo-double-overtime"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-ghost-bear-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-huntress"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-ironhold"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-jade-falcon-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kurita-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-luthien"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-master-scrounger"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-new-avalon"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-smoke-jaguar-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-steiner-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-strana-mechty"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-terra"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-tharkad"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-wolf-high-command"
         }
       ]
     }
@@ -11032,7 +11020,6 @@
         "Pool Counterstrike Common",
         "Pool Counterstrike Uncommon",
         "Pool Counterstrike Rare",
-        "Pool Counterstrike Vital",
         "Pool Mercenaries Common",
         "Pool Mercenaries Uncommon",
         "Pool Mercenaries Rare",
@@ -11045,13 +11032,10 @@
         "Pool CommandersEdition Common",
         "Pool CommandersEdition Uncommon",
         "Pool CommandersEdition Rare",
-        "Pool CommandersEdition Vital",
-        "Pool CommandersEdition Box Power",
-        "Pool CommandersEdition New Deck Card",
         "Pool Crusade Common",
         "Pool Crusade Uncommon",
         "Pool Crusade Rare",
-        "Pool Promo Uncommon"
+        "Pool Unused Non Booster"
       ],
       "Setup": [
         {
@@ -13737,12 +13721,6 @@
           "id": "counterstrike-trapped"
         }
       ],
-      "Pool Counterstrike Vital": [
-        {
-          "count": 1,
-          "id": "counterstrike-master-scrounger"
-        }
-      ],
       "Pool Mercenaries Common": [
         {
           "count": 1,
@@ -16347,96 +16325,6 @@
           "id": "commandersedition-trapped"
         }
       ],
-      "Pool CommandersEdition Vital": [
-        {
-          "count": 1,
-          "id": "commandersedition-support-assembly"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-logistics"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-munitions"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-politics"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-support-tactics"
-        }
-      ],
-      "Pool CommandersEdition Box Power": [
-        {
-          "count": 1,
-          "id": "commandersedition-alshain"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-huntress"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-ironhold"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-luthien"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-new-avalon"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-strana-mechty"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-terra"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-tharkad"
-        }
-      ],
-      "Pool CommandersEdition New Deck Card": [
-        {
-          "count": 1,
-          "id": "commandersedition-comstar-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-davion-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-ghost-bear-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-jade-falcon-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-kurita-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-smoke-jaguar-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-steiner-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-wolf-high-command"
-        }
-      ],
       "Pool Crusade Common": [
         {
           "count": 1,
@@ -16867,10 +16755,98 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Pool Promo Uncommon": [
+      "Pool Unused Non Booster": [
+        {
+          "count": 1,
+          "id": "commandersedition-alshain"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-comstar-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-davion-high-command"
+        },
         {
           "count": 1,
           "id": "promo-double-overtime"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-ghost-bear-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-huntress"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-ironhold"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-jade-falcon-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kurita-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-luthien"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-master-scrounger"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-new-avalon"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-smoke-jaguar-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-steiner-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-strana-mechty"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-assembly"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-logistics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-munitions"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-politics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-support-tactics"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-terra"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-tharkad"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-wolf-high-command"
         }
       ]
     }
