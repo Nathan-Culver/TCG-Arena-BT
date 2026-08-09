@@ -6743,9 +6743,9 @@
           "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
-          "Unit": "Construction",
-          "Command": "Construction",
-          "Mission": "Stack"
+          "Unit": "SealedPool",
+          "Command": "SealedPool",
+          "Mission": "SealedPool"
         },
         "autoPlayFromStack": {
           "Mission": "Discard"
