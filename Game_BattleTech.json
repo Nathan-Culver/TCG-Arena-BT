@@ -7,7 +7,7 @@
     ],
     "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json"
   },
-  "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md",
+  "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed pack generator: https://Nathan-Culver.github.io/TCG-Arena-BT/BattleTech_Limited_Generator.html",
   "cardRotation": 0,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=3",
@@ -57,6 +57,27 @@
         "gameplay": "Resource Deck (Free Mulligan)",
         "customCategories": [
           "Resource Deck"
+        ]
+      },
+      {
+        "title": "Draft",
+        "gameplay": "Draft",
+        "customCategories": [
+          "Draft Pack 1",
+          "Draft Pack 2",
+          "Draft Pack 3"
+        ]
+      },
+      {
+        "title": "Sealed",
+        "gameplay": "Sealed",
+        "customCategories": [
+          "Sealed Pack 1",
+          "Sealed Pack 2",
+          "Sealed Pack 3",
+          "Sealed Pack 4",
+          "Sealed Pack 5",
+          "Sealed Pack 6"
         ]
       }
     ]
@@ -3759,6 +3780,2368 @@
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "Hand"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    },
+    "Draft": {
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "mulligan": {
+        "triggeredByButton": true,
+        "startingHandSize": 5,
+        "mulliganCycle": {
+          "info": "BattleTech TCG Mulligan: You may mulligan only when your current opening hand contains exactly 0 or 1 Resource cards. Reshuffle your entire hand and draw one fewer card. Check the same eligibility condition again before taking another mulligan.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "applyPenalty",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 5
+          },
+          "keepCardsOrder": false
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 2
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.png"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.png"
+        },
+        {
+          "id": "depleted-counter",
+          "name": "Depleted Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.png"
+        }
+      ],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Construction",
+          "CommandPost",
+          "CommandPost2",
+          "CommandPost3",
+          "CommandPost4",
+          "CommandPost5",
+          "Mission",
+          "Mission2",
+          "Mission3",
+          "Mission4",
+          "Mission5",
+          "PatrolGuard",
+          "CommandPostGuard",
+          "ConstructionGuard",
+          "DeckGuard",
+          "DraftExchange",
+          "DraftPool",
+          "DraftSetup",
+          "DraftPack1",
+          "DraftPack2",
+          "DraftPack3"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "PatrolGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "Mission",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "CommandPostGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "calc(100% - var(--card-width) - 1vh)",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "ConstructionGuard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Construction",
+                      "style": {
+                        "width": "calc(100% - var(--card-width) - 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "section": "DeckGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "13vh",
+                "gap": "0.5vh"
+              },
+              "content": [
+                {
+                  "section": "DraftPack1",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "DraftPack2",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "DraftPack3",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "DraftExchange",
+                  "style": {
+                    "width": "45%",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "section": "DraftPool",
+                  "style": {
+                    "width": "calc(55% - (3 * var(--card-width)) - 2vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "section": "DraftSetup"
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Draft Pack 1->DraftPack1",
+          "Draft Pack 2->DraftPack2",
+          "Draft Pack 3->DraftPack3"
+        ],
+        "autoPlayFromHand": {
+          "Unit": "Construction",
+          "Command": "Construction",
+          "Mission": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Mission": "Discard"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Scrapheap",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Stockpile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mission / Effect",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Construction": {
+            "title": "Construction",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Construction Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost": {
+            "title": "CommandPost",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission": {
+            "title": "Mission",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard": {
+            "title": "PatrolGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard": {
+            "title": "CommandPostGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard": {
+            "title": "ConstructionGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission2": {
+            "title": "Mission2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission3": {
+            "title": "Mission3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission4": {
+            "title": "Mission4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission5": {
+            "title": "Mission5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost2": {
+            "title": "CommandPost2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost3": {
+            "title": "CommandPost3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost4": {
+            "title": "CommandPost4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost5": {
+            "title": "CommandPost5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DeckGuard": {
+            "title": "DeckGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftExchange": {
+            "title": "DraftExchange",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Shared Draft Zone",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftPool": {
+            "title": "DraftPool",
+            "isHidden": "opponent-only",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Pool (Private)",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftSetup": {
+            "title": "DraftSetup",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "pack_1": "Limited",
+              "pack_2": "Limited",
+              "pack_3": "Limited"
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute top-0 end-0 box-container flex-column p-2",
+                "style": {
+                  "width": "17rem",
+                  "zIndex": 20,
+                  "background": "rgba(4, 10, 16, 0.94)"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "fw-bold mb-1"
+                  },
+                  "children": "Draft"
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 1",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.DraftSetup.pack_1}}"
+                      },
+                      "onChange": "game.data.DraftSetup.pack_1 = value; chatLog('Draft - Pack 1: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 2",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.DraftSetup.pack_2}}"
+                      },
+                      "onChange": "game.data.DraftSetup.pack_2 = value; chatLog('Draft - Pack 2: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 3",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.DraftSetup.pack_3}}"
+                      },
+                      "onChange": "game.data.DraftSetup.pack_3 = value; chatLog('Draft - Pack 3: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "small mt-1 opacity-75"
+                  },
+                  "children": "Set choices are shared with every player in the room."
+                }
+              ]
+            }
+          },
+          "DraftPack1": {
+            "title": "DraftPack1",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 1",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftExchange"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftPack2": {
+            "title": "DraftPack2",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 2",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftExchange"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftPack3": {
+            "title": "DraftPack3",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 3",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftExchange"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    },
+    "Sealed": {
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "mulligan": {
+        "triggeredByButton": true,
+        "startingHandSize": 5,
+        "mulliganCycle": {
+          "info": "BattleTech TCG Mulligan: You may mulligan only when your current opening hand contains exactly 0 or 1 Resource cards. Reshuffle your entire hand and draw one fewer card. Check the same eligibility condition again before taking another mulligan.",
+          "steps": [
+            "toTop",
+            "shuffle",
+            "applyPenalty",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 5
+          },
+          "keepCardsOrder": false
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 2
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "draggableTokens": [
+        {
+          "id": "construction-counter",
+          "name": "Construction Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/construction-counter.png"
+        },
+        {
+          "id": "damage-counter",
+          "name": "Damage Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/damage-counter.png"
+        },
+        {
+          "id": "depleted-counter",
+          "name": "Depleted Counter",
+          "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/depleted-counter.png"
+        }
+      ],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Construction",
+          "CommandPost",
+          "CommandPost2",
+          "CommandPost3",
+          "CommandPost4",
+          "CommandPost5",
+          "Mission",
+          "Mission2",
+          "Mission3",
+          "Mission4",
+          "Mission5",
+          "PatrolGuard",
+          "CommandPostGuard",
+          "ConstructionGuard",
+          "DeckGuard",
+          "SealedOpening",
+          "SealedPool",
+          "SealedSetup",
+          "SealedPack1",
+          "SealedPack2",
+          "SealedPack3",
+          "SealedPack4",
+          "SealedPack5",
+          "SealedPack6"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "PatrolGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "Mission",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Mission5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "section": "CommandPostGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "CommandPost",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost2",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost3",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost4",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "CommandPost5",
+                      "style": {
+                        "width": "20%",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "calc(100% - var(--card-width) - 1vh)",
+                "height": "15vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "calc(100% - var(--card-width) - 1vh)",
+                    "height": "100%"
+                  },
+                  "content": [
+                    {
+                      "section": "ConstructionGuard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "Construction",
+                      "style": {
+                        "width": "calc(100% - var(--card-width) - 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "section": "DeckGuard",
+                  "style": {
+                    "width": "calc(var(--card-width) + 1vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "100%",
+                "height": "13vh",
+                "gap": "0.5vh"
+              },
+              "content": [
+                {
+                  "section": "SealedPack1",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedPack2",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedPack3",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedPack4",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedPack5",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedPack6",
+                  "style": {
+                    "width": "var(--card-width)",
+                    "height": "13vh"
+                  }
+                },
+                {
+                  "section": "SealedOpening",
+                  "style": {
+                    "width": "calc(48% - (3 * var(--card-width)))",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "section": "SealedPool",
+                  "style": {
+                    "width": "calc(52% - (3 * var(--card-width)) - 3.5vh)",
+                    "height": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "section": "SealedSetup"
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Sealed Pack 1->SealedPack1",
+          "Sealed Pack 2->SealedPack2",
+          "Sealed Pack 3->SealedPack3",
+          "Sealed Pack 4->SealedPack4",
+          "Sealed Pack 5->SealedPack5",
+          "Sealed Pack 6->SealedPack6"
+        ],
+        "autoPlayFromHand": {
+          "Unit": "Construction",
+          "Command": "Construction",
+          "Mission": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Mission": "Discard"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Scrapheap",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Stockpile",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Mission / Effect",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Exile": {
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "ExileHidden": {
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Construction": {
+            "title": "Construction",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Construction Region",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost": {
+            "title": "CommandPost",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission": {
+            "title": "Mission",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PatrolGuard": {
+            "title": "PatrolGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPostGuard": {
+            "title": "CommandPostGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ConstructionGuard": {
+            "title": "ConstructionGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission2": {
+            "title": "Mission2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission3": {
+            "title": "Mission3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission4": {
+            "title": "Mission4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mission5": {
+            "title": "Mission5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Patrol",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost2": {
+            "title": "CommandPost2",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost3": {
+            "title": "CommandPost3",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost4": {
+            "title": "CommandPost4",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CommandPost5": {
+            "title": "CommandPost5",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Command Post",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DeckGuard": {
+            "title": "DeckGuard",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Guard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedOpening": {
+            "title": "SealedOpening",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Opened Pack",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPool": {
+            "title": "SealedPool",
+            "isHidden": "opponent-only",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Sealed Pool (Private)",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedSetup": {
+            "title": "SealedSetup",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "pack_1": "Limited",
+              "pack_2": "Limited",
+              "pack_3": "Limited",
+              "pack_4": "Limited",
+              "pack_5": "Limited",
+              "pack_6": "Limited"
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "position-absolute top-0 end-0 box-container flex-column p-2",
+                "style": {
+                  "width": "17rem",
+                  "zIndex": 20,
+                  "background": "rgba(4, 10, 16, 0.94)"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "fw-bold mb-1"
+                  },
+                  "children": "Sealed"
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 1",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_1}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_1 = value; chatLog('Sealed - Pack 1: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 2",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_2}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_2 = value; chatLog('Sealed - Pack 2: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 3",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_3}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_3 = value; chatLog('Sealed - Pack 3: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 4",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_4}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_4 = value; chatLog('Sealed - Pack 4: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 5",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_5}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_5 = value; chatLog('Sealed - Pack 5: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex align-items-center justify-content-between gap-2 mb-1"
+                  },
+                  "children": [
+                    "Pack 6",
+                    {
+                      "type": "select",
+                      "props": {
+                        "className": "form-select form-select-sm",
+                        "style": {
+                          "width": "11rem"
+                        },
+                        "value": "{{game.data.SealedSetup.pack_6}}"
+                      },
+                      "onChange": "game.data.SealedSetup.pack_6 = value; chatLog('Sealed - Pack 6: ' + value)",
+                      "children": [
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Limited"
+                          },
+                          "children": "Limited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Unlimited"
+                          },
+                          "children": "Unlimited"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Counterstrike"
+                          },
+                          "children": "Counterstrike"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Mercenaries"
+                          },
+                          "children": "Mercenaries"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "MechWarrior"
+                          },
+                          "children": "MechWarrior"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Arsenal"
+                          },
+                          "children": "Arsenal"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "CommandersEdition"
+                          },
+                          "children": "Commander's Edition"
+                        },
+                        {
+                          "type": "option",
+                          "props": {
+                            "value": "Crusade"
+                          },
+                          "children": "Crusade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "small mt-1 opacity-75"
+                  },
+                  "children": "Set choices are shared with every player in the room."
+                }
+              ]
+            }
+          },
+          "SealedPack1": {
+            "title": "SealedPack1",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 1",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPack2": {
+            "title": "SealedPack2",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 2",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPack3": {
+            "title": "SealedPack3",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 3",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPack4": {
+            "title": "SealedPack4",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 4",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPack5": {
+            "title": "SealedPack5",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 5",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
+            },
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SealedPack6": {
+            "title": "SealedPack6",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Pack 6",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedOpening"
             },
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
