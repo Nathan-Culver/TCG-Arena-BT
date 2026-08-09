@@ -4120,124 +4120,83 @@
               ]
             },
             {
-              "direction": "row",
-              "style": {
-                "width": "100%",
-                "height": "14vh",
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "100%"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "100%"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "100%"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "100%"
-                  }
-                }
-              ]
-            },
-            {
               "optional": {
                 "key": "Limited Pack Generator"
               },
               "direction": "column",
               "style": {
-                "width": "100%",
-                "gap": "0.5vh"
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "width": "calc(100% - 18rem)",
+                "height": "38vh",
+                "gap": "0.35vh",
+                "padding": "0.4vh",
+                "zIndex": 15,
+                "background": "rgba(3, 8, 13, 0.96)"
               },
               "content": [
                 {
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
                       "section": "PoolLimitedCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolUnlimitedCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -4247,66 +4206,63 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
                       "section": "PoolCounterstrikeCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolMercenariesCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMercenariesUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMercenariesRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorCommon",
+                      "style": {
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -4316,142 +4272,122 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
-                      "section": "PoolMechWarriorCommon",
-                      "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
-                        "height": "100%"
-                      }
-                    },
-                    {
                       "section": "PoolMechWarriorUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMechWarriorRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolArsenalCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolArsenalUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolArsenalRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolCommandersEditionCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    },
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
+                  },
+                  "content": [
                     {
                       "section": "PoolCommandersEditionVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionBoxPower",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionNewDeckCard",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolCrusadeCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCrusadeUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCrusadeRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolPromoUncommon",
+                      "style": {
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -4461,14 +4397,35 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
+                    "height": "9vh",
                     "gap": "0.5vh"
                   },
                   "content": [
                     {
-                      "section": "PoolPromoUncommon",
+                      "section": "DraftCurrent",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "25.0000%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "DraftPool",
+                      "style": {
+                        "width": "25.0000%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "DraftPass",
+                      "style": {
+                        "width": "25.0000%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "DraftIncoming",
+                      "style": {
+                        "width": "25.0000%",
                         "height": "100%"
                       }
                     }
@@ -5206,6 +5163,13 @@
                     "className": "small mt-1 opacity-75"
                   },
                   "children": "Set choices are shared with every player in the room."
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "small mt-1 opacity-75"
+                  },
+                  "children": "Pile codes: LIM Limited; UNL Unlimited; CS Counterstrike; MERC Mercenaries; MW MechWarrior; ARS Arsenal; CE Commander's Edition; CRU Crusade. C Common, U Uncommon, R Rare, V Vital."
                 }
               ]
             }
@@ -5213,10 +5177,10 @@
           "PoolLimitedCommon": {
             "title": "PoolLimitedCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Common",
+            "displayedTitle": "LIM C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5234,10 +5198,10 @@
           "PoolLimitedUncommon": {
             "title": "PoolLimitedUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Uncommon",
+            "displayedTitle": "LIM U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5255,10 +5219,10 @@
           "PoolLimitedRare": {
             "title": "PoolLimitedRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Rare",
+            "displayedTitle": "LIM R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5276,10 +5240,10 @@
           "PoolLimitedVital": {
             "title": "PoolLimitedVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Vital",
+            "displayedTitle": "LIM V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5297,10 +5261,10 @@
           "PoolUnlimitedCommon": {
             "title": "PoolUnlimitedCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Common",
+            "displayedTitle": "UNL C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5318,10 +5282,10 @@
           "PoolUnlimitedUncommon": {
             "title": "PoolUnlimitedUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Uncommon",
+            "displayedTitle": "UNL U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5339,10 +5303,10 @@
           "PoolUnlimitedRare": {
             "title": "PoolUnlimitedRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Rare",
+            "displayedTitle": "UNL R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5360,10 +5324,10 @@
           "PoolUnlimitedVital": {
             "title": "PoolUnlimitedVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Vital",
+            "displayedTitle": "UNL V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5381,10 +5345,10 @@
           "PoolCounterstrikeCommon": {
             "title": "PoolCounterstrikeCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Common",
+            "displayedTitle": "CS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5402,10 +5366,10 @@
           "PoolCounterstrikeUncommon": {
             "title": "PoolCounterstrikeUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Uncommon",
+            "displayedTitle": "CS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5423,10 +5387,10 @@
           "PoolCounterstrikeRare": {
             "title": "PoolCounterstrikeRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Rare",
+            "displayedTitle": "CS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5444,10 +5408,10 @@
           "PoolCounterstrikeVital": {
             "title": "PoolCounterstrikeVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Vital",
+            "displayedTitle": "CS V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5465,10 +5429,10 @@
           "PoolMercenariesCommon": {
             "title": "PoolMercenariesCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Common",
+            "displayedTitle": "MERC C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5486,10 +5450,10 @@
           "PoolMercenariesUncommon": {
             "title": "PoolMercenariesUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Uncommon",
+            "displayedTitle": "MERC U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5507,10 +5471,10 @@
           "PoolMercenariesRare": {
             "title": "PoolMercenariesRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Rare",
+            "displayedTitle": "MERC R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5528,10 +5492,10 @@
           "PoolMechWarriorCommon": {
             "title": "PoolMechWarriorCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Common",
+            "displayedTitle": "MW C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5549,10 +5513,10 @@
           "PoolMechWarriorUncommon": {
             "title": "PoolMechWarriorUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Uncommon",
+            "displayedTitle": "MW U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5570,10 +5534,10 @@
           "PoolMechWarriorRare": {
             "title": "PoolMechWarriorRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Rare",
+            "displayedTitle": "MW R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5591,10 +5555,10 @@
           "PoolArsenalCommon": {
             "title": "PoolArsenalCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Common",
+            "displayedTitle": "ARS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5612,10 +5576,10 @@
           "PoolArsenalUncommon": {
             "title": "PoolArsenalUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Uncommon",
+            "displayedTitle": "ARS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5633,10 +5597,10 @@
           "PoolArsenalRare": {
             "title": "PoolArsenalRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Rare",
+            "displayedTitle": "ARS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5654,10 +5618,10 @@
           "PoolCommandersEditionCommon": {
             "title": "PoolCommandersEditionCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Common",
+            "displayedTitle": "CE C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5675,10 +5639,10 @@
           "PoolCommandersEditionUncommon": {
             "title": "PoolCommandersEditionUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Uncommon",
+            "displayedTitle": "CE U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5696,10 +5660,10 @@
           "PoolCommandersEditionRare": {
             "title": "PoolCommandersEditionRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Rare",
+            "displayedTitle": "CE R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5717,10 +5681,10 @@
           "PoolCommandersEditionVital": {
             "title": "PoolCommandersEditionVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Vital",
+            "displayedTitle": "CE V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5738,10 +5702,10 @@
           "PoolCommandersEditionBoxPower": {
             "title": "PoolCommandersEditionBoxPower",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Box Power",
+            "displayedTitle": "CE BP",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5759,10 +5723,10 @@
           "PoolCommandersEditionNewDeckCard": {
             "title": "PoolCommandersEditionNewDeckCard",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — New Deck Card",
+            "displayedTitle": "CE NDC",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5780,10 +5744,10 @@
           "PoolCrusadeCommon": {
             "title": "PoolCrusadeCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Common",
+            "displayedTitle": "CRU C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5801,10 +5765,10 @@
           "PoolCrusadeUncommon": {
             "title": "PoolCrusadeUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Uncommon",
+            "displayedTitle": "CRU U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5822,10 +5786,10 @@
           "PoolCrusadeRare": {
             "title": "PoolCrusadeRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Rare",
+            "displayedTitle": "CRU R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5843,10 +5807,10 @@
           "PoolPromoUncommon": {
             "title": "PoolPromoUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Promo — Uncommon",
+            "displayedTitle": "PRO U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -6135,93 +6099,83 @@
               ]
             },
             {
-              "section": "SealedPool",
-              "style": {
-                "width": "100%",
-                "height": "16vh"
-              }
-            },
-            {
               "optional": {
                 "key": "Limited Pack Generator"
               },
               "direction": "column",
               "style": {
-                "width": "100%",
-                "gap": "0.5vh"
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "width": "calc(100% - 18rem)",
+                "height": "38vh",
+                "gap": "0.35vh",
+                "padding": "0.4vh",
+                "zIndex": 15,
+                "background": "rgba(3, 8, 13, 0.96)"
               },
               "content": [
                 {
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
                       "section": "PoolLimitedCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolLimitedVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolUnlimitedCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolUnlimitedVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -6231,66 +6185,63 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
                       "section": "PoolCounterstrikeCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCounterstrikeVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolMercenariesCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMercenariesUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMercenariesRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorCommon",
+                      "style": {
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -6300,142 +6251,122 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
                   },
                   "content": [
                     {
-                      "section": "PoolMechWarriorCommon",
-                      "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
-                        "height": "100%"
-                      }
-                    },
-                    {
                       "section": "PoolMechWarriorUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolMechWarriorRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolArsenalCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolArsenalUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolArsenalRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolCommandersEditionCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    },
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "6.5vh",
+                    "gap": "0.35vh"
+                  },
+                  "content": [
                     {
                       "section": "PoolCommandersEditionVital",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionBoxPower",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCommandersEditionNewDeckCard",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "12vh",
-                    "gap": "0.5vh"
-                  },
-                  "content": [
+                    },
                     {
                       "section": "PoolCrusadeCommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCrusadeUncommon",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "PoolCrusadeRare",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "12.5%",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolPromoUncommon",
+                      "style": {
+                        "width": "12.5%",
                         "height": "100%"
                       }
                     }
@@ -6445,14 +6376,14 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "12vh",
+                    "height": "9vh",
                     "gap": "0.5vh"
                   },
                   "content": [
                     {
-                      "section": "PoolPromoUncommon",
+                      "section": "SealedPool",
                       "style": {
-                        "width": "calc(var(--card-width) + 1vh)",
+                        "width": "100.0000%",
                         "height": "100%"
                       }
                     }
@@ -7379,6 +7310,13 @@
                     "className": "small mt-1 opacity-75"
                   },
                   "children": "Set choices are shared with every player in the room."
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "small mt-1 opacity-75"
+                  },
+                  "children": "Pile codes: LIM Limited; UNL Unlimited; CS Counterstrike; MERC Mercenaries; MW MechWarrior; ARS Arsenal; CE Commander's Edition; CRU Crusade. C Common, U Uncommon, R Rare, V Vital."
                 }
               ]
             }
@@ -7386,10 +7324,10 @@
           "PoolLimitedCommon": {
             "title": "PoolLimitedCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Common",
+            "displayedTitle": "LIM C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7407,10 +7345,10 @@
           "PoolLimitedUncommon": {
             "title": "PoolLimitedUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Uncommon",
+            "displayedTitle": "LIM U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7428,10 +7366,10 @@
           "PoolLimitedRare": {
             "title": "PoolLimitedRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Rare",
+            "displayedTitle": "LIM R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7449,10 +7387,10 @@
           "PoolLimitedVital": {
             "title": "PoolLimitedVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Limited — Vital",
+            "displayedTitle": "LIM V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7470,10 +7408,10 @@
           "PoolUnlimitedCommon": {
             "title": "PoolUnlimitedCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Common",
+            "displayedTitle": "UNL C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7491,10 +7429,10 @@
           "PoolUnlimitedUncommon": {
             "title": "PoolUnlimitedUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Uncommon",
+            "displayedTitle": "UNL U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7512,10 +7450,10 @@
           "PoolUnlimitedRare": {
             "title": "PoolUnlimitedRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Rare",
+            "displayedTitle": "UNL R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7533,10 +7471,10 @@
           "PoolUnlimitedVital": {
             "title": "PoolUnlimitedVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Unlimited — Vital",
+            "displayedTitle": "UNL V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7554,10 +7492,10 @@
           "PoolCounterstrikeCommon": {
             "title": "PoolCounterstrikeCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Common",
+            "displayedTitle": "CS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7575,10 +7513,10 @@
           "PoolCounterstrikeUncommon": {
             "title": "PoolCounterstrikeUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Uncommon",
+            "displayedTitle": "CS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7596,10 +7534,10 @@
           "PoolCounterstrikeRare": {
             "title": "PoolCounterstrikeRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Rare",
+            "displayedTitle": "CS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7617,10 +7555,10 @@
           "PoolCounterstrikeVital": {
             "title": "PoolCounterstrikeVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Counterstrike — Vital",
+            "displayedTitle": "CS V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7638,10 +7576,10 @@
           "PoolMercenariesCommon": {
             "title": "PoolMercenariesCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Common",
+            "displayedTitle": "MERC C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7659,10 +7597,10 @@
           "PoolMercenariesUncommon": {
             "title": "PoolMercenariesUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Uncommon",
+            "displayedTitle": "MERC U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7680,10 +7618,10 @@
           "PoolMercenariesRare": {
             "title": "PoolMercenariesRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Mercenaries — Rare",
+            "displayedTitle": "MERC R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7701,10 +7639,10 @@
           "PoolMechWarriorCommon": {
             "title": "PoolMechWarriorCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Common",
+            "displayedTitle": "MW C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7722,10 +7660,10 @@
           "PoolMechWarriorUncommon": {
             "title": "PoolMechWarriorUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Uncommon",
+            "displayedTitle": "MW U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7743,10 +7681,10 @@
           "PoolMechWarriorRare": {
             "title": "PoolMechWarriorRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "MechWarrior — Rare",
+            "displayedTitle": "MW R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7764,10 +7702,10 @@
           "PoolArsenalCommon": {
             "title": "PoolArsenalCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Common",
+            "displayedTitle": "ARS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7785,10 +7723,10 @@
           "PoolArsenalUncommon": {
             "title": "PoolArsenalUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Uncommon",
+            "displayedTitle": "ARS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7806,10 +7744,10 @@
           "PoolArsenalRare": {
             "title": "PoolArsenalRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Arsenal — Rare",
+            "displayedTitle": "ARS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7827,10 +7765,10 @@
           "PoolCommandersEditionCommon": {
             "title": "PoolCommandersEditionCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Common",
+            "displayedTitle": "CE C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7848,10 +7786,10 @@
           "PoolCommandersEditionUncommon": {
             "title": "PoolCommandersEditionUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Uncommon",
+            "displayedTitle": "CE U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7869,10 +7807,10 @@
           "PoolCommandersEditionRare": {
             "title": "PoolCommandersEditionRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Rare",
+            "displayedTitle": "CE R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7890,10 +7828,10 @@
           "PoolCommandersEditionVital": {
             "title": "PoolCommandersEditionVital",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Vital",
+            "displayedTitle": "CE V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7911,10 +7849,10 @@
           "PoolCommandersEditionBoxPower": {
             "title": "PoolCommandersEditionBoxPower",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — Box Power",
+            "displayedTitle": "CE BP",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7932,10 +7870,10 @@
           "PoolCommandersEditionNewDeckCard": {
             "title": "PoolCommandersEditionNewDeckCard",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Commander's Edition — New Deck Card",
+            "displayedTitle": "CE NDC",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7953,10 +7891,10 @@
           "PoolCrusadeCommon": {
             "title": "PoolCrusadeCommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Common",
+            "displayedTitle": "CRU C",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7974,10 +7912,10 @@
           "PoolCrusadeUncommon": {
             "title": "PoolCrusadeUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Uncommon",
+            "displayedTitle": "CRU U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7995,10 +7933,10 @@
           "PoolCrusadeRare": {
             "title": "PoolCrusadeRare",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Crusade — Rare",
+            "displayedTitle": "CRU R",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -8016,10 +7954,10 @@
           "PoolPromoUncommon": {
             "title": "PoolPromoUncommon",
             "isHidden": "yes",
-            "height": 12,
+            "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Promo — Uncommon",
+            "displayedTitle": "PRO U",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
