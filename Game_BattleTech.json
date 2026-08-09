@@ -5,12 +5,12 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=2"
   },
-  "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed pack generator: https://Nathan-Culver.github.io/TCG-Arena-BT/BattleTech_Limited_Generator.html",
+  "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=3",
+    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=4",
     "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
     "cardBackColor": "#171719",
     "extraCardBacks": {}
@@ -63,21 +63,74 @@
         "title": "Draft",
         "gameplay": "Draft",
         "customCategories": [
-          "Draft Pack 1",
-          "Draft Pack 2",
-          "Draft Pack 3"
+          "Pool Limited Common",
+          "Pool Limited Uncommon",
+          "Pool Limited Rare",
+          "Pool Limited Vital",
+          "Pool Unlimited Common",
+          "Pool Unlimited Uncommon",
+          "Pool Unlimited Rare",
+          "Pool Unlimited Vital",
+          "Pool Counterstrike Common",
+          "Pool Counterstrike Uncommon",
+          "Pool Counterstrike Rare",
+          "Pool Counterstrike Vital",
+          "Pool Mercenaries Common",
+          "Pool Mercenaries Uncommon",
+          "Pool Mercenaries Rare",
+          "Pool MechWarrior Common",
+          "Pool MechWarrior Uncommon",
+          "Pool MechWarrior Rare",
+          "Pool Arsenal Common",
+          "Pool Arsenal Uncommon",
+          "Pool Arsenal Rare",
+          "Pool CommandersEdition Common",
+          "Pool CommandersEdition Uncommon",
+          "Pool CommandersEdition Rare",
+          "Pool CommandersEdition Vital",
+          "Pool CommandersEdition Box Power",
+          "Pool CommandersEdition New Deck Card",
+          "Pool Crusade Common",
+          "Pool Crusade Uncommon",
+          "Pool Crusade Rare",
+          "Pool Promo Uncommon"
         ]
       },
       {
         "title": "Sealed",
         "gameplay": "Sealed",
         "customCategories": [
-          "Sealed Pack 1",
-          "Sealed Pack 2",
-          "Sealed Pack 3",
-          "Sealed Pack 4",
-          "Sealed Pack 5",
-          "Sealed Pack 6"
+          "Pool Limited Common",
+          "Pool Limited Uncommon",
+          "Pool Limited Rare",
+          "Pool Limited Vital",
+          "Pool Unlimited Common",
+          "Pool Unlimited Uncommon",
+          "Pool Unlimited Rare",
+          "Pool Unlimited Vital",
+          "Pool Counterstrike Common",
+          "Pool Counterstrike Uncommon",
+          "Pool Counterstrike Rare",
+          "Pool Counterstrike Vital",
+          "Pool Mercenaries Common",
+          "Pool Mercenaries Uncommon",
+          "Pool Mercenaries Rare",
+          "Pool MechWarrior Common",
+          "Pool MechWarrior Uncommon",
+          "Pool MechWarrior Rare",
+          "Pool Arsenal Common",
+          "Pool Arsenal Uncommon",
+          "Pool Arsenal Rare",
+          "Pool CommandersEdition Common",
+          "Pool CommandersEdition Uncommon",
+          "Pool CommandersEdition Rare",
+          "Pool CommandersEdition Vital",
+          "Pool CommandersEdition Box Power",
+          "Pool CommandersEdition New Deck Card",
+          "Pool Crusade Common",
+          "Pool Crusade Uncommon",
+          "Pool Crusade Rare",
+          "Pool Promo Uncommon"
         ]
       }
     ]
@@ -3866,12 +3919,42 @@
           "CommandPostGuard",
           "ConstructionGuard",
           "DeckGuard",
-          "DraftExchange",
+          "DraftCurrent",
           "DraftPool",
+          "DraftPass",
+          "DraftIncoming",
           "DraftSetup",
-          "DraftPack1",
-          "DraftPack2",
-          "DraftPack3"
+          "PoolLimitedCommon",
+          "PoolLimitedUncommon",
+          "PoolLimitedRare",
+          "PoolLimitedVital",
+          "PoolUnlimitedCommon",
+          "PoolUnlimitedUncommon",
+          "PoolUnlimitedRare",
+          "PoolUnlimitedVital",
+          "PoolCounterstrikeCommon",
+          "PoolCounterstrikeUncommon",
+          "PoolCounterstrikeRare",
+          "PoolCounterstrikeVital",
+          "PoolMercenariesCommon",
+          "PoolMercenariesUncommon",
+          "PoolMercenariesRare",
+          "PoolMechWarriorCommon",
+          "PoolMechWarriorUncommon",
+          "PoolMechWarriorRare",
+          "PoolArsenalCommon",
+          "PoolArsenalUncommon",
+          "PoolArsenalRare",
+          "PoolCommandersEditionCommon",
+          "PoolCommandersEditionUncommon",
+          "PoolCommandersEditionRare",
+          "PoolCommandersEditionVital",
+          "PoolCommandersEditionBoxPower",
+          "PoolCommandersEditionNewDeckCard",
+          "PoolCrusadeCommon",
+          "PoolCrusadeUncommon",
+          "PoolCrusadeRare",
+          "PoolPromoUncommon"
         ],
         "layout": {
           "direction": "column",
@@ -4040,44 +4123,356 @@
               "direction": "row",
               "style": {
                 "width": "100%",
-                "height": "13vh",
+                "height": "14vh",
                 "gap": "0.5vh"
               },
               "content": [
                 {
-                  "section": "DraftPack1",
+                  "section": "DraftCurrent",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
-                },
-                {
-                  "section": "DraftPack2",
-                  "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
-                },
-                {
-                  "section": "DraftPack3",
-                  "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
-                },
-                {
-                  "section": "DraftExchange",
-                  "style": {
-                    "width": "45%",
+                    "width": "25%",
                     "height": "100%"
                   }
                 },
                 {
                   "section": "DraftPool",
                   "style": {
-                    "width": "calc(55% - (3 * var(--card-width)) - 2vh)",
+                    "width": "25%",
                     "height": "100%"
                   }
+                },
+                {
+                  "section": "DraftPass",
+                  "style": {
+                    "width": "25%",
+                    "height": "100%"
+                  }
+                },
+                {
+                  "section": "DraftIncoming",
+                  "style": {
+                    "width": "25%",
+                    "height": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "optional": {
+                "key": "Limited Pack Generator"
+              },
+              "direction": "column",
+              "style": {
+                "width": "100%",
+                "gap": "0.5vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolLimitedCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolUnlimitedCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCounterstrikeCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolMercenariesCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMercenariesUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMercenariesRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolMechWarriorCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolArsenalCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolArsenalUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolArsenalRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCommandersEditionCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionBoxPower",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionNewDeckCard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCrusadeCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCrusadeUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCrusadeRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolPromoUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -4087,9 +4482,37 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Pack 1->DraftPack1",
-          "Draft Pack 2->DraftPack2",
-          "Draft Pack 3->DraftPack3"
+          "Pool Limited Common->PoolLimitedCommon",
+          "Pool Limited Uncommon->PoolLimitedUncommon",
+          "Pool Limited Rare->PoolLimitedRare",
+          "Pool Limited Vital->PoolLimitedVital",
+          "Pool Unlimited Common->PoolUnlimitedCommon",
+          "Pool Unlimited Uncommon->PoolUnlimitedUncommon",
+          "Pool Unlimited Rare->PoolUnlimitedRare",
+          "Pool Unlimited Vital->PoolUnlimitedVital",
+          "Pool Counterstrike Common->PoolCounterstrikeCommon",
+          "Pool Counterstrike Uncommon->PoolCounterstrikeUncommon",
+          "Pool Counterstrike Rare->PoolCounterstrikeRare",
+          "Pool Counterstrike Vital->PoolCounterstrikeVital",
+          "Pool Mercenaries Common->PoolMercenariesCommon",
+          "Pool Mercenaries Uncommon->PoolMercenariesUncommon",
+          "Pool Mercenaries Rare->PoolMercenariesRare",
+          "Pool MechWarrior Common->PoolMechWarriorCommon",
+          "Pool MechWarrior Uncommon->PoolMechWarriorUncommon",
+          "Pool MechWarrior Rare->PoolMechWarriorRare",
+          "Pool Arsenal Common->PoolArsenalCommon",
+          "Pool Arsenal Uncommon->PoolArsenalUncommon",
+          "Pool Arsenal Rare->PoolArsenalRare",
+          "Pool CommandersEdition Common->PoolCommandersEditionCommon",
+          "Pool CommandersEdition Uncommon->PoolCommandersEditionUncommon",
+          "Pool CommandersEdition Rare->PoolCommandersEditionRare",
+          "Pool CommandersEdition Vital->PoolCommandersEditionVital",
+          "Pool CommandersEdition Box Power->PoolCommandersEditionBoxPower",
+          "Pool CommandersEdition New Deck Card->PoolCommandersEditionNewDeckCard",
+          "Pool Crusade Common->PoolCrusadeCommon",
+          "Pool Crusade Uncommon->PoolCrusadeUncommon",
+          "Pool Crusade Rare->PoolCrusadeRare",
+          "Pool Promo Uncommon->PoolPromoUncommon"
         ],
         "autoPlayFromHand": {
           "Unit": "Construction",
@@ -4452,13 +4875,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftExchange": {
-            "title": "DraftExchange",
+          "DraftCurrent": {
+            "title": "DraftCurrent",
             "isHidden": "no",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
-            "displayedTitle": "Shared Draft Zone",
+            "displayedTitle": "Current Pack",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -4474,7 +4897,39 @@
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
-            "displayedTitle": "Draft Pool (Private)",
+            "displayedTitle": "Draft Picks (Private)",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftPass": {
+            "title": "DraftPass",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Outgoing Pack — Give to Next Player",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "no",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Incoming Pack",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -4755,17 +5210,18 @@
               ]
             }
           },
-          "DraftPack1": {
-            "title": "DraftPack1",
+          "PoolLimitedCommon": {
+            "title": "PoolLimitedCommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1",
+            "displayedTitle": "Limited — Common",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "DraftExchange"
+              "_default": "DraftCurrent"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -4775,17 +5231,18 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftPack2": {
-            "title": "DraftPack2",
+          "PoolLimitedUncommon": {
+            "title": "PoolLimitedUncommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2",
+            "displayedTitle": "Limited — Uncommon",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "DraftExchange"
+              "_default": "DraftCurrent"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -4795,17 +5252,606 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftPack3": {
-            "title": "DraftPack3",
+          "PoolLimitedRare": {
+            "title": "PoolLimitedRare",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3",
+            "displayedTitle": "Limited — Rare",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "DraftExchange"
+              "_default": "DraftCurrent"
             },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolLimitedVital": {
+            "title": "PoolLimitedVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Limited — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedCommon": {
+            "title": "PoolUnlimitedCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedUncommon": {
+            "title": "PoolUnlimitedUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedRare": {
+            "title": "PoolUnlimitedRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedVital": {
+            "title": "PoolUnlimitedVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeCommon": {
+            "title": "PoolCounterstrikeCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeUncommon": {
+            "title": "PoolCounterstrikeUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeRare": {
+            "title": "PoolCounterstrikeRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeVital": {
+            "title": "PoolCounterstrikeVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesCommon": {
+            "title": "PoolMercenariesCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesUncommon": {
+            "title": "PoolMercenariesUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesRare": {
+            "title": "PoolMercenariesRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorCommon": {
+            "title": "PoolMechWarriorCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorUncommon": {
+            "title": "PoolMechWarriorUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorRare": {
+            "title": "PoolMechWarriorRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalCommon": {
+            "title": "PoolArsenalCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalUncommon": {
+            "title": "PoolArsenalUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalRare": {
+            "title": "PoolArsenalRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionCommon": {
+            "title": "PoolCommandersEditionCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionUncommon": {
+            "title": "PoolCommandersEditionUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionRare": {
+            "title": "PoolCommandersEditionRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionVital": {
+            "title": "PoolCommandersEditionVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionBoxPower": {
+            "title": "PoolCommandersEditionBoxPower",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Box Power",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionNewDeckCard": {
+            "title": "PoolCommandersEditionNewDeckCard",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — New Deck Card",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeCommon": {
+            "title": "PoolCrusadeCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeUncommon": {
+            "title": "PoolCrusadeUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeRare": {
+            "title": "PoolCrusadeRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolPromoUncommon": {
+            "title": "PoolPromoUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Promo — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "DraftCurrent"
+            },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -4891,15 +5937,39 @@
           "CommandPostGuard",
           "ConstructionGuard",
           "DeckGuard",
-          "SealedOpening",
           "SealedPool",
           "SealedSetup",
-          "SealedPack1",
-          "SealedPack2",
-          "SealedPack3",
-          "SealedPack4",
-          "SealedPack5",
-          "SealedPack6"
+          "PoolLimitedCommon",
+          "PoolLimitedUncommon",
+          "PoolLimitedRare",
+          "PoolLimitedVital",
+          "PoolUnlimitedCommon",
+          "PoolUnlimitedUncommon",
+          "PoolUnlimitedRare",
+          "PoolUnlimitedVital",
+          "PoolCounterstrikeCommon",
+          "PoolCounterstrikeUncommon",
+          "PoolCounterstrikeRare",
+          "PoolCounterstrikeVital",
+          "PoolMercenariesCommon",
+          "PoolMercenariesUncommon",
+          "PoolMercenariesRare",
+          "PoolMechWarriorCommon",
+          "PoolMechWarriorUncommon",
+          "PoolMechWarriorRare",
+          "PoolArsenalCommon",
+          "PoolArsenalUncommon",
+          "PoolArsenalRare",
+          "PoolCommandersEditionCommon",
+          "PoolCommandersEditionUncommon",
+          "PoolCommandersEditionRare",
+          "PoolCommandersEditionVital",
+          "PoolCommandersEditionBoxPower",
+          "PoolCommandersEditionNewDeckCard",
+          "PoolCrusadeCommon",
+          "PoolCrusadeUncommon",
+          "PoolCrusadeRare",
+          "PoolPromoUncommon"
         ],
         "layout": {
           "direction": "column",
@@ -5065,68 +6135,328 @@
               ]
             },
             {
-              "direction": "row",
+              "section": "SealedPool",
               "style": {
                 "width": "100%",
-                "height": "13vh",
+                "height": "16vh"
+              }
+            },
+            {
+              "optional": {
+                "key": "Limited Pack Generator"
+              },
+              "direction": "column",
+              "style": {
+                "width": "100%",
                 "gap": "0.5vh"
               },
               "content": [
                 {
-                  "section": "SealedPack1",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolLimitedCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolLimitedVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPack2",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolUnlimitedCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolUnlimitedVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPack3",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCounterstrikeCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCounterstrikeVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPack4",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolMercenariesCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMercenariesUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMercenariesRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPack5",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolMechWarriorCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolMechWarriorRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPack6",
+                  "direction": "row",
                   "style": {
-                    "width": "var(--card-width)",
-                    "height": "13vh"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolArsenalCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolArsenalUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolArsenalRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedOpening",
+                  "direction": "row",
                   "style": {
-                    "width": "calc(48% - (3 * var(--card-width)))",
-                    "height": "100%"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCommandersEditionCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionVital",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionBoxPower",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCommandersEditionNewDeckCard",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "SealedPool",
+                  "direction": "row",
                   "style": {
-                    "width": "calc(52% - (3 * var(--card-width)) - 3.5vh)",
-                    "height": "100%"
-                  }
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolCrusadeCommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCrusadeUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    },
+                    {
+                      "section": "PoolCrusadeRare",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "100%",
+                    "height": "12vh",
+                    "gap": "0.5vh"
+                  },
+                  "content": [
+                    {
+                      "section": "PoolPromoUncommon",
+                      "style": {
+                        "width": "calc(var(--card-width) + 1vh)",
+                        "height": "100%"
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -5136,12 +6466,37 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Pack 1->SealedPack1",
-          "Sealed Pack 2->SealedPack2",
-          "Sealed Pack 3->SealedPack3",
-          "Sealed Pack 4->SealedPack4",
-          "Sealed Pack 5->SealedPack5",
-          "Sealed Pack 6->SealedPack6"
+          "Pool Limited Common->PoolLimitedCommon",
+          "Pool Limited Uncommon->PoolLimitedUncommon",
+          "Pool Limited Rare->PoolLimitedRare",
+          "Pool Limited Vital->PoolLimitedVital",
+          "Pool Unlimited Common->PoolUnlimitedCommon",
+          "Pool Unlimited Uncommon->PoolUnlimitedUncommon",
+          "Pool Unlimited Rare->PoolUnlimitedRare",
+          "Pool Unlimited Vital->PoolUnlimitedVital",
+          "Pool Counterstrike Common->PoolCounterstrikeCommon",
+          "Pool Counterstrike Uncommon->PoolCounterstrikeUncommon",
+          "Pool Counterstrike Rare->PoolCounterstrikeRare",
+          "Pool Counterstrike Vital->PoolCounterstrikeVital",
+          "Pool Mercenaries Common->PoolMercenariesCommon",
+          "Pool Mercenaries Uncommon->PoolMercenariesUncommon",
+          "Pool Mercenaries Rare->PoolMercenariesRare",
+          "Pool MechWarrior Common->PoolMechWarriorCommon",
+          "Pool MechWarrior Uncommon->PoolMechWarriorUncommon",
+          "Pool MechWarrior Rare->PoolMechWarriorRare",
+          "Pool Arsenal Common->PoolArsenalCommon",
+          "Pool Arsenal Uncommon->PoolArsenalUncommon",
+          "Pool Arsenal Rare->PoolArsenalRare",
+          "Pool CommandersEdition Common->PoolCommandersEditionCommon",
+          "Pool CommandersEdition Uncommon->PoolCommandersEditionUncommon",
+          "Pool CommandersEdition Rare->PoolCommandersEditionRare",
+          "Pool CommandersEdition Vital->PoolCommandersEditionVital",
+          "Pool CommandersEdition Box Power->PoolCommandersEditionBoxPower",
+          "Pool CommandersEdition New Deck Card->PoolCommandersEditionNewDeckCard",
+          "Pool Crusade Common->PoolCrusadeCommon",
+          "Pool Crusade Uncommon->PoolCrusadeUncommon",
+          "Pool Crusade Rare->PoolCrusadeRare",
+          "Pool Promo Uncommon->PoolPromoUncommon"
         ],
         "autoPlayFromHand": {
           "Unit": "Construction",
@@ -5497,22 +6852,6 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedOpening": {
-            "title": "SealedOpening",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Opened Pack",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -6044,17 +7383,18 @@
               ]
             }
           },
-          "SealedPack1": {
-            "title": "SealedPack1",
+          "PoolLimitedCommon": {
+            "title": "PoolLimitedCommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1",
+            "displayedTitle": "Limited — Common",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -6064,17 +7404,18 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPack2": {
-            "title": "SealedPack2",
+          "PoolLimitedUncommon": {
+            "title": "PoolLimitedUncommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2",
+            "displayedTitle": "Limited — Uncommon",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -6084,17 +7425,18 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPack3": {
-            "title": "SealedPack3",
+          "PoolLimitedRare": {
+            "title": "PoolLimitedRare",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3",
+            "displayedTitle": "Limited — Rare",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -6104,17 +7446,18 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPack4": {
-            "title": "SealedPack4",
+          "PoolLimitedVital": {
+            "title": "PoolLimitedVital",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4",
+            "displayedTitle": "Limited — Vital",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -6124,17 +7467,18 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPack5": {
-            "title": "SealedPack5",
+          "PoolUnlimitedCommon": {
+            "title": "PoolUnlimitedCommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5",
+            "displayedTitle": "Unlimited — Common",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
@@ -6144,17 +7488,543 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPack6": {
-            "title": "SealedPack6",
+          "PoolUnlimitedUncommon": {
+            "title": "PoolUnlimitedUncommon",
             "isHidden": "yes",
-            "height": 15,
+            "height": 12,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6",
+            "displayedTitle": "Unlimited — Uncommon",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedOpening"
+              "_default": "SealedPool"
             },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedRare": {
+            "title": "PoolUnlimitedRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolUnlimitedVital": {
+            "title": "PoolUnlimitedVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Unlimited — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeCommon": {
+            "title": "PoolCounterstrikeCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeUncommon": {
+            "title": "PoolCounterstrikeUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeRare": {
+            "title": "PoolCounterstrikeRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCounterstrikeVital": {
+            "title": "PoolCounterstrikeVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Counterstrike — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesCommon": {
+            "title": "PoolMercenariesCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesUncommon": {
+            "title": "PoolMercenariesUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMercenariesRare": {
+            "title": "PoolMercenariesRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Mercenaries — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorCommon": {
+            "title": "PoolMechWarriorCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorUncommon": {
+            "title": "PoolMechWarriorUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolMechWarriorRare": {
+            "title": "PoolMechWarriorRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "MechWarrior — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalCommon": {
+            "title": "PoolArsenalCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalUncommon": {
+            "title": "PoolArsenalUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolArsenalRare": {
+            "title": "PoolArsenalRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Arsenal — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionCommon": {
+            "title": "PoolCommandersEditionCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionUncommon": {
+            "title": "PoolCommandersEditionUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionRare": {
+            "title": "PoolCommandersEditionRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionVital": {
+            "title": "PoolCommandersEditionVital",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Vital",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionBoxPower": {
+            "title": "PoolCommandersEditionBoxPower",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — Box Power",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCommandersEditionNewDeckCard": {
+            "title": "PoolCommandersEditionNewDeckCard",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Commander's Edition — New Deck Card",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeCommon": {
+            "title": "PoolCrusadeCommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Common",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeUncommon": {
+            "title": "PoolCrusadeUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolCrusadeRare": {
+            "title": "PoolCrusadeRare",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Crusade — Rare",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PoolPromoUncommon": {
+            "title": "PoolPromoUncommon",
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Promo — Uncommon",
+            "cardBackColor": "#171719",
+            "drawDestinations": {
+              "_default": "SealedPool"
+            },
+            "startsShuffled": true,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "noQuickActions": false,
