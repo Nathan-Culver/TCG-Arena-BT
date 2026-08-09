@@ -3844,7 +3844,7 @@
           {
             "drawFromTop": "Deck",
             "count": 1,
-            "destination": "ExileHidden"
+            "destination": "LimitedSetupRemoval"
           }
         ]
       },
@@ -3915,6 +3915,7 @@
           "CommandPostGuard",
           "ConstructionGuard",
           "DeckGuard",
+          "LimitedSetupRemoval",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -4118,6 +4119,16 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedSetupRemoval",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px"
+              }
             },
             {
               "optional": {
@@ -4980,6 +4991,21 @@
             "isHorizontalAllowed": true,
             "displayedTitle": "Guard",
             "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "LimitedSetupRemoval": {
+            "title": "LimitedSetupRemoval",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "NONE",
+            "displayedTitle": "",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
@@ -6136,107 +6162,107 @@
           {
             "drawFromTop": "Deck",
             "count": 1,
-            "destination": "ExileHidden"
+            "destination": "LimitedSetupRemoval"
           },
           {
             "drawFromTop": "PoolLimitedRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolLimitedVital",
             "count": 2,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolLimitedUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolLimitedCommon",
             "count": 9,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolUnlimitedRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolUnlimitedVital",
             "count": 2,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolUnlimitedUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolUnlimitedCommon",
             "count": 9,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolCounterstrikeRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolCounterstrikeUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolCounterstrikeCommon",
             "count": 11,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolMechWarriorRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolMechWarriorUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolMechWarriorCommon",
             "count": 11,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolArsenalRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolArsenalUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolArsenalCommon",
             "count": 11,
-            "destination": "SealedPool"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "PoolCommandersEditionRare",
             "count": 1,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolCommandersEditionUncommon",
             "count": 3,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           },
           {
             "drawFromTop": "PoolCommandersEditionCommon",
             "count": 11,
-            "destination": "SealedPool"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -6307,7 +6333,7 @@
           "CommandPostGuard",
           "ConstructionGuard",
           "DeckGuard",
-          "SealedPool",
+          "LimitedSetupRemoval",
           "PoolLimitedCommon",
           "PoolLimitedUncommon",
           "PoolLimitedRare",
@@ -6500,11 +6526,21 @@
               ]
             },
             {
+              "section": "LimitedSetupRemoval",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px"
+              }
+            },
+            {
               "direction": "row",
               "style": {
                 "position": "absolute",
-                "top": "0",
-                "left": "0",
+                "top": "-10000px",
+                "left": "-10000px",
                 "width": "1px",
                 "height": "1px",
                 "overflow": "hidden",
@@ -6702,18 +6738,6 @@
                   }
                 }
               ]
-            },
-            {
-              "section": "SealedPool",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "calc(100% - 18rem)",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              }
             }
           ]
         },
@@ -6747,9 +6771,9 @@
           "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
-          "Unit": "SealedPool",
-          "Command": "SealedPool",
-          "Mission": "SealedPool"
+          "Unit": "Mission",
+          "Command": "CommandPost",
+          "Mission": "CommandPost"
         },
         "autoPlayFromStack": {
           "Mission": "Discard"
@@ -6885,7 +6909,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -6901,7 +6925,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -7107,16 +7131,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedPool": {
-            "title": "SealedPool",
-            "isHidden": "opponent-only",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Sealed Pool (Private)",
+          "LimitedSetupRemoval": {
+            "title": "LimitedSetupRemoval",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "NONE",
+            "displayedTitle": "",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
@@ -7132,7 +7155,7 @@
             "displayedTitle": "LIM C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7153,7 +7176,7 @@
             "displayedTitle": "LIM U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7174,7 +7197,7 @@
             "displayedTitle": "LIM R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7195,7 +7218,7 @@
             "displayedTitle": "LIM V",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7216,7 +7239,7 @@
             "displayedTitle": "UNL C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7237,7 +7260,7 @@
             "displayedTitle": "UNL U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7258,7 +7281,7 @@
             "displayedTitle": "UNL R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7279,7 +7302,7 @@
             "displayedTitle": "UNL V",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7300,7 +7323,7 @@
             "displayedTitle": "CS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7321,7 +7344,7 @@
             "displayedTitle": "CS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7342,7 +7365,7 @@
             "displayedTitle": "CS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7363,7 +7386,7 @@
             "displayedTitle": "MERC C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7384,7 +7407,7 @@
             "displayedTitle": "MERC U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7405,7 +7428,7 @@
             "displayedTitle": "MERC R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7426,7 +7449,7 @@
             "displayedTitle": "MW C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7447,7 +7470,7 @@
             "displayedTitle": "MW U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7468,7 +7491,7 @@
             "displayedTitle": "MW R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7489,7 +7512,7 @@
             "displayedTitle": "ARS C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7510,7 +7533,7 @@
             "displayedTitle": "ARS U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7531,7 +7554,7 @@
             "displayedTitle": "ARS R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7552,7 +7575,7 @@
             "displayedTitle": "CE C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7573,7 +7596,7 @@
             "displayedTitle": "CE U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7594,7 +7617,7 @@
             "displayedTitle": "CE R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7615,7 +7638,7 @@
             "displayedTitle": "CRU C",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7636,7 +7659,7 @@
             "displayedTitle": "CRU U",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7657,7 +7680,7 @@
             "displayedTitle": "CRU R",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "Mission"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
