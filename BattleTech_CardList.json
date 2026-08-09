@@ -82666,6 +82666,7 @@
       }
     },
     "name": "Limited Format Setup Card",
+    "isToken": true,
     "cardName": "Limited Format Setup Card",
     "secondaryName": "Draft / Sealed Stand-in",
     "type": "Setup",
