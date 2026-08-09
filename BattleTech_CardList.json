@@ -82654,5 +82654,48 @@
     "attack": null,
     "rarity": "Rare",
     "sourceUrl": "https://www.sarna.net/wiki/Viper%27s_Maw_(CCG_-_Crusade)"
+  },
+  "battletech-limited-format-setup-card": {
+    "id": "battletech-limited-format-setup-card",
+    "face": {
+      "front": {
+        "name": "Limited Format Setup Card",
+        "type": "Setup",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png"
+      }
+    },
+    "name": "Limited Format Setup Card",
+    "cardName": "Limited Format Setup Card",
+    "secondaryName": "Draft / Sealed Stand-in",
+    "type": "Setup",
+    "set": "System",
+    "cost": 0,
+    "constructionCost": 0,
+    "assets": [],
+    "assetCosts": {},
+    "alignment": "Universal",
+    "affiliation": [],
+    "Clan affiliation": [],
+    "Inner Sphere affiliation": [],
+    "unitData": {},
+    "keywords": [],
+    "options": [
+      "Setup card used only to let TCG-Arena accept a Draft or Sealed pool."
+    ],
+    "Mass": null,
+    "Armament": "",
+    "Unit class": [],
+    "Unit keywords": [],
+    "Command keywords": [],
+    "Unique": false,
+    "Option keywords": [],
+    "Ability text": "Setup card used only to let TCG-Arena accept a Draft or Sealed pool. It is automatically removed before deck construction.",
+    "speed": null,
+    "armor": null,
+    "structure": null,
+    "attack": null,
+    "rarity": "Setup",
+    "sourceUrl": ""
   }
 }
