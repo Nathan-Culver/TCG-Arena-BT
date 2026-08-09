@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BattleTech TCG Draft &amp; Sealed Generator</title>
+  <style>
+    :root { color-scheme: dark; --blue:#18a8ff; --amber:#f0a500; --panel:#0b1722; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; font:16px/1.45 system-ui,sans-serif; color:#edf7ff; background:#03080d; }
+    main { width:min(1100px,94vw); margin:auto; padding:2rem 0 4rem; }
+    h1 { margin:.2rem 0; color:var(--blue); }
+    h2 { margin-top:0; }
+    .lead { color:#b8c9d5; max-width:78ch; }
+    .panel { background:linear-gradient(145deg,#0d1d2b,#08111a); border:1px solid #244258; border-radius:12px; padding:1rem; margin:1rem 0; box-shadow:0 10px 30px #0008; }
+    .controls { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:.8rem; align-items:end; }
+    label { display:grid; gap:.3rem; font-weight:650; }
+    select,input,button,a.button { min-height:2.5rem; border-radius:7px; border:1px solid #41647a; background:#07111a; color:#fff; padding:.45rem .65rem; font:inherit; }
+    button,a.button { cursor:pointer; background:#0d6395; border-color:#18a8ff; font-weight:750; text-align:center; text-decoration:none; }
+    button.secondary { background:#172630; border-color:#526b7b; }
+    button:disabled,a.button.disabled { opacity:.45; pointer-events:none; }
+    .sets { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:.65rem; margin-top:1rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1rem; }
+    .packs { display:grid; grid-template-columns:repeat(auto-fit,minmax(275px,1fr)); gap:1rem; }
+    .pack { border-left:4px solid var(--amber); }
+    .pack ol { padding-left:1.5rem; margin-bottom:0; }
+    .rarity { float:right; color:#91a9b9; font-size:.86em; }
+    .status { min-height:1.5em; color:#9bd9ff; }
+    .warning { color:#ffd176; }
+    code { color:#9bd9ff; }
+    details { margin-top:1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>BattleTech TCG Limited Generator</h1>
+  <p class="lead">Choose three sets for Draft or six sets for Sealed. Repeated sets are allowed. The generator makes randomized 15-card packs and a TCG-Arena import link with each pack in its matching custom category.</p>
+
+  <section class="panel">
+    <div class="controls">
+      <label>Format
+        <select id="format">
+          <option value="Draft">Draft — 3 packs</option>
+          <option value="Sealed">Sealed — 6 packs</option>
+        </select>
+      </label>
+      <label>Random seed (optional)
+        <input id="seed" placeholder="Share this for identical packs">
+      </label>
+      <button id="generate" disabled>Loading card list…</button>
+    </div>
+    <div id="sets" class="sets"></div>
+    <p id="status" class="status" role="status"></p>
+  </section>
+
+  <section id="result" hidden>
+    <div class="panel">
+      <h2>Import into TCG-Arena</h2>
+      <p>Open the link, choose <strong>Import &amp; Play</strong>, then select the matching Draft or Sealed format. Both players generate and import their own packs.</p>
+      <div class="actions">
+        <a id="import" class="button" target="_blank" rel="noopener">Open TCG-Arena import</a>
+        <button id="copy" class="secondary">Copy deck list</button>
+        <button id="download" class="secondary">Download deck list</button>
+      </div>
+      <details>
+        <summary>Manual match workflow</summary>
+        <ol id="workflow"></ol>
+      </details>
+      <p id="limitation" class="warning"></p>
+    </div>
+    <div id="packs" class="packs"></div>
+  </section>
+</main>
+<script src="BattleTech_Limited_Generator.js"></script>
+</body>
+</html>
