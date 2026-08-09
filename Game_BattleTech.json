@@ -10,7 +10,7 @@
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=4",
+    "dataUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_CardList.json?v=5",
     "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
     "cardBackColor": "#171719",
     "extraCardBacks": {}
@@ -3849,8 +3849,8 @@
         ]
       },
       "mulligan": {
-        "triggeredByButton": true,
-        "startingHandSize": 5,
+        "triggeredByButton": false,
+        "startingHandSize": 0,
         "mulliganCycle": {
           "info": "BattleTech TCG Mulligan: You may mulligan only when your current opening hand contains exactly 0 or 1 Resource cards. Reshuffle your entire hand and draw one fewer card. Check the same eligibility condition again before taking another mulligan.",
           "steps": [
@@ -3863,6 +3863,10 @@
             "min": 5
           },
           "keepCardsOrder": false
+        },
+        "mulliganCount": {
+          "min": 0,
+          "max": 0
         }
       },
       "newTurn": {
@@ -6237,8 +6241,8 @@
         ]
       },
       "mulligan": {
-        "triggeredByButton": true,
-        "startingHandSize": 5,
+        "triggeredByButton": false,
+        "startingHandSize": 0,
         "mulliganCycle": {
           "info": "BattleTech TCG Mulligan: You may mulligan only when your current opening hand contains exactly 0 or 1 Resource cards. Reshuffle your entire hand and draw one fewer card. Check the same eligibility condition again before taking another mulligan.",
           "steps": [
@@ -6251,6 +6255,10 @@
             "min": 5
           },
           "keepCardsOrder": false
+        },
+        "mulliganCount": {
+          "min": 0,
+          "max": 0
         }
       },
       "newTurn": {
@@ -6300,7 +6308,6 @@
           "ConstructionGuard",
           "DeckGuard",
           "SealedPool",
-          "SealedSetup",
           "PoolLimitedCommon",
           "PoolLimitedUncommon",
           "PoolLimitedRare",
@@ -6707,9 +6714,6 @@
                 "zIndex": 0,
                 "background": "transparent"
               }
-            },
-            {
-              "section": "SealedSetup"
             }
           ]
         },
@@ -7118,83 +7122,6 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "SealedSetup": {
-            "title": "SealedSetup",
-            "type": "custom",
-            "isShared": true,
-            "defaultValue": {
-              "status": "Generated automatically"
-            },
-            "blueprint": {
-              "type": "div",
-              "props": {
-                "className": "position-absolute top-0 end-0 box-container flex-column p-2",
-                "style": {
-                  "width": "17rem",
-                  "zIndex": 20,
-                  "background": "rgba(4, 10, 16, 0.94)"
-                }
-              },
-              "children": [
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "fw-bold mb-1"
-                  },
-                  "children": "Automatic Sealed Pool"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 1: Limited"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 2: Unlimited"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 3: Counterstrike"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 4: MechWarrior"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 5: Arsenal"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small"
-                  },
-                  "children": "Pack 6: Commander's Edition"
-                },
-                {
-                  "type": "div",
-                  "props": {
-                    "className": "small mt-2 opacity-75"
-                  },
-                  "children": "All 90 randomized cards are placed directly in your private Sealed Pool during match startup."
-                }
-              ]
-            }
           },
           "PoolLimitedCommon": {
             "title": "PoolLimitedCommon",
