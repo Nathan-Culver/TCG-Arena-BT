@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=2"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=3"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -74,7 +74,6 @@
           "Pool Counterstrike Common",
           "Pool Counterstrike Uncommon",
           "Pool Counterstrike Rare",
-          "Pool Counterstrike Vital",
           "Pool Mercenaries Common",
           "Pool Mercenaries Uncommon",
           "Pool Mercenaries Rare",
@@ -87,13 +86,10 @@
           "Pool CommandersEdition Common",
           "Pool CommandersEdition Uncommon",
           "Pool CommandersEdition Rare",
-          "Pool CommandersEdition Vital",
-          "Pool CommandersEdition Box Power",
-          "Pool CommandersEdition New Deck Card",
           "Pool Crusade Common",
           "Pool Crusade Uncommon",
           "Pool Crusade Rare",
-          "Pool Promo Uncommon"
+          "Pool Unused Non Booster"
         ]
       },
       {
@@ -111,7 +107,6 @@
           "Pool Counterstrike Common",
           "Pool Counterstrike Uncommon",
           "Pool Counterstrike Rare",
-          "Pool Counterstrike Vital",
           "Pool Mercenaries Common",
           "Pool Mercenaries Uncommon",
           "Pool Mercenaries Rare",
@@ -124,13 +119,10 @@
           "Pool CommandersEdition Common",
           "Pool CommandersEdition Uncommon",
           "Pool CommandersEdition Rare",
-          "Pool CommandersEdition Vital",
-          "Pool CommandersEdition Box Power",
-          "Pool CommandersEdition New Deck Card",
           "Pool Crusade Common",
           "Pool Crusade Uncommon",
           "Pool Crusade Rare",
-          "Pool Promo Uncommon"
+          "Pool Unused Non Booster"
         ]
       }
     ]
@@ -3924,6 +3916,14 @@
           "DraftPass",
           "DraftIncoming",
           "DraftSetup",
+          "GeneratorHeaderLimited",
+          "GeneratorHeaderUnlimited",
+          "GeneratorHeaderCounterstrike",
+          "GeneratorHeaderMercenaries",
+          "GeneratorHeaderMechWarrior",
+          "GeneratorHeaderArsenal",
+          "GeneratorHeaderCommandersEdition",
+          "GeneratorHeaderCrusade",
           "PoolLimitedCommon",
           "PoolLimitedUncommon",
           "PoolLimitedRare",
@@ -3935,7 +3935,6 @@
           "PoolCounterstrikeCommon",
           "PoolCounterstrikeUncommon",
           "PoolCounterstrikeRare",
-          "PoolCounterstrikeVital",
           "PoolMercenariesCommon",
           "PoolMercenariesUncommon",
           "PoolMercenariesRare",
@@ -3948,13 +3947,10 @@
           "PoolCommandersEditionCommon",
           "PoolCommandersEditionUncommon",
           "PoolCommandersEditionRare",
-          "PoolCommandersEditionVital",
-          "PoolCommandersEditionBoxPower",
-          "PoolCommandersEditionNewDeckCard",
           "PoolCrusadeCommon",
           "PoolCrusadeUncommon",
           "PoolCrusadeRare",
-          "PoolPromoUncommon"
+          "PoolUnusedNonBooster"
         ],
         "layout": {
           "direction": "column",
@@ -4129,7 +4125,7 @@
                 "top": "0",
                 "left": "0",
                 "width": "calc(100% - 18rem)",
-                "height": "38vh",
+                "height": "34vh",
                 "gap": "0.35vh",
                 "padding": "0.4vh",
                 "zIndex": 15,
@@ -4140,65 +4136,407 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "6.5vh",
+                    "height": "23vh",
                     "gap": "0.35vh"
                   },
                   "content": [
                     {
-                      "section": "PoolLimitedCommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderLimited",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolLimitedCommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedUncommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedRare",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedVital",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedUncommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderUnlimited",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolUnlimitedCommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedUncommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedRare",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedVital",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedRare",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCounterstrike",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCounterstrikeCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCounterstrikeUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCounterstrikeRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedVital",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderMercenaries",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolMercenariesCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMercenariesUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMercenariesRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedCommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderMechWarrior",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolMechWarriorCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMechWarriorUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMechWarriorRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedUncommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderArsenal",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolArsenalCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolArsenalUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolArsenalRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedRare",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCommandersEdition",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCommandersEditionCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCommandersEditionUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCommandersEditionRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedVital",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCrusade",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCrusadeCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCrusadeUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCrusadeRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4206,226 +4544,42 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolCounterstrikeCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeVital",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMechWarriorCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolMechWarriorUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMechWarriorRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolCommandersEditionVital",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionBoxPower",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionNewDeckCard",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolPromoUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "9vh",
+                    "height": "9.5vh",
                     "gap": "0.5vh"
                   },
                   "content": [
                     {
+                      "section": "PoolUnusedNonBooster",
+                      "style": {
+                        "width": "20.0000%",
+                        "height": "100%"
+                      }
+                    },
+                    {
                       "section": "DraftCurrent",
                       "style": {
-                        "width": "25.0000%",
+                        "width": "20.0000%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "DraftPool",
                       "style": {
-                        "width": "25.0000%",
+                        "width": "20.0000%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "DraftPass",
                       "style": {
-                        "width": "25.0000%",
+                        "width": "20.0000%",
                         "height": "100%"
                       }
                     },
                     {
                       "section": "DraftIncoming",
                       "style": {
-                        "width": "25.0000%",
+                        "width": "20.0000%",
                         "height": "100%"
                       }
                     }
@@ -4450,7 +4604,6 @@
           "Pool Counterstrike Common->PoolCounterstrikeCommon",
           "Pool Counterstrike Uncommon->PoolCounterstrikeUncommon",
           "Pool Counterstrike Rare->PoolCounterstrikeRare",
-          "Pool Counterstrike Vital->PoolCounterstrikeVital",
           "Pool Mercenaries Common->PoolMercenariesCommon",
           "Pool Mercenaries Uncommon->PoolMercenariesUncommon",
           "Pool Mercenaries Rare->PoolMercenariesRare",
@@ -4463,13 +4616,10 @@
           "Pool CommandersEdition Common->PoolCommandersEditionCommon",
           "Pool CommandersEdition Uncommon->PoolCommandersEditionUncommon",
           "Pool CommandersEdition Rare->PoolCommandersEditionRare",
-          "Pool CommandersEdition Vital->PoolCommandersEditionVital",
-          "Pool CommandersEdition Box Power->PoolCommandersEditionBoxPower",
-          "Pool CommandersEdition New Deck Card->PoolCommandersEditionNewDeckCard",
           "Pool Crusade Common->PoolCrusadeCommon",
           "Pool Crusade Uncommon->PoolCrusadeUncommon",
           "Pool Crusade Rare->PoolCrusadeRare",
-          "Pool Promo Uncommon->PoolPromoUncommon"
+          "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
           "Unit": "Construction",
@@ -5174,6 +5324,238 @@
               ]
             }
           },
+          "GeneratorHeaderLimited": {
+            "title": "GeneratorHeaderLimited",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Limited",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R  V"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderUnlimited": {
+            "title": "GeneratorHeaderUnlimited",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Unlimited",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R  V"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCounterstrike": {
+            "title": "GeneratorHeaderCounterstrike",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Counterstrike",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderMercenaries": {
+            "title": "GeneratorHeaderMercenaries",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Mercenaries",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderMechWarrior": {
+            "title": "GeneratorHeaderMechWarrior",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "MechWarrior",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderArsenal": {
+            "title": "GeneratorHeaderArsenal",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Arsenal",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCommandersEdition": {
+            "title": "GeneratorHeaderCommandersEdition",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Commander's Edition",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCrusade": {
+            "title": "GeneratorHeaderCrusade",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Crusade",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
           "PoolLimitedCommon": {
             "title": "PoolLimitedCommon",
             "isHidden": "yes",
@@ -5391,27 +5773,6 @@
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
             "displayedTitle": "CS R",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "DraftCurrent"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCounterstrikeVital": {
-            "title": "PoolCounterstrikeVital",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CS V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "DraftCurrent"
@@ -5678,69 +6039,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "PoolCommandersEditionVital": {
-            "title": "PoolCommandersEditionVital",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE V",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "DraftCurrent"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCommandersEditionBoxPower": {
-            "title": "PoolCommandersEditionBoxPower",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE BP",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "DraftCurrent"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCommandersEditionNewDeckCard": {
-            "title": "PoolCommandersEditionNewDeckCard",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE NDC",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "DraftCurrent"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "PoolCrusadeCommon": {
             "title": "PoolCrusadeCommon",
             "isHidden": "yes",
@@ -5804,16 +6102,16 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "PoolPromoUncommon": {
-            "title": "PoolPromoUncommon",
+          "PoolUnusedNonBooster": {
+            "title": "PoolUnusedNonBooster",
             "isHidden": "yes",
             "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "PRO U",
+            "displayedTitle": "REMOVE UNUSED",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "DraftCurrent"
+              "_default": "ExileHidden"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -5903,6 +6201,14 @@
           "DeckGuard",
           "SealedPool",
           "SealedSetup",
+          "GeneratorHeaderLimited",
+          "GeneratorHeaderUnlimited",
+          "GeneratorHeaderCounterstrike",
+          "GeneratorHeaderMercenaries",
+          "GeneratorHeaderMechWarrior",
+          "GeneratorHeaderArsenal",
+          "GeneratorHeaderCommandersEdition",
+          "GeneratorHeaderCrusade",
           "PoolLimitedCommon",
           "PoolLimitedUncommon",
           "PoolLimitedRare",
@@ -5914,7 +6220,6 @@
           "PoolCounterstrikeCommon",
           "PoolCounterstrikeUncommon",
           "PoolCounterstrikeRare",
-          "PoolCounterstrikeVital",
           "PoolMercenariesCommon",
           "PoolMercenariesUncommon",
           "PoolMercenariesRare",
@@ -5927,13 +6232,10 @@
           "PoolCommandersEditionCommon",
           "PoolCommandersEditionUncommon",
           "PoolCommandersEditionRare",
-          "PoolCommandersEditionVital",
-          "PoolCommandersEditionBoxPower",
-          "PoolCommandersEditionNewDeckCard",
           "PoolCrusadeCommon",
           "PoolCrusadeUncommon",
           "PoolCrusadeRare",
-          "PoolPromoUncommon"
+          "PoolUnusedNonBooster"
         ],
         "layout": {
           "direction": "column",
@@ -6108,7 +6410,7 @@
                 "top": "0",
                 "left": "0",
                 "width": "calc(100% - 18rem)",
-                "height": "38vh",
+                "height": "34vh",
                 "gap": "0.35vh",
                 "padding": "0.4vh",
                 "zIndex": 15,
@@ -6119,65 +6421,407 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "6.5vh",
+                    "height": "23vh",
                     "gap": "0.35vh"
                   },
                   "content": [
                     {
-                      "section": "PoolLimitedCommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderLimited",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolLimitedCommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedUncommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedRare",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolLimitedVital",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedUncommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderUnlimited",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolUnlimitedCommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedUncommon",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedRare",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolUnlimitedVital",
+                              "style": {
+                                "width": "25.0000%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedRare",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCounterstrike",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCounterstrikeCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCounterstrikeUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCounterstrikeRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolLimitedVital",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderMercenaries",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolMercenariesCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMercenariesUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMercenariesRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedCommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderMechWarrior",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolMechWarriorCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMechWarriorUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolMechWarriorRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedUncommon",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderArsenal",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolArsenalCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolArsenalUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolArsenalRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedRare",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCommandersEdition",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCommandersEditionCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCommandersEditionUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCommandersEditionRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "section": "PoolUnlimitedVital",
+                      "direction": "column",
                       "style": {
                         "width": "12.5%",
-                        "height": "100%"
-                      }
+                        "height": "23vh",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "GeneratorHeaderCrusade",
+                          "style": {
+                            "width": "100%",
+                            "height": "4.5vh"
+                          }
+                        },
+                        {
+                          "direction": "row",
+                          "style": {
+                            "width": "100%",
+                            "height": "18vh",
+                            "gap": "0.2vh"
+                          },
+                          "content": [
+                            {
+                              "section": "PoolCrusadeCommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCrusadeUncommon",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            },
+                            {
+                              "section": "PoolCrusadeRare",
+                              "style": {
+                                "width": "33.3333%",
+                                "height": "100%"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -6185,205 +6829,21 @@
                   "direction": "row",
                   "style": {
                     "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolCounterstrikeCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCounterstrikeVital",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMercenariesRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMechWarriorCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolMechWarriorUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolMechWarriorRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolArsenalRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "6.5vh",
-                    "gap": "0.35vh"
-                  },
-                  "content": [
-                    {
-                      "section": "PoolCommandersEditionVital",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionBoxPower",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCommandersEditionNewDeckCard",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeCommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolCrusadeRare",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    },
-                    {
-                      "section": "PoolPromoUncommon",
-                      "style": {
-                        "width": "12.5%",
-                        "height": "100%"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "width": "100%",
-                    "height": "9vh",
+                    "height": "9.5vh",
                     "gap": "0.5vh"
                   },
                   "content": [
                     {
+                      "section": "PoolUnusedNonBooster",
+                      "style": {
+                        "width": "50.0000%",
+                        "height": "100%"
+                      }
+                    },
+                    {
                       "section": "SealedPool",
                       "style": {
-                        "width": "100.0000%",
+                        "width": "50.0000%",
                         "height": "100%"
                       }
                     }
@@ -6408,7 +6868,6 @@
           "Pool Counterstrike Common->PoolCounterstrikeCommon",
           "Pool Counterstrike Uncommon->PoolCounterstrikeUncommon",
           "Pool Counterstrike Rare->PoolCounterstrikeRare",
-          "Pool Counterstrike Vital->PoolCounterstrikeVital",
           "Pool Mercenaries Common->PoolMercenariesCommon",
           "Pool Mercenaries Uncommon->PoolMercenariesUncommon",
           "Pool Mercenaries Rare->PoolMercenariesRare",
@@ -6421,13 +6880,10 @@
           "Pool CommandersEdition Common->PoolCommandersEditionCommon",
           "Pool CommandersEdition Uncommon->PoolCommandersEditionUncommon",
           "Pool CommandersEdition Rare->PoolCommandersEditionRare",
-          "Pool CommandersEdition Vital->PoolCommandersEditionVital",
-          "Pool CommandersEdition Box Power->PoolCommandersEditionBoxPower",
-          "Pool CommandersEdition New Deck Card->PoolCommandersEditionNewDeckCard",
           "Pool Crusade Common->PoolCrusadeCommon",
           "Pool Crusade Uncommon->PoolCrusadeUncommon",
           "Pool Crusade Rare->PoolCrusadeRare",
-          "Pool Promo Uncommon->PoolPromoUncommon"
+          "Pool Unused Non Booster->PoolUnusedNonBooster"
         ],
         "autoPlayFromHand": {
           "Unit": "Construction",
@@ -7321,6 +7777,238 @@
               ]
             }
           },
+          "GeneratorHeaderLimited": {
+            "title": "GeneratorHeaderLimited",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Limited",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R  V"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderUnlimited": {
+            "title": "GeneratorHeaderUnlimited",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Unlimited",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R  V"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCounterstrike": {
+            "title": "GeneratorHeaderCounterstrike",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Counterstrike",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderMercenaries": {
+            "title": "GeneratorHeaderMercenaries",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Mercenaries",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderMechWarrior": {
+            "title": "GeneratorHeaderMechWarrior",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "MechWarrior",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderArsenal": {
+            "title": "GeneratorHeaderArsenal",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Arsenal",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCommandersEdition": {
+            "title": "GeneratorHeaderCommandersEdition",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Commander's Edition",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
+          "GeneratorHeaderCrusade": {
+            "title": "GeneratorHeaderCrusade",
+            "type": "custom",
+            "defaultValue": {},
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container flex-column align-items-center justify-content-center p-1",
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "fontSize": "0.72rem",
+                  "fontWeight": 700,
+                  "textAlign": "center",
+                  "background": "rgba(16, 38, 54, 0.96)"
+                }
+              },
+              "children": [
+                "Crusade",
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "opacity-75"
+                  },
+                  "children": "C  U  R"
+                }
+              ]
+            }
+          },
           "PoolLimitedCommon": {
             "title": "PoolLimitedCommon",
             "isHidden": "yes",
@@ -7538,27 +8226,6 @@
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
             "displayedTitle": "CS R",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "SealedPool"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCounterstrikeVital": {
-            "title": "PoolCounterstrikeVital",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CS V",
             "cardBackColor": "#171719",
             "drawDestinations": {
               "_default": "SealedPool"
@@ -7825,69 +8492,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "PoolCommandersEditionVital": {
-            "title": "PoolCommandersEditionVital",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE V",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "SealedPool"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCommandersEditionBoxPower": {
-            "title": "PoolCommandersEditionBoxPower",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE BP",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "SealedPool"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "PoolCommandersEditionNewDeckCard": {
-            "title": "PoolCommandersEditionNewDeckCard",
-            "isHidden": "yes",
-            "height": 7,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "CE NDC",
-            "cardBackColor": "#171719",
-            "drawDestinations": {
-              "_default": "SealedPool"
-            },
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "PoolCrusadeCommon": {
             "title": "PoolCrusadeCommon",
             "isHidden": "yes",
@@ -7951,16 +8555,16 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "PoolPromoUncommon": {
-            "title": "PoolPromoUncommon",
+          "PoolUnusedNonBooster": {
+            "title": "PoolUnusedNonBooster",
             "isHidden": "yes",
             "height": 7,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "PRO U",
+            "displayedTitle": "REMOVE UNUSED",
             "cardBackColor": "#171719",
             "drawDestinations": {
-              "_default": "SealedPool"
+              "_default": "ExileHidden"
             },
             "startsShuffled": true,
             "noAutoPayTo": false,
