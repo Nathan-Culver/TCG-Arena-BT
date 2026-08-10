@@ -4395,8 +4395,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedLimitedRareSource",
-          "SealedLimitedRandomSource",
-          "LimitedSharedCards"
+          "SealedLimitedRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -4599,27 +4598,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -4744,11 +4722,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -5095,23 +5073,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -5205,8 +5187,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedUnlimitedRareSource",
-          "SealedUnlimitedRandomSource",
-          "LimitedSharedCards"
+          "SealedUnlimitedRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -5409,27 +5390,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -5554,11 +5514,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -5905,23 +5865,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -6015,8 +5979,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCounterstrikeRareSource",
-          "SealedCounterstrikeRandomSource",
-          "LimitedSharedCards"
+          "SealedCounterstrikeRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -6219,27 +6182,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -6364,11 +6306,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -6715,23 +6657,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -6825,8 +6771,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedMercenariesRareSource",
-          "SealedMercenariesRandomSource",
-          "LimitedSharedCards"
+          "SealedMercenariesRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -7029,27 +6974,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -7174,11 +7098,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -7525,23 +7449,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -7635,8 +7563,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedMechWarriorRareSource",
-          "SealedMechWarriorRandomSource",
-          "LimitedSharedCards"
+          "SealedMechWarriorRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -7839,27 +7766,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -7984,11 +7890,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -8335,23 +8241,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -8445,8 +8355,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedArsenalRareSource",
-          "SealedArsenalRandomSource",
-          "LimitedSharedCards"
+          "SealedArsenalRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -8649,27 +8558,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -8794,11 +8682,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -9145,23 +9033,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -9255,8 +9147,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCommandersEditionRareSource",
-          "SealedCommandersEditionRandomSource",
-          "LimitedSharedCards"
+          "SealedCommandersEditionRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -9459,27 +9350,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -9604,11 +9474,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -9955,23 +9825,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -10065,8 +9939,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCrusadeRareSource",
-          "SealedCrusadeRandomSource",
-          "LimitedSharedCards"
+          "SealedCrusadeRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -10269,27 +10142,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -10414,11 +10266,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -10765,23 +10617,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -10875,8 +10731,7 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedAllSetsRareSource",
-          "SealedAllSetsRandomSource",
-          "LimitedSharedCards"
+          "SealedAllSetsRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -11079,27 +10934,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -11224,11 +11058,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -11575,23 +11409,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -11713,8 +11551,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -11987,27 +11824,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -12136,11 +11952,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -12623,23 +12439,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -12761,8 +12581,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -13035,27 +12854,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -13184,11 +12982,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -13671,23 +13469,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -13809,8 +13611,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -14083,27 +13884,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -14232,11 +14012,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -14719,23 +14499,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -14857,8 +14641,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -15131,27 +14914,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -15280,11 +15042,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -15767,23 +15529,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -15905,8 +15671,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -16179,27 +15944,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -16328,11 +16072,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -16815,23 +16559,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -16953,8 +16701,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -17227,27 +16974,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -17376,11 +17102,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -17863,23 +17589,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -18001,8 +17731,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -18275,27 +18004,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -18424,11 +18132,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -18911,23 +18619,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -19049,8 +18761,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -19323,27 +19034,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -19472,11 +19162,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -19959,23 +19649,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
@@ -20097,8 +19791,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
-          "LimitedSharedCards"
+          "DraftIncoming"
         ],
         "layout": {
           "direction": "column",
@@ -20371,27 +20064,6 @@
                   }
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0.5vh",
-                "right": "0.5vh",
-                "width": "21%",
-                "height": "17vh",
-                "zIndex": 6,
-                "gap": "0.5vh"
-              },
-              "content": [
-                {
-                  "section": "LimitedSharedCards",
-                  "style": {
-                    "width": "100%",
-                    "height": "17vh"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -20520,11 +20192,11 @@
           "Stack": {
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
+            "height": 18,
+            "alignment": "START",
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Mission / Effect",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Mission / Resolution",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -21007,23 +20679,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "LimitedSharedCards": {
-            "title": "LimitedSharedCards",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Shared Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "isShared": true
+          }
+        },
+        "sharedZone": {
+          "height": 18,
+          "layout": {
+            "direction": "row",
+            "reverseForOppositeSide": false,
+            "style": {
+              "width": "100%",
+              "height": "17vh",
+              "gap": "0.5vh"
+            },
+            "content": [
+              {
+                "section": "Stack",
+                "style": {
+                  "width": "100%",
+                  "height": "17vh"
+                }
+              }
+            ]
           }
         }
       }
