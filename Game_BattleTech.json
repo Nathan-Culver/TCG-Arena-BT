@@ -12049,7 +12049,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -12059,10 +12059,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -12116,7 +12113,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -12126,16 +12123,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -12145,10 +12139,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -13088,7 +13079,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -13098,10 +13089,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -13155,7 +13143,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -13165,16 +13153,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -13184,10 +13169,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -14127,7 +14109,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -14137,10 +14119,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -14194,7 +14173,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -14204,16 +14183,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -14223,10 +14199,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -15166,7 +15139,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -15176,10 +15149,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -15233,7 +15203,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -15243,16 +15213,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -15262,10 +15229,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -16205,7 +16169,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -16215,10 +16179,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -16272,7 +16233,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -16282,16 +16243,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -16301,10 +16259,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -17244,7 +17199,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -17254,10 +17209,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -17311,7 +17263,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -17321,16 +17273,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -17340,10 +17289,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -18283,7 +18229,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -18293,10 +18239,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -18350,7 +18293,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -18360,16 +18303,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -18379,10 +18319,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -19322,7 +19259,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -19332,10 +19269,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -19389,7 +19323,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -19399,16 +19333,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -19418,10 +19349,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
@@ -20361,7 +20289,7 @@
             "title": "Mission",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -20371,10 +20299,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -20428,7 +20353,7 @@
             "title": "Mission2",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -20438,16 +20363,13 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission3": {
             "title": "Mission3",
             "isHidden": "yes",
             "height": 15,
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -20457,10 +20379,7 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "drawDestinations": {
-              "_default": "Stack"
-            }
+            "showHiddenCardInHistory": false
           },
           "Mission4": {
             "title": "Mission4",
