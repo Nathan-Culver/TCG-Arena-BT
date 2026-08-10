@@ -12059,7 +12059,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -12123,7 +12126,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -12139,7 +12145,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -13089,7 +13098,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -13153,7 +13165,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -13169,7 +13184,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -14119,7 +14137,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -14183,7 +14204,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -14199,7 +14223,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -15149,7 +15176,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -15213,7 +15243,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -15229,7 +15262,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -16179,7 +16215,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -16243,7 +16282,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -16259,7 +16301,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -17209,7 +17254,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -17273,7 +17321,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -17289,7 +17340,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -18239,7 +18293,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -18303,7 +18360,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -18319,7 +18379,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -19269,7 +19332,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -19333,7 +19399,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -19349,7 +19418,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
@@ -20299,7 +20371,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "PatrolGuard": {
             "title": "PatrolGuard",
@@ -20363,7 +20438,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission3": {
             "title": "Mission3",
@@ -20379,7 +20457,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Stack"
+            }
           },
           "Mission4": {
             "title": "Mission4",
