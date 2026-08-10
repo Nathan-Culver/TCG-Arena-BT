@@ -10620,12 +10620,12 @@
           {
             "drawFromTop": "DraftLimitedRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftLimitedRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -10956,21 +10956,21 @@
           "Draft Limited Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -11110,7 +11110,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11126,7 +11126,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11190,7 +11190,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11206,7 +11206,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11222,7 +11222,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11238,7 +11238,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11254,7 +11254,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11270,7 +11270,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11286,7 +11286,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11302,7 +11302,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11461,12 +11461,12 @@
           {
             "drawFromTop": "DraftUnlimitedRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftUnlimitedRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -11797,21 +11797,21 @@
           "Draft Unlimited Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -11951,7 +11951,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11967,7 +11967,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12031,7 +12031,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12047,7 +12047,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12063,7 +12063,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12079,7 +12079,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12095,7 +12095,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12111,7 +12111,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12127,7 +12127,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12143,7 +12143,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12302,12 +12302,12 @@
           {
             "drawFromTop": "DraftCounterstrikeRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftCounterstrikeRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -12638,21 +12638,21 @@
           "Draft Counterstrike Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -12792,7 +12792,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12808,7 +12808,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12872,7 +12872,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12888,7 +12888,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12904,7 +12904,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12920,7 +12920,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12936,7 +12936,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12952,7 +12952,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12968,7 +12968,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12984,7 +12984,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13143,12 +13143,12 @@
           {
             "drawFromTop": "DraftMercenariesRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftMercenariesRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -13479,21 +13479,21 @@
           "Draft Mercenaries Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -13633,7 +13633,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13649,7 +13649,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13713,7 +13713,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13729,7 +13729,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13745,7 +13745,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13761,7 +13761,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13777,7 +13777,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13793,7 +13793,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13809,7 +13809,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13825,7 +13825,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13984,12 +13984,12 @@
           {
             "drawFromTop": "DraftMechWarriorRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftMechWarriorRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -14320,21 +14320,21 @@
           "Draft MechWarrior Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -14474,7 +14474,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14490,7 +14490,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14554,7 +14554,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14570,7 +14570,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14586,7 +14586,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14602,7 +14602,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14618,7 +14618,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14634,7 +14634,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14650,7 +14650,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14666,7 +14666,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14825,12 +14825,12 @@
           {
             "drawFromTop": "DraftArsenalRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftArsenalRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -15161,21 +15161,21 @@
           "Draft Arsenal Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -15315,7 +15315,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15331,7 +15331,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15395,7 +15395,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15411,7 +15411,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15427,7 +15427,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15443,7 +15443,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15459,7 +15459,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15475,7 +15475,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15491,7 +15491,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15507,7 +15507,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15666,12 +15666,12 @@
           {
             "drawFromTop": "DraftCommandersEditionRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftCommandersEditionRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -16002,21 +16002,21 @@
           "Draft Commander's Edition Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -16156,7 +16156,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16172,7 +16172,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16236,7 +16236,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16252,7 +16252,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16268,7 +16268,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16284,7 +16284,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16300,7 +16300,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16316,7 +16316,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16332,7 +16332,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16348,7 +16348,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16507,12 +16507,12 @@
           {
             "drawFromTop": "DraftCrusadeRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftCrusadeRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -16843,21 +16843,21 @@
           "Draft Crusade Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -16997,7 +16997,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17013,7 +17013,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17077,7 +17077,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17093,7 +17093,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17109,7 +17109,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17125,7 +17125,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17141,7 +17141,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17157,7 +17157,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17173,7 +17173,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17189,7 +17189,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17348,12 +17348,12 @@
           {
             "drawFromTop": "DraftAllSetsRareSource",
             "count": 12,
-            "destination": "DraftCurrent"
+            "destination": "Mission"
           },
           {
             "drawFromTop": "DraftAllSetsRandomSource",
             "count": 33,
-            "destination": "DraftCurrent"
+            "destination": "CommandPost"
           }
         ]
       },
@@ -17684,21 +17684,21 @@
           "Draft All Sets Basic Resources->Discard"
         ],
         "autoPlayFromHand": {
-          "Unit 1": "DraftCurrent",
-          "Unit 2": "DraftCurrent",
-          "Unit 3": "DraftCurrent",
-          "Unit 4": "DraftCurrent",
-          "Unit 5": "DraftCurrent",
-          "Command 1": "DraftCurrent",
-          "Command 2": "DraftCurrent",
-          "Command 3": "DraftCurrent",
-          "Command 4": "DraftCurrent",
-          "Command 5": "DraftCurrent",
-          "Mission 1": "DraftCurrent",
-          "Mission 2": "DraftCurrent",
-          "Mission 3": "DraftCurrent",
-          "Mission 4": "DraftCurrent",
-          "Mission 5": "DraftCurrent"
+          "Unit 1": "Mission",
+          "Command 1": "CommandPost",
+          "Mission 1": "CommandPost",
+          "Unit 2": "Mission2",
+          "Command 2": "CommandPost2",
+          "Mission 2": "CommandPost2",
+          "Unit 3": "Mission3",
+          "Command 3": "CommandPost3",
+          "Mission 3": "CommandPost3",
+          "Unit 4": "Mission4",
+          "Command 4": "CommandPost4",
+          "Mission 4": "CommandPost4",
+          "Unit 5": "Mission5",
+          "Command 5": "CommandPost5",
+          "Mission 5": "CommandPost5"
         },
         "autoPlayFromStack": {
           "Mission 1": "Discard",
@@ -17838,7 +17838,7 @@
           },
           "CommandPost": {
             "title": "CommandPost",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17854,7 +17854,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17918,7 +17918,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17934,7 +17934,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17950,7 +17950,7 @@
           },
           "Mission4": {
             "title": "Mission4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17966,7 +17966,7 @@
           },
           "Mission5": {
             "title": "Mission5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17982,7 +17982,7 @@
           },
           "CommandPost2": {
             "title": "CommandPost2",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -17998,7 +17998,7 @@
           },
           "CommandPost3": {
             "title": "CommandPost3",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -18014,7 +18014,7 @@
           },
           "CommandPost4": {
             "title": "CommandPost4",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -18030,7 +18030,7 @@
           },
           "CommandPost5": {
             "title": "CommandPost5",
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
