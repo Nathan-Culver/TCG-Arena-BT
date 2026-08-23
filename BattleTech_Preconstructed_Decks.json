@@ -5142,7 +5142,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Limited",
+    "title": "BattleTech Sealed Pack Generator — Limited",
     "id": "battletech-sealed-limited-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -6645,7 +6645,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Unlimited",
+    "title": "BattleTech Sealed Pack Generator — Unlimited",
     "id": "battletech-sealed-unlimited-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -8148,7 +8148,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Counterstrike",
+    "title": "BattleTech Sealed Pack Generator — Counterstrike",
     "id": "battletech-sealed-counterstrike-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -8719,7 +8719,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Mercenaries",
+    "title": "BattleTech Sealed Pack Generator — Mercenaries",
     "id": "battletech-sealed-mercenaries-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -9298,7 +9298,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — MechWarrior",
+    "title": "BattleTech Sealed Pack Generator — MechWarrior",
     "id": "battletech-sealed-mechwarrior-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -9925,7 +9925,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Arsenal",
+    "title": "BattleTech Sealed Pack Generator — Arsenal",
     "id": "battletech-sealed-arsenal-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -10552,7 +10552,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Commander's Edition",
+    "title": "BattleTech Sealed Pack Generator — Commander's Edition",
     "id": "battletech-sealed-commanders-edition-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -12439,7 +12439,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — Crusade",
+    "title": "BattleTech Sealed Pack Generator — Crusade",
     "id": "battletech-sealed-crusade-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -13058,7 +13058,7 @@
     }
   },
   {
-    "title": "BattleTech Sealed — All Sets",
+    "title": "BattleTech Sealed Pack Generator — All Sets",
     "id": "battletech-sealed-all-sets-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -20617,7 +20617,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Limited",
+    "title": "BattleTech Draft Pack Generator — Limited",
     "id": "battletech-draft-limited-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -22132,7 +22132,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Unlimited",
+    "title": "BattleTech Draft Pack Generator — Unlimited",
     "id": "battletech-draft-unlimited-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -23647,7 +23647,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Counterstrike",
+    "title": "BattleTech Draft Pack Generator — Counterstrike",
     "id": "battletech-draft-counterstrike-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -24230,7 +24230,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Mercenaries",
+    "title": "BattleTech Draft Pack Generator — Mercenaries",
     "id": "battletech-draft-mercenaries-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -24821,7 +24821,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — MechWarrior",
+    "title": "BattleTech Draft Pack Generator — MechWarrior",
     "id": "battletech-draft-mechwarrior-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -25460,7 +25460,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Arsenal",
+    "title": "BattleTech Draft Pack Generator — Arsenal",
     "id": "battletech-draft-arsenal-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -26099,7 +26099,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Commander's Edition",
+    "title": "BattleTech Draft Pack Generator — Commander's Edition",
     "id": "battletech-draft-commanders-edition-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -27998,7 +27998,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — Crusade",
+    "title": "BattleTech Draft Pack Generator — Crusade",
     "id": "battletech-draft-crusade-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
@@ -28629,7 +28629,7 @@
     }
   },
   {
-    "title": "BattleTech Draft — All Sets",
+    "title": "BattleTech Draft Pack Generator — All Sets",
     "id": "battletech-draft-all-sets-pool",
     "game": "BattleTech Trading Card Game",
     "format": [
