@@ -9871,7 +9871,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -10144,6 +10145,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -10261,7 +10274,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -10325,7 +10338,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -10341,7 +10354,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -10647,6 +10660,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -10789,7 +10876,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -11062,6 +11150,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -11179,7 +11279,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -11243,7 +11343,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -11259,7 +11359,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -11565,6 +11665,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -11707,7 +11881,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -11980,6 +12155,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -12097,7 +12284,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -12161,7 +12348,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -12177,7 +12364,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -12483,6 +12670,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -12625,7 +12886,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -12898,6 +13160,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -13015,7 +13289,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -13079,7 +13353,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -13095,7 +13369,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -13401,6 +13675,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -13543,7 +13891,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -13816,6 +14165,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -13933,7 +14294,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -13997,7 +14358,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -14013,7 +14374,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -14319,6 +14680,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -14461,7 +14896,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -14734,6 +15170,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -14851,7 +15299,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -14915,7 +15363,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -14931,7 +15379,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -15237,6 +15685,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -15379,7 +15901,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -15652,6 +16175,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -15769,7 +16304,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -15833,7 +16368,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -15849,7 +16384,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -16155,6 +16690,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -16297,7 +16906,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -16570,6 +17180,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -16687,7 +17309,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -16751,7 +17373,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -16767,7 +17389,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -17073,6 +17695,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -17215,7 +17911,8 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming"
+          "DraftIncoming",
+          "DraftController"
         ],
         "layout": {
           "direction": "column",
@@ -17488,6 +18185,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "DraftController",
+              "style": {
+                "position": "absolute",
+                "bottom": "0.25vh",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "width": "min(48rem, 78vw)",
+                "height": "auto",
+                "zIndex": 20
+              }
             }
           ]
         },
@@ -17605,7 +18314,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 1 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 1 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -17669,7 +18378,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 2 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 2 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -17685,7 +18394,7 @@
             "opponentAlignment": "END",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Draft Pack 3 — Owner Transfers Each Pick",
+            "displayedTitle": "Draft Pack 3 — Pick One, Then Pass",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -17991,6 +18700,80 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "players": {},
+              "registeredCount": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "style": {
+                  "width": "min(48rem, 78vw)",
+                  "minHeight": "2.4rem",
+                  "background": "rgba(8, 18, 27, 0.94)",
+                  "border": "1px solid rgba(58, 160, 220, 0.8)",
+                  "fontSize": "0.8rem"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "me-1"
+                  },
+                  "children": "Take one card, then pass:"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 1 →",
+                  "onClick": "await btDraftPassPack(1)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-success"
+                  },
+                  "children": "Pass Pack 2 ←",
+                  "onClick": "await btDraftPassPack(2)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-primary"
+                  },
+                  "children": "Pass Pack 3 →",
+                  "onClick": "await btDraftPassPack(3)"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "btn btn-sm btn-secondary"
+                  },
+                  "children": "Refresh Seats",
+                  "onClick": "await btDraftRegisterPlayer(false)"
+                },
+                {
+                  "type": "span",
+                  "props": {
+                    "className": "ms-1 opacity-75"
+                  },
+                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "await btDraftRegisterPlayer(true)",
+              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+            }
           }
         },
         "sharedZone": {
@@ -18016,5 +18799,8 @@
         }
       }
     }
-  }
+  },
+  "scriptsUrls": [
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=1"
+  ]
 }
