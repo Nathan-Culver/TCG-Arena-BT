@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=8"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=9"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -3641,71 +3641,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedLimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedLimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedLimitedBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -3779,7 +3714,8 @@
           "LimitedSetupRemoval",
           "SealedLimitedRareSource",
           "SealedLimitedRandomSource",
-          "SealedLimitedBasicResources"
+          "SealedLimitedBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -3989,6 +3925,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -4324,6 +4272,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Limited')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Limited')"
+            }
           }
         },
         "sharedZone": {
@@ -4356,71 +4325,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedUnlimitedBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -4494,7 +4398,8 @@
           "LimitedSetupRemoval",
           "SealedUnlimitedRareSource",
           "SealedUnlimitedRandomSource",
-          "SealedUnlimitedBasicResources"
+          "SealedUnlimitedBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -4704,6 +4609,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -5039,6 +4956,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Unlimited')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Unlimited')"
+            }
           }
         },
         "sharedZone": {
@@ -5071,71 +5009,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCounterstrikeBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -5209,7 +5082,8 @@
           "LimitedSetupRemoval",
           "SealedCounterstrikeRareSource",
           "SealedCounterstrikeRandomSource",
-          "SealedCounterstrikeBasicResources"
+          "SealedCounterstrikeBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -5419,6 +5293,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -5754,6 +5640,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Counterstrike')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Counterstrike')"
+            }
           }
         },
         "sharedZone": {
@@ -5786,71 +5693,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedMercenariesRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedMercenariesBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -5924,7 +5766,8 @@
           "LimitedSetupRemoval",
           "SealedMercenariesRareSource",
           "SealedMercenariesRandomSource",
-          "SealedMercenariesBasicResources"
+          "SealedMercenariesBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -6134,6 +5977,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -6469,6 +6324,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Mercenaries')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Mercenaries')"
+            }
           }
         },
         "sharedZone": {
@@ -6501,71 +6377,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedMechWarriorBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -6639,7 +6450,8 @@
           "LimitedSetupRemoval",
           "SealedMechWarriorRareSource",
           "SealedMechWarriorRandomSource",
-          "SealedMechWarriorBasicResources"
+          "SealedMechWarriorBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -6849,6 +6661,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -7184,6 +7008,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'MechWarrior')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'MechWarrior')"
+            }
           }
         },
         "sharedZone": {
@@ -7216,71 +7061,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedArsenalRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedArsenalRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedArsenalBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -7354,7 +7134,8 @@
           "LimitedSetupRemoval",
           "SealedArsenalRareSource",
           "SealedArsenalRandomSource",
-          "SealedArsenalBasicResources"
+          "SealedArsenalBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -7564,6 +7345,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -7899,6 +7692,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Arsenal')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Arsenal')"
+            }
           }
         },
         "sharedZone": {
@@ -7931,71 +7745,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCommandersEditionBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -8069,7 +7818,8 @@
           "LimitedSetupRemoval",
           "SealedCommandersEditionRareSource",
           "SealedCommandersEditionRandomSource",
-          "SealedCommandersEditionBasicResources"
+          "SealedCommandersEditionBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -8279,6 +8029,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -8614,6 +8376,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'CommandersEdition')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'CommandersEdition')"
+            }
           }
         },
         "sharedZone": {
@@ -8646,71 +8429,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCrusadeRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedCrusadeBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -8784,7 +8502,8 @@
           "LimitedSetupRemoval",
           "SealedCrusadeRareSource",
           "SealedCrusadeRandomSource",
-          "SealedCrusadeBasicResources"
+          "SealedCrusadeBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -8994,6 +8713,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -9329,6 +9060,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'Crusade')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'Crusade')"
+            }
           }
         },
         "sharedZone": {
@@ -9361,71 +9113,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "CommandPost"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "CommandPost2"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRareSource",
-            "count": 2,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedAllSetsRandomSource",
-            "count": 13,
-            "destination": "CommandPost3"
-          },
-          {
-            "drawFromTop": "SealedAllSetsBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -9499,7 +9186,8 @@
           "LimitedSetupRemoval",
           "SealedAllSetsRareSource",
           "SealedAllSetsRandomSource",
-          "SealedAllSetsBasicResources"
+          "SealedAllSetsBasicResources",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -9709,6 +9397,18 @@
                   }
                 }
               ]
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
             }
           ]
         },
@@ -10044,6 +9744,27 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Sealed', 'AllSets')",
+              "onCardsUpdate": "await btLimitedSetup('Sealed', 'AllSets')"
+            }
           }
         },
         "sharedZone": {
@@ -10076,41 +9797,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftLimitedPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftLimitedBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -10193,7 +9879,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -10484,6 +10171,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -11080,6 +10779,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Limited')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Limited')"
+            }
           }
         },
         "sharedZone": {
@@ -11112,41 +10832,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftUnlimitedBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -11229,7 +10914,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -11520,6 +11206,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -12116,6 +11814,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Unlimited')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Unlimited')"
+            }
           }
         },
         "sharedZone": {
@@ -12148,41 +11867,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikePack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCounterstrikeBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -12265,7 +11949,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -12556,6 +12241,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -13152,6 +12849,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Counterstrike')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Counterstrike')"
+            }
           }
         },
         "sharedZone": {
@@ -13184,41 +12902,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftMercenariesPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftMercenariesBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -13301,7 +12984,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -13592,6 +13276,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -14188,6 +13884,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Mercenaries')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Mercenaries')"
+            }
           }
         },
         "sharedZone": {
@@ -14220,41 +13937,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftMechWarriorBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -14337,7 +14019,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -14628,6 +14311,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -15224,6 +14919,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'MechWarrior')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'MechWarrior')"
+            }
           }
         },
         "sharedZone": {
@@ -15256,41 +14972,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftArsenalPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftArsenalBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -15373,7 +15054,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -15664,6 +15346,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -16260,6 +15954,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Arsenal')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Arsenal')"
+            }
           }
         },
         "sharedZone": {
@@ -16292,41 +16007,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCommandersEditionBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -16409,7 +16089,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -16700,6 +16381,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -17296,6 +16989,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'CommandersEdition')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'CommandersEdition')"
+            }
           }
         },
         "sharedZone": {
@@ -17328,41 +17042,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCrusadePack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftCrusadeBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -17445,7 +17124,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -17736,6 +17416,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -18332,6 +18024,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'Crusade')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'Crusade')"
+            }
           }
         },
         "sharedZone": {
@@ -18364,41 +18077,6 @@
             "drawFromTop": "Deck",
             "count": 1,
             "destination": "LimitedSetupRemoval"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack1RareSource",
-            "count": 4,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack1RandomSource",
-            "count": 11,
-            "destination": "Mission"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack2RareSource",
-            "count": 4,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack2RandomSource",
-            "count": 11,
-            "destination": "Mission2"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack3RareSource",
-            "count": 4,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftAllSetsPack3RandomSource",
-            "count": 11,
-            "destination": "Mission3"
-          },
-          {
-            "drawFromTop": "DraftAllSetsBasicResources",
-            "count": 100,
-            "destination": "Discard"
           }
         ]
       },
@@ -18481,7 +18159,8 @@
           "DraftPool",
           "DraftPass",
           "DraftIncoming",
-          "DraftController"
+          "DraftController",
+          "LimitedController"
         ],
         "layout": {
           "direction": "column",
@@ -18772,6 +18451,18 @@
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 20
+              }
+            },
+            {
+              "section": "LimitedController",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
               }
             }
           ]
@@ -19368,6 +19059,27 @@
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
               "onCardsUpdate": "await btDraftRegisterPlayer(true)"
             }
+          },
+          "LimitedController": {
+            "title": "LimitedController",
+            "type": "custom",
+            "defaultValue": {
+              "setupComplete": false,
+              "setupRunning": false,
+              "attempts": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "none"
+                }
+              }
+            },
+            "events": {
+              "onPlayersReady": "await btLimitedSetup('Draft', 'AllSets')",
+              "onCardsUpdate": "await btLimitedSetup('Draft', 'AllSets')"
+            }
           }
         },
         "sharedZone": {
@@ -19395,6 +19107,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=1"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=2"
   ]
 }
