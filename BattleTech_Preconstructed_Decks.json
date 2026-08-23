@@ -5154,9 +5154,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Limited Guaranteed Rares",
-        "Sealed Limited Random Pool",
-        "Sealed Limited Basic Resources"
+        "SealedLimitedRareSource",
+        "SealedLimitedRandomSource",
+        "SealedLimitedBasicResources"
       ],
       "Setup": [
         {
@@ -5164,7 +5164,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Limited Guaranteed Rares": [
+      "SealedLimitedRareSource": [
         {
           "count": 1,
           "id": "limited-atlas-as7-k"
@@ -5486,7 +5486,7 @@
           "id": "limited-satchel-charges"
         }
       ],
-      "Sealed Limited Random Pool": [
+      "SealedLimitedRandomSource": [
         {
           "count": 1,
           "id": "limited-assassin-asn-21"
@@ -6620,7 +6620,7 @@
           "id": "limited-topple"
         }
       ],
-      "Sealed Limited Basic Resources": [
+      "SealedLimitedBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -6657,9 +6657,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Unlimited Guaranteed Rares",
-        "Sealed Unlimited Random Pool",
-        "Sealed Unlimited Basic Resources"
+        "SealedUnlimitedRareSource",
+        "SealedUnlimitedRandomSource",
+        "SealedUnlimitedBasicResources"
       ],
       "Setup": [
         {
@@ -6667,7 +6667,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Unlimited Guaranteed Rares": [
+      "SealedUnlimitedRareSource": [
         {
           "count": 1,
           "id": "unlimited-atlas-as7-k"
@@ -6989,7 +6989,7 @@
           "id": "unlimited-satchel-charges"
         }
       ],
-      "Sealed Unlimited Random Pool": [
+      "SealedUnlimitedRandomSource": [
         {
           "count": 1,
           "id": "unlimited-assassin-asn-21"
@@ -8123,7 +8123,7 @@
           "id": "unlimited-topple"
         }
       ],
-      "Sealed Unlimited Basic Resources": [
+      "SealedUnlimitedBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -8160,9 +8160,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Counterstrike Guaranteed Rares",
-        "Sealed Counterstrike Random Pool",
-        "Sealed Counterstrike Basic Resources"
+        "SealedCounterstrikeRareSource",
+        "SealedCounterstrikeRandomSource",
+        "SealedCounterstrikeBasicResources"
       ],
       "Setup": [
         {
@@ -8170,7 +8170,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Counterstrike Guaranteed Rares": [
+      "SealedCounterstrikeRareSource": [
         {
           "count": 1,
           "id": "counterstrike-annihilator-anh-2a"
@@ -8296,7 +8296,7 @@
           "id": "counterstrike-trapped"
         }
       ],
-      "Sealed Counterstrike Random Pool": [
+      "SealedCounterstrikeRandomSource": [
         {
           "count": 1,
           "id": "counterstrike-annihilator-anh-2a"
@@ -8694,7 +8694,7 @@
           "id": "counterstrike-vicious-kick"
         }
       ],
-      "Sealed Counterstrike Basic Resources": [
+      "SealedCounterstrikeBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -8731,9 +8731,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Mercenaries Guaranteed Rares",
-        "Sealed Mercenaries Random Pool",
-        "Sealed Mercenaries Basic Resources"
+        "SealedMercenariesRareSource",
+        "SealedMercenariesRandomSource",
+        "SealedMercenariesBasicResources"
       ],
       "Setup": [
         {
@@ -8741,7 +8741,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Mercenaries Guaranteed Rares": [
+      "SealedMercenariesRareSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -8867,7 +8867,7 @@
           "id": "mercenaries-reactor-breach"
         }
       ],
-      "Sealed Mercenaries Random Pool": [
+      "SealedMercenariesRandomSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -9273,7 +9273,7 @@
           "id": "mercenaries-unopposed"
         }
       ],
-      "Sealed Mercenaries Basic Resources": [
+      "SealedMercenariesBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -9310,9 +9310,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed MechWarrior Guaranteed Rares",
-        "Sealed MechWarrior Random Pool",
-        "Sealed MechWarrior Basic Resources"
+        "SealedMechWarriorRareSource",
+        "SealedMechWarriorRandomSource",
+        "SealedMechWarriorBasicResources"
       ],
       "Setup": [
         {
@@ -9320,7 +9320,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed MechWarrior Guaranteed Rares": [
+      "SealedMechWarriorRareSource": [
         {
           "count": 1,
           "id": "mechwarrior-black-lanner-prime"
@@ -9466,7 +9466,7 @@
           "id": "mechwarrior-sibko-allegiance"
         }
       ],
-      "Sealed MechWarrior Random Pool": [
+      "SealedMechWarriorRandomSource": [
         {
           "count": 1,
           "id": "mechwarrior-avatar-av1-oc"
@@ -9900,7 +9900,7 @@
           "id": "mechwarrior-tactical-superiority"
         }
       ],
-      "Sealed MechWarrior Basic Resources": [
+      "SealedMechWarriorBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -9937,9 +9937,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Arsenal Guaranteed Rares",
-        "Sealed Arsenal Random Pool",
-        "Sealed Arsenal Basic Resources"
+        "SealedArsenalRareSource",
+        "SealedArsenalRandomSource",
+        "SealedArsenalBasicResources"
       ],
       "Setup": [
         {
@@ -9947,7 +9947,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Arsenal Guaranteed Rares": [
+      "SealedArsenalRareSource": [
         {
           "count": 1,
           "id": "arsenal-cyrano"
@@ -10093,7 +10093,7 @@
           "id": "arsenal-steel-talons"
         }
       ],
-      "Sealed Arsenal Random Pool": [
+      "SealedArsenalRandomSource": [
         {
           "count": 1,
           "id": "arsenal-bandersnatch-bndr-01a"
@@ -10527,7 +10527,7 @@
           "id": "arsenal-strength-of-the-bear"
         }
       ],
-      "Sealed Arsenal Basic Resources": [
+      "SealedArsenalBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -10564,9 +10564,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Commander's Edition Guaranteed Rares",
-        "Sealed Commander's Edition Random Pool",
-        "Sealed Commander's Edition Basic Resources"
+        "SealedCommandersEditionRareSource",
+        "SealedCommandersEditionRandomSource",
+        "SealedCommandersEditionBasicResources"
       ],
       "Setup": [
         {
@@ -10574,7 +10574,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Commander's Edition Guaranteed Rares": [
+      "SealedCommandersEditionRareSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -11016,7 +11016,7 @@
           "id": "commandersedition-trapped"
         }
       ],
-      "Sealed Commander's Edition Random Pool": [
+      "SealedCommandersEditionRandomSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -12414,7 +12414,7 @@
           "id": "commandersedition-vicious-kick"
         }
       ],
-      "Sealed Commander's Edition Basic Resources": [
+      "SealedCommandersEditionBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -12451,9 +12451,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed Crusade Guaranteed Rares",
-        "Sealed Crusade Random Pool",
-        "Sealed Crusade Basic Resources"
+        "SealedCrusadeRareSource",
+        "SealedCrusadeRandomSource",
+        "SealedCrusadeBasicResources"
       ],
       "Setup": [
         {
@@ -12461,7 +12461,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed Crusade Guaranteed Rares": [
+      "SealedCrusadeRareSource": [
         {
           "count": 1,
           "id": "crusade-black-lanner-d"
@@ -12607,7 +12607,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Sealed Crusade Random Pool": [
+      "SealedCrusadeRandomSource": [
         {
           "count": 1,
           "id": "crusade-annihilator-anh-1a"
@@ -13033,7 +13033,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Sealed Crusade Basic Resources": [
+      "SealedCrusadeBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -13070,9 +13070,9 @@
     "deckList": {
       "categoriesOrder": [
         "Setup",
-        "Sealed All Sets Guaranteed Rares",
-        "Sealed All Sets Random Pool",
-        "Sealed All Sets Basic Resources"
+        "SealedAllSetsRareSource",
+        "SealedAllSetsRandomSource",
+        "SealedAllSetsBasicResources"
       ],
       "Setup": [
         {
@@ -13080,7 +13080,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Sealed All Sets Guaranteed Rares": [
+      "SealedAllSetsRareSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -14842,7 +14842,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Sealed All Sets Random Pool": [
+      "SealedAllSetsRandomSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -20592,7 +20592,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Sealed All Sets Basic Resources": [
+      "SealedAllSetsBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -20633,7 +20633,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Limited Basic Resources": [
+      "DraftLimitedBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -20655,7 +20655,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Limited Pack 1 Guaranteed Rares": [
+      "DraftLimitedPack1RareSource": [
         {
           "count": 1,
           "id": "limited-flashman-fls-8k"
@@ -20765,7 +20765,7 @@
           "id": "limited-pryde-s-pride"
         }
       ],
-      "Draft Limited Pack 1 Random Pool": [
+      "DraftLimitedPack1RandomSource": [
         {
           "count": 1,
           "id": "limited-awesome-aws-9m"
@@ -21147,7 +21147,7 @@
           "id": "limited-pryde-s-pride"
         }
       ],
-      "Draft Limited Pack 2 Guaranteed Rares": [
+      "DraftLimitedPack2RareSource": [
         {
           "count": 1,
           "id": "limited-atlas-as7-k"
@@ -21253,7 +21253,7 @@
           "id": "limited-satchel-charges"
         }
       ],
-      "Draft Limited Pack 2 Random Pool": [
+      "DraftLimitedPack2RandomSource": [
         {
           "count": 1,
           "id": "limited-atlas-as7-d"
@@ -21631,7 +21631,7 @@
           "id": "limited-studied-move"
         }
       ],
-      "Draft Limited Pack 3 Guaranteed Rares": [
+      "DraftLimitedPack3RareSource": [
         {
           "count": 1,
           "id": "limited-axman-axm-1n"
@@ -21741,7 +21741,7 @@
           "id": "limited-sacrifice-for-the-dragon"
         }
       ],
-      "Draft Limited Pack 3 Random Pool": [
+      "DraftLimitedPack3RandomSource": [
         {
           "count": 1,
           "id": "limited-assassin-asn-21"
@@ -22121,13 +22121,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Limited Pack 1 Guaranteed Rares",
-        "Draft Limited Pack 1 Random Pool",
-        "Draft Limited Pack 2 Guaranteed Rares",
-        "Draft Limited Pack 2 Random Pool",
-        "Draft Limited Pack 3 Guaranteed Rares",
-        "Draft Limited Pack 3 Random Pool",
-        "Draft Limited Basic Resources"
+        "DraftLimitedPack1RareSource",
+        "DraftLimitedPack1RandomSource",
+        "DraftLimitedPack2RareSource",
+        "DraftLimitedPack2RandomSource",
+        "DraftLimitedPack3RareSource",
+        "DraftLimitedPack3RandomSource",
+        "DraftLimitedBasicResources"
       ]
     }
   },
@@ -22148,7 +22148,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Unlimited Basic Resources": [
+      "DraftUnlimitedBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -22170,7 +22170,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Unlimited Pack 1 Guaranteed Rares": [
+      "DraftUnlimitedPack1RareSource": [
         {
           "count": 1,
           "id": "unlimited-atlas-as7-k"
@@ -22276,7 +22276,7 @@
           "id": "unlimited-satchel-charges"
         }
       ],
-      "Draft Unlimited Pack 1 Random Pool": [
+      "DraftUnlimitedPack1RandomSource": [
         {
           "count": 1,
           "id": "unlimited-atlas-as7-d"
@@ -22654,7 +22654,7 @@
           "id": "unlimited-studied-move"
         }
       ],
-      "Draft Unlimited Pack 2 Guaranteed Rares": [
+      "DraftUnlimitedPack2RareSource": [
         {
           "count": 1,
           "id": "unlimited-axman-axm-1n"
@@ -22764,7 +22764,7 @@
           "id": "unlimited-sacrifice-for-the-dragon"
         }
       ],
-      "Draft Unlimited Pack 2 Random Pool": [
+      "DraftUnlimitedPack2RandomSource": [
         {
           "count": 1,
           "id": "unlimited-assassin-asn-21"
@@ -23142,7 +23142,7 @@
           "id": "unlimited-topple"
         }
       ],
-      "Draft Unlimited Pack 3 Guaranteed Rares": [
+      "DraftUnlimitedPack3RareSource": [
         {
           "count": 1,
           "id": "unlimited-flashman-fls-8k"
@@ -23252,7 +23252,7 @@
           "id": "unlimited-pryde-s-pride"
         }
       ],
-      "Draft Unlimited Pack 3 Random Pool": [
+      "DraftUnlimitedPack3RandomSource": [
         {
           "count": 1,
           "id": "unlimited-awesome-aws-9m"
@@ -23636,13 +23636,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Unlimited Pack 1 Guaranteed Rares",
-        "Draft Unlimited Pack 1 Random Pool",
-        "Draft Unlimited Pack 2 Guaranteed Rares",
-        "Draft Unlimited Pack 2 Random Pool",
-        "Draft Unlimited Pack 3 Guaranteed Rares",
-        "Draft Unlimited Pack 3 Random Pool",
-        "Draft Unlimited Basic Resources"
+        "DraftUnlimitedPack1RareSource",
+        "DraftUnlimitedPack1RandomSource",
+        "DraftUnlimitedPack2RareSource",
+        "DraftUnlimitedPack2RandomSource",
+        "DraftUnlimitedPack3RareSource",
+        "DraftUnlimitedPack3RandomSource",
+        "DraftUnlimitedBasicResources"
       ]
     }
   },
@@ -23663,7 +23663,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Counterstrike Basic Resources": [
+      "DraftCounterstrikeBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -23685,7 +23685,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Counterstrike Pack 1 Guaranteed Rares": [
+      "DraftCounterstrikePack1RareSource": [
         {
           "count": 1,
           "id": "counterstrike-annihilator-anh-2a"
@@ -23727,7 +23727,7 @@
           "id": "counterstrike-ulric-kerensky"
         }
       ],
-      "Draft Counterstrike Pack 1 Random Pool": [
+      "DraftCounterstrikePack1RandomSource": [
         {
           "count": 1,
           "id": "counterstrike-annihilator-anh-2a"
@@ -23865,7 +23865,7 @@
           "id": "counterstrike-vicious-kick"
         }
       ],
-      "Draft Counterstrike Pack 2 Guaranteed Rares": [
+      "DraftCounterstrikePack2RareSource": [
         {
           "count": 1,
           "id": "counterstrike-charger-cgr-3k"
@@ -23911,7 +23911,7 @@
           "id": "counterstrike-massive-battlefield-confusion"
         }
       ],
-      "Draft Counterstrike Pack 2 Random Pool": [
+      "DraftCounterstrikePack2RandomSource": [
         {
           "count": 1,
           "id": "counterstrike-champion-chp-1n"
@@ -24045,7 +24045,7 @@
           "id": "counterstrike-star-formation"
         }
       ],
-      "Draft Counterstrike Pack 3 Guaranteed Rares": [
+      "DraftCounterstrikePack3RareSource": [
         {
           "count": 1,
           "id": "counterstrike-bombardier-bmb-12d"
@@ -24087,7 +24087,7 @@
           "id": "counterstrike-trapped"
         }
       ],
-      "Draft Counterstrike Pack 3 Random Pool": [
+      "DraftCounterstrikePack3RandomSource": [
         {
           "count": 1,
           "id": "counterstrike-bombardier-bmb-12d"
@@ -24219,13 +24219,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Counterstrike Pack 1 Guaranteed Rares",
-        "Draft Counterstrike Pack 1 Random Pool",
-        "Draft Counterstrike Pack 2 Guaranteed Rares",
-        "Draft Counterstrike Pack 2 Random Pool",
-        "Draft Counterstrike Pack 3 Guaranteed Rares",
-        "Draft Counterstrike Pack 3 Random Pool",
-        "Draft Counterstrike Basic Resources"
+        "DraftCounterstrikePack1RareSource",
+        "DraftCounterstrikePack1RandomSource",
+        "DraftCounterstrikePack2RareSource",
+        "DraftCounterstrikePack2RandomSource",
+        "DraftCounterstrikePack3RareSource",
+        "DraftCounterstrikePack3RandomSource",
+        "DraftCounterstrikeBasicResources"
       ]
     }
   },
@@ -24246,7 +24246,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Mercenaries Basic Resources": [
+      "DraftMercenariesBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -24268,7 +24268,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Mercenaries Pack 1 Guaranteed Rares": [
+      "DraftMercenariesPack1RareSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -24314,7 +24314,7 @@
           "id": "mercenaries-sun-tzu-liao"
         }
       ],
-      "Draft Mercenaries Pack 1 Random Pool": [
+      "DraftMercenariesPack1RandomSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -24452,7 +24452,7 @@
           "id": "mercenaries-taking-the-hit"
         }
       ],
-      "Draft Mercenaries Pack 2 Guaranteed Rares": [
+      "DraftMercenariesPack2RareSource": [
         {
           "count": 1,
           "id": "mercenaries-mandrill"
@@ -24494,7 +24494,7 @@
           "id": "mercenaries-batchall"
         }
       ],
-      "Draft Mercenaries Pack 2 Random Pool": [
+      "DraftMercenariesPack2RandomSource": [
         {
           "count": 1,
           "id": "mercenaries-dart-drt-3s"
@@ -24632,7 +24632,7 @@
           "id": "mercenaries-batchall"
         }
       ],
-      "Draft Mercenaries Pack 3 Guaranteed Rares": [
+      "DraftMercenariesPack3RareSource": [
         {
           "count": 1,
           "id": "mercenaries-behemoth-stone-rhino"
@@ -24674,7 +24674,7 @@
           "id": "mercenaries-reactor-breach"
         }
       ],
-      "Draft Mercenaries Pack 3 Random Pool": [
+      "DraftMercenariesPack3RandomSource": [
         {
           "count": 1,
           "id": "mercenaries-anvil-anv-3m"
@@ -24810,13 +24810,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Mercenaries Pack 1 Guaranteed Rares",
-        "Draft Mercenaries Pack 1 Random Pool",
-        "Draft Mercenaries Pack 2 Guaranteed Rares",
-        "Draft Mercenaries Pack 2 Random Pool",
-        "Draft Mercenaries Pack 3 Guaranteed Rares",
-        "Draft Mercenaries Pack 3 Random Pool",
-        "Draft Mercenaries Basic Resources"
+        "DraftMercenariesPack1RareSource",
+        "DraftMercenariesPack1RandomSource",
+        "DraftMercenariesPack2RareSource",
+        "DraftMercenariesPack2RandomSource",
+        "DraftMercenariesPack3RareSource",
+        "DraftMercenariesPack3RandomSource",
+        "DraftMercenariesBasicResources"
       ]
     }
   },
@@ -24837,7 +24837,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft MechWarrior Basic Resources": [
+      "DraftMechWarriorBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -24859,7 +24859,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft MechWarrior Pack 1 Guaranteed Rares": [
+      "DraftMechWarriorPack1RareSource": [
         {
           "count": 1,
           "id": "mechwarrior-black-lanner-prime"
@@ -24909,7 +24909,7 @@
           "id": "mechwarrior-support-from-home"
         }
       ],
-      "Draft MechWarrior Pack 1 Random Pool": [
+      "DraftMechWarriorPack1RandomSource": [
         {
           "count": 1,
           "id": "mechwarrior-avatar-av1-oc"
@@ -25055,7 +25055,7 @@
           "id": "mechwarrior-tactical-superiority"
         }
       ],
-      "Draft MechWarrior Pack 2 Guaranteed Rares": [
+      "DraftMechWarriorPack2RareSource": [
         {
           "count": 1,
           "id": "mechwarrior-cauldron-born-a"
@@ -25105,7 +25105,7 @@
           "id": "mechwarrior-fortunes-of-war"
         }
       ],
-      "Draft MechWarrior Pack 2 Random Pool": [
+      "DraftMechWarriorPack2RandomSource": [
         {
           "count": 1,
           "id": "mechwarrior-cauldron-born-a"
@@ -25251,7 +25251,7 @@
           "id": "mechwarrior-fortunes-of-war"
         }
       ],
-      "Draft MechWarrior Pack 3 Guaranteed Rares": [
+      "DraftMechWarriorPack3RareSource": [
         {
           "count": 1,
           "id": "mechwarrior-falconer-flc-8r"
@@ -25301,7 +25301,7 @@
           "id": "mechwarrior-sibko-allegiance"
         }
       ],
-      "Draft MechWarrior Pack 3 Random Pool": [
+      "DraftMechWarriorPack3RandomSource": [
         {
           "count": 1,
           "id": "mechwarrior-blackjack-bj2-ob"
@@ -25449,13 +25449,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft MechWarrior Pack 1 Guaranteed Rares",
-        "Draft MechWarrior Pack 1 Random Pool",
-        "Draft MechWarrior Pack 2 Guaranteed Rares",
-        "Draft MechWarrior Pack 2 Random Pool",
-        "Draft MechWarrior Pack 3 Guaranteed Rares",
-        "Draft MechWarrior Pack 3 Random Pool",
-        "Draft MechWarrior Basic Resources"
+        "DraftMechWarriorPack1RareSource",
+        "DraftMechWarriorPack1RandomSource",
+        "DraftMechWarriorPack2RareSource",
+        "DraftMechWarriorPack2RandomSource",
+        "DraftMechWarriorPack3RareSource",
+        "DraftMechWarriorPack3RandomSource",
+        "DraftMechWarriorBasicResources"
       ]
     }
   },
@@ -25476,7 +25476,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Arsenal Basic Resources": [
+      "DraftArsenalBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -25498,7 +25498,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Arsenal Pack 1 Guaranteed Rares": [
+      "DraftArsenalPack1RareSource": [
         {
           "count": 1,
           "id": "arsenal-fire-falcon-a"
@@ -25548,7 +25548,7 @@
           "id": "arsenal-unlikely-love-affair"
         }
       ],
-      "Draft Arsenal Pack 1 Random Pool": [
+      "DraftArsenalPack1RandomSource": [
         {
           "count": 1,
           "id": "arsenal-behemoth-flamer-variant"
@@ -25694,7 +25694,7 @@
           "id": "arsenal-front-loaded-supply-lines"
         }
       ],
-      "Draft Arsenal Pack 2 Guaranteed Rares": [
+      "DraftArsenalPack2RareSource": [
         {
           "count": 1,
           "id": "arsenal-cyrano"
@@ -25744,7 +25744,7 @@
           "id": "arsenal-trial-of-bloodright"
         }
       ],
-      "Draft Arsenal Pack 2 Random Pool": [
+      "DraftArsenalPack2RandomSource": [
         {
           "count": 1,
           "id": "arsenal-battle-armor-squad"
@@ -25890,7 +25890,7 @@
           "id": "arsenal-nice-grouping"
         }
       ],
-      "Draft Arsenal Pack 3 Guaranteed Rares": [
+      "DraftArsenalPack3RareSource": [
         {
           "count": 1,
           "id": "arsenal-kodiak"
@@ -25940,7 +25940,7 @@
           "id": "arsenal-steel-talons"
         }
       ],
-      "Draft Arsenal Pack 3 Random Pool": [
+      "DraftArsenalPack3RandomSource": [
         {
           "count": 1,
           "id": "arsenal-bandersnatch-bndr-01a"
@@ -26088,13 +26088,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Arsenal Pack 1 Guaranteed Rares",
-        "Draft Arsenal Pack 1 Random Pool",
-        "Draft Arsenal Pack 2 Guaranteed Rares",
-        "Draft Arsenal Pack 2 Random Pool",
-        "Draft Arsenal Pack 3 Guaranteed Rares",
-        "Draft Arsenal Pack 3 Random Pool",
-        "Draft Arsenal Basic Resources"
+        "DraftArsenalPack1RareSource",
+        "DraftArsenalPack1RandomSource",
+        "DraftArsenalPack2RareSource",
+        "DraftArsenalPack2RandomSource",
+        "DraftArsenalPack3RareSource",
+        "DraftArsenalPack3RandomSource",
+        "DraftArsenalBasicResources"
       ]
     }
   },
@@ -26115,7 +26115,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Commander's Edition Basic Resources": [
+      "DraftCommandersEditionBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -26137,7 +26137,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Commander's Edition Pack 1 Guaranteed Rares": [
+      "DraftCommandersEditionPack1RareSource": [
         {
           "count": 1,
           "id": "commandersedition-black-lanner-prime"
@@ -26287,7 +26287,7 @@
           "id": "commandersedition-trapped"
         }
       ],
-      "Draft Commander's Edition Pack 1 Random Pool": [
+      "DraftCommandersEditionPack1RandomSource": [
         {
           "count": 1,
           "id": "commandersedition-anvil-revised-anv-3m"
@@ -26757,7 +26757,7 @@
           "id": "commandersedition-unopposed"
         }
       ],
-      "Draft Commander's Edition Pack 2 Guaranteed Rares": [
+      "DraftCommandersEditionPack2RareSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -26907,7 +26907,7 @@
           "id": "commandersedition-sacrifice-for-the-dragon"
         }
       ],
-      "Draft Commander's Edition Pack 2 Random Pool": [
+      "DraftCommandersEditionPack2RandomSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -27377,7 +27377,7 @@
           "id": "commandersedition-vicious-kick"
         }
       ],
-      "Draft Commander's Edition Pack 3 Guaranteed Rares": [
+      "DraftCommandersEditionPack3RareSource": [
         {
           "count": 1,
           "id": "commandersedition-annihilator-anh-2a"
@@ -27523,7 +27523,7 @@
           "id": "commandersedition-blow-the-pass"
         }
       ],
-      "Draft Commander's Edition Pack 3 Random Pool": [
+      "DraftCommandersEditionPack3RandomSource": [
         {
           "count": 1,
           "id": "commandersedition-annihilator-anh-2a"
@@ -27987,13 +27987,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Commander's Edition Pack 1 Guaranteed Rares",
-        "Draft Commander's Edition Pack 1 Random Pool",
-        "Draft Commander's Edition Pack 2 Guaranteed Rares",
-        "Draft Commander's Edition Pack 2 Random Pool",
-        "Draft Commander's Edition Pack 3 Guaranteed Rares",
-        "Draft Commander's Edition Pack 3 Random Pool",
-        "Draft Commander's Edition Basic Resources"
+        "DraftCommandersEditionPack1RareSource",
+        "DraftCommandersEditionPack1RandomSource",
+        "DraftCommandersEditionPack2RareSource",
+        "DraftCommandersEditionPack2RandomSource",
+        "DraftCommandersEditionPack3RareSource",
+        "DraftCommandersEditionPack3RandomSource",
+        "DraftCommandersEditionBasicResources"
       ]
     }
   },
@@ -28014,7 +28014,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft Crusade Basic Resources": [
+      "DraftCrusadeBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -28036,7 +28036,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft Crusade Pack 1 Guaranteed Rares": [
+      "DraftCrusadePack1RareSource": [
         {
           "count": 1,
           "id": "crusade-grand-crusader-grn-d-01"
@@ -28086,7 +28086,7 @@
           "id": "crusade-falsified-maps"
         }
       ],
-      "Draft Crusade Pack 1 Random Pool": [
+      "DraftCrusadePack1RandomSource": [
         {
           "count": 1,
           "id": "crusade-annihilator-anh-1a"
@@ -28228,7 +28228,7 @@
           "id": "crusade-surprise-maneuvers"
         }
       ],
-      "Draft Crusade Pack 2 Guaranteed Rares": [
+      "DraftCrusadePack2RareSource": [
         {
           "count": 1,
           "id": "crusade-cerberus-mr-5m"
@@ -28278,7 +28278,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Draft Crusade Pack 2 Random Pool": [
+      "DraftCrusadePack2RandomSource": [
         {
           "count": 1,
           "id": "crusade-avatar-av1-ob"
@@ -28424,7 +28424,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Draft Crusade Pack 3 Guaranteed Rares": [
+      "DraftCrusadePack3RareSource": [
         {
           "count": 1,
           "id": "crusade-black-lanner-d"
@@ -28474,7 +28474,7 @@
           "id": "crusade-conquer"
         }
       ],
-      "Draft Crusade Pack 3 Random Pool": [
+      "DraftCrusadePack3RandomSource": [
         {
           "count": 1,
           "id": "crusade-battle-cobra-a"
@@ -28618,13 +28618,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft Crusade Pack 1 Guaranteed Rares",
-        "Draft Crusade Pack 1 Random Pool",
-        "Draft Crusade Pack 2 Guaranteed Rares",
-        "Draft Crusade Pack 2 Random Pool",
-        "Draft Crusade Pack 3 Guaranteed Rares",
-        "Draft Crusade Pack 3 Random Pool",
-        "Draft Crusade Basic Resources"
+        "DraftCrusadePack1RareSource",
+        "DraftCrusadePack1RandomSource",
+        "DraftCrusadePack2RareSource",
+        "DraftCrusadePack2RandomSource",
+        "DraftCrusadePack3RareSource",
+        "DraftCrusadePack3RandomSource",
+        "DraftCrusadeBasicResources"
       ]
     }
   },
@@ -28645,7 +28645,7 @@
           "id": "battletech-limited-format-setup-card"
         }
       ],
-      "Draft All Sets Basic Resources": [
+      "DraftAllSetsBasicResources": [
         {
           "count": 20,
           "id": "commandersedition-support-assembly"
@@ -28667,7 +28667,7 @@
           "id": "commandersedition-support-tactics"
         }
       ],
-      "Draft All Sets Pack 1 Guaranteed Rares": [
+      "DraftAllSetsPack1RareSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -29257,7 +29257,7 @@
           "id": "commandersedition-trapped"
         }
       ],
-      "Draft All Sets Pack 1 Random Pool": [
+      "DraftAllSetsPack1RandomSource": [
         {
           "count": 1,
           "id": "mercenaries-albatross-alb-3u"
@@ -31183,7 +31183,7 @@
           "id": "counterstrike-vicious-kick"
         }
       ],
-      "Draft All Sets Pack 2 Guaranteed Rares": [
+      "DraftAllSetsPack2RareSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -31773,7 +31773,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Draft All Sets Pack 2 Random Pool": [
+      "DraftAllSetsPack2RandomSource": [
         {
           "count": 1,
           "id": "commandersedition-albatross-revised-alb-3u"
@@ -33695,7 +33695,7 @@
           "id": "crusade-viper-s-maw"
         }
       ],
-      "Draft All Sets Pack 3 Guaranteed Rares": [
+      "DraftAllSetsPack3RareSource": [
         {
           "count": 1,
           "id": "commandersedition-annihilator-anh-2a"
@@ -34281,7 +34281,7 @@
           "id": "counterstrike-trapped"
         }
       ],
-      "Draft All Sets Pack 3 Random Pool": [
+      "DraftAllSetsPack3RandomSource": [
         {
           "count": 1,
           "id": "commandersedition-annihilator-anh-2a"
@@ -36189,13 +36189,13 @@
       ],
       "categoriesOrder": [
         "Setup",
-        "Draft All Sets Pack 1 Guaranteed Rares",
-        "Draft All Sets Pack 1 Random Pool",
-        "Draft All Sets Pack 2 Guaranteed Rares",
-        "Draft All Sets Pack 2 Random Pool",
-        "Draft All Sets Pack 3 Guaranteed Rares",
-        "Draft All Sets Pack 3 Random Pool",
-        "Draft All Sets Basic Resources"
+        "DraftAllSetsPack1RareSource",
+        "DraftAllSetsPack1RandomSource",
+        "DraftAllSetsPack2RareSource",
+        "DraftAllSetsPack2RandomSource",
+        "DraftAllSetsPack3RareSource",
+        "DraftAllSetsPack3RandomSource",
+        "DraftAllSetsBasicResources"
       ]
     }
   }
