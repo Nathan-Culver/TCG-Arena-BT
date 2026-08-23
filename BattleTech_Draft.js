@@ -27,6 +27,90 @@ function btDraftFindMyPlayerId() {
   return undefined
 }
 
+/*
+ * The current TCG-Arena client can reach initialBoardSetup before very large
+ * categoriesAlreadyOnBoard piles have finished loading. Drawing from those
+ * piles at that moment silently does nothing. This routine runs after setup
+ * and retries on the next card update until every source pile is available.
+ */
+async function btLimitedSetup(kind, setKey) {
+  const controller = game?.data?.LimitedController
+  if (!controller || controller.setupComplete || controller.setupRunning) return
+  if (Number(game?.turn?.count ?? 0) < 1) return
+
+  const isSealed = kind === "Sealed"
+  const prefix = `${kind}${setKey}`
+  const jobs = []
+  const requirements = []
+
+  if (isSealed) {
+    const rareSource = `${prefix}RareSource`
+    const randomSource = `${prefix}RandomSource`
+    const destinations = [
+      "Mission",
+      "Mission2",
+      "Mission3",
+      "CommandPost",
+      "CommandPost2",
+      "CommandPost3",
+    ]
+    requirements.push([rareSource, 12], [randomSource, 78])
+    for (const destination of destinations) {
+      jobs.push([[[rareSource, 2], [randomSource, 13]], destination])
+    }
+  } else {
+    for (let slot = 1; slot <= 3; slot += 1) {
+      const rareSource = `${prefix}Pack${slot}RareSource`
+      const randomSource = `${prefix}Pack${slot}RandomSource`
+      const destination = slot === 1 ? "Mission" : `Mission${slot}`
+      requirements.push([rareSource, 4], [randomSource, 11])
+      jobs.push([[[rareSource, 4], [randomSource, 11]], destination])
+    }
+  }
+
+  const resourceSource = `${prefix}BasicResources`
+  requirements.push([resourceSource, 100])
+
+  const sourcesReady = requirements.every(
+    ([source, count]) => (cards?.[source]?.length ?? 0) >= count
+  )
+  if (!sourcesReady) {
+    controller.attempts = Number(controller.attempts ?? 0) + 1
+    return
+  }
+
+  controller.setupRunning = true
+  try {
+    const shuffledSources = {}
+    for (const [source] of requirements) {
+      const pool = [...(cards?.[source] ?? [])]
+      for (let index = pool.length - 1; index > 0; index -= 1) {
+        const swapIndex = Math.floor(Math.random() * (index + 1))
+        ;[pool[index], pool[swapIndex]] = [pool[swapIndex], pool[index]]
+      }
+      shuffledSources[source] = pool
+    }
+
+    for (const [parts, destination] of jobs) {
+      const pack = []
+      for (const [source, count] of parts) {
+        pack.push(...shuffledSources[source].splice(0, count))
+      }
+      await functions.moveCards(pack, destination, { noLogs: true })
+    }
+    const resources = shuffledSources[resourceSource].splice(0, 100)
+    await functions.moveCards(resources, "Discard", { noLogs: true })
+    controller.setupComplete = true
+    functions.chatLog(
+      isSealed
+        ? "Limited setup: six sealed packs and basic resources are ready."
+        : "Limited setup: three draft packs and basic resources are ready."
+    )
+  } finally {
+    controller.setupRunning = false
+  }
+}
+
 async function btDraftRegisterPlayer(quiet = true) {
   const controller = game?.data?.DraftController
   if (!controller) return undefined
