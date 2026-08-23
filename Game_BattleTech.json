@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=6"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=7"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -63,18 +63,8 @@
         "title": "Sealed — Limited",
         "gameplay": "Sealed — Limited",
         "customCategories": [
-          "Sealed Limited Pack 1 Guaranteed Rares",
-          "Sealed Limited Pack 2 Guaranteed Rares",
-          "Sealed Limited Pack 3 Guaranteed Rares",
-          "Sealed Limited Pack 4 Guaranteed Rares",
-          "Sealed Limited Pack 5 Guaranteed Rares",
-          "Sealed Limited Pack 6 Guaranteed Rares",
-          "Sealed Limited Pack 1 Random Pool",
-          "Sealed Limited Pack 2 Random Pool",
-          "Sealed Limited Pack 3 Random Pool",
-          "Sealed Limited Pack 4 Random Pool",
-          "Sealed Limited Pack 5 Random Pool",
-          "Sealed Limited Pack 6 Random Pool",
+          "Sealed Limited Guaranteed Rares",
+          "Sealed Limited Random Pool",
           "Sealed Limited Basic Resources"
         ]
       },
@@ -82,18 +72,8 @@
         "title": "Sealed — Unlimited",
         "gameplay": "Sealed — Unlimited",
         "customCategories": [
-          "Sealed Unlimited Pack 1 Guaranteed Rares",
-          "Sealed Unlimited Pack 2 Guaranteed Rares",
-          "Sealed Unlimited Pack 3 Guaranteed Rares",
-          "Sealed Unlimited Pack 4 Guaranteed Rares",
-          "Sealed Unlimited Pack 5 Guaranteed Rares",
-          "Sealed Unlimited Pack 6 Guaranteed Rares",
-          "Sealed Unlimited Pack 1 Random Pool",
-          "Sealed Unlimited Pack 2 Random Pool",
-          "Sealed Unlimited Pack 3 Random Pool",
-          "Sealed Unlimited Pack 4 Random Pool",
-          "Sealed Unlimited Pack 5 Random Pool",
-          "Sealed Unlimited Pack 6 Random Pool",
+          "Sealed Unlimited Guaranteed Rares",
+          "Sealed Unlimited Random Pool",
           "Sealed Unlimited Basic Resources"
         ]
       },
@@ -101,18 +81,8 @@
         "title": "Sealed — Counterstrike",
         "gameplay": "Sealed — Counterstrike",
         "customCategories": [
-          "Sealed Counterstrike Pack 1 Guaranteed Rares",
-          "Sealed Counterstrike Pack 2 Guaranteed Rares",
-          "Sealed Counterstrike Pack 3 Guaranteed Rares",
-          "Sealed Counterstrike Pack 4 Guaranteed Rares",
-          "Sealed Counterstrike Pack 5 Guaranteed Rares",
-          "Sealed Counterstrike Pack 6 Guaranteed Rares",
-          "Sealed Counterstrike Pack 1 Random Pool",
-          "Sealed Counterstrike Pack 2 Random Pool",
-          "Sealed Counterstrike Pack 3 Random Pool",
-          "Sealed Counterstrike Pack 4 Random Pool",
-          "Sealed Counterstrike Pack 5 Random Pool",
-          "Sealed Counterstrike Pack 6 Random Pool",
+          "Sealed Counterstrike Guaranteed Rares",
+          "Sealed Counterstrike Random Pool",
           "Sealed Counterstrike Basic Resources"
         ]
       },
@@ -120,18 +90,8 @@
         "title": "Sealed — Mercenaries",
         "gameplay": "Sealed — Mercenaries",
         "customCategories": [
-          "Sealed Mercenaries Pack 1 Guaranteed Rares",
-          "Sealed Mercenaries Pack 2 Guaranteed Rares",
-          "Sealed Mercenaries Pack 3 Guaranteed Rares",
-          "Sealed Mercenaries Pack 4 Guaranteed Rares",
-          "Sealed Mercenaries Pack 5 Guaranteed Rares",
-          "Sealed Mercenaries Pack 6 Guaranteed Rares",
-          "Sealed Mercenaries Pack 1 Random Pool",
-          "Sealed Mercenaries Pack 2 Random Pool",
-          "Sealed Mercenaries Pack 3 Random Pool",
-          "Sealed Mercenaries Pack 4 Random Pool",
-          "Sealed Mercenaries Pack 5 Random Pool",
-          "Sealed Mercenaries Pack 6 Random Pool",
+          "Sealed Mercenaries Guaranteed Rares",
+          "Sealed Mercenaries Random Pool",
           "Sealed Mercenaries Basic Resources"
         ]
       },
@@ -139,18 +99,8 @@
         "title": "Sealed — MechWarrior",
         "gameplay": "Sealed — MechWarrior",
         "customCategories": [
-          "Sealed MechWarrior Pack 1 Guaranteed Rares",
-          "Sealed MechWarrior Pack 2 Guaranteed Rares",
-          "Sealed MechWarrior Pack 3 Guaranteed Rares",
-          "Sealed MechWarrior Pack 4 Guaranteed Rares",
-          "Sealed MechWarrior Pack 5 Guaranteed Rares",
-          "Sealed MechWarrior Pack 6 Guaranteed Rares",
-          "Sealed MechWarrior Pack 1 Random Pool",
-          "Sealed MechWarrior Pack 2 Random Pool",
-          "Sealed MechWarrior Pack 3 Random Pool",
-          "Sealed MechWarrior Pack 4 Random Pool",
-          "Sealed MechWarrior Pack 5 Random Pool",
-          "Sealed MechWarrior Pack 6 Random Pool",
+          "Sealed MechWarrior Guaranteed Rares",
+          "Sealed MechWarrior Random Pool",
           "Sealed MechWarrior Basic Resources"
         ]
       },
@@ -158,18 +108,8 @@
         "title": "Sealed — Arsenal",
         "gameplay": "Sealed — Arsenal",
         "customCategories": [
-          "Sealed Arsenal Pack 1 Guaranteed Rares",
-          "Sealed Arsenal Pack 2 Guaranteed Rares",
-          "Sealed Arsenal Pack 3 Guaranteed Rares",
-          "Sealed Arsenal Pack 4 Guaranteed Rares",
-          "Sealed Arsenal Pack 5 Guaranteed Rares",
-          "Sealed Arsenal Pack 6 Guaranteed Rares",
-          "Sealed Arsenal Pack 1 Random Pool",
-          "Sealed Arsenal Pack 2 Random Pool",
-          "Sealed Arsenal Pack 3 Random Pool",
-          "Sealed Arsenal Pack 4 Random Pool",
-          "Sealed Arsenal Pack 5 Random Pool",
-          "Sealed Arsenal Pack 6 Random Pool",
+          "Sealed Arsenal Guaranteed Rares",
+          "Sealed Arsenal Random Pool",
           "Sealed Arsenal Basic Resources"
         ]
       },
@@ -177,18 +117,8 @@
         "title": "Sealed — Commander's Edition",
         "gameplay": "Sealed — Commander's Edition",
         "customCategories": [
-          "Sealed Commander's Edition Pack 1 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 2 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 3 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 4 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 5 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 6 Guaranteed Rares",
-          "Sealed Commander's Edition Pack 1 Random Pool",
-          "Sealed Commander's Edition Pack 2 Random Pool",
-          "Sealed Commander's Edition Pack 3 Random Pool",
-          "Sealed Commander's Edition Pack 4 Random Pool",
-          "Sealed Commander's Edition Pack 5 Random Pool",
-          "Sealed Commander's Edition Pack 6 Random Pool",
+          "Sealed Commander's Edition Guaranteed Rares",
+          "Sealed Commander's Edition Random Pool",
           "Sealed Commander's Edition Basic Resources"
         ]
       },
@@ -196,18 +126,8 @@
         "title": "Sealed — Crusade",
         "gameplay": "Sealed — Crusade",
         "customCategories": [
-          "Sealed Crusade Pack 1 Guaranteed Rares",
-          "Sealed Crusade Pack 2 Guaranteed Rares",
-          "Sealed Crusade Pack 3 Guaranteed Rares",
-          "Sealed Crusade Pack 4 Guaranteed Rares",
-          "Sealed Crusade Pack 5 Guaranteed Rares",
-          "Sealed Crusade Pack 6 Guaranteed Rares",
-          "Sealed Crusade Pack 1 Random Pool",
-          "Sealed Crusade Pack 2 Random Pool",
-          "Sealed Crusade Pack 3 Random Pool",
-          "Sealed Crusade Pack 4 Random Pool",
-          "Sealed Crusade Pack 5 Random Pool",
-          "Sealed Crusade Pack 6 Random Pool",
+          "Sealed Crusade Guaranteed Rares",
+          "Sealed Crusade Random Pool",
           "Sealed Crusade Basic Resources"
         ]
       },
@@ -215,18 +135,8 @@
         "title": "Sealed — All Sets",
         "gameplay": "Sealed — All Sets",
         "customCategories": [
-          "Sealed All Sets Pack 1 Guaranteed Rares",
-          "Sealed All Sets Pack 2 Guaranteed Rares",
-          "Sealed All Sets Pack 3 Guaranteed Rares",
-          "Sealed All Sets Pack 4 Guaranteed Rares",
-          "Sealed All Sets Pack 5 Guaranteed Rares",
-          "Sealed All Sets Pack 6 Guaranteed Rares",
-          "Sealed All Sets Pack 1 Random Pool",
-          "Sealed All Sets Pack 2 Random Pool",
-          "Sealed All Sets Pack 3 Random Pool",
-          "Sealed All Sets Pack 4 Random Pool",
-          "Sealed All Sets Pack 5 Random Pool",
-          "Sealed All Sets Pack 6 Random Pool",
+          "Sealed All Sets Guaranteed Rares",
+          "Sealed All Sets Random Pool",
           "Sealed All Sets Basic Resources"
         ]
       },
@@ -3733,62 +3643,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedLimitedPack1RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedLimitedPack1RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedLimitedPack2RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedLimitedPack2RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedLimitedPack3RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedLimitedPack3RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedLimitedPack4RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedLimitedPack4RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedLimitedPack5RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedLimitedPack5RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedLimitedPack6RareSource",
+            "drawFromTop": "SealedLimitedRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedLimitedPack6RandomSource",
+            "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -3862,18 +3772,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedLimitedPack1RareSource",
-          "SealedLimitedPack1RandomSource",
-          "SealedLimitedPack2RareSource",
-          "SealedLimitedPack2RandomSource",
-          "SealedLimitedPack3RareSource",
-          "SealedLimitedPack3RandomSource",
-          "SealedLimitedPack4RareSource",
-          "SealedLimitedPack4RandomSource",
-          "SealedLimitedPack5RareSource",
-          "SealedLimitedPack5RandomSource",
-          "SealedLimitedPack6RareSource",
-          "SealedLimitedPack6RandomSource"
+          "SealedLimitedRareSource",
+          "SealedLimitedRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -4062,84 +3962,14 @@
               },
               "content": [
                 {
-                  "section": "SealedLimitedPack1RareSource",
+                  "section": "SealedLimitedRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedLimitedPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedLimitedPack6RandomSource",
+                  "section": "SealedLimitedRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -4150,18 +3980,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Limited Pack 1 Guaranteed Rares->SealedLimitedPack1RareSource",
-          "Sealed Limited Pack 1 Random Pool->SealedLimitedPack1RandomSource",
-          "Sealed Limited Pack 2 Guaranteed Rares->SealedLimitedPack2RareSource",
-          "Sealed Limited Pack 2 Random Pool->SealedLimitedPack2RandomSource",
-          "Sealed Limited Pack 3 Guaranteed Rares->SealedLimitedPack3RareSource",
-          "Sealed Limited Pack 3 Random Pool->SealedLimitedPack3RandomSource",
-          "Sealed Limited Pack 4 Guaranteed Rares->SealedLimitedPack4RareSource",
-          "Sealed Limited Pack 4 Random Pool->SealedLimitedPack4RandomSource",
-          "Sealed Limited Pack 5 Guaranteed Rares->SealedLimitedPack5RareSource",
-          "Sealed Limited Pack 5 Random Pool->SealedLimitedPack5RandomSource",
-          "Sealed Limited Pack 6 Guaranteed Rares->SealedLimitedPack6RareSource",
-          "Sealed Limited Pack 6 Random Pool->SealedLimitedPack6RandomSource",
+          "Sealed Limited Guaranteed Rares->SealedLimitedRareSource",
+          "Sealed Limited Random Pool->SealedLimitedRandomSource",
           "Sealed Limited Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -4438,13 +4258,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedLimitedPack1RareSource": {
-            "title": "SealedLimitedPack1RareSource",
+          "SealedLimitedRareSource": {
+            "title": "SealedLimitedRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -4456,193 +4276,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedLimitedPack1RandomSource": {
-            "title": "SealedLimitedPack1RandomSource",
+          "SealedLimitedRandomSource": {
+            "title": "SealedLimitedRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack2RareSource": {
-            "title": "SealedLimitedPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack2RandomSource": {
-            "title": "SealedLimitedPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack3RareSource": {
-            "title": "SealedLimitedPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack3RandomSource": {
-            "title": "SealedLimitedPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack4RareSource": {
-            "title": "SealedLimitedPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack4RandomSource": {
-            "title": "SealedLimitedPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack5RareSource": {
-            "title": "SealedLimitedPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack5RandomSource": {
-            "title": "SealedLimitedPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack6RareSource": {
-            "title": "SealedLimitedPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedLimitedPack6RandomSource": {
-            "title": "SealedLimitedPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -4687,62 +4327,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack1RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack1RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack2RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack2RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack3RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack3RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack4RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack4RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack5RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack5RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack6RareSource",
+            "drawFromTop": "SealedUnlimitedRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedUnlimitedPack6RandomSource",
+            "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -4816,18 +4456,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedUnlimitedPack1RareSource",
-          "SealedUnlimitedPack1RandomSource",
-          "SealedUnlimitedPack2RareSource",
-          "SealedUnlimitedPack2RandomSource",
-          "SealedUnlimitedPack3RareSource",
-          "SealedUnlimitedPack3RandomSource",
-          "SealedUnlimitedPack4RareSource",
-          "SealedUnlimitedPack4RandomSource",
-          "SealedUnlimitedPack5RareSource",
-          "SealedUnlimitedPack5RandomSource",
-          "SealedUnlimitedPack6RareSource",
-          "SealedUnlimitedPack6RandomSource"
+          "SealedUnlimitedRareSource",
+          "SealedUnlimitedRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -5016,84 +4646,14 @@
               },
               "content": [
                 {
-                  "section": "SealedUnlimitedPack1RareSource",
+                  "section": "SealedUnlimitedRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedUnlimitedPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedUnlimitedPack6RandomSource",
+                  "section": "SealedUnlimitedRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -5104,18 +4664,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Unlimited Pack 1 Guaranteed Rares->SealedUnlimitedPack1RareSource",
-          "Sealed Unlimited Pack 1 Random Pool->SealedUnlimitedPack1RandomSource",
-          "Sealed Unlimited Pack 2 Guaranteed Rares->SealedUnlimitedPack2RareSource",
-          "Sealed Unlimited Pack 2 Random Pool->SealedUnlimitedPack2RandomSource",
-          "Sealed Unlimited Pack 3 Guaranteed Rares->SealedUnlimitedPack3RareSource",
-          "Sealed Unlimited Pack 3 Random Pool->SealedUnlimitedPack3RandomSource",
-          "Sealed Unlimited Pack 4 Guaranteed Rares->SealedUnlimitedPack4RareSource",
-          "Sealed Unlimited Pack 4 Random Pool->SealedUnlimitedPack4RandomSource",
-          "Sealed Unlimited Pack 5 Guaranteed Rares->SealedUnlimitedPack5RareSource",
-          "Sealed Unlimited Pack 5 Random Pool->SealedUnlimitedPack5RandomSource",
-          "Sealed Unlimited Pack 6 Guaranteed Rares->SealedUnlimitedPack6RareSource",
-          "Sealed Unlimited Pack 6 Random Pool->SealedUnlimitedPack6RandomSource",
+          "Sealed Unlimited Guaranteed Rares->SealedUnlimitedRareSource",
+          "Sealed Unlimited Random Pool->SealedUnlimitedRandomSource",
           "Sealed Unlimited Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -5392,13 +4942,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedUnlimitedPack1RareSource": {
-            "title": "SealedUnlimitedPack1RareSource",
+          "SealedUnlimitedRareSource": {
+            "title": "SealedUnlimitedRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -5410,193 +4960,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedUnlimitedPack1RandomSource": {
-            "title": "SealedUnlimitedPack1RandomSource",
+          "SealedUnlimitedRandomSource": {
+            "title": "SealedUnlimitedRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack2RareSource": {
-            "title": "SealedUnlimitedPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack2RandomSource": {
-            "title": "SealedUnlimitedPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack3RareSource": {
-            "title": "SealedUnlimitedPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack3RandomSource": {
-            "title": "SealedUnlimitedPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack4RareSource": {
-            "title": "SealedUnlimitedPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack4RandomSource": {
-            "title": "SealedUnlimitedPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack5RareSource": {
-            "title": "SealedUnlimitedPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack5RandomSource": {
-            "title": "SealedUnlimitedPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack6RareSource": {
-            "title": "SealedUnlimitedPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedUnlimitedPack6RandomSource": {
-            "title": "SealedUnlimitedPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -5641,62 +5011,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack1RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack1RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack2RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack2RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack3RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack3RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack4RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack4RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack5RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack5RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack6RareSource",
+            "drawFromTop": "SealedCounterstrikeRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedCounterstrikePack6RandomSource",
+            "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -5770,18 +5140,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedCounterstrikePack1RareSource",
-          "SealedCounterstrikePack1RandomSource",
-          "SealedCounterstrikePack2RareSource",
-          "SealedCounterstrikePack2RandomSource",
-          "SealedCounterstrikePack3RareSource",
-          "SealedCounterstrikePack3RandomSource",
-          "SealedCounterstrikePack4RareSource",
-          "SealedCounterstrikePack4RandomSource",
-          "SealedCounterstrikePack5RareSource",
-          "SealedCounterstrikePack5RandomSource",
-          "SealedCounterstrikePack6RareSource",
-          "SealedCounterstrikePack6RandomSource"
+          "SealedCounterstrikeRareSource",
+          "SealedCounterstrikeRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -5970,84 +5330,14 @@
               },
               "content": [
                 {
-                  "section": "SealedCounterstrikePack1RareSource",
+                  "section": "SealedCounterstrikeRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedCounterstrikePack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCounterstrikePack6RandomSource",
+                  "section": "SealedCounterstrikeRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -6058,18 +5348,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Counterstrike Pack 1 Guaranteed Rares->SealedCounterstrikePack1RareSource",
-          "Sealed Counterstrike Pack 1 Random Pool->SealedCounterstrikePack1RandomSource",
-          "Sealed Counterstrike Pack 2 Guaranteed Rares->SealedCounterstrikePack2RareSource",
-          "Sealed Counterstrike Pack 2 Random Pool->SealedCounterstrikePack2RandomSource",
-          "Sealed Counterstrike Pack 3 Guaranteed Rares->SealedCounterstrikePack3RareSource",
-          "Sealed Counterstrike Pack 3 Random Pool->SealedCounterstrikePack3RandomSource",
-          "Sealed Counterstrike Pack 4 Guaranteed Rares->SealedCounterstrikePack4RareSource",
-          "Sealed Counterstrike Pack 4 Random Pool->SealedCounterstrikePack4RandomSource",
-          "Sealed Counterstrike Pack 5 Guaranteed Rares->SealedCounterstrikePack5RareSource",
-          "Sealed Counterstrike Pack 5 Random Pool->SealedCounterstrikePack5RandomSource",
-          "Sealed Counterstrike Pack 6 Guaranteed Rares->SealedCounterstrikePack6RareSource",
-          "Sealed Counterstrike Pack 6 Random Pool->SealedCounterstrikePack6RandomSource",
+          "Sealed Counterstrike Guaranteed Rares->SealedCounterstrikeRareSource",
+          "Sealed Counterstrike Random Pool->SealedCounterstrikeRandomSource",
           "Sealed Counterstrike Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -6346,13 +5626,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCounterstrikePack1RareSource": {
-            "title": "SealedCounterstrikePack1RareSource",
+          "SealedCounterstrikeRareSource": {
+            "title": "SealedCounterstrikeRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -6364,193 +5644,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCounterstrikePack1RandomSource": {
-            "title": "SealedCounterstrikePack1RandomSource",
+          "SealedCounterstrikeRandomSource": {
+            "title": "SealedCounterstrikeRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack2RareSource": {
-            "title": "SealedCounterstrikePack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack2RandomSource": {
-            "title": "SealedCounterstrikePack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack3RareSource": {
-            "title": "SealedCounterstrikePack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack3RandomSource": {
-            "title": "SealedCounterstrikePack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack4RareSource": {
-            "title": "SealedCounterstrikePack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack4RandomSource": {
-            "title": "SealedCounterstrikePack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack5RareSource": {
-            "title": "SealedCounterstrikePack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack5RandomSource": {
-            "title": "SealedCounterstrikePack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack6RareSource": {
-            "title": "SealedCounterstrikePack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCounterstrikePack6RandomSource": {
-            "title": "SealedCounterstrikePack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -6595,62 +5695,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedMercenariesPack1RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedMercenariesPack1RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedMercenariesPack2RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedMercenariesPack2RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedMercenariesPack3RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedMercenariesPack3RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedMercenariesPack4RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedMercenariesPack4RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedMercenariesPack5RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedMercenariesPack5RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedMercenariesPack6RareSource",
+            "drawFromTop": "SealedMercenariesRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedMercenariesPack6RandomSource",
+            "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -6724,18 +5824,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedMercenariesPack1RareSource",
-          "SealedMercenariesPack1RandomSource",
-          "SealedMercenariesPack2RareSource",
-          "SealedMercenariesPack2RandomSource",
-          "SealedMercenariesPack3RareSource",
-          "SealedMercenariesPack3RandomSource",
-          "SealedMercenariesPack4RareSource",
-          "SealedMercenariesPack4RandomSource",
-          "SealedMercenariesPack5RareSource",
-          "SealedMercenariesPack5RandomSource",
-          "SealedMercenariesPack6RareSource",
-          "SealedMercenariesPack6RandomSource"
+          "SealedMercenariesRareSource",
+          "SealedMercenariesRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -6924,84 +6014,14 @@
               },
               "content": [
                 {
-                  "section": "SealedMercenariesPack1RareSource",
+                  "section": "SealedMercenariesRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedMercenariesPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMercenariesPack6RandomSource",
+                  "section": "SealedMercenariesRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -7012,18 +6032,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Mercenaries Pack 1 Guaranteed Rares->SealedMercenariesPack1RareSource",
-          "Sealed Mercenaries Pack 1 Random Pool->SealedMercenariesPack1RandomSource",
-          "Sealed Mercenaries Pack 2 Guaranteed Rares->SealedMercenariesPack2RareSource",
-          "Sealed Mercenaries Pack 2 Random Pool->SealedMercenariesPack2RandomSource",
-          "Sealed Mercenaries Pack 3 Guaranteed Rares->SealedMercenariesPack3RareSource",
-          "Sealed Mercenaries Pack 3 Random Pool->SealedMercenariesPack3RandomSource",
-          "Sealed Mercenaries Pack 4 Guaranteed Rares->SealedMercenariesPack4RareSource",
-          "Sealed Mercenaries Pack 4 Random Pool->SealedMercenariesPack4RandomSource",
-          "Sealed Mercenaries Pack 5 Guaranteed Rares->SealedMercenariesPack5RareSource",
-          "Sealed Mercenaries Pack 5 Random Pool->SealedMercenariesPack5RandomSource",
-          "Sealed Mercenaries Pack 6 Guaranteed Rares->SealedMercenariesPack6RareSource",
-          "Sealed Mercenaries Pack 6 Random Pool->SealedMercenariesPack6RandomSource",
+          "Sealed Mercenaries Guaranteed Rares->SealedMercenariesRareSource",
+          "Sealed Mercenaries Random Pool->SealedMercenariesRandomSource",
           "Sealed Mercenaries Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -7300,13 +6310,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedMercenariesPack1RareSource": {
-            "title": "SealedMercenariesPack1RareSource",
+          "SealedMercenariesRareSource": {
+            "title": "SealedMercenariesRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7318,193 +6328,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedMercenariesPack1RandomSource": {
-            "title": "SealedMercenariesPack1RandomSource",
+          "SealedMercenariesRandomSource": {
+            "title": "SealedMercenariesRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack2RareSource": {
-            "title": "SealedMercenariesPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack2RandomSource": {
-            "title": "SealedMercenariesPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack3RareSource": {
-            "title": "SealedMercenariesPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack3RandomSource": {
-            "title": "SealedMercenariesPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack4RareSource": {
-            "title": "SealedMercenariesPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack4RandomSource": {
-            "title": "SealedMercenariesPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack5RareSource": {
-            "title": "SealedMercenariesPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack5RandomSource": {
-            "title": "SealedMercenariesPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack6RareSource": {
-            "title": "SealedMercenariesPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMercenariesPack6RandomSource": {
-            "title": "SealedMercenariesPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -7549,62 +6379,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack1RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack1RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack2RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack2RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack3RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack3RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack4RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack4RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack5RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack5RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack6RareSource",
+            "drawFromTop": "SealedMechWarriorRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedMechWarriorPack6RandomSource",
+            "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -7678,18 +6508,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedMechWarriorPack1RareSource",
-          "SealedMechWarriorPack1RandomSource",
-          "SealedMechWarriorPack2RareSource",
-          "SealedMechWarriorPack2RandomSource",
-          "SealedMechWarriorPack3RareSource",
-          "SealedMechWarriorPack3RandomSource",
-          "SealedMechWarriorPack4RareSource",
-          "SealedMechWarriorPack4RandomSource",
-          "SealedMechWarriorPack5RareSource",
-          "SealedMechWarriorPack5RandomSource",
-          "SealedMechWarriorPack6RareSource",
-          "SealedMechWarriorPack6RandomSource"
+          "SealedMechWarriorRareSource",
+          "SealedMechWarriorRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -7878,84 +6698,14 @@
               },
               "content": [
                 {
-                  "section": "SealedMechWarriorPack1RareSource",
+                  "section": "SealedMechWarriorRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedMechWarriorPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedMechWarriorPack6RandomSource",
+                  "section": "SealedMechWarriorRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -7966,18 +6716,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed MechWarrior Pack 1 Guaranteed Rares->SealedMechWarriorPack1RareSource",
-          "Sealed MechWarrior Pack 1 Random Pool->SealedMechWarriorPack1RandomSource",
-          "Sealed MechWarrior Pack 2 Guaranteed Rares->SealedMechWarriorPack2RareSource",
-          "Sealed MechWarrior Pack 2 Random Pool->SealedMechWarriorPack2RandomSource",
-          "Sealed MechWarrior Pack 3 Guaranteed Rares->SealedMechWarriorPack3RareSource",
-          "Sealed MechWarrior Pack 3 Random Pool->SealedMechWarriorPack3RandomSource",
-          "Sealed MechWarrior Pack 4 Guaranteed Rares->SealedMechWarriorPack4RareSource",
-          "Sealed MechWarrior Pack 4 Random Pool->SealedMechWarriorPack4RandomSource",
-          "Sealed MechWarrior Pack 5 Guaranteed Rares->SealedMechWarriorPack5RareSource",
-          "Sealed MechWarrior Pack 5 Random Pool->SealedMechWarriorPack5RandomSource",
-          "Sealed MechWarrior Pack 6 Guaranteed Rares->SealedMechWarriorPack6RareSource",
-          "Sealed MechWarrior Pack 6 Random Pool->SealedMechWarriorPack6RandomSource",
+          "Sealed MechWarrior Guaranteed Rares->SealedMechWarriorRareSource",
+          "Sealed MechWarrior Random Pool->SealedMechWarriorRandomSource",
           "Sealed MechWarrior Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -8254,13 +6994,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedMechWarriorPack1RareSource": {
-            "title": "SealedMechWarriorPack1RareSource",
+          "SealedMechWarriorRareSource": {
+            "title": "SealedMechWarriorRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -8272,193 +7012,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedMechWarriorPack1RandomSource": {
-            "title": "SealedMechWarriorPack1RandomSource",
+          "SealedMechWarriorRandomSource": {
+            "title": "SealedMechWarriorRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack2RareSource": {
-            "title": "SealedMechWarriorPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack2RandomSource": {
-            "title": "SealedMechWarriorPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack3RareSource": {
-            "title": "SealedMechWarriorPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack3RandomSource": {
-            "title": "SealedMechWarriorPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack4RareSource": {
-            "title": "SealedMechWarriorPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack4RandomSource": {
-            "title": "SealedMechWarriorPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack5RareSource": {
-            "title": "SealedMechWarriorPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack5RandomSource": {
-            "title": "SealedMechWarriorPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack6RareSource": {
-            "title": "SealedMechWarriorPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedMechWarriorPack6RandomSource": {
-            "title": "SealedMechWarriorPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -8503,62 +7063,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedArsenalPack1RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedArsenalPack1RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedArsenalPack2RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedArsenalPack2RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedArsenalPack3RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedArsenalPack3RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedArsenalPack4RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedArsenalPack4RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedArsenalPack5RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedArsenalPack5RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedArsenalPack6RareSource",
+            "drawFromTop": "SealedArsenalRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedArsenalPack6RandomSource",
+            "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -8632,18 +7192,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedArsenalPack1RareSource",
-          "SealedArsenalPack1RandomSource",
-          "SealedArsenalPack2RareSource",
-          "SealedArsenalPack2RandomSource",
-          "SealedArsenalPack3RareSource",
-          "SealedArsenalPack3RandomSource",
-          "SealedArsenalPack4RareSource",
-          "SealedArsenalPack4RandomSource",
-          "SealedArsenalPack5RareSource",
-          "SealedArsenalPack5RandomSource",
-          "SealedArsenalPack6RareSource",
-          "SealedArsenalPack6RandomSource"
+          "SealedArsenalRareSource",
+          "SealedArsenalRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -8832,84 +7382,14 @@
               },
               "content": [
                 {
-                  "section": "SealedArsenalPack1RareSource",
+                  "section": "SealedArsenalRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedArsenalPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedArsenalPack6RandomSource",
+                  "section": "SealedArsenalRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -8920,18 +7400,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Arsenal Pack 1 Guaranteed Rares->SealedArsenalPack1RareSource",
-          "Sealed Arsenal Pack 1 Random Pool->SealedArsenalPack1RandomSource",
-          "Sealed Arsenal Pack 2 Guaranteed Rares->SealedArsenalPack2RareSource",
-          "Sealed Arsenal Pack 2 Random Pool->SealedArsenalPack2RandomSource",
-          "Sealed Arsenal Pack 3 Guaranteed Rares->SealedArsenalPack3RareSource",
-          "Sealed Arsenal Pack 3 Random Pool->SealedArsenalPack3RandomSource",
-          "Sealed Arsenal Pack 4 Guaranteed Rares->SealedArsenalPack4RareSource",
-          "Sealed Arsenal Pack 4 Random Pool->SealedArsenalPack4RandomSource",
-          "Sealed Arsenal Pack 5 Guaranteed Rares->SealedArsenalPack5RareSource",
-          "Sealed Arsenal Pack 5 Random Pool->SealedArsenalPack5RandomSource",
-          "Sealed Arsenal Pack 6 Guaranteed Rares->SealedArsenalPack6RareSource",
-          "Sealed Arsenal Pack 6 Random Pool->SealedArsenalPack6RandomSource",
+          "Sealed Arsenal Guaranteed Rares->SealedArsenalRareSource",
+          "Sealed Arsenal Random Pool->SealedArsenalRandomSource",
           "Sealed Arsenal Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -9208,13 +7678,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedArsenalPack1RareSource": {
-            "title": "SealedArsenalPack1RareSource",
+          "SealedArsenalRareSource": {
+            "title": "SealedArsenalRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -9226,193 +7696,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedArsenalPack1RandomSource": {
-            "title": "SealedArsenalPack1RandomSource",
+          "SealedArsenalRandomSource": {
+            "title": "SealedArsenalRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack2RareSource": {
-            "title": "SealedArsenalPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack2RandomSource": {
-            "title": "SealedArsenalPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack3RareSource": {
-            "title": "SealedArsenalPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack3RandomSource": {
-            "title": "SealedArsenalPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack4RareSource": {
-            "title": "SealedArsenalPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack4RandomSource": {
-            "title": "SealedArsenalPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack5RareSource": {
-            "title": "SealedArsenalPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack5RandomSource": {
-            "title": "SealedArsenalPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack6RareSource": {
-            "title": "SealedArsenalPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedArsenalPack6RandomSource": {
-            "title": "SealedArsenalPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -9457,62 +7747,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack1RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack1RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack2RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack2RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack3RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack3RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack4RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack4RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack5RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack5RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack6RareSource",
+            "drawFromTop": "SealedCommandersEditionRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedCommandersEditionPack6RandomSource",
+            "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -9586,18 +7876,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedCommandersEditionPack1RareSource",
-          "SealedCommandersEditionPack1RandomSource",
-          "SealedCommandersEditionPack2RareSource",
-          "SealedCommandersEditionPack2RandomSource",
-          "SealedCommandersEditionPack3RareSource",
-          "SealedCommandersEditionPack3RandomSource",
-          "SealedCommandersEditionPack4RareSource",
-          "SealedCommandersEditionPack4RandomSource",
-          "SealedCommandersEditionPack5RareSource",
-          "SealedCommandersEditionPack5RandomSource",
-          "SealedCommandersEditionPack6RareSource",
-          "SealedCommandersEditionPack6RandomSource"
+          "SealedCommandersEditionRareSource",
+          "SealedCommandersEditionRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -9786,84 +8066,14 @@
               },
               "content": [
                 {
-                  "section": "SealedCommandersEditionPack1RareSource",
+                  "section": "SealedCommandersEditionRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedCommandersEditionPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCommandersEditionPack6RandomSource",
+                  "section": "SealedCommandersEditionRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -9874,18 +8084,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Commander's Edition Pack 1 Guaranteed Rares->SealedCommandersEditionPack1RareSource",
-          "Sealed Commander's Edition Pack 1 Random Pool->SealedCommandersEditionPack1RandomSource",
-          "Sealed Commander's Edition Pack 2 Guaranteed Rares->SealedCommandersEditionPack2RareSource",
-          "Sealed Commander's Edition Pack 2 Random Pool->SealedCommandersEditionPack2RandomSource",
-          "Sealed Commander's Edition Pack 3 Guaranteed Rares->SealedCommandersEditionPack3RareSource",
-          "Sealed Commander's Edition Pack 3 Random Pool->SealedCommandersEditionPack3RandomSource",
-          "Sealed Commander's Edition Pack 4 Guaranteed Rares->SealedCommandersEditionPack4RareSource",
-          "Sealed Commander's Edition Pack 4 Random Pool->SealedCommandersEditionPack4RandomSource",
-          "Sealed Commander's Edition Pack 5 Guaranteed Rares->SealedCommandersEditionPack5RareSource",
-          "Sealed Commander's Edition Pack 5 Random Pool->SealedCommandersEditionPack5RandomSource",
-          "Sealed Commander's Edition Pack 6 Guaranteed Rares->SealedCommandersEditionPack6RareSource",
-          "Sealed Commander's Edition Pack 6 Random Pool->SealedCommandersEditionPack6RandomSource",
+          "Sealed Commander's Edition Guaranteed Rares->SealedCommandersEditionRareSource",
+          "Sealed Commander's Edition Random Pool->SealedCommandersEditionRandomSource",
           "Sealed Commander's Edition Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -10162,13 +8362,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCommandersEditionPack1RareSource": {
-            "title": "SealedCommandersEditionPack1RareSource",
+          "SealedCommandersEditionRareSource": {
+            "title": "SealedCommandersEditionRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -10180,193 +8380,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCommandersEditionPack1RandomSource": {
-            "title": "SealedCommandersEditionPack1RandomSource",
+          "SealedCommandersEditionRandomSource": {
+            "title": "SealedCommandersEditionRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack2RareSource": {
-            "title": "SealedCommandersEditionPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack2RandomSource": {
-            "title": "SealedCommandersEditionPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack3RareSource": {
-            "title": "SealedCommandersEditionPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack3RandomSource": {
-            "title": "SealedCommandersEditionPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack4RareSource": {
-            "title": "SealedCommandersEditionPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack4RandomSource": {
-            "title": "SealedCommandersEditionPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack5RareSource": {
-            "title": "SealedCommandersEditionPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack5RandomSource": {
-            "title": "SealedCommandersEditionPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack6RareSource": {
-            "title": "SealedCommandersEditionPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCommandersEditionPack6RandomSource": {
-            "title": "SealedCommandersEditionPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -10411,62 +8431,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedCrusadePack1RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCrusadePack1RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedCrusadePack2RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCrusadePack2RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedCrusadePack3RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCrusadePack3RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedCrusadePack4RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCrusadePack4RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedCrusadePack5RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCrusadePack5RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedCrusadePack6RareSource",
+            "drawFromTop": "SealedCrusadeRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedCrusadePack6RandomSource",
+            "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -10540,18 +8560,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedCrusadePack1RareSource",
-          "SealedCrusadePack1RandomSource",
-          "SealedCrusadePack2RareSource",
-          "SealedCrusadePack2RandomSource",
-          "SealedCrusadePack3RareSource",
-          "SealedCrusadePack3RandomSource",
-          "SealedCrusadePack4RareSource",
-          "SealedCrusadePack4RandomSource",
-          "SealedCrusadePack5RareSource",
-          "SealedCrusadePack5RandomSource",
-          "SealedCrusadePack6RareSource",
-          "SealedCrusadePack6RandomSource"
+          "SealedCrusadeRareSource",
+          "SealedCrusadeRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -10740,84 +8750,14 @@
               },
               "content": [
                 {
-                  "section": "SealedCrusadePack1RareSource",
+                  "section": "SealedCrusadeRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedCrusadePack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedCrusadePack6RandomSource",
+                  "section": "SealedCrusadeRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -10828,18 +8768,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Crusade Pack 1 Guaranteed Rares->SealedCrusadePack1RareSource",
-          "Sealed Crusade Pack 1 Random Pool->SealedCrusadePack1RandomSource",
-          "Sealed Crusade Pack 2 Guaranteed Rares->SealedCrusadePack2RareSource",
-          "Sealed Crusade Pack 2 Random Pool->SealedCrusadePack2RandomSource",
-          "Sealed Crusade Pack 3 Guaranteed Rares->SealedCrusadePack3RareSource",
-          "Sealed Crusade Pack 3 Random Pool->SealedCrusadePack3RandomSource",
-          "Sealed Crusade Pack 4 Guaranteed Rares->SealedCrusadePack4RareSource",
-          "Sealed Crusade Pack 4 Random Pool->SealedCrusadePack4RandomSource",
-          "Sealed Crusade Pack 5 Guaranteed Rares->SealedCrusadePack5RareSource",
-          "Sealed Crusade Pack 5 Random Pool->SealedCrusadePack5RandomSource",
-          "Sealed Crusade Pack 6 Guaranteed Rares->SealedCrusadePack6RareSource",
-          "Sealed Crusade Pack 6 Random Pool->SealedCrusadePack6RandomSource",
+          "Sealed Crusade Guaranteed Rares->SealedCrusadeRareSource",
+          "Sealed Crusade Random Pool->SealedCrusadeRandomSource",
           "Sealed Crusade Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -11116,13 +9046,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCrusadePack1RareSource": {
-            "title": "SealedCrusadePack1RareSource",
+          "SealedCrusadeRareSource": {
+            "title": "SealedCrusadeRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -11134,193 +9064,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedCrusadePack1RandomSource": {
-            "title": "SealedCrusadePack1RandomSource",
+          "SealedCrusadeRandomSource": {
+            "title": "SealedCrusadeRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack2RareSource": {
-            "title": "SealedCrusadePack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack2RandomSource": {
-            "title": "SealedCrusadePack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack3RareSource": {
-            "title": "SealedCrusadePack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack3RandomSource": {
-            "title": "SealedCrusadePack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack4RareSource": {
-            "title": "SealedCrusadePack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack4RandomSource": {
-            "title": "SealedCrusadePack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack5RareSource": {
-            "title": "SealedCrusadePack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack5RandomSource": {
-            "title": "SealedCrusadePack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack6RareSource": {
-            "title": "SealedCrusadePack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedCrusadePack6RandomSource": {
-            "title": "SealedCrusadePack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -11365,62 +9115,62 @@
             "destination": "LimitedSetupRemoval"
           },
           {
-            "drawFromTop": "SealedAllSetsPack1RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedAllSetsPack1RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "Mission"
           },
           {
-            "drawFromTop": "SealedAllSetsPack2RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedAllSetsPack2RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "Mission2"
           },
           {
-            "drawFromTop": "SealedAllSetsPack3RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedAllSetsPack3RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "Mission3"
           },
           {
-            "drawFromTop": "SealedAllSetsPack4RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedAllSetsPack4RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "CommandPost"
           },
           {
-            "drawFromTop": "SealedAllSetsPack5RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedAllSetsPack5RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "CommandPost2"
           },
           {
-            "drawFromTop": "SealedAllSetsPack6RareSource",
+            "drawFromTop": "SealedAllSetsRareSource",
             "count": 2,
             "destination": "CommandPost3"
           },
           {
-            "drawFromTop": "SealedAllSetsPack6RandomSource",
+            "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "CommandPost3"
           }
@@ -11494,18 +9244,8 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "SealedAllSetsPack1RareSource",
-          "SealedAllSetsPack1RandomSource",
-          "SealedAllSetsPack2RareSource",
-          "SealedAllSetsPack2RandomSource",
-          "SealedAllSetsPack3RareSource",
-          "SealedAllSetsPack3RandomSource",
-          "SealedAllSetsPack4RareSource",
-          "SealedAllSetsPack4RandomSource",
-          "SealedAllSetsPack5RareSource",
-          "SealedAllSetsPack5RandomSource",
-          "SealedAllSetsPack6RareSource",
-          "SealedAllSetsPack6RandomSource"
+          "SealedAllSetsRareSource",
+          "SealedAllSetsRandomSource"
         ],
         "layout": {
           "direction": "column",
@@ -11694,84 +9434,14 @@
               },
               "content": [
                 {
-                  "section": "SealedAllSetsPack1RareSource",
+                  "section": "SealedAllSetsRareSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
                   }
                 },
                 {
-                  "section": "SealedAllSetsPack1RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack2RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack2RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack3RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack3RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack4RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack4RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack5RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack5RandomSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack6RareSource",
-                  "style": {
-                    "width": "1px",
-                    "height": "1px"
-                  }
-                },
-                {
-                  "section": "SealedAllSetsPack6RandomSource",
+                  "section": "SealedAllSetsRandomSource",
                   "style": {
                     "width": "1px",
                     "height": "1px"
@@ -11782,18 +9452,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed All Sets Pack 1 Guaranteed Rares->SealedAllSetsPack1RareSource",
-          "Sealed All Sets Pack 1 Random Pool->SealedAllSetsPack1RandomSource",
-          "Sealed All Sets Pack 2 Guaranteed Rares->SealedAllSetsPack2RareSource",
-          "Sealed All Sets Pack 2 Random Pool->SealedAllSetsPack2RandomSource",
-          "Sealed All Sets Pack 3 Guaranteed Rares->SealedAllSetsPack3RareSource",
-          "Sealed All Sets Pack 3 Random Pool->SealedAllSetsPack3RandomSource",
-          "Sealed All Sets Pack 4 Guaranteed Rares->SealedAllSetsPack4RareSource",
-          "Sealed All Sets Pack 4 Random Pool->SealedAllSetsPack4RandomSource",
-          "Sealed All Sets Pack 5 Guaranteed Rares->SealedAllSetsPack5RareSource",
-          "Sealed All Sets Pack 5 Random Pool->SealedAllSetsPack5RandomSource",
-          "Sealed All Sets Pack 6 Guaranteed Rares->SealedAllSetsPack6RareSource",
-          "Sealed All Sets Pack 6 Random Pool->SealedAllSetsPack6RandomSource",
+          "Sealed All Sets Guaranteed Rares->SealedAllSetsRareSource",
+          "Sealed All Sets Random Pool->SealedAllSetsRandomSource",
           "Sealed All Sets Basic Resources->Discard"
         ],
         "autoPlayFromHand": {},
@@ -12070,13 +9730,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedAllSetsPack1RareSource": {
-            "title": "SealedAllSetsPack1RareSource",
+          "SealedAllSetsRareSource": {
+            "title": "SealedAllSetsRareSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Guaranteed Rares",
+            "displayedTitle": "Guaranteed Rares",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
@@ -12088,193 +9748,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "SealedAllSetsPack1RandomSource": {
-            "title": "SealedAllSetsPack1RandomSource",
+          "SealedAllSetsRandomSource": {
+            "title": "SealedAllSetsRandomSource",
             "isHidden": "yes",
             "height": 1,
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 1 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack2RareSource": {
-            "title": "SealedAllSetsPack2RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack2RandomSource": {
-            "title": "SealedAllSetsPack2RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 2 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack3RareSource": {
-            "title": "SealedAllSetsPack3RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack3RandomSource": {
-            "title": "SealedAllSetsPack3RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 3 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack4RareSource": {
-            "title": "SealedAllSetsPack4RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack4RandomSource": {
-            "title": "SealedAllSetsPack4RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 4 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack5RareSource": {
-            "title": "SealedAllSetsPack5RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack5RandomSource": {
-            "title": "SealedAllSetsPack5RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 5 Random Pool",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack6RareSource": {
-            "title": "SealedAllSetsPack6RareSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Guaranteed Rares",
-            "cardBackColor": "#171719",
-            "startsShuffled": true,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "noQuickActions": true,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "SealedAllSetsPack6RandomSource": {
-            "title": "SealedAllSetsPack6RandomSource",
-            "isHidden": "yes",
-            "height": 1,
-            "alignment": "DECK",
-            "opponentAlignment": "CENTER",
-            "displayedTitle": "Pack 6 Random Pool",
+            "displayedTitle": "Random Pool",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
