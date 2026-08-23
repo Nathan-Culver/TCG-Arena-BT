@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=7"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=8"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -63,198 +63,198 @@
         "title": "Sealed — Limited",
         "gameplay": "Sealed — Limited",
         "customCategories": [
-          "Sealed Limited Guaranteed Rares",
-          "Sealed Limited Random Pool",
-          "Sealed Limited Basic Resources"
+          "SealedLimitedRareSource",
+          "SealedLimitedRandomSource",
+          "SealedLimitedBasicResources"
         ]
       },
       {
         "title": "Sealed — Unlimited",
         "gameplay": "Sealed — Unlimited",
         "customCategories": [
-          "Sealed Unlimited Guaranteed Rares",
-          "Sealed Unlimited Random Pool",
-          "Sealed Unlimited Basic Resources"
+          "SealedUnlimitedRareSource",
+          "SealedUnlimitedRandomSource",
+          "SealedUnlimitedBasicResources"
         ]
       },
       {
         "title": "Sealed — Counterstrike",
         "gameplay": "Sealed — Counterstrike",
         "customCategories": [
-          "Sealed Counterstrike Guaranteed Rares",
-          "Sealed Counterstrike Random Pool",
-          "Sealed Counterstrike Basic Resources"
+          "SealedCounterstrikeRareSource",
+          "SealedCounterstrikeRandomSource",
+          "SealedCounterstrikeBasicResources"
         ]
       },
       {
         "title": "Sealed — Mercenaries",
         "gameplay": "Sealed — Mercenaries",
         "customCategories": [
-          "Sealed Mercenaries Guaranteed Rares",
-          "Sealed Mercenaries Random Pool",
-          "Sealed Mercenaries Basic Resources"
+          "SealedMercenariesRareSource",
+          "SealedMercenariesRandomSource",
+          "SealedMercenariesBasicResources"
         ]
       },
       {
         "title": "Sealed — MechWarrior",
         "gameplay": "Sealed — MechWarrior",
         "customCategories": [
-          "Sealed MechWarrior Guaranteed Rares",
-          "Sealed MechWarrior Random Pool",
-          "Sealed MechWarrior Basic Resources"
+          "SealedMechWarriorRareSource",
+          "SealedMechWarriorRandomSource",
+          "SealedMechWarriorBasicResources"
         ]
       },
       {
         "title": "Sealed — Arsenal",
         "gameplay": "Sealed — Arsenal",
         "customCategories": [
-          "Sealed Arsenal Guaranteed Rares",
-          "Sealed Arsenal Random Pool",
-          "Sealed Arsenal Basic Resources"
+          "SealedArsenalRareSource",
+          "SealedArsenalRandomSource",
+          "SealedArsenalBasicResources"
         ]
       },
       {
         "title": "Sealed — Commander's Edition",
         "gameplay": "Sealed — Commander's Edition",
         "customCategories": [
-          "Sealed Commander's Edition Guaranteed Rares",
-          "Sealed Commander's Edition Random Pool",
-          "Sealed Commander's Edition Basic Resources"
+          "SealedCommandersEditionRareSource",
+          "SealedCommandersEditionRandomSource",
+          "SealedCommandersEditionBasicResources"
         ]
       },
       {
         "title": "Sealed — Crusade",
         "gameplay": "Sealed — Crusade",
         "customCategories": [
-          "Sealed Crusade Guaranteed Rares",
-          "Sealed Crusade Random Pool",
-          "Sealed Crusade Basic Resources"
+          "SealedCrusadeRareSource",
+          "SealedCrusadeRandomSource",
+          "SealedCrusadeBasicResources"
         ]
       },
       {
         "title": "Sealed — All Sets",
         "gameplay": "Sealed — All Sets",
         "customCategories": [
-          "Sealed All Sets Guaranteed Rares",
-          "Sealed All Sets Random Pool",
-          "Sealed All Sets Basic Resources"
+          "SealedAllSetsRareSource",
+          "SealedAllSetsRandomSource",
+          "SealedAllSetsBasicResources"
         ]
       },
       {
         "title": "Draft — Limited",
         "gameplay": "Draft — Limited",
         "customCategories": [
-          "Draft Limited Pack 1 Guaranteed Rares",
-          "Draft Limited Pack 2 Guaranteed Rares",
-          "Draft Limited Pack 3 Guaranteed Rares",
-          "Draft Limited Pack 1 Random Pool",
-          "Draft Limited Pack 2 Random Pool",
-          "Draft Limited Pack 3 Random Pool",
-          "Draft Limited Basic Resources"
+          "DraftLimitedPack1RareSource",
+          "DraftLimitedPack2RareSource",
+          "DraftLimitedPack3RareSource",
+          "DraftLimitedPack1RandomSource",
+          "DraftLimitedPack2RandomSource",
+          "DraftLimitedPack3RandomSource",
+          "DraftLimitedBasicResources"
         ]
       },
       {
         "title": "Draft — Unlimited",
         "gameplay": "Draft — Unlimited",
         "customCategories": [
-          "Draft Unlimited Pack 1 Guaranteed Rares",
-          "Draft Unlimited Pack 2 Guaranteed Rares",
-          "Draft Unlimited Pack 3 Guaranteed Rares",
-          "Draft Unlimited Pack 1 Random Pool",
-          "Draft Unlimited Pack 2 Random Pool",
-          "Draft Unlimited Pack 3 Random Pool",
-          "Draft Unlimited Basic Resources"
+          "DraftUnlimitedPack1RareSource",
+          "DraftUnlimitedPack2RareSource",
+          "DraftUnlimitedPack3RareSource",
+          "DraftUnlimitedPack1RandomSource",
+          "DraftUnlimitedPack2RandomSource",
+          "DraftUnlimitedPack3RandomSource",
+          "DraftUnlimitedBasicResources"
         ]
       },
       {
         "title": "Draft — Counterstrike",
         "gameplay": "Draft — Counterstrike",
         "customCategories": [
-          "Draft Counterstrike Pack 1 Guaranteed Rares",
-          "Draft Counterstrike Pack 2 Guaranteed Rares",
-          "Draft Counterstrike Pack 3 Guaranteed Rares",
-          "Draft Counterstrike Pack 1 Random Pool",
-          "Draft Counterstrike Pack 2 Random Pool",
-          "Draft Counterstrike Pack 3 Random Pool",
-          "Draft Counterstrike Basic Resources"
+          "DraftCounterstrikePack1RareSource",
+          "DraftCounterstrikePack2RareSource",
+          "DraftCounterstrikePack3RareSource",
+          "DraftCounterstrikePack1RandomSource",
+          "DraftCounterstrikePack2RandomSource",
+          "DraftCounterstrikePack3RandomSource",
+          "DraftCounterstrikeBasicResources"
         ]
       },
       {
         "title": "Draft — Mercenaries",
         "gameplay": "Draft — Mercenaries",
         "customCategories": [
-          "Draft Mercenaries Pack 1 Guaranteed Rares",
-          "Draft Mercenaries Pack 2 Guaranteed Rares",
-          "Draft Mercenaries Pack 3 Guaranteed Rares",
-          "Draft Mercenaries Pack 1 Random Pool",
-          "Draft Mercenaries Pack 2 Random Pool",
-          "Draft Mercenaries Pack 3 Random Pool",
-          "Draft Mercenaries Basic Resources"
+          "DraftMercenariesPack1RareSource",
+          "DraftMercenariesPack2RareSource",
+          "DraftMercenariesPack3RareSource",
+          "DraftMercenariesPack1RandomSource",
+          "DraftMercenariesPack2RandomSource",
+          "DraftMercenariesPack3RandomSource",
+          "DraftMercenariesBasicResources"
         ]
       },
       {
         "title": "Draft — MechWarrior",
         "gameplay": "Draft — MechWarrior",
         "customCategories": [
-          "Draft MechWarrior Pack 1 Guaranteed Rares",
-          "Draft MechWarrior Pack 2 Guaranteed Rares",
-          "Draft MechWarrior Pack 3 Guaranteed Rares",
-          "Draft MechWarrior Pack 1 Random Pool",
-          "Draft MechWarrior Pack 2 Random Pool",
-          "Draft MechWarrior Pack 3 Random Pool",
-          "Draft MechWarrior Basic Resources"
+          "DraftMechWarriorPack1RareSource",
+          "DraftMechWarriorPack2RareSource",
+          "DraftMechWarriorPack3RareSource",
+          "DraftMechWarriorPack1RandomSource",
+          "DraftMechWarriorPack2RandomSource",
+          "DraftMechWarriorPack3RandomSource",
+          "DraftMechWarriorBasicResources"
         ]
       },
       {
         "title": "Draft — Arsenal",
         "gameplay": "Draft — Arsenal",
         "customCategories": [
-          "Draft Arsenal Pack 1 Guaranteed Rares",
-          "Draft Arsenal Pack 2 Guaranteed Rares",
-          "Draft Arsenal Pack 3 Guaranteed Rares",
-          "Draft Arsenal Pack 1 Random Pool",
-          "Draft Arsenal Pack 2 Random Pool",
-          "Draft Arsenal Pack 3 Random Pool",
-          "Draft Arsenal Basic Resources"
+          "DraftArsenalPack1RareSource",
+          "DraftArsenalPack2RareSource",
+          "DraftArsenalPack3RareSource",
+          "DraftArsenalPack1RandomSource",
+          "DraftArsenalPack2RandomSource",
+          "DraftArsenalPack3RandomSource",
+          "DraftArsenalBasicResources"
         ]
       },
       {
         "title": "Draft — Commander's Edition",
         "gameplay": "Draft — Commander's Edition",
         "customCategories": [
-          "Draft Commander's Edition Pack 1 Guaranteed Rares",
-          "Draft Commander's Edition Pack 2 Guaranteed Rares",
-          "Draft Commander's Edition Pack 3 Guaranteed Rares",
-          "Draft Commander's Edition Pack 1 Random Pool",
-          "Draft Commander's Edition Pack 2 Random Pool",
-          "Draft Commander's Edition Pack 3 Random Pool",
-          "Draft Commander's Edition Basic Resources"
+          "DraftCommandersEditionPack1RareSource",
+          "DraftCommandersEditionPack2RareSource",
+          "DraftCommandersEditionPack3RareSource",
+          "DraftCommandersEditionPack1RandomSource",
+          "DraftCommandersEditionPack2RandomSource",
+          "DraftCommandersEditionPack3RandomSource",
+          "DraftCommandersEditionBasicResources"
         ]
       },
       {
         "title": "Draft — Crusade",
         "gameplay": "Draft — Crusade",
         "customCategories": [
-          "Draft Crusade Pack 1 Guaranteed Rares",
-          "Draft Crusade Pack 2 Guaranteed Rares",
-          "Draft Crusade Pack 3 Guaranteed Rares",
-          "Draft Crusade Pack 1 Random Pool",
-          "Draft Crusade Pack 2 Random Pool",
-          "Draft Crusade Pack 3 Random Pool",
-          "Draft Crusade Basic Resources"
+          "DraftCrusadePack1RareSource",
+          "DraftCrusadePack2RareSource",
+          "DraftCrusadePack3RareSource",
+          "DraftCrusadePack1RandomSource",
+          "DraftCrusadePack2RandomSource",
+          "DraftCrusadePack3RandomSource",
+          "DraftCrusadeBasicResources"
         ]
       },
       {
         "title": "Draft — All Sets",
         "gameplay": "Draft — All Sets",
         "customCategories": [
-          "Draft All Sets Pack 1 Guaranteed Rares",
-          "Draft All Sets Pack 2 Guaranteed Rares",
-          "Draft All Sets Pack 3 Guaranteed Rares",
-          "Draft All Sets Pack 1 Random Pool",
-          "Draft All Sets Pack 2 Random Pool",
-          "Draft All Sets Pack 3 Random Pool",
-          "Draft All Sets Basic Resources"
+          "DraftAllSetsPack1RareSource",
+          "DraftAllSetsPack2RareSource",
+          "DraftAllSetsPack3RareSource",
+          "DraftAllSetsPack1RandomSource",
+          "DraftAllSetsPack2RandomSource",
+          "DraftAllSetsPack3RandomSource",
+          "DraftAllSetsBasicResources"
         ]
       }
     ]
@@ -3701,6 +3701,11 @@
             "drawFromTop": "SealedLimitedRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedLimitedBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -3773,7 +3778,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedLimitedRareSource",
-          "SealedLimitedRandomSource"
+          "SealedLimitedRandomSource",
+          "SealedLimitedBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -3974,15 +3980,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedLimitedBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Limited Guaranteed Rares->SealedLimitedRareSource",
-          "Sealed Limited Random Pool->SealedLimitedRandomSource",
-          "Sealed Limited Basic Resources->Discard"
+          "SealedLimitedRareSource",
+          "SealedLimitedRandomSource",
+          "SealedLimitedBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -4293,6 +4306,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedLimitedBasicResources": {
+            "title": "SealedLimitedBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -4385,6 +4416,11 @@
             "drawFromTop": "SealedUnlimitedRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedUnlimitedBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -4457,7 +4493,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedUnlimitedRareSource",
-          "SealedUnlimitedRandomSource"
+          "SealedUnlimitedRandomSource",
+          "SealedUnlimitedBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -4658,15 +4695,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedUnlimitedBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Unlimited Guaranteed Rares->SealedUnlimitedRareSource",
-          "Sealed Unlimited Random Pool->SealedUnlimitedRandomSource",
-          "Sealed Unlimited Basic Resources->Discard"
+          "SealedUnlimitedRareSource",
+          "SealedUnlimitedRandomSource",
+          "SealedUnlimitedBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -4977,6 +5021,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedUnlimitedBasicResources": {
+            "title": "SealedUnlimitedBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -5069,6 +5131,11 @@
             "drawFromTop": "SealedCounterstrikeRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedCounterstrikeBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -5141,7 +5208,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCounterstrikeRareSource",
-          "SealedCounterstrikeRandomSource"
+          "SealedCounterstrikeRandomSource",
+          "SealedCounterstrikeBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -5342,15 +5410,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedCounterstrikeBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Counterstrike Guaranteed Rares->SealedCounterstrikeRareSource",
-          "Sealed Counterstrike Random Pool->SealedCounterstrikeRandomSource",
-          "Sealed Counterstrike Basic Resources->Discard"
+          "SealedCounterstrikeRareSource",
+          "SealedCounterstrikeRandomSource",
+          "SealedCounterstrikeBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -5661,6 +5736,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedCounterstrikeBasicResources": {
+            "title": "SealedCounterstrikeBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -5753,6 +5846,11 @@
             "drawFromTop": "SealedMercenariesRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedMercenariesBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -5825,7 +5923,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedMercenariesRareSource",
-          "SealedMercenariesRandomSource"
+          "SealedMercenariesRandomSource",
+          "SealedMercenariesBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -6026,15 +6125,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedMercenariesBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Mercenaries Guaranteed Rares->SealedMercenariesRareSource",
-          "Sealed Mercenaries Random Pool->SealedMercenariesRandomSource",
-          "Sealed Mercenaries Basic Resources->Discard"
+          "SealedMercenariesRareSource",
+          "SealedMercenariesRandomSource",
+          "SealedMercenariesBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -6345,6 +6451,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedMercenariesBasicResources": {
+            "title": "SealedMercenariesBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -6437,6 +6561,11 @@
             "drawFromTop": "SealedMechWarriorRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedMechWarriorBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -6509,7 +6638,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedMechWarriorRareSource",
-          "SealedMechWarriorRandomSource"
+          "SealedMechWarriorRandomSource",
+          "SealedMechWarriorBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -6710,15 +6840,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedMechWarriorBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed MechWarrior Guaranteed Rares->SealedMechWarriorRareSource",
-          "Sealed MechWarrior Random Pool->SealedMechWarriorRandomSource",
-          "Sealed MechWarrior Basic Resources->Discard"
+          "SealedMechWarriorRareSource",
+          "SealedMechWarriorRandomSource",
+          "SealedMechWarriorBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -7029,6 +7166,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedMechWarriorBasicResources": {
+            "title": "SealedMechWarriorBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -7121,6 +7276,11 @@
             "drawFromTop": "SealedArsenalRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedArsenalBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -7193,7 +7353,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedArsenalRareSource",
-          "SealedArsenalRandomSource"
+          "SealedArsenalRandomSource",
+          "SealedArsenalBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -7394,15 +7555,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedArsenalBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Arsenal Guaranteed Rares->SealedArsenalRareSource",
-          "Sealed Arsenal Random Pool->SealedArsenalRandomSource",
-          "Sealed Arsenal Basic Resources->Discard"
+          "SealedArsenalRareSource",
+          "SealedArsenalRandomSource",
+          "SealedArsenalBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -7713,6 +7881,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedArsenalBasicResources": {
+            "title": "SealedArsenalBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -7805,6 +7991,11 @@
             "drawFromTop": "SealedCommandersEditionRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedCommandersEditionBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -7877,7 +8068,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCommandersEditionRareSource",
-          "SealedCommandersEditionRandomSource"
+          "SealedCommandersEditionRandomSource",
+          "SealedCommandersEditionBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -8078,15 +8270,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedCommandersEditionBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Commander's Edition Guaranteed Rares->SealedCommandersEditionRareSource",
-          "Sealed Commander's Edition Random Pool->SealedCommandersEditionRandomSource",
-          "Sealed Commander's Edition Basic Resources->Discard"
+          "SealedCommandersEditionRareSource",
+          "SealedCommandersEditionRandomSource",
+          "SealedCommandersEditionBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -8397,6 +8596,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedCommandersEditionBasicResources": {
+            "title": "SealedCommandersEditionBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -8489,6 +8706,11 @@
             "drawFromTop": "SealedCrusadeRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedCrusadeBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -8561,7 +8783,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedCrusadeRareSource",
-          "SealedCrusadeRandomSource"
+          "SealedCrusadeRandomSource",
+          "SealedCrusadeBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -8762,15 +8985,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedCrusadeBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed Crusade Guaranteed Rares->SealedCrusadeRareSource",
-          "Sealed Crusade Random Pool->SealedCrusadeRandomSource",
-          "Sealed Crusade Basic Resources->Discard"
+          "SealedCrusadeRareSource",
+          "SealedCrusadeRandomSource",
+          "SealedCrusadeBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -9081,6 +9311,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedCrusadeBasicResources": {
+            "title": "SealedCrusadeBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -9173,6 +9421,11 @@
             "drawFromTop": "SealedAllSetsRandomSource",
             "count": 13,
             "destination": "CommandPost3"
+          },
+          {
+            "drawFromTop": "SealedAllSetsBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -9245,7 +9498,8 @@
           "DeckGuard",
           "LimitedSetupRemoval",
           "SealedAllSetsRareSource",
-          "SealedAllSetsRandomSource"
+          "SealedAllSetsRandomSource",
+          "SealedAllSetsBasicResources"
         ],
         "layout": {
           "direction": "column",
@@ -9446,15 +9700,22 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "SealedAllSetsBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Sealed All Sets Guaranteed Rares->SealedAllSetsRareSource",
-          "Sealed All Sets Random Pool->SealedAllSetsRandomSource",
-          "Sealed All Sets Basic Resources->Discard"
+          "SealedAllSetsRareSource",
+          "SealedAllSetsRandomSource",
+          "SealedAllSetsBasicResources"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -9765,6 +10026,24 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "SealedAllSetsBasicResources": {
+            "title": "SealedAllSetsBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         },
         "sharedZone": {
@@ -9827,6 +10106,11 @@
             "drawFromTop": "DraftLimitedPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftLimitedBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -9904,6 +10188,7 @@
           "DraftLimitedPack2RandomSource",
           "DraftLimitedPack3RareSource",
           "DraftLimitedPack3RandomSource",
+          "DraftLimitedBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -10137,6 +10422,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftLimitedBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -10197,13 +10489,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Limited Pack 1 Guaranteed Rares->DraftLimitedPack1RareSource",
-          "Draft Limited Pack 1 Random Pool->DraftLimitedPack1RandomSource",
-          "Draft Limited Pack 2 Guaranteed Rares->DraftLimitedPack2RareSource",
-          "Draft Limited Pack 2 Random Pool->DraftLimitedPack2RandomSource",
-          "Draft Limited Pack 3 Guaranteed Rares->DraftLimitedPack3RareSource",
-          "Draft Limited Pack 3 Random Pool->DraftLimitedPack3RandomSource",
-          "Draft Limited Basic Resources->Discard"
+          "DraftLimitedPack1RareSource",
+          "DraftLimitedPack1RandomSource",
+          "DraftLimitedPack2RareSource",
+          "DraftLimitedPack2RandomSource",
+          "DraftLimitedPack3RareSource",
+          "DraftLimitedPack3RandomSource",
+          "DraftLimitedBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -10633,6 +10925,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftLimitedBasicResources": {
+            "title": "DraftLimitedBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -10832,6 +11142,11 @@
             "drawFromTop": "DraftUnlimitedPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftUnlimitedBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -10909,6 +11224,7 @@
           "DraftUnlimitedPack2RandomSource",
           "DraftUnlimitedPack3RareSource",
           "DraftUnlimitedPack3RandomSource",
+          "DraftUnlimitedBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -11142,6 +11458,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftUnlimitedBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -11202,13 +11525,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Unlimited Pack 1 Guaranteed Rares->DraftUnlimitedPack1RareSource",
-          "Draft Unlimited Pack 1 Random Pool->DraftUnlimitedPack1RandomSource",
-          "Draft Unlimited Pack 2 Guaranteed Rares->DraftUnlimitedPack2RareSource",
-          "Draft Unlimited Pack 2 Random Pool->DraftUnlimitedPack2RandomSource",
-          "Draft Unlimited Pack 3 Guaranteed Rares->DraftUnlimitedPack3RareSource",
-          "Draft Unlimited Pack 3 Random Pool->DraftUnlimitedPack3RandomSource",
-          "Draft Unlimited Basic Resources->Discard"
+          "DraftUnlimitedPack1RareSource",
+          "DraftUnlimitedPack1RandomSource",
+          "DraftUnlimitedPack2RareSource",
+          "DraftUnlimitedPack2RandomSource",
+          "DraftUnlimitedPack3RareSource",
+          "DraftUnlimitedPack3RandomSource",
+          "DraftUnlimitedBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -11638,6 +11961,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftUnlimitedBasicResources": {
+            "title": "DraftUnlimitedBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -11837,6 +12178,11 @@
             "drawFromTop": "DraftCounterstrikePack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftCounterstrikeBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -11914,6 +12260,7 @@
           "DraftCounterstrikePack2RandomSource",
           "DraftCounterstrikePack3RareSource",
           "DraftCounterstrikePack3RandomSource",
+          "DraftCounterstrikeBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -12147,6 +12494,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftCounterstrikeBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -12207,13 +12561,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Counterstrike Pack 1 Guaranteed Rares->DraftCounterstrikePack1RareSource",
-          "Draft Counterstrike Pack 1 Random Pool->DraftCounterstrikePack1RandomSource",
-          "Draft Counterstrike Pack 2 Guaranteed Rares->DraftCounterstrikePack2RareSource",
-          "Draft Counterstrike Pack 2 Random Pool->DraftCounterstrikePack2RandomSource",
-          "Draft Counterstrike Pack 3 Guaranteed Rares->DraftCounterstrikePack3RareSource",
-          "Draft Counterstrike Pack 3 Random Pool->DraftCounterstrikePack3RandomSource",
-          "Draft Counterstrike Basic Resources->Discard"
+          "DraftCounterstrikePack1RareSource",
+          "DraftCounterstrikePack1RandomSource",
+          "DraftCounterstrikePack2RareSource",
+          "DraftCounterstrikePack2RandomSource",
+          "DraftCounterstrikePack3RareSource",
+          "DraftCounterstrikePack3RandomSource",
+          "DraftCounterstrikeBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -12643,6 +12997,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftCounterstrikeBasicResources": {
+            "title": "DraftCounterstrikeBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -12842,6 +13214,11 @@
             "drawFromTop": "DraftMercenariesPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftMercenariesBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -12919,6 +13296,7 @@
           "DraftMercenariesPack2RandomSource",
           "DraftMercenariesPack3RareSource",
           "DraftMercenariesPack3RandomSource",
+          "DraftMercenariesBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -13152,6 +13530,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftMercenariesBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -13212,13 +13597,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Mercenaries Pack 1 Guaranteed Rares->DraftMercenariesPack1RareSource",
-          "Draft Mercenaries Pack 1 Random Pool->DraftMercenariesPack1RandomSource",
-          "Draft Mercenaries Pack 2 Guaranteed Rares->DraftMercenariesPack2RareSource",
-          "Draft Mercenaries Pack 2 Random Pool->DraftMercenariesPack2RandomSource",
-          "Draft Mercenaries Pack 3 Guaranteed Rares->DraftMercenariesPack3RareSource",
-          "Draft Mercenaries Pack 3 Random Pool->DraftMercenariesPack3RandomSource",
-          "Draft Mercenaries Basic Resources->Discard"
+          "DraftMercenariesPack1RareSource",
+          "DraftMercenariesPack1RandomSource",
+          "DraftMercenariesPack2RareSource",
+          "DraftMercenariesPack2RandomSource",
+          "DraftMercenariesPack3RareSource",
+          "DraftMercenariesPack3RandomSource",
+          "DraftMercenariesBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -13648,6 +14033,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftMercenariesBasicResources": {
+            "title": "DraftMercenariesBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -13847,6 +14250,11 @@
             "drawFromTop": "DraftMechWarriorPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftMechWarriorBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -13924,6 +14332,7 @@
           "DraftMechWarriorPack2RandomSource",
           "DraftMechWarriorPack3RareSource",
           "DraftMechWarriorPack3RandomSource",
+          "DraftMechWarriorBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -14157,6 +14566,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftMechWarriorBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -14217,13 +14633,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft MechWarrior Pack 1 Guaranteed Rares->DraftMechWarriorPack1RareSource",
-          "Draft MechWarrior Pack 1 Random Pool->DraftMechWarriorPack1RandomSource",
-          "Draft MechWarrior Pack 2 Guaranteed Rares->DraftMechWarriorPack2RareSource",
-          "Draft MechWarrior Pack 2 Random Pool->DraftMechWarriorPack2RandomSource",
-          "Draft MechWarrior Pack 3 Guaranteed Rares->DraftMechWarriorPack3RareSource",
-          "Draft MechWarrior Pack 3 Random Pool->DraftMechWarriorPack3RandomSource",
-          "Draft MechWarrior Basic Resources->Discard"
+          "DraftMechWarriorPack1RareSource",
+          "DraftMechWarriorPack1RandomSource",
+          "DraftMechWarriorPack2RareSource",
+          "DraftMechWarriorPack2RandomSource",
+          "DraftMechWarriorPack3RareSource",
+          "DraftMechWarriorPack3RandomSource",
+          "DraftMechWarriorBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -14653,6 +15069,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftMechWarriorBasicResources": {
+            "title": "DraftMechWarriorBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -14852,6 +15286,11 @@
             "drawFromTop": "DraftArsenalPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftArsenalBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -14929,6 +15368,7 @@
           "DraftArsenalPack2RandomSource",
           "DraftArsenalPack3RareSource",
           "DraftArsenalPack3RandomSource",
+          "DraftArsenalBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -15162,6 +15602,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftArsenalBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -15222,13 +15669,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Arsenal Pack 1 Guaranteed Rares->DraftArsenalPack1RareSource",
-          "Draft Arsenal Pack 1 Random Pool->DraftArsenalPack1RandomSource",
-          "Draft Arsenal Pack 2 Guaranteed Rares->DraftArsenalPack2RareSource",
-          "Draft Arsenal Pack 2 Random Pool->DraftArsenalPack2RandomSource",
-          "Draft Arsenal Pack 3 Guaranteed Rares->DraftArsenalPack3RareSource",
-          "Draft Arsenal Pack 3 Random Pool->DraftArsenalPack3RandomSource",
-          "Draft Arsenal Basic Resources->Discard"
+          "DraftArsenalPack1RareSource",
+          "DraftArsenalPack1RandomSource",
+          "DraftArsenalPack2RareSource",
+          "DraftArsenalPack2RandomSource",
+          "DraftArsenalPack3RareSource",
+          "DraftArsenalPack3RandomSource",
+          "DraftArsenalBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -15658,6 +16105,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftArsenalBasicResources": {
+            "title": "DraftArsenalBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -15857,6 +16322,11 @@
             "drawFromTop": "DraftCommandersEditionPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftCommandersEditionBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -15934,6 +16404,7 @@
           "DraftCommandersEditionPack2RandomSource",
           "DraftCommandersEditionPack3RareSource",
           "DraftCommandersEditionPack3RandomSource",
+          "DraftCommandersEditionBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -16167,6 +16638,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftCommandersEditionBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -16227,13 +16705,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Commander's Edition Pack 1 Guaranteed Rares->DraftCommandersEditionPack1RareSource",
-          "Draft Commander's Edition Pack 1 Random Pool->DraftCommandersEditionPack1RandomSource",
-          "Draft Commander's Edition Pack 2 Guaranteed Rares->DraftCommandersEditionPack2RareSource",
-          "Draft Commander's Edition Pack 2 Random Pool->DraftCommandersEditionPack2RandomSource",
-          "Draft Commander's Edition Pack 3 Guaranteed Rares->DraftCommandersEditionPack3RareSource",
-          "Draft Commander's Edition Pack 3 Random Pool->DraftCommandersEditionPack3RandomSource",
-          "Draft Commander's Edition Basic Resources->Discard"
+          "DraftCommandersEditionPack1RareSource",
+          "DraftCommandersEditionPack1RandomSource",
+          "DraftCommandersEditionPack2RareSource",
+          "DraftCommandersEditionPack2RandomSource",
+          "DraftCommandersEditionPack3RareSource",
+          "DraftCommandersEditionPack3RandomSource",
+          "DraftCommandersEditionBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -16663,6 +17141,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftCommandersEditionBasicResources": {
+            "title": "DraftCommandersEditionBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -16862,6 +17358,11 @@
             "drawFromTop": "DraftCrusadePack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftCrusadeBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -16939,6 +17440,7 @@
           "DraftCrusadePack2RandomSource",
           "DraftCrusadePack3RareSource",
           "DraftCrusadePack3RandomSource",
+          "DraftCrusadeBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -17172,6 +17674,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftCrusadeBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -17232,13 +17741,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft Crusade Pack 1 Guaranteed Rares->DraftCrusadePack1RareSource",
-          "Draft Crusade Pack 1 Random Pool->DraftCrusadePack1RandomSource",
-          "Draft Crusade Pack 2 Guaranteed Rares->DraftCrusadePack2RareSource",
-          "Draft Crusade Pack 2 Random Pool->DraftCrusadePack2RandomSource",
-          "Draft Crusade Pack 3 Guaranteed Rares->DraftCrusadePack3RareSource",
-          "Draft Crusade Pack 3 Random Pool->DraftCrusadePack3RandomSource",
-          "Draft Crusade Basic Resources->Discard"
+          "DraftCrusadePack1RareSource",
+          "DraftCrusadePack1RandomSource",
+          "DraftCrusadePack2RareSource",
+          "DraftCrusadePack2RandomSource",
+          "DraftCrusadePack3RareSource",
+          "DraftCrusadePack3RandomSource",
+          "DraftCrusadeBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -17668,6 +18177,24 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftCrusadeBasicResources": {
+            "title": "DraftCrusadeBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftCurrent": {
             "title": "DraftCurrent",
             "isHidden": "no",
@@ -17867,6 +18394,11 @@
             "drawFromTop": "DraftAllSetsPack3RandomSource",
             "count": 11,
             "destination": "Mission3"
+          },
+          {
+            "drawFromTop": "DraftAllSetsBasicResources",
+            "count": 100,
+            "destination": "Discard"
           }
         ]
       },
@@ -17944,6 +18476,7 @@
           "DraftAllSetsPack2RandomSource",
           "DraftAllSetsPack3RareSource",
           "DraftAllSetsPack3RandomSource",
+          "DraftAllSetsBasicResources",
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
@@ -18177,6 +18710,13 @@
                     "width": "1px",
                     "height": "1px"
                   }
+                },
+                {
+                  "section": "DraftAllSetsBasicResources",
+                  "style": {
+                    "width": "1px",
+                    "height": "1px"
+                  }
                 }
               ]
             },
@@ -18237,13 +18777,13 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Draft All Sets Pack 1 Guaranteed Rares->DraftAllSetsPack1RareSource",
-          "Draft All Sets Pack 1 Random Pool->DraftAllSetsPack1RandomSource",
-          "Draft All Sets Pack 2 Guaranteed Rares->DraftAllSetsPack2RareSource",
-          "Draft All Sets Pack 2 Random Pool->DraftAllSetsPack2RandomSource",
-          "Draft All Sets Pack 3 Guaranteed Rares->DraftAllSetsPack3RareSource",
-          "Draft All Sets Pack 3 Random Pool->DraftAllSetsPack3RandomSource",
-          "Draft All Sets Basic Resources->Discard"
+          "DraftAllSetsPack1RareSource",
+          "DraftAllSetsPack1RandomSource",
+          "DraftAllSetsPack2RareSource",
+          "DraftAllSetsPack2RandomSource",
+          "DraftAllSetsPack3RareSource",
+          "DraftAllSetsPack3RandomSource",
+          "DraftAllSetsBasicResources"
         ],
         "autoPlayFromHand": {
           "Unit 1-1": "Mission",
@@ -18662,6 +19202,24 @@
             "alignment": "DECK",
             "opponentAlignment": "CENTER",
             "displayedTitle": "Pack 3 Random Pool",
+            "cardBackColor": "#171719",
+            "startsShuffled": true,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DraftAllSetsBasicResources": {
+            "title": "DraftAllSetsBasicResources",
+            "isHidden": "yes",
+            "height": 1,
+            "alignment": "DECK",
+            "opponentAlignment": "CENTER",
+            "displayedTitle": "Basic Resources",
             "cardBackColor": "#171719",
             "startsShuffled": true,
             "noAutoPayTo": false,
