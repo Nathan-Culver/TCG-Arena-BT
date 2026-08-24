@@ -9211,13 +9211,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -9232,13 +9225,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -10045,13 +10031,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -10066,13 +10045,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -10879,13 +10851,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -10900,13 +10865,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -11713,13 +11671,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -11734,13 +11685,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -12547,13 +12491,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -12568,13 +12505,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -13381,13 +13311,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -13402,13 +13325,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -14215,13 +14131,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -14236,13 +14145,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -15049,13 +14951,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -15070,13 +14965,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -15883,13 +15771,6 @@
               },
               "children": [
                 {
-                  "type": "span",
-                  "props": {
-                    "className": "me-1"
-                  },
-                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
-                },
-                {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
@@ -15904,13 +15785,6 @@
                   },
                   "children": "Refresh Seats",
                   "onClick": "await btDraftRegisterPlayer(false)"
-                },
-                {
-                  "type": "span",
-                  "props": {
-                    "className": "ms-1 opacity-75"
-                  },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
