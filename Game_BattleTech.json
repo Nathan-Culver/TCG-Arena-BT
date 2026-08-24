@@ -9135,7 +9135,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -9199,7 +9199,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -9215,7 +9215,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -9426,7 +9426,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -9446,31 +9447,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -9485,7 +9470,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -10048,7 +10033,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -10112,7 +10097,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -10128,7 +10113,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -10339,7 +10324,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -10359,31 +10345,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -10398,7 +10368,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -10961,7 +10931,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11025,7 +10995,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11041,7 +11011,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11252,7 +11222,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -11272,31 +11243,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -11311,7 +11266,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -11874,7 +11829,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11938,7 +11893,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -11954,7 +11909,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12165,7 +12120,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -12185,31 +12141,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -12224,7 +12164,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -12787,7 +12727,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12851,7 +12791,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -12867,7 +12807,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13078,7 +13018,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -13098,31 +13039,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -13137,7 +13062,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -13700,7 +13625,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13764,7 +13689,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13780,7 +13705,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -13991,7 +13916,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -14011,31 +13937,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -14050,7 +13960,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -14613,7 +14523,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14677,7 +14587,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14693,7 +14603,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -14904,7 +14814,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -14924,31 +14835,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -14963,7 +14858,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -15526,7 +15421,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15590,7 +15485,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15606,7 +15501,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -15817,7 +15712,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -15837,31 +15733,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -15876,7 +15756,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -16439,7 +16319,7 @@
           },
           "Mission": {
             "title": "Mission",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16503,7 +16383,7 @@
           },
           "Mission2": {
             "title": "Mission2",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16519,7 +16399,7 @@
           },
           "Mission3": {
             "title": "Mission3",
-            "isHidden": "yes",
+            "isHidden": "opponent-only",
             "height": 15,
             "alignment": "START",
             "opponentAlignment": "END",
@@ -16730,7 +16610,8 @@
             "isShared": true,
             "defaultValue": {
               "players": {},
-              "registeredCount": 0
+              "registeredCount": 0,
+              "progress": {}
             },
             "blueprint": {
               "type": "div",
@@ -16750,31 +16631,15 @@
                   "props": {
                     "className": "me-1"
                   },
-                  "children": "Take one card, then pass:"
+                  "children": "Active Pack {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.activePack ?? 1 }}: move exactly one card to Draft Picks, then"
                 },
                 {
                   "type": "button",
                   "props": {
                     "className": "btn btn-sm btn-primary"
                   },
-                  "children": "Pass Pack 1 →",
-                  "onClick": "await btDraftPassPack(1)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-success"
-                  },
-                  "children": "Pass Pack 2 ←",
-                  "onClick": "await btDraftPassPack(2)"
-                },
-                {
-                  "type": "button",
-                  "props": {
-                    "className": "btn btn-sm btn-primary"
-                  },
-                  "children": "Pass Pack 3 →",
-                  "onClick": "await btDraftPassPack(3)"
+                  "children": "Confirm Pick & Pass",
+                  "onClick": "await btDraftConfirmPickAndPass()"
                 },
                 {
                   "type": "button",
@@ -16789,7 +16654,7 @@
                   "props": {
                     "className": "ms-1 opacity-75"
                   },
-                  "children": "Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 }
               ]
             },
@@ -16902,6 +16767,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=2"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=3"
   ]
 }
