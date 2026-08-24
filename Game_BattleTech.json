@@ -4107,27 +4107,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -4675,27 +4654,6 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
           }
         }
       }
@@ -5245,27 +5203,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -5813,27 +5750,6 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
           }
         }
       }
@@ -6383,27 +6299,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -6951,27 +6846,6 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
           }
         }
       }
@@ -7521,27 +7395,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -8089,27 +7942,6 @@
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
           }
         }
       }
@@ -8659,27 +8491,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -8764,7 +8575,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -8824,11 +8634,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -8884,7 +8711,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -8944,57 +8771,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -9404,22 +9189,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -9557,27 +9326,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -9662,7 +9410,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -9722,11 +9469,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -9782,7 +9546,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -9842,57 +9606,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -10302,22 +10024,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -10455,27 +10161,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -10560,7 +10245,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -10620,11 +10304,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -10680,7 +10381,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -10740,57 +10441,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -11200,22 +10859,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -11353,27 +10996,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -11458,7 +11080,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -11518,11 +11139,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -11578,7 +11216,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -11638,57 +11276,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -12098,22 +11694,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -12251,27 +11831,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -12356,7 +11915,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -12416,11 +11974,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -12476,7 +12051,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -12536,57 +12111,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -12996,22 +12529,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -13149,27 +12666,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -13254,7 +12750,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -13314,11 +12809,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -13374,7 +12886,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -13434,57 +12946,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -13894,22 +13364,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -14047,27 +13501,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -14152,7 +13585,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -14212,11 +13644,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -14272,7 +13721,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -14332,57 +13781,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -14792,22 +14199,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -14945,27 +14336,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -15050,7 +14420,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -15110,11 +14479,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -15170,7 +14556,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -15230,57 +14616,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -15690,22 +15034,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -15843,27 +15171,6 @@
               ]
             }
           }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
-          }
         }
       }
     },
@@ -15948,7 +15255,6 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
-          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -16008,11 +15314,28 @@
                       }
                     },
                     {
-                      "section": "Mission5",
+                      "direction": "row",
                       "style": {
                         "width": "20%",
-                        "height": "100%"
-                      }
+                        "height": "100%",
+                        "gap": "0.25vh"
+                      },
+                      "content": [
+                        {
+                          "section": "DraftCurrent",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        },
+                        {
+                          "section": "DraftPool",
+                          "style": {
+                            "width": "50%",
+                            "height": "100%"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -16068,7 +15391,7 @@
                       }
                     },
                     {
-                      "section": "CommandPost5",
+                      "section": "DraftPass",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -16128,57 +15451,15 @@
               }
             },
             {
-              "direction": "row",
-              "style": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "34vh",
-                "zIndex": 0,
-                "background": "transparent"
-              },
-              "content": [
-                {
-                  "section": "DraftCurrent",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPool",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftPass",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                },
-                {
-                  "section": "DraftIncoming",
-                  "style": {
-                    "width": "25%",
-                    "height": "34vh"
-                  }
-                }
-              ]
-            },
-            {
               "section": "DraftController",
               "style": {
-                "position": "absolute",
-                "bottom": "0.25vh",
+                "position": "fixed",
+                "top": "4.5rem",
                 "left": "50%",
                 "transform": "translateX(-50%)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
-                "zIndex": 20
+                "zIndex": 10000
               }
             },
             {
@@ -16588,22 +15869,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftIncoming": {
-            "title": "DraftIncoming",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Incoming Cards",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -16740,27 +16005,6 @@
                 }
               ]
             }
-          }
-        },
-        "sharedZone": {
-          "height": 18,
-          "layout": {
-            "direction": "row",
-            "reverseForOppositeSide": false,
-            "style": {
-              "width": "100%",
-              "height": "17vh",
-              "gap": "0.5vh"
-            },
-            "content": [
-              {
-                "section": "Stack",
-                "style": {
-                  "width": "100%",
-                  "height": "17vh"
-                }
-              }
-            ]
           }
         }
       }
