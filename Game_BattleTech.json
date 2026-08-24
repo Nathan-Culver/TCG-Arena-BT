@@ -8773,10 +8773,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -8810,7 +8809,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -9608,10 +9607,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -9645,7 +9643,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -10443,10 +10441,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -10480,7 +10477,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -11278,10 +11275,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -11315,7 +11311,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -12113,10 +12109,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -12150,7 +12145,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -12948,10 +12943,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -12985,7 +12979,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -13783,10 +13777,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -13820,7 +13813,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -14618,10 +14611,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -14655,7 +14647,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
@@ -15453,10 +15445,9 @@
             {
               "section": "DraftController",
               "style": {
-                "position": "fixed",
-                "top": "4.5rem",
-                "left": "50%",
-                "transform": "translateX(-50%)",
+                "position": "absolute",
+                "top": "30vh",
+                "right": "calc(var(--card-width) + 1vh)",
                 "width": "min(48rem, 78vw)",
                 "height": "auto",
                 "zIndex": 10000
@@ -15490,7 +15481,7 @@
               "style": {
                 "position": "absolute",
                 "bottom": "9.5vh",
-                "right": "calc(var(--card-width) + 0.5vh)",
+                "right": "0.5vh",
                 "width": "calc(var(--card-width) + 3.5rem)",
                 "height": "auto",
                 "zIndex": 20
