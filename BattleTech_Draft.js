@@ -53,7 +53,6 @@ function btDraftRound(controller, roundKey, packNumber, pickNumber) {
     packNumber,
     pickNumber,
     ready: {},
-    pickIds: {},
     released: {},
     ...(controller.rounds[roundKey] ?? {}),
   }
@@ -159,15 +158,20 @@ async function btDraftProcessReadyRounds() {
 
   // Bank the locked pick into this player's working Draft deck before any
   // remaining pack enters the exchange queue.
-  const pickId = round.pickIds?.[String(myPosition)]
-  const lockedPick = [...(cards?.DraftPool ?? [])].find(
-    (card) => card?.owner === myPlayerId && card?.id === pickId
+  const lockedPicks = [...(cards?.DraftPool ?? [])].filter(
+    (card) => card?.owner === myPlayerId
   )
-  if (!lockedPick) {
+  if (lockedPicks.length !== 1) {
     delete round.released[String(myPosition)]
-    functions.chatLog("Draft: the locked pick could not be found in Draft Picks.")
+    functions.chatLog(
+      `Draft: expected one locked pick but found ${lockedPicks.length} in Draft Picks.`
+    )
     return
   }
+  const lockedPick = lockedPicks[0]
+  // Cards moved from a face-up Patrol can retain that state. Explicitly hide
+  // the selection before it enters the opponent-hidden Draft Stockpile.
+  await functions.updateCards([lockedPick], { isHidden: "yes" })
   await functions.moveCards([lockedPick], "LimitedStockpile", { noLogs: true })
 
   const remainingCards = [...(cards?.[sectionName] ?? [])].filter(
@@ -255,10 +259,6 @@ async function btDraftConfirmPickAndPass() {
   const roundKey = `${packNumber}:${pickNumber}`
   const round = btDraftRound(controller, roundKey, packNumber, pickNumber)
   round.ready = { ...(round.ready ?? {}), [String(myPosition)]: true }
-  round.pickIds = {
-    ...(round.pickIds ?? {}),
-    [String(myPosition)]: ownedPicks[0].id,
-  }
   progress.waitingRound = roundKey
 
   const readyCount = Object.values(round.ready).filter(Boolean).length
