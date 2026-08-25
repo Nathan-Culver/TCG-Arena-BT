@@ -53,6 +53,7 @@ function btDraftRound(controller, roundKey, packNumber, pickNumber) {
     packNumber,
     pickNumber,
     ready: {},
+    pickIds: {},
     released: {},
     ...(controller.rounds[roundKey] ?? {}),
   }
@@ -155,6 +156,20 @@ async function btDraftProcessReadyRounds() {
   // Set the guard before transferring because every transferred card can fire
   // another onCardsUpdate event.
   round.released[String(myPosition)] = "running"
+
+  // Bank the locked pick into this player's working Draft deck before any
+  // remaining pack enters the exchange queue.
+  const pickId = round.pickIds?.[String(myPosition)]
+  const lockedPick = [...(cards?.DraftPool ?? [])].find(
+    (card) => card?.owner === myPlayerId && card?.id === pickId
+  )
+  if (!lockedPick) {
+    delete round.released[String(myPosition)]
+    functions.chatLog("Draft: the locked pick could not be found in Draft Picks.")
+    return
+  }
+  await functions.moveCards([lockedPick], "LimitedStockpile", { noLogs: true })
+
   const remainingCards = [...(cards?.[sectionName] ?? [])].filter(
     (card) => card?.owner === myPlayerId
   )
@@ -225,7 +240,7 @@ async function btDraftConfirmPickAndPass() {
   const ownedPicks = [...(cards?.DraftPool ?? [])].filter(
     (card) => card?.owner === myPlayerId
   )
-  const newPickCount = ownedPicks.length - Number(progress.confirmedPicks ?? 0)
+  const newPickCount = ownedPicks.length
   if (newPickCount !== 1) {
     functions.chatLog(
       newPickCount < 1
@@ -235,11 +250,15 @@ async function btDraftConfirmPickAndPass() {
     return
   }
 
-  progress.confirmedPicks = ownedPicks.length
+  progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
   const pickNumber = Number(progress.packPickNumber ?? 0)
   const roundKey = `${packNumber}:${pickNumber}`
   const round = btDraftRound(controller, roundKey, packNumber, pickNumber)
   round.ready = { ...(round.ready ?? {}), [String(myPosition)]: true }
+  round.pickIds = {
+    ...(round.pickIds ?? {}),
+    [String(myPosition)]: ownedPicks[0].id,
+  }
   progress.waitingRound = roundKey
 
   const readyCount = Object.values(round.ready).filter(Boolean).length
