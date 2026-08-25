@@ -8575,6 +8575,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -8771,12 +8772,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -9188,6 +9201,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -9195,14 +9224,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -9211,26 +9241,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -9395,6 +9440,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -9591,12 +9637,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -10008,6 +10066,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -10015,14 +10089,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -10031,26 +10106,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -10215,6 +10305,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -10411,12 +10502,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -10828,6 +10931,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -10835,14 +10954,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -10851,26 +10971,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -11035,6 +11170,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -11231,12 +11367,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -11648,6 +11796,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -11655,14 +11819,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -11671,26 +11836,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -11855,6 +12035,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -12051,12 +12232,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -12468,6 +12661,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -12475,14 +12684,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -12491,26 +12701,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -12675,6 +12900,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -12871,12 +13097,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -13288,6 +13526,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -13295,14 +13549,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -13311,26 +13566,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -13495,6 +13765,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -13691,12 +13962,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -14108,6 +14391,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -14115,14 +14414,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -14131,26 +14431,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -14315,6 +14630,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -14511,12 +14827,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -14928,6 +15256,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -14935,14 +15279,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -14951,26 +15296,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -15135,6 +15495,7 @@
           "DraftCurrent",
           "DraftPool",
           "DraftPass",
+          "DraftIncoming",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -15331,12 +15692,24 @@
               }
             },
             {
+              "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
               "section": "DraftController",
               "style": {
                 "position": "absolute",
                 "top": "30vh",
                 "right": "calc(var(--card-width) + 1vh)",
-                "width": "min(48rem, 78vw)",
+                "width": "max-content",
                 "height": "auto",
                 "zIndex": 10000
               }
@@ -15748,6 +16121,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DraftIncoming": {
+            "title": "DraftIncoming",
+            "isHidden": "yes",
+            "height": 15,
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Draft Incoming Queue",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "DraftController": {
             "title": "DraftController",
             "type": "custom",
@@ -15755,14 +16144,15 @@
             "defaultValue": {
               "players": {},
               "registeredCount": 0,
-              "progress": {}
+              "progress": {},
+              "rounds": {}
             },
             "blueprint": {
               "type": "div",
               "props": {
-                "className": "box-container align-items-center justify-content-center gap-1 p-1 text-nowrap",
+                "className": "box-container align-items-center justify-content-center flex-column gap-1 p-1 text-nowrap",
                 "style": {
-                  "width": "min(48rem, 78vw)",
+                  "width": "max-content",
                   "minHeight": "2.4rem",
                   "background": "rgba(8, 18, 27, 0.94)",
                   "border": "1px solid rgba(58, 160, 220, 0.8)",
@@ -15771,26 +16161,41 @@
               },
               "children": [
                 {
-                  "type": "button",
+                  "type": "span",
                   "props": {
-                    "className": "btn btn-sm btn-primary"
+                    "className": "opacity-75"
                   },
-                  "children": "Confirm Pick & Pass",
-                  "onClick": "await btDraftConfirmPickAndPass()"
+                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
-                  "type": "button",
+                  "type": "div",
                   "props": {
-                    "className": "btn btn-sm btn-secondary"
+                    "className": "d-flex align-items-center justify-content-center gap-1"
                   },
-                  "children": "Refresh Seats",
-                  "onClick": "await btDraftRegisterPlayer(false)"
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-primary"
+                      },
+                      "children": "Confirm Pick & Pass",
+                      "onClick": "await btDraftConfirmPickAndPass()"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "className": "btn btn-sm btn-secondary"
+                      },
+                      "children": "Refresh Seats",
+                      "onClick": "await btDraftRegisterPlayer(false)"
+                    }
+                  ]
                 }
               ]
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true)"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -15876,6 +16281,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=3"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=4"
   ]
 }
