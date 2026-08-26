@@ -8787,7 +8787,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -9652,7 +9652,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -10517,7 +10517,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -11382,7 +11382,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -12247,7 +12247,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -13112,7 +13112,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -13977,7 +13977,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -14842,7 +14842,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
@@ -15707,7 +15707,7 @@
               "section": "DraftController",
               "style": {
                 "position": "absolute",
-                "top": "30vh",
+                "top": "15vh",
                 "right": "calc(var(--card-width) + 1vh)",
                 "width": "max-content",
                 "height": "auto",
