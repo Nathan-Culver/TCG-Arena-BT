@@ -107,13 +107,16 @@ async function btDraftLoadIncomingPack(myPlayerId, progress) {
   const incomingCards = [...(cards?.DraftIncoming ?? [])].filter(
     (card) => card?.owner === myPlayerId
   )
-  const currentOwnedCards = [...(cards?.[sectionName] ?? [])].filter(
-    (card) => card?.owner === myPlayerId
-  )
-  if (currentOwnedCards.length > 0 || incomingCards.length === 0) return false
+  // Once awaitingIncomingPack is set, this player's original pack has
+  // already left Patrol.  Incoming network updates can arrive in pieces, so
+  // always drain every currently available card.  Refusing to load because
+  // the first arriving card is already in Patrol strands the rest of the
+  // pack in DraftIncoming.
+  if (incomingCards.length === 0) return false
 
   await functions.moveCards(incomingCards, sectionName, { noLogs: true })
-  progress.awaitingIncomingPack = null
+  // Keep awaitingIncomingPack set until the next pick is confirmed.  That
+  // lets later pieces of the same transfer drain into the same Patrol zone.
   return true
 }
 
@@ -158,17 +161,25 @@ async function btDraftProcessReadyRounds() {
 
   // Bank the locked pick into this player's working Draft deck before any
   // remaining pack enters the exchange queue.
-  const lockedPicks = [...(cards?.DraftPool ?? [])].filter(
-    (card) => card?.owner === myPlayerId
+  const lockedPickId = round.ready?.[String(myPosition)]
+  const lockedPick = [...(cards?.DraftPool ?? [])].find(
+    (card) => card?.owner === myPlayerId && card?.id === lockedPickId
   )
-  if (lockedPicks.length !== 1) {
+  if (!lockedPick) {
+    // A second debounced update can run with an older shared-state snapshot
+    // after the first invocation has already banked this exact card.  Let the
+    // original invocation finish instead of treating that harmless duplicate
+    // as a missing pick and disturbing the release state.
+    const alreadyBanked = [...(cards?.LimitedStockpile ?? [])].some(
+      (card) => card?.owner === myPlayerId && card?.id === lockedPickId
+    )
+    if (alreadyBanked) return
     delete round.released[String(myPosition)]
     functions.chatLog(
-      `Draft: expected one locked pick but found ${lockedPicks.length} in Draft Picks.`
+      "Draft: the locked pick could not be found in Draft Picks."
     )
     return
   }
-  const lockedPick = lockedPicks[0]
   // Cards moved from a face-up Patrol can retain that state. Explicitly hide
   // the selection before it enters the opponent-hidden Draft Stockpile.
   await functions.updateCards([lockedPick], { isHidden: "yes" })
@@ -178,9 +189,13 @@ async function btDraftProcessReadyRounds() {
     (card) => card?.owner === myPlayerId
   )
 
-  for (const card of remainingCards) {
-    await functions.giveCardTo(card, targetPlayerId, "DraftIncoming")
-  }
+  // Transfer the remaining pack as one batch of promises.  This minimizes
+  // the window in which the receiving client can observe only part of it.
+  await Promise.all(
+    remainingCards.map((card) =>
+      functions.giveCardTo(card, targetPlayerId, "DraftIncoming")
+    )
+  )
 
   round.released[String(myPosition)] = "done"
   progress.waitingRound = null
@@ -241,6 +256,12 @@ async function btDraftConfirmPickAndPass() {
     return
   }
 
+  // Any delayed pieces from the previous pass have now had a chance to load.
+  // Stop treating new DraftIncoming cards as part of that completed pass once
+  // the player starts confirming the next pick.
+  await btDraftLoadIncomingPack(myPlayerId, progress)
+  progress.awaitingIncomingPack = null
+
   const ownedPicks = [...(cards?.DraftPool ?? [])].filter(
     (card) => card?.owner === myPlayerId
   )
@@ -258,7 +279,13 @@ async function btDraftConfirmPickAndPass() {
   const pickNumber = Number(progress.packPickNumber ?? 0)
   const roundKey = `${packNumber}:${pickNumber}`
   const round = btDraftRound(controller, roundKey, packNumber, pickNumber)
-  round.ready = { ...(round.ready ?? {}), [String(myPosition)]: true }
+  // Store the chosen runtime card id, not only a Boolean.  This lets the
+  // release step follow the exact locked selection and safely recognize a
+  // duplicate event after that selection has already been banked.
+  round.ready = {
+    ...(round.ready ?? {}),
+    [String(myPosition)]: ownedPicks[0].id,
+  }
   progress.waitingRound = roundKey
 
   const readyCount = Object.values(round.ready).filter(Boolean).length
