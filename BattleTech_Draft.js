@@ -79,7 +79,10 @@ async function btDraftRepairStartingPacks() {
   const limited = game?.data?.LimitedController
   const controller = game?.data?.DraftController
   const plans = limited?.packPlans
-  if (!controller || !Array.isArray(plans) || plans.length !== 3) return 0
+  if (!controller || !Array.isArray(plans) || plans.length !== 3) {
+    functions.chatLog("Draft setup plan is not ready yet. Wait for setup, then click Refresh Seats again.")
+    return 0
+  }
 
   const myPlayerId = btDraftFindMyPlayerId()
   if (!myPlayerId) return 0
