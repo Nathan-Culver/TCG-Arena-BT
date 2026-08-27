@@ -12,6 +12,11 @@ const BT_DRAFT_PACK_SECTIONS = {
   3: "Mission3",
 }
 
+// Card moves and ownership transfers fire debounced board-update events. A
+// second event must not enter the same async release while the first is still
+// banking a pick or passing cards.
+let BT_DRAFT_PROCESSING = false
+
 function btDraftFindMyPlayerId() {
   const preferredSections = [
     "DraftPool",
@@ -121,6 +126,16 @@ async function btDraftLoadIncomingPack(myPlayerId, progress) {
 }
 
 async function btDraftProcessReadyRounds() {
+  if (BT_DRAFT_PROCESSING) return
+  BT_DRAFT_PROCESSING = true
+  try {
+    await btDraftProcessReadyRoundsUnlocked()
+  } finally {
+    BT_DRAFT_PROCESSING = false
+  }
+}
+
+async function btDraftProcessReadyRoundsUnlocked() {
   const controller = game?.data?.DraftController
   if (!controller) return
 
