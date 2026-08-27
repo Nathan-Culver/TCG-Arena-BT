@@ -16,6 +16,7 @@ const BT_DRAFT_PACK_SECTIONS = {
 // second event must not enter the same async release while the first is still
 // banking a pick or passing cards.
 let BT_DRAFT_PROCESSING = false
+let BT_DRAFT_PROCESS_REQUESTED = false
 
 function btDraftFindMyPlayerId() {
   const preferredSections = [
@@ -179,10 +180,19 @@ async function btDraftLoadIncomingPack(myPlayerId, progress) {
 }
 
 async function btDraftProcessReadyRounds() {
+  // Never discard an update that arrives while a release is already running.
+  // Ownership transfers frequently fire onCardsUpdate in the middle of the
+  // current async pass. Remember that wake-up and immediately run another
+  // pass after the current one finishes so incoming cards cannot remain in
+  // the hidden queue until the player touches the board.
+  BT_DRAFT_PROCESS_REQUESTED = true
   if (BT_DRAFT_PROCESSING) return
   BT_DRAFT_PROCESSING = true
   try {
-    await btDraftProcessReadyRoundsUnlocked()
+    do {
+      BT_DRAFT_PROCESS_REQUESTED = false
+      await btDraftProcessReadyRoundsUnlocked()
+    } while (BT_DRAFT_PROCESS_REQUESTED)
   } finally {
     BT_DRAFT_PROCESSING = false
   }
@@ -264,6 +274,11 @@ async function btDraftProcessReadyRoundsUnlocked() {
       functions.giveCardTo(card, targetPlayerId, "DraftIncoming")
     )
   )
+
+  // Make the completed ownership batch visible to every client's scripting
+  // layer. The queued processing guard above safely absorbs this wake-up if
+  // it arrives before the current release has returned.
+  if (functions.repositionCards) await functions.repositionCards()
 
   round.released[String(myPosition)] = "done"
   progress.waitingRound = null
