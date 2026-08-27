@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BattleTech Draft → TCG-Arena</title>
+  <style>
+    :root { color-scheme: dark; --blue:#55b8ff; --orange:#f0a128; --panel:#111a24; --line:#304457; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; font:16px/1.45 system-ui,sans-serif; color:#eef6ff; background:radial-gradient(circle at 20% 0,#183954 0,transparent 36%),#080d13; }
+    main { width:min(1120px,calc(100% - 32px)); margin:36px auto; }
+    header { border-left:5px solid var(--orange); padding:6px 0 6px 18px; margin-bottom:24px; }
+    h1 { margin:0; font-size:clamp(1.8rem,4vw,3rem); letter-spacing:.02em; }
+    h2 { margin:0 0 12px; font-size:1.05rem; text-transform:uppercase; letter-spacing:.08em; color:var(--blue); }
+    p { color:#b9c8d7; }
+    .grid { display:grid; grid-template-columns:1.25fr .75fr; gap:18px; }
+    .panel { background:linear-gradient(145deg,rgba(23,36,49,.97),rgba(10,17,24,.97)); border:1px solid var(--line); border-radius:14px; padding:20px; box-shadow:0 18px 50px #0008; }
+    label { display:block; margin:12px 0 6px; color:#dcecff; font-weight:650; }
+    input,textarea,button,a.action { width:100%; border:1px solid #405970; border-radius:8px; background:#0a1119; color:#f6fbff; padding:11px 12px; font:inherit; }
+    textarea { min-height:360px; resize:vertical; font-family:ui-monospace,monospace; }
+    button,a.action { cursor:pointer; background:#183149; text-align:center; text-decoration:none; font-weight:750; }
+    button.primary,a.primary { background:linear-gradient(135deg,#168fd2,#1c5a8d); border-color:#5fc3ff; }
+    button:hover,a.action:hover { filter:brightness(1.15); }
+    .actions { display:grid; gap:10px; margin-top:16px; }
+    .status { margin-top:12px; padding:12px; border-left:4px solid var(--blue); background:#09131d; white-space:pre-line; }
+    .warning { border-color:var(--orange); color:#ffd79b; }
+    code { color:#a8ddff; }
+    ol { padding-left:22px; color:#c6d4e0; }
+    @media (max-width:800px) { .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <header><h1>BattleTech Draft → TCG-Arena</h1><p>Convert a completed Draftmancer pool into an editable TCG-Arena deck.</p></header>
+  <div class="grid">
+    <section class="panel">
+      <h2>Drafted pool</h2>
+      <label for="deckName">Deck name</label>
+      <input id="deckName" value="BattleTech Draft Deck">
+      <label for="pool">Draftmancer export</label>
+      <textarea id="pool" placeholder="Use Draftmancer: Export → Card Names, then paste the result here."></textarea>
+      <div id="status" class="status">Paste a drafted pool to begin.</div>
+    </section>
+    <aside class="panel">
+      <h2>Automatic basic resources</h2>
+      <p>The imported deck automatically includes 20 copies of each basic resource in a setup category. The three Draft formats move all 100 resource cards directly to Scrapheap when the game starts.</p>
+      <div class="actions">
+        <button id="generate" class="primary">Generate import link</button>
+        <a id="open" class="action primary" href="#" target="_blank" rel="noopener" hidden>Open in TCG-Arena</a>
+        <button id="copyLink" hidden>Copy import link</button>
+        <button id="copyList" hidden>Copy converted decklist</button>
+      </div>
+      <h2 style="margin-top:24px">Finish</h2>
+      <ol><li>Open the generated link.</li><li>Choose <strong>Import</strong> in TCG-Arena.</li><li>Select one of the three Draft mulligan formats when creating the match.</li></ol>
+    </aside>
+  </div>
+</main>
+<script src="BattleTech_Draft_Importer_Data.js"></script>
+<script>
+(() => {
+  const data = window.BT_DRAFT_CARD_DATA;
+  const pool = document.querySelector('#pool');
+  const status = document.querySelector('#status');
+  const open = document.querySelector('#open');
+  const copyLink = document.querySelector('#copyLink');
+  const copyList = document.querySelector('#copyList');
+  let latestUrl = '', latestList = '';
+
+  function parse() {
+    const counts = new Map(), rejected = [];
+    for (let raw of pool.value.split(/\r?\n/)) {
+      raw = raw.trim();
+      if (!raw || /^(deck|sideboard|pool|main deck)\s*:??$/i.test(raw)) continue;
+      let count = 1, text = raw;
+      let match = raw.match(/^(\d+)\s*[xX]?\s+(.+)$/);
+      if (match) { count=Number(match[1]); text=match[2].trim(); }
+      match = text.match(/\[BTID=([^\]]+)\]/);
+      let name;
+      if (match && data.byId[match[1]]) name=data.byId[match[1]].name;
+      if (!name) {
+        const cleaned=text.replace(/\s+\([A-Za-z0-9]+\)\s+\S+$/,'').trim();
+        if (data.byName[cleaned]) name=cleaned;
+      }
+      if (!name || !Number.isFinite(count) || count < 1) rejected.push(raw);
+      else counts.set(name,(counts.get(name)||0)+count);
+    }
+    return {counts,rejected};
+  }
+
+  function latin1Base64(text) {
+    let binary='';
+    for (const char of text) { const code=char.codePointAt(0); if (code>255) throw new Error(`TCG-Arena cannot encode “${char}” in a decklist.`); binary+=String.fromCharCode(code); }
+    return btoa(binary);
+  }
+
+  function updateStatus(result) {
+    const total=[...result.counts.values()].reduce((a,b)=>a+b,0);
+    status.classList.toggle('warning',result.rejected.length>0 || total!==45);
+    status.textContent=`Recognized ${total} card${total===1?'':'s'} in ${result.counts.size} distinct entries.` + (total!==45?'\nA normal finished draft pool contains 45 cards before adding resources.':'') + (result.rejected.length?'\nUnrecognized: '+result.rejected.join(' | '):'');
+  }
+
+  function generate() {
+    const result=parse(); updateStatus(result);
+    if (!result.counts.size || result.rejected.length) return;
+    const drafted=[...result.counts.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([name,count])=>`${count} ${name}`).join('\n');
+    const resources=data.basicResources.map(resource=>`20 ${resource.name}`).join('\n');
+    latestList=`${drafted}\n\n${data.draftResourceCategory}:\n${resources}`;
+    const name=document.querySelector('#deckName').value.trim()||'BattleTech Draft Deck';
+    const params=new URLSearchParams({game:data.game,id:`draft-${Date.now()}`,name,deck:latin1Base64(latestList)});
+    latestUrl=`https://tcg-arena.fr/import?${params}`;
+    open.href=latestUrl; open.hidden=false; copyLink.hidden=false; copyList.hidden=false;
+  }
+
+  pool.addEventListener('input',()=>updateStatus(parse()));
+  document.querySelector('#generate').addEventListener('click',generate);
+  copyLink.addEventListener('click',async()=>navigator.clipboard.writeText(latestUrl));
+  copyList.addEventListener('click',async()=>navigator.clipboard.writeText(latestList));
+})();
+</script>
+</body>
+</html>
