@@ -8572,9 +8572,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -8635,28 +8633,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -8712,7 +8693,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -9153,22 +9134,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -9176,22 +9141,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -9437,9 +9386,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -9500,28 +9447,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -9577,7 +9507,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -10018,22 +9948,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -10041,22 +9955,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -10302,9 +10200,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -10365,28 +10261,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -10442,7 +10321,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -10883,22 +10762,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -10906,22 +10769,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -11167,9 +11014,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -11230,28 +11075,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -11307,7 +11135,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -11748,22 +11576,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -11771,22 +11583,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -12032,9 +11828,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -12095,28 +11889,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -12172,7 +11949,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -12613,22 +12390,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -12636,22 +12397,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -12897,9 +12642,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -12960,28 +12703,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -13037,7 +12763,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -13478,22 +13204,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -13501,22 +13211,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -13762,9 +13456,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -13825,28 +13517,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -13902,7 +13577,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -14343,22 +14018,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -14366,22 +14025,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -14627,9 +14270,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -14690,28 +14331,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -14767,7 +14391,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -15208,22 +14832,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -15231,22 +14839,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
@@ -15492,9 +15084,7 @@
           "ConstructionGuard",
           "DeckGuard",
           "LimitedSetupRemoval",
-          "DraftCurrent",
           "DraftPool",
-          "DraftPass",
           "DraftIncoming",
           "DraftController",
           "LimitedController",
@@ -15555,28 +15145,11 @@
                       }
                     },
                     {
-                      "direction": "row",
+                      "section": "DraftPool",
                       "style": {
                         "width": "20%",
-                        "height": "100%",
-                        "gap": "0.25vh"
-                      },
-                      "content": [
-                        {
-                          "section": "DraftCurrent",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        },
-                        {
-                          "section": "DraftPool",
-                          "style": {
-                            "width": "50%",
-                            "height": "100%"
-                          }
-                        }
-                      ]
+                        "height": "100%"
+                      }
                     }
                   ]
                 }
@@ -15632,7 +15205,7 @@
                       }
                     },
                     {
-                      "section": "DraftPass",
+                      "section": "CommandPost5",
                       "style": {
                         "width": "20%",
                         "height": "100%"
@@ -16073,22 +15646,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftCurrent": {
-            "title": "DraftCurrent",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Current Draft Pool",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "DraftPool": {
             "title": "DraftPool",
             "isHidden": "opponent-only",
@@ -16096,22 +15653,6 @@
             "alignment": "START",
             "opponentAlignment": "END",
             "displayedTitle": "Draft Picks (Private)",
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "DraftPass": {
-            "title": "DraftPass",
-            "isHidden": "no",
-            "height": 15,
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Outgoing Cards — Give to Next Player",
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "noQuickActions": false,
