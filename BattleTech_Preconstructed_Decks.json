@@ -7427,10 +7427,6 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-atlas-as7-d"
-        },
-        {
-          "count": 1,
           "id": "commandersedition-avatar-av1-oc"
         },
         {
@@ -7443,7 +7439,7 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-blackjack-bj2-ob"
+          "id": "commandersedition-catapult-cplt-c1"
         },
         {
           "count": 1,
@@ -7456,6 +7452,10 @@
         {
           "count": 1,
           "id": "commandersedition-dasher-prime-fire-moth"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-dragon-drg-1n"
         },
         {
           "count": 1,
@@ -7472,6 +7472,10 @@
         {
           "count": 1,
           "id": "commandersedition-gallowglas-gal-1gls"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-grand-titan-revised-t-it-n10m"
         },
         {
           "count": 1,
@@ -7499,19 +7503,19 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-jenner-iic"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-koshi-prime-mist-lynx"
-        },
-        {
-          "count": 1,
           "id": "commandersedition-linebacker-prime"
         },
         {
           "count": 1,
           "id": "commandersedition-mad-cat-b-timber-wolf"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-mandrill"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-naga-prime"
         },
         {
           "count": 1,
@@ -7535,37 +7539,21 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-ryoken-d-stormcrow"
-        },
-        {
-          "count": 1,
           "id": "commandersedition-stalker-stk-3f"
         },
         {
           "count": 1,
-          "id": "commandersedition-thor-d-summoner"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-victor-vtr-9b"
+          "id": "commandersedition-trebuchet-tbt-7m"
         },
         {
           "count": 1,
           "id": "commandersedition-vulture-prime-mad-dog"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-wyvern-wve-5n"
         }
       ],
       "Command": [
         {
           "count": 1,
-          "id": "commandersedition-adam-steiner"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-aerospace-fighter-mission"
+          "id": "commandersedition-accelerated-turnaround"
         },
         {
           "count": 1,
@@ -7573,11 +7561,7 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-anastasius-focht"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-arrow-iv-battery"
+          "id": "commandersedition-alshain"
         },
         {
           "count": 2,
@@ -7589,10 +7573,14 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-comstar-high-command"
+          "id": "commandersedition-candace-liao"
         },
         {
           "count": 1,
+          "id": "commandersedition-civilian-settlement"
+        },
+        {
+          "count": 2,
           "id": "commandersedition-contract-with-21st-centauri-lancers"
         },
         {
@@ -7601,15 +7589,27 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-coordinator-theodore-kurita"
+          "id": "commandersedition-contract-with-northwind-highlanders"
         },
         {
-          "count": 2,
+          "count": 1,
+          "id": "commandersedition-corridor-of-fire"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-coventry-metal-works"
+        },
+        {
+          "count": 1,
           "id": "commandersedition-death-commando-strike"
         },
         {
           "count": 1,
-          "id": "commandersedition-difficult-terrain"
+          "id": "commandersedition-disguised-coordinates"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-double-time-offense"
         },
         {
           "count": 1,
@@ -7629,23 +7629,19 @@
         },
         {
           "count": 1,
+          "id": "commandersedition-ghost-bear-high-command"
+        },
+        {
+          "count": 1,
           "id": "commandersedition-headhunter"
         },
         {
           "count": 1,
-          "id": "commandersedition-heavy-woods"
+          "id": "commandersedition-jerrard-cranston"
         },
         {
           "count": 1,
-          "id": "commandersedition-hohiro-kurita"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-lance-commander"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-long-range-targeting-system"
+          "id": "commandersedition-kurita-high-command"
         },
         {
           "count": 1,
@@ -7657,19 +7653,51 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-mercenary-commission-contacts"
+          "id": "commandersedition-mech-trap"
         },
         {
           "count": 1,
-          "id": "commandersedition-morgan-hasek-davion"
+          "id": "commandersedition-misrouted-command"
         },
         {
           "count": 1,
-          "id": "commandersedition-single-combat"
+          "id": "commandersedition-morgan-kell"
         },
         {
           "count": 1,
-          "id": "commandersedition-st-ives-salvage-crew"
+          "id": "commandersedition-omi-kurita"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-prince-victor-steiner-davion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rhonda-snord"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-ristar-mechwarrior"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rocky-gorge"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-rolling-hills"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-sandhurst-royal-military-academy"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-simone-devon"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-smoke-jaguar-high-command"
         },
         {
           "count": 1,
@@ -7677,26 +7705,10 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-steal-mech"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-steiner-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-strip-mining-operation"
-        },
-        {
-          "count": 1,
           "id": "commandersedition-sun-tzu-liao"
         },
         {
           "count": 1,
-          "id": "commandersedition-support-tactics"
-        },
-        {
-          "count": 2,
           "id": "commandersedition-tactical-nuke"
         },
         {
@@ -7705,15 +7717,15 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-the-remembrance"
+          "id": "commandersedition-terra"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-tharkad"
         },
         {
           "count": 1,
           "id": "commandersedition-thumper-battery"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-treachery"
         },
         {
           "count": 1,
@@ -7727,19 +7739,11 @@
       "Mission": [
         {
           "count": 1,
-          "id": "commandersedition-bait-and-switch"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-com-guard-response-team"
+          "id": "commandersedition-deploy-reinforcements"
         },
         {
           "count": 1,
           "id": "commandersedition-feint"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-for-the-chancellor"
         },
         {
           "count": 1,
@@ -7751,7 +7755,7 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-luck-of-the-fox"
+          "id": "commandersedition-missile-spotter"
         },
         {
           "count": 1,
@@ -7763,15 +7767,15 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-tactical-advantage"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-temporary-cease-fire"
+          "id": "commandersedition-risky-combat-jump"
         },
         {
           "count": 1,
           "id": "commandersedition-trapped"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-vicious-kick"
         }
       ],
       "SealedCommandersEditionBasicResources": [
@@ -8213,19 +8217,27 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-hussar-hsr-200-d"
+          "id": "commandersedition-guillotine-glt-5m"
         },
         {
           "count": 1,
-          "id": "commandersedition-jenner-iic"
+          "id": "commandersedition-hermes-her-1s"
         },
         {
           "count": 1,
-          "id": "commandersedition-mongoose-mon-66"
+          "id": "commandersedition-hunchback-iic"
         },
         {
           "count": 1,
-          "id": "commandersedition-phantom-a"
+          "id": "commandersedition-naginata-ng-c3a"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-pouncer-c"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-puma-prime-adder"
         },
         {
           "count": 1,
@@ -8233,11 +8245,15 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-vulture-prime-mad-dog"
+          "id": "commandersedition-wyvern-wve-5n"
         },
         {
           "count": 1,
-          "id": "crusade-nexus-nxs1-a"
+          "id": "counterstrike-vindicator-vnd-3l"
+        },
+        {
+          "count": 1,
+          "id": "crusade-exterminator-ext-4a"
         },
         {
           "count": 1,
@@ -8249,11 +8265,27 @@
         },
         {
           "count": 1,
+          "id": "limited-dasher-prime-firemoth"
+        },
+        {
+          "count": 1,
+          "id": "limited-flea-fle-17"
+        },
+        {
+          "count": 1,
           "id": "limited-highlander-hgn-732"
         },
         {
           "count": 1,
-          "id": "limited-masakari-prime-warhawk"
+          "id": "limited-hoplite-hop-4d"
+        },
+        {
+          "count": 1,
+          "id": "limited-hornet-hnt-171"
+        },
+        {
+          "count": 1,
+          "id": "limited-man-o-war-c-gargoyle"
         },
         {
           "count": 1,
@@ -8261,27 +8293,11 @@
         },
         {
           "count": 1,
-          "id": "limited-raven-rvn-3l"
-        },
-        {
-          "count": 1,
           "id": "limited-ryoken-prime-storm-crow"
         },
         {
           "count": 1,
-          "id": "mechwarrior-owens-ow-1d"
-        },
-        {
-          "count": 1,
-          "id": "mercenaries-scarabus-scb-9a"
-        },
-        {
-          "count": 1,
-          "id": "mercenaries-wyvern-iic"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-clint-clnt-2-3t"
+          "id": "limited-victor-vtr-9b"
         },
         {
           "count": 1,
@@ -8293,53 +8309,33 @@
         },
         {
           "count": 1,
-          "id": "unlimited-hatamoto-chi-htm-27t"
+          "id": "unlimited-hornet-hnt-171"
         },
         {
           "count": 1,
-          "id": "unlimited-lancelot-lnc25-01"
+          "id": "unlimited-javelin-jvn-10n"
         },
         {
           "count": 1,
-          "id": "unlimited-quickdraw-qkd-4g"
+          "id": "unlimited-koshi-d-mist-lynx"
         },
         {
           "count": 1,
-          "id": "unlimited-shogun-shg-2f"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-zeus-zeu-6s"
+          "id": "unlimited-sentinel-stn-3m"
         }
       ],
       "Command": [
         {
           "count": 1,
-          "id": "arsenal-dan-allard"
+          "id": "arsenal-holovid-frameup"
         },
         {
           "count": 1,
-          "id": "arsenal-hot-loaded-lrms"
+          "id": "arsenal-maximillian-liao-s-legacy"
         },
         {
           "count": 1,
-          "id": "commandersedition-assault-on-the-rear-echelon"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-comstar-high-command"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-coordinator-theodore-kurita"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-creative-terraforming"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-ecm-retrofit"
+          "id": "commandersedition-coventry-metal-works"
         },
         {
           "count": 1,
@@ -8347,15 +8343,23 @@
         },
         {
           "count": 1,
+          "id": "commandersedition-ghost-bear-high-command"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-huntress"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-kai-champion-of-solaris"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-laser-system-retrofit"
+        },
+        {
+          "count": 1,
           "id": "commandersedition-mercenary-commission-contacts"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-morgan-kell"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-redline-pilot"
         },
         {
           "count": 1,
@@ -8363,23 +8367,35 @@
         },
         {
           "count": 1,
-          "id": "commandersedition-tactical-nuke"
+          "id": "commandersedition-steiner-high-command"
         },
         {
           "count": 1,
-          "id": "counterstrike-field-command-post"
+          "id": "commandersedition-strip-mining-operation"
         },
         {
           "count": 1,
-          "id": "counterstrike-master-scrounger"
+          "id": "commandersedition-targeting-ace"
         },
         {
           "count": 1,
-          "id": "counterstrike-pinpoint-air-strike"
+          "id": "commandersedition-underworld-connections"
         },
         {
           "count": 1,
-          "id": "counterstrike-strafing-run"
+          "id": "counterstrike-adam-steiner"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-assassination"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-bribed-pilot"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-chandrasekhar-kurita"
         },
         {
           "count": 1,
@@ -8387,11 +8403,31 @@
         },
         {
           "count": 1,
-          "id": "crusade-solahma-mechwarrior"
+          "id": "crusade-temptation"
         },
         {
           "count": 1,
-          "id": "limited-dest-pilot"
+          "id": "limited-arrow-iv-battery"
+        },
+        {
+          "count": 1,
+          "id": "limited-bjorn-jorgensson"
+        },
+        {
+          "count": 1,
+          "id": "limited-elite-infantry"
+        },
+        {
+          "count": 1,
+          "id": "limited-ferro-fibrous-armor"
+        },
+        {
+          "count": 1,
+          "id": "limited-gray-death-pilot"
+        },
+        {
+          "count": 1,
+          "id": "limited-inside-job"
         },
         {
           "count": 1,
@@ -8407,19 +8443,19 @@
         },
         {
           "count": 1,
-          "id": "limited-marik-arms-trade"
+          "id": "limited-maskirovka-operatives"
         },
         {
           "count": 1,
-          "id": "limited-masc"
+          "id": "limited-natasha-kerensky"
         },
         {
           "count": 1,
-          "id": "limited-safe-report"
+          "id": "limited-report-from-the-watch"
         },
         {
           "count": 1,
-          "id": "limited-support-logistics-3-versions"
+          "id": "limited-specialized-project-team"
         },
         {
           "count": 1,
@@ -8427,55 +8463,31 @@
         },
         {
           "count": 1,
-          "id": "mechwarrior-solaris-contacts"
+          "id": "mechwarrior-jump-jet-retrofit"
         },
         {
           "count": 1,
-          "id": "mechwarrior-st-ives-salvage-crew"
+          "id": "mechwarrior-wolfgang-hansen"
         },
         {
           "count": 1,
-          "id": "mechwarrior-targeting-computer-retrofit"
+          "id": "mercenaries-transportation-delay"
         },
         {
           "count": 1,
-          "id": "mechwarrior-time-bomb"
+          "id": "unlimited-ambush"
         },
         {
           "count": 1,
-          "id": "mercenaries-booty-cache"
+          "id": "unlimited-elias-crichell"
         },
         {
           "count": 1,
-          "id": "mercenaries-hidden-reserves"
+          "id": "unlimited-jaime-wolf"
         },
         {
           "count": 1,
-          "id": "unlimited-aerospace-fighter-mission"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-battalion-support"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-extra-armor-plating"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-infantry-platoon"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-long-range-targeting-system"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-marissa-morgan"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-masc"
+          "id": "unlimited-maneuvering-ace"
         },
         {
           "count": 1,
@@ -8483,7 +8495,7 @@
         },
         {
           "count": 1,
-          "id": "unlimited-retrofitted-missile-rack"
+          "id": "unlimited-sabotaged-missiles"
         },
         {
           "count": 1,
@@ -8493,19 +8505,23 @@
       "Mission": [
         {
           "count": 1,
-          "id": "arsenal-strength-of-the-bear"
+          "id": "arsenal-steel-talons"
         },
         {
-          "count": 1,
-          "id": "commandersedition-deploy-reinforcements"
-        },
-        {
-          "count": 1,
-          "id": "commandersedition-feint"
-        },
-        {
-          "count": 1,
+          "count": 2,
           "id": "commandersedition-massive-battlefield-confusion"
+        },
+        {
+          "count": 1,
+          "id": "commandersedition-quick-salvage-operation"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-hip-shattered"
+        },
+        {
+          "count": 1,
+          "id": "counterstrike-minefield"
         },
         {
           "count": 1,
@@ -8513,11 +8529,7 @@
         },
         {
           "count": 1,
-          "id": "limited-feint"
-        },
-        {
-          "count": 1,
-          "id": "limited-jump-into-cover"
+          "id": "limited-running-battle"
         },
         {
           "count": 1,
@@ -8525,11 +8537,7 @@
         },
         {
           "count": 1,
-          "id": "unlimited-heroic-sacrifice"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-luck-of-the-fox"
+          "id": "mechwarrior-evasive-maneuvers"
         },
         {
           "count": 1,
@@ -8538,14 +8546,6 @@
         {
           "count": 1,
           "id": "unlimited-pushing-the-envelope"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-rapid-cool-down"
-        },
-        {
-          "count": 1,
-          "id": "unlimited-strength-of-the-pillar-of-steel"
         }
       ],
       "SealedAllSetsBasicResources": [
