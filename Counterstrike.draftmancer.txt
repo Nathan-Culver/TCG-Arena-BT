@@ -1,0 +1,1549 @@
+[Settings]
+{
+  "name": "BattleTech TCG Draft — Counterstrike",
+  "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
+  "boostersPerPlayer": 3,
+  "withReplacement": true,
+  "duplicateProtection": true,
+  "colorBalance": false,
+  "showSlots": true,
+  "layouts": {
+    "Pack 1": {
+      "weight": 1,
+      "slots": {
+        "Pack 1 Rare": 4,
+        "Pack 1 Random": 11
+      }
+    },
+    "Pack 2": {
+      "weight": 1,
+      "slots": {
+        "Pack 2 Rare": 4,
+        "Pack 2 Random": 11
+      }
+    },
+    "Pack 3": {
+      "weight": 1,
+      "slots": {
+        "Pack 3 Rare": 4,
+        "Pack 3 Random": 11
+      }
+    }
+  },
+  "predeterminedLayouts": [
+    "Pack 1",
+    "Pack 2",
+    "Pack 3"
+  ]
+}
+
+[CustomCards]
+[
+  {
+    "name": "Accelerate Conflict [BTID=counterstrike-accelerate-conflict]",
+    "printed_names": {
+      "en": "Accelerate Conflict"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-accelerate-conflict",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e7/Accelerate_Conflict_CCG_Counterstrike.jpg",
+    "oracle_text": "Put three operation counters on Accelerate Conflict when it is activated.\nRemove an operation counter from this card at the beginning of your turn. When the last operation counter has been removed, scrap Accelerate Conflict and double all damage dealt to each player's Stockpile until the end of the game.\nDuring your Repair/Reload phase, pay (3+3L). If you cannot pay this cost, scrap Accelerate Conflict."
+  },
+  {
+    "name": "Accelerated Turnaround [BTID=counterstrike-accelerated-turnaround]",
+    "printed_names": {
+      "en": "Accelerated Turnaround"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-accelerated-turnaround",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/11/Accelerated_Turnaround_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Accelerated Turnaround when it is revealed.\nActivate only at the end of your Missions phase. Untap one 'Mech for each construction counter above the cost of Accelerated Turnaround."
+  },
+  {
+    "name": "Adam Steiner [BTID=counterstrike-adam-steiner]",
+    "printed_names": {
+      "en": "Adam Steiner"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-adam-steiner",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/0e/Adam_Steiner_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Untap any 'Mech. Use this ability only during your Missions phase, but not during a mission.\n• Major 1st Somerset Strikers"
+  },
+  {
+    "name": "Annihilator (ANH-2A) [BTID=counterstrike-annihilator-anh-2a]",
+    "printed_names": {
+      "en": "Annihilator (ANH-2A)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-annihilator-anh-2a",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e5/Annihilator_%28ANH-2A%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +4 attack\nAnnihilator cannot block unless guarding.",
+    "power": "5",
+    "toughness": "7"
+  },
+  {
+    "name": "Assassin (ASN-23) [BTID=counterstrike-assassin-asn-23]",
+    "printed_names": {
+      "en": "Assassin (ASN-23)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-assassin-asn-23",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3e/Assassin_%28ASN-23%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Assassination [BTID=counterstrike-assassination]",
+    "printed_names": {
+      "en": "Assassination"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-assassination",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/5d/Assassination_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Assassination when it is revealed.\nScrap a pilot card or unique card in play."
+  },
+  {
+    "name": "Bait and Switch [BTID=counterstrike-bait-and-switch]",
+    "printed_names": {
+      "en": "Bait and Switch"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-bait-and-switch",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/b7/Bait_and_Switch_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nRoll a die.\n1-2: Draw a card after the mission.\n3-6: Choose one of your engaged 'Mechs that has not dealt damage. That 'Mech neither deals nor receives damage. Tap one of your untapped 'Mechs that is not engaged in the battle; that 'Mech joins the battle."
+  },
+  {
+    "name": "Berserker Warrior [BTID=counterstrike-berserker-warrior]",
+    "printed_names": {
+      "en": "Berserker Warrior"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-berserker-warrior",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/71/Berserker_Warrior_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nFor each 'Mech after the first that is blocking or blocked by 'Mech piloted by Berserker Warrior, this 'Mech gets +2 attack and prevents 1 damage. Use this ability only if 'Mech piloted by Berserker Warrior attacks or blocks alone during battle."
+  },
+  {
+    "name": "Black Hawk C (Nova) [BTID=counterstrike-black-hawk-c-nova]",
+    "printed_names": {
+      "en": "Black Hawk C (Nova)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-black-hawk-c-nova",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/2c/Black_Hawk_C_%28Nova%29_CCG_Counterstrike.jpg",
+    "oracle_text": "If Black Hawk C attacks and is blocked, it may deal 1 of its damage to its target.",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Market Connections [BTID=counterstrike-black-market-connections]",
+    "printed_names": {
+      "en": "Black Market Connections"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-black-market-connections",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/ea/Black_Market_Connections_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Scrap two cards from your hand to put one card from your Scrapheap into your hand. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Blackjack (BJ-1) [BTID=counterstrike-blackjack-bj-1]",
+    "printed_names": {
+      "en": "Blackjack (BJ-1)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-blackjack-bj-1",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/9c/Blackjack_%28BJ-1%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Blitzkrieg [BTID=counterstrike-blitzkrieg]",
+    "printed_names": {
+      "en": "Blitzkrieg"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-blitzkrieg",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/c2/Blitzkrieg_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when attacking. Untap each blocking 'Mech that is not guarding. Those 'Mechs neither deal nor receive damage. If no blocking 'Mechs remain, deal damage to the target as if unblocked."
+  },
+  {
+    "name": "Blockade [BTID=counterstrike-blockade]",
+    "printed_names": {
+      "en": "Blockade"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-blockade",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/85/Blockade_CCG_Counterstrike.jpg",
+    "oracle_text": "Put three operation counters on Blockade when it is activated.\nRemove an operation counter from this card at the beginning of your turn. When the last operation counter has been removed, scrap Blockade; opponent scraps three cards at the beginning of his or her turn until you deploy a card."
+  },
+  {
+    "name": "Blood of Kerensky [BTID=counterstrike-blood-of-kerensky]",
+    "printed_names": {
+      "en": "Blood of Kerensky"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-blood-of-kerensky",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/0d/Blood_of_Kerensky_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Look at the top two cards of your Stockpile and restock one of them. Use this ability only during your Draw phase."
+  },
+  {
+    "name": "Blow the Pass! [BTID=counterstrike-blow-the-pass]",
+    "printed_names": {
+      "en": "Blow the Pass!"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-blow-the-pass",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/60/Blow_the_Pass%21_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nFor each 'Mech, roll a die. Each 'Mech with the lowest die roll receives 5 damage."
+  },
+  {
+    "name": "Bombardier (BMB-12D) [BTID=counterstrike-bombardier-bmb-12d]",
+    "printed_names": {
+      "en": "Bombardier (BMB-12D)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-bombardier-bmb-12d",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b1/Bombardier_%28BMB-12D%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Missile 2\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Bombardier deals -1 damage.)",
+    "power": "",
+    "toughness": "8"
+  },
+  {
+    "name": "Bribed Pilot [BTID=counterstrike-bribed-pilot]",
+    "printed_names": {
+      "en": "Bribed Pilot"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-bribed-pilot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/89/Bribed_Pilot_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Bribed Pilot when it is revealed.\nUntap an unpiloted 'Mech your opponent controls and gain control of it until the end of your turn."
+  },
+  {
+    "name": "Catapult (CPLT-C1) [BTID=counterstrike-catapult-cplt-c1]",
+    "printed_names": {
+      "en": "Catapult (CPLT-C1)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-catapult-cplt-c1",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Catapult_%28CPLT-C1%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Missile 2\nOverheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "6"
+  },
+  {
+    "name": "Champion (CHP-1N) [BTID=counterstrike-champion-chp-1n]",
+    "printed_names": {
+      "en": "Champion (CHP-1N)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-champion-chp-1n",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/dc/Champion_%28CHP-1N%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Chandrasekhar Kurita [BTID=counterstrike-chandrasekhar-kurita]",
+    "printed_names": {
+      "en": "Chandrasekhar Kurita"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-chandrasekhar-kurita",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a3/Chandrasekhar_Kurita_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Remove an operation counter from an Operation card. Use this ability only during your Missions phase, but not during a mission.\n{T}: Restock a card. Use this ability only during your Deploy phase.\nLogistics (If you have Logistics in play, you may restock a card from your hand at end of your turn.)"
+  },
+  {
+    "name": "Charger (CGR-3K) [BTID=counterstrike-charger-cgr-3k]",
+    "printed_names": {
+      "en": "Charger (CGR-3K)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-charger-cgr-3k",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Charger_%28CGR-3K%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Missile 1\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Commando (COM-5S) [BTID=counterstrike-commando-com-5s]",
+    "printed_names": {
+      "en": "Commando (COM-5S)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-commando-com-5s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/ff/Commando_%28COM-5S%29_CCG_Counterstrike.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "2"
+  },
+  {
+    "name": "Contract with Kell Hounds [BTID=counterstrike-contract-with-kell-hounds]",
+    "printed_names": {
+      "en": "Contract with Kell Hounds"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-contract-with-kell-hounds",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/00/Contract_with_Kell_Hounds_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: One of your 'Mechs gets +3 attack and +4 armor. Use this ability only during a mission. If that 'Mech receives 5 or more damage, scrap Contract with\n.\nDuring your Repair/Reload phase, pay (1+2P) or tap this card and choose an opponent; your opponent gains control of this card at the end of your turn."
+  },
+  {
+    "name": "Cover of Night [BTID=counterstrike-cover-of-night]",
+    "printed_names": {
+      "en": "Cover of Night"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-cover-of-night",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/7/7e/Cover_of_Night_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when blocked.\nFor each blocking 'Mech, roll a die.\n1-4: No effect.\n5-6: That 'Mech deals no damage."
+  },
+  {
+    "name": "Crab (CRB-27) [BTID=counterstrike-crab-crb-27]",
+    "printed_names": {
+      "en": "Crab (CRB-27)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-crab-crb-27",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3b/Crab_%28CRB-27%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 2: +2 attack",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Cyclops (CP 10-Z) [BTID=counterstrike-cyclops-cp-10-z]",
+    "printed_names": {
+      "en": "Cyclops (CP 10-Z)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-cyclops-cp-10-z",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a7/Cyclops_%28CP_10-Z%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 4: +3 attack",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Daishi B (Dire Wolf) [BTID=counterstrike-daishi-b-dire-wolf]",
+    "printed_names": {
+      "en": "Daishi B (Dire Wolf)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-daishi-b-dire-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e3/Daishi_B_%28Dire_Wolf%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 6: +4 attack",
+    "power": "7",
+    "toughness": "11"
+  },
+  {
+    "name": "Daishi Prime (Dire Wolf) [BTID=counterstrike-daishi-prime-dire-wolf]",
+    "printed_names": {
+      "en": "Daishi Prime (Dire Wolf)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-daishi-prime-dire-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0d/Daishi_Prime_%28Dire_Wolf%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 6: +6 attack\nAlpha Strike: +2 attack",
+    "power": "11",
+    "toughness": "11"
+  },
+  {
+    "name": "Dasher A (Firemoth) [BTID=counterstrike-dasher-a-firemoth]",
+    "printed_names": {
+      "en": "Dasher A (Firemoth)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-dasher-a-firemoth",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/cd/Dasher_A_%28Firemoth%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Anti-Missile (Each missile assigned to a 'Mech in a group that includes Dasher A deals -1 damage.)\nIf Dasher A is fully constructed when you activate it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "2"
+  },
+  {
+    "name": "Dasher B (Firemoth) [BTID=counterstrike-dasher-b-firemoth]",
+    "printed_names": {
+      "en": "Dasher B (Firemoth)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-dasher-b-firemoth",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/6e/Dasher_B_%28Firemoth%29_CCG_Counterstrike.jpg",
+    "oracle_text": "ECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)\nAP (Dasher B deals +1 damage to any target other than a 'Mech.)\nIf Dasher B is fully constructed when you activate it, you may immediately place it in your Patrol region.",
+    "power": "3",
+    "toughness": "2"
+  },
+  {
+    "name": "Defensive Formation [BTID=counterstrike-defensive-formation]",
+    "printed_names": {
+      "en": "Defensive Formation"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-defensive-formation",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/e/ee/Defensive_Formation_CCG_Counterstrike.jpg",
+    "oracle_text": "Prevent 1 damage to each of your 'Mechs."
+  },
+  {
+    "name": "Deploy Reinforcements [BTID=counterstrike-deploy-reinforcements]",
+    "printed_names": {
+      "en": "Deploy Reinforcements"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-deploy-reinforcements",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/9/9e/Deploy_Reinforcements_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nChoose one of your untapped 'Mechs that is not in the battle. Roll a die.\n1-2: Return Deploy Reinforcements to your hand after the mission.\n3-6: Tap that 'Mech to have it join the battle."
+  },
+  {
+    "name": "Double-Time Offense [BTID=counterstrike-double-time-offense]",
+    "printed_names": {
+      "en": "Double-Time Offense"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-double-time-offense",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/74/Double-Time_Offense_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Double-Time Offense when it is revealed.\nActivate only during your Missions phase.\nUntap one 'Mech for every 2 construction counters above the cost of Double-Time Offense."
+  },
+  {
+    "name": "Earthwerks Limited [BTID=counterstrike-earthwerks-limited]",
+    "printed_names": {
+      "en": "Earthwerks Limited"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-earthwerks-limited",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/36/Earthwerks_Limited_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Reveal one of your 'Mechs under construction; if that 'Mech is within 2 Resources of being fully constructed, activate it. Use this ability only during your Deploy phase. Assembly (During your Repair/Reload phase, you may pay {R} once to repair 1 point of damage to one 'Mech if you have Assembly in play.)"
+  },
+  {
+    "name": "End Run [BTID=counterstrike-end-run]",
+    "printed_names": {
+      "en": "End Run"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-end-run",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/b2/End_Run_CCG_Counterstrike.jpg",
+    "oracle_text": "Play when the number of 'Mechs your are attacking with is greater than the number of 'Mechs blocking, and only if you have Tactics in play. One of your 'Mechs may deal damage to the target as if unblocked. The target may deal damage to that 'Mech."
+  },
+  {
+    "name": "Fanatical Leader [BTID=counterstrike-fanatical-leader]",
+    "printed_names": {
+      "en": "Fanatical Leader"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-fanatical-leader",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/bf/Fanatical_Leader_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nEach other 'Mech in a group that includes a 'Mech piloted by Fanatical Leader gets +1 attack."
+  },
+  {
+    "name": "Fenris B (Ice Ferret) [BTID=counterstrike-fenris-b-ice-ferret]",
+    "printed_names": {
+      "en": "Fenris B (Ice Ferret)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-fenris-b-ice-ferret",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4d/Fenris_B_%28Ice_Ferret%29_CCG_Counterstrike.jpg",
+    "oracle_text": "",
+    "power": "4",
+    "toughness": "6"
+  },
+  {
+    "name": "Field Command Post [BTID=counterstrike-field-command-post]",
+    "printed_names": {
+      "en": "Field Command Post"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-field-command-post",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/39/Field_Command_Post_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Add +1 to one of your die rolls. Use this ability immediately after the die roll."
+  },
+  {
+    "name": "Field Construction Site [BTID=counterstrike-field-construction-site]",
+    "printed_names": {
+      "en": "Field Construction Site"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-field-construction-site",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e5/Field_Construction_Site_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\nScrap Field Construction Site to gain {R}{R}."
+  },
+  {
+    "name": "Firefly (FFL-4B) [BTID=counterstrike-firefly-ffl-4b]",
+    "printed_names": {
+      "en": "Firefly (FFL-4B)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-firefly-ffl-4b",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/17/Firefly_%28FFL-4B%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "For the Chancellor! [BTID=counterstrike-for-the-chancellor]",
+    "printed_names": {
+      "en": "For the Chancellor!"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-for-the-chancellor",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/0/02/For_the_Chancellor%21_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when blocked.\nFor each blocking 'Mech that takes structure damage during this combat, untap one attacking 'Mech at the end of the combat."
+  },
+  {
+    "name": "Gladiator D (Executioner) [BTID=counterstrike-gladiator-d-executioner]",
+    "printed_names": {
+      "en": "Gladiator D (Executioner)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-gladiator-d-executioner",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c0/Gladiator_D_%28Executioner%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "9",
+    "toughness": "10"
+  },
+  {
+    "name": "Grasshopper (GHR-5J) [BTID=counterstrike-grasshopper-ghr-5j]",
+    "printed_names": {
+      "en": "Grasshopper (GHR-5J)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-grasshopper-ghr-5j",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/56/Grasshopper_%28GHR-5J%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Guillotine (GLT-3M) [BTID=counterstrike-guillotine-glt-3m]",
+    "printed_names": {
+      "en": "Guillotine (GLT-3M)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-guillotine-glt-3m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a9/Guillotine_%28GLT-3M%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Haakon Magnussen [BTID=counterstrike-haakon-magnussen]",
+    "printed_names": {
+      "en": "Haakon Magnussen"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-haakon-magnussen",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a2/Haakon_Magnussen_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Scrap one of your Resource cards in play and draw two cards. Use this ability only during your Deploy phase.\n• Elected Prince of the Free Rasalhague Republic"
+  },
+  {
+    "name": "Hazardous Battle Zone [BTID=counterstrike-hazardous-battle-zone]",
+    "printed_names": {
+      "en": "Hazardous Battle Zone"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-hazardous-battle-zone",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/f/fc/Hazardous_Battle_Zone_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nEach player may choose whether each of his or her 'Mechs deals damage. Each 'Mech that deals damage receives 2 damage; each 'Mech that has already dealt damage during this battle receives 2 damage."
+  },
+  {
+    "name": "Hermes (HER-1S) [BTID=counterstrike-hermes-her-1s]",
+    "printed_names": {
+      "en": "Hermes (HER-1S)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-hermes-her-1s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/1b/Hermes_%28HER-1S%29_CCG_Counterstrike.jpg",
+    "oracle_text": "If Hermes is fully constructed when you activate it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "4"
+  },
+  {
+    "name": "Hermes (HER-3S) [BTID=counterstrike-hermes-her-3s]",
+    "printed_names": {
+      "en": "Hermes (HER-3S)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-hermes-her-3s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/84/Hermes_%28HER-3S%29_CCG_Counterstrike.jpg",
+    "oracle_text": "If Hermes is fully constructed when you activate it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "2"
+  },
+  {
+    "name": "Hip Shattered [BTID=counterstrike-hip-shattered]",
+    "printed_names": {
+      "en": "Hip Shattered"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-hip-shattered",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/bc/Hip_Shattered_CCG_Counterstrike.jpg",
+    "oracle_text": "Choose a 'Mech. If that 'Mech receives structure damage, put a hindrance counter on it. A 'Mech with a hindrance counter cannot block, and its speed is slow."
+  },
+  {
+    "name": "Hunchback (HBK-5M) [BTID=counterstrike-hunchback-hbk-5m]",
+    "printed_names": {
+      "en": "Hunchback (HBK-5M)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-hunchback-hbk-5m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/be/Hunchback_%28HBK-5M%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Jenner (JR7-K) [BTID=counterstrike-jenner-jr7-k]",
+    "printed_names": {
+      "en": "Jenner (JR7-K)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-jenner-jr7-k",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4b/Jenner_%28JR7-K%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "2",
+    "toughness": "2"
+  },
+  {
+    "name": "King Crab (KGC-000) [BTID=counterstrike-king-crab-kgc-000]",
+    "printed_names": {
+      "en": "King Crab (KGC-000)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-king-crab-kgc-000",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c3/King_Crab_%28KGC-000%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +4 attack",
+    "power": "3",
+    "toughness": "11"
+  },
+  {
+    "name": "Kintaro (KTO-19) [BTID=counterstrike-kintaro-kto-19]",
+    "printed_names": {
+      "en": "Kintaro (KTO-19)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-kintaro-kto-19",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/75/Kintaro_%28KTO-19%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 2: +1 attack\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech)",
+    "power": "2",
+    "toughness": "8"
+  },
+  {
+    "name": "Kintaro (KTO-20) [BTID=counterstrike-kintaro-kto-20]",
+    "printed_names": {
+      "en": "Kintaro (KTO-20)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-kintaro-kto-20",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0c/Kintaro_%28KTO-20%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Lance Diversion [BTID=counterstrike-lance-diversion]",
+    "printed_names": {
+      "en": "Lance Diversion"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-lance-diversion",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Lance_Diversion_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nPlay only when attacking with exactly four 'Mechs. For each 'Mech fewer than four in the blocking group, you may choose to have one of your 'Mechs deal damage to the target as if unblocked. The target may deal damage to that 'Mech."
+  },
+  {
+    "name": "Lance Formation [BTID=counterstrike-lance-formation]",
+    "printed_names": {
+      "en": "Lance Formation"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-lance-formation",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/cf/Lance_Formation_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nPlay only when attacking or blocking with exactly four 'Mechs.\nEach of your engaged 'Mechs gets +1 attack."
+  },
+  {
+    "name": "Lostech Cache [BTID=counterstrike-lostech-cache]",
+    "printed_names": {
+      "en": "Lostech Cache"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-lostech-cache",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/ed/Lostech_Cache_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Scrap one card from your hand to gain {R}{R}."
+  },
+  {
+    "name": "Massive Battlefield Confusion [BTID=counterstrike-massive-battlefield-confusion]",
+    "printed_names": {
+      "en": "Massive Battlefield Confusion"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-massive-battlefield-confusion",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/cf/Massive_Battlefield_Confusion_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when blocking.\nRoll a die. 1: No effect.\n2-4: Return Massive Battlefield Confusion to your hand after the mission.\n5-6: Each 'Mech deals its damage to a randomly selected 'Mech (other than itself); damage from 'Mechs that have already dealt damage is redirected."
+  },
+  {
+    "name": "Master Scrounger [BTID=counterstrike-master-scrounger]",
+    "printed_names": {
+      "en": "Master Scrounger"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-master-scrounger",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/de/Master_Scrounger_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Scrap three cards from your Stockpile to gain {R}{R}.\nAssembly (During your Repair/Reload phase, you may pay {R} once to repair 1 point of damage to one 'Mech if you have Assembly in play.)"
+  },
+  {
+    "name": "'Mech Hangar [BTID=counterstrike-mech-hangar]",
+    "printed_names": {
+      "en": "'Mech Hangar"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-mech-hangar",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e1/%27Mech_Hangar_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: You may make an additional deployment this turn. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Minefield [BTID=counterstrike-minefield]",
+    "printed_names": {
+      "en": "Minefield"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-minefield",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/9/9d/Minefield_CCG_Counterstrike.jpg",
+    "oracle_text": "Roll a die.\n1-3: Return Minefield to your hand after mission.4-6: Deal 2 damage to each attacking 'Mech."
+  },
+  {
+    "name": "Mobile Long Tom [BTID=counterstrike-mobile-long-tom]",
+    "printed_names": {
+      "en": "Mobile Long Tom"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-mobile-long-tom",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c5/Mobile_Long_Tom_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Deal 3 damage to one 'Mech. Use this ability only during a mission."
+  },
+  {
+    "name": "No Quarter [BTID=counterstrike-no-quarter]",
+    "printed_names": {
+      "en": "No Quarter"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-no-quarter",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/9/9b/No_Quarter_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nAfter this battle, begin a new battle using all surviving 'Mechs from this battle. Armor does not replenish before the second battle, missiles cannot be used during that battle, and 'Mechs that have already used Alpha Strikes have 0 attack during that battle."
+  },
+  {
+    "name": "Oda Hideyoshi [BTID=counterstrike-oda-hideyoshi]",
+    "printed_names": {
+      "en": "Oda Hideyoshi"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-oda-hideyoshi",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/52/Oda_Hideyoshi_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Opponent cannot assign more than one\nto block the current attack. You cannot play Mission cards during this mission. Use this ability only when declaring an attack with only one 'Mech.\n• Commander of the Otomo"
+  },
+  {
+    "name": "Operations Liaison [BTID=counterstrike-operations-liaison]",
+    "printed_names": {
+      "en": "Operations Liaison"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-operations-liaison",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/84/Operations_Liaison_CCG_Counterstrike.jpg",
+    "oracle_text": "{R}, {T}: Look at the top five cards of your Stockpile. Put one of those cards into your hand; restock the remaining cards in any order. Use this ability only during your Draw phase."
+  },
+  {
+    "name": "Orbital Bombardment [BTID=counterstrike-orbital-bombardment]",
+    "printed_names": {
+      "en": "Orbital Bombardment"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-orbital-bombardment",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/24/Orbital_Bombardment_CCG_Counterstrike.jpg",
+    "oracle_text": "Put three operation counters on Orbital Bombardment when it is activated. Remove an operation counter from this card at the beginning of your turn. When the last operation counter has been removed, scrap Orbital Bombardment and deal 2 damage to any 'Mech or site for each card you scrap from your hand."
+  },
+  {
+    "name": "Overrun [BTID=counterstrike-overrun]",
+    "printed_names": {
+      "en": "Overrun"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-overrun",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/c6/Overrun_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when blocked.\nIf all blocking 'Mechs are scrapped during this battle, untap each attacking 'Mech at the end of battle."
+  },
+  {
+    "name": "Panther (PNT-10K) [BTID=counterstrike-panther-pnt-10k]",
+    "printed_names": {
+      "en": "Panther (PNT-10K)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-panther-pnt-10k",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d0/Panther_%28PNT-10K%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Missile 1\nOverheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "4"
+  },
+  {
+    "name": "Pinpoint Air Strike [BTID=counterstrike-pinpoint-air-strike]",
+    "printed_names": {
+      "en": "Pinpoint Air Strike"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-pinpoint-air-strike",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/ac/Pinpoint_Air_Strike_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Pinpoint Air Strike when it is revealed. Deal 1 damage to one site or\nfor every 2 construction counters above the cost of Pinpoint Air Strike."
+  },
+  {
+    "name": "Puma B (Adder) [BTID=counterstrike-puma-b-adder]",
+    "printed_names": {
+      "en": "Puma B (Adder)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-puma-b-adder",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/ed/Puma_B_%28Adder%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "4",
+    "toughness": "5"
+  },
+  {
+    "name": "Puma D (Adder) [BTID=counterstrike-puma-d-adder]",
+    "printed_names": {
+      "en": "Puma D (Adder)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-puma-d-adder",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/ae/Puma_D_%28Adder%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Quick Salvage Operation [BTID=counterstrike-quick-salvage-operation]",
+    "printed_names": {
+      "en": "Quick Salvage Operation"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-quick-salvage-operation",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/1/14/Quick_Salvage_Operation_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when blocking.\nIf any attacking 'Mechs are scrapped during this battle, put one of those 'Mechs into play at end of the battle and tap it. That 'Mech has a number of damage counters equal to one less than that 'Mech's structure."
+  },
+  {
+    "name": "Recon Pilot [BTID=counterstrike-recon-pilot]",
+    "printed_names": {
+      "en": "Recon Pilot"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-recon-pilot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/28/Recon_Pilot_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nYou may choose to not deal damage with 'Mech piloted by Recon Pilot and instead prevent up to 5 points of damage to that 'Mech. Use this ability only during a mission and only when attacking.\nPlaying Recon Pilot does not count as a deployment if revealed the turn you play it. Draw a card when you activate Recon Pilot."
+  },
+  {
+    "name": "Report from the Norns [BTID=counterstrike-report-from-the-norns]",
+    "printed_names": {
+      "en": "Report from the Norns"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-report-from-the-norns",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/61/Report_from_the_Norns_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Report from the Norns when it is revealed.\nActivate Report from the Norns only when you are attacked. You may block the current attack with any of your untapped 'Mechs regardless of their speed."
+  },
+  {
+    "name": "Risky Combat Jump [BTID=counterstrike-risky-combat-jump]",
+    "printed_names": {
+      "en": "Risky Combat Jump"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-risky-combat-jump",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Risky_Combat_Jump_CCG_Counterstrike.jpg",
+    "oracle_text": "Choose one of your 'Mechs with Jump. Roll a die.\n1-2: That 'Mech receives 1 damage; return Risky Combat Jump to your hand after the mission.\n3-6: That 'Mech gets +3 attack; prevent up to 2 damage to that 'Mech."
+  },
+  {
+    "name": "Ryan Steiner [BTID=counterstrike-ryan-steiner]",
+    "printed_names": {
+      "en": "Ryan Steiner"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-ryan-steiner",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/34/Ryan_Steiner_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Deal 2 damage to the target. Use this ability only during a mission.\n• Duke of Porrima"
+  },
+  {
+    "name": "Ryoken B (Stormcrow) [BTID=counterstrike-ryoken-b-stormcrow]",
+    "printed_names": {
+      "en": "Ryoken B (Stormcrow)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-ryoken-b-stormcrow",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a2/Ryoken_B_%28Stormcrow%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nAlpha Strike: +2 attack",
+    "power": "6",
+    "toughness": "7"
+  },
+  {
+    "name": "Ryoken C (Stormcrow) [BTID=counterstrike-ryoken-c-stormcrow]",
+    "printed_names": {
+      "en": "Ryoken C (Stormcrow)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-ryoken-c-stormcrow",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/03/Ryoken_C_%28Stormcrow%29_CCG_Counterstrike.jpg",
+    "oracle_text": "",
+    "power": "6",
+    "toughness": "7"
+  },
+  {
+    "name": "Secured Drop Site [BTID=counterstrike-secured-drop-site]",
+    "printed_names": {
+      "en": "Secured Drop Site"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-secured-drop-site",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/dd/Secured_Drop_Site_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Show the top card of your Stockpile to all players. If that card is not a\n, restock it. Otherwise, put it into your hand; you may make an additional deployment this turn."
+  },
+  {
+    "name": "Sentinel (STL-3L) [BTID=counterstrike-sentinel-stl-3l]",
+    "printed_names": {
+      "en": "Sentinel (STL-3L)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-sentinel-stl-3l",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b5/Sentinel_%28STL-3L%29_CCG_Counterstrike.jpg",
+    "oracle_text": "",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Spider (SDR-7M) [BTID=counterstrike-spider-sdr-7m]",
+    "printed_names": {
+      "en": "Spider (SDR-7M)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-spider-sdr-7m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e4/Spider_%28SDR-7M%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nYou may deploy Spider reveled to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Star Diversion [BTID=counterstrike-star-diversion]",
+    "printed_names": {
+      "en": "Star Diversion"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-star-diversion",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/67/Star_Diversion_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nPlay only when attacking with exactly five 'Mechs.\nFor each 'Mech fewer than five in the blocking group, you may choose to have one of your 'Mechs deal damage to the target as if unblocked. The target may deal damage to that 'Mech."
+  },
+  {
+    "name": "Star Formation [BTID=counterstrike-star-formation]",
+    "printed_names": {
+      "en": "Star Formation"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-star-formation",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/c8/Star_Formation_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nPlay only when attacking or blocking with exactly five 'Mechs.\nEach of your engaged 'Mechs gets +1 attack."
+  },
+  {
+    "name": "Strafing Run [BTID=counterstrike-strafing-run]",
+    "printed_names": {
+      "en": "Strafing Run"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-strafing-run",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/41/Strafing_Run_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Strafing Run when it is revealed.\nDeal 3 structure damage to one 'Mech or site."
+  },
+  {
+    "name": "Superior Navigation [BTID=counterstrike-superior-navigation]",
+    "printed_names": {
+      "en": "Superior Navigation"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-superior-navigation",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/5/53/Superior_Navigation_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only when unblocked.\nChoose a 'Mech. Roll a die.\n1-2: Draw a card after the mission.\n3-4: That 'Mech gets +4 attack.\n5-6: That 'Mech gets +4 attack and untaps at the end of the current mission."
+  },
+  {
+    "name": "Tactical Nuke [BTID=counterstrike-tactical-nuke]",
+    "printed_names": {
+      "en": "Tactical Nuke"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-tactical-nuke",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/15/Tactical_Nuke_CCG_Counterstrike.jpg",
+    "oracle_text": "Scrap Tactical Nuke when it is revealed.\nEach player's Stockpile receives 1 damage for each construction counter above the cost of Tactical Nuke."
+  },
+  {
+    "name": "Thor Mobile Artillery [BTID=counterstrike-thor-mobile-artillery]",
+    "printed_names": {
+      "en": "Thor Mobile Artillery"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-thor-mobile-artillery",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/48/Thor_Mobile_Artillery_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Deal 2 damage to one 'Mech. Use this ability only during a mission."
+  },
+  {
+    "name": "Thorn (THE-N) [BTID=counterstrike-thorn-the-n]",
+    "printed_names": {
+      "en": "Thorn (THE-N)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-thorn-the-n",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/32/Thorn_%28THE-N%29_CCG_Counterstrike.jpg",
+    "oracle_text": "You may deploy Thorn revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "4"
+  },
+  {
+    "name": "Thumper Battery [BTID=counterstrike-thumper-battery]",
+    "printed_names": {
+      "en": "Thumper Battery"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-thumper-battery",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c0/Thumper_Battery_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Deal 2 damage to one site. Use this ability only during your Missions phase, but not during a mission."
+  },
+  {
+    "name": "Tor Miraborg [BTID=counterstrike-tor-miraborg]",
+    "printed_names": {
+      "en": "Tor Miraborg"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-tor-miraborg",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/95/Tor_Miraborg_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Choose a Mission card from your Scrapheap and put it into your hand. Using this ability counts as one of your deployments. Use this ability only during your Deploy phase.\n• Valdherre of Gunzburg, General"
+  },
+  {
+    "name": "Trapped! [BTID=counterstrike-trapped]",
+    "printed_names": {
+      "en": "Trapped!"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-trapped",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/f/f3/Trapped%21_CCG_Counterstrike.jpg",
+    "oracle_text": "Choose an attacking 'Mech. Roll a die.\n1-2: Return Trapped! to your hand after the mission.\n3-6: Put a pinned counter on that 'Mech.\nAny 'Mech with a pinned counter does not untap during its controller's Untap phase. During the controller's Missions phase but not during a mission, that player may tap two 'Mechs to remove a pinned counter."
+  },
+  {
+    "name": "Uller A (Kit Fox) [BTID=counterstrike-uller-a-kit-fox]",
+    "printed_names": {
+      "en": "Uller A (Kit Fox)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-uller-a-kit-fox",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c7/Uller_A_%28Kit_Fox%29_CCG_Counterstrike.jpg",
+    "oracle_text": "",
+    "power": "4",
+    "toughness": "4"
+  },
+  {
+    "name": "Ulric Kerensky [BTID=counterstrike-ulric-kerensky]",
+    "printed_names": {
+      "en": "Ulric Kerensky"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-ulric-kerensky",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/3e/Ulric_Kerensky_CCG_Counterstrike.jpg",
+    "oracle_text": "{T}: Untap all of your Resources. Use this ability only during your Deploy phase.\n• ilKhan of Clan Wolf"
+  },
+  {
+    "name": "UrbanMech (UM-R63) [BTID=counterstrike-urbanmech-um-r63]",
+    "printed_names": {
+      "en": "UrbanMech (UM-R63)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-urbanmech-um-r63",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/86/UrbanMech_%28UM-R63%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative) UrbanMech cannot block unless guarding.",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Veteran Officer [BTID=counterstrike-veteran-officer]",
+    "printed_names": {
+      "en": "Veteran Officer"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-veteran-officer",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/10/Veteran_Officer_CCG_Counterstrike.jpg",
+    "oracle_text": "{R}, {T}: Look at the top five cards of your Stockpile. If any of those cards are Mission cards, show them to all players and put them into your hand. Restock the remaining cards in any order. Use this ability only during your Draw phase."
+  },
+  {
+    "name": "Vicious Kick [BTID=counterstrike-vicious-kick]",
+    "printed_names": {
+      "en": "Vicious Kick"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-vicious-kick",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/e/e3/Vicious_Kick_CCG_Counterstrike.jpg",
+    "oracle_text": "Play only during battle.\nChoose one your 'Mechs. Roll a die.\n1-2: That 'Mech receives 1 damage; return Vicious Kick to your hand after the mission\n3-6: If you 'Mech is 60 tons or more, it gets +4 attack; otherwise, it gets +1 attack."
+  },
+  {
+    "name": "Vindicator (VND-3L) [BTID=counterstrike-vindicator-vnd-3l]",
+    "printed_names": {
+      "en": "Vindicator (VND-3L)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-vindicator-vnd-3l",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/56/Vindicator_%28VND-3L%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Vlad of the Wards [BTID=counterstrike-vlad-of-the-wards]",
+    "printed_names": {
+      "en": "Vlad of the Wards"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-vlad-of-the-wards",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/00/Vlad_of_the_Wards_CCG_Counterstrike.jpg",
+    "oracle_text": "+1 initiative\nA 'Mech piloted by Vlad of the Wards may attack any 'Mech controlled by your opponent, regardless of that 'Mech's speed."
+  },
+  {
+    "name": "Vulcan (VT-5S) [BTID=counterstrike-vulcan-vt-5s]",
+    "printed_names": {
+      "en": "Vulcan (VT-5S)"
+    },
+    "set": "cst",
+    "collector_number": "counterstrike-vulcan-vt-5s",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/ca/Vulcan_%28VT-5S%29_CCG_Counterstrike.jpg",
+    "oracle_text": "Alpha Strike: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "4"
+  }
+]
+
+[Pack 1 Rare]
+Annihilator (ANH-2A) [BTID=counterstrike-annihilator-anh-2a]
+Blockade [BTID=counterstrike-blockade]
+Chandrasekhar Kurita [BTID=counterstrike-chandrasekhar-kurita]
+Daishi B (Dire Wolf) [BTID=counterstrike-daishi-b-dire-wolf]
+Dasher B (Firemoth) [BTID=counterstrike-dasher-b-firemoth]
+King Crab (KGC-000) [BTID=counterstrike-king-crab-kgc-000]
+Oda Hideyoshi [BTID=counterstrike-oda-hideyoshi]
+Ryan Steiner [BTID=counterstrike-ryan-steiner]
+Tactical Nuke [BTID=counterstrike-tactical-nuke]
+Ulric Kerensky [BTID=counterstrike-ulric-kerensky]
+
+[Pack 1 Random]
+Annihilator (ANH-2A) [BTID=counterstrike-annihilator-anh-2a]
+Assassin (ASN-23) [BTID=counterstrike-assassin-asn-23]
+Black Hawk C (Nova) [BTID=counterstrike-black-hawk-c-nova]
+Blackjack (BJ-1) [BTID=counterstrike-blackjack-bj-1]
+Blockade [BTID=counterstrike-blockade]
+Catapult (CPLT-C1) [BTID=counterstrike-catapult-cplt-c1]
+Chandrasekhar Kurita [BTID=counterstrike-chandrasekhar-kurita]
+Crab (CRB-27) [BTID=counterstrike-crab-crb-27]
+Cyclops (CP 10-Z) [BTID=counterstrike-cyclops-cp-10-z]
+Daishi B (Dire Wolf) [BTID=counterstrike-daishi-b-dire-wolf]
+Dasher B (Firemoth) [BTID=counterstrike-dasher-b-firemoth]
+Earthwerks Limited [BTID=counterstrike-earthwerks-limited]
+Field Command Post [BTID=counterstrike-field-command-post]
+Firefly (FFL-4B) [BTID=counterstrike-firefly-ffl-4b]
+Guillotine (GLT-3M) [BTID=counterstrike-guillotine-glt-3m]
+Hazardous Battle Zone [BTID=counterstrike-hazardous-battle-zone]
+Hunchback (HBK-5M) [BTID=counterstrike-hunchback-hbk-5m]
+King Crab (KGC-000) [BTID=counterstrike-king-crab-kgc-000]
+Lance Formation [BTID=counterstrike-lance-formation]
+Master Scrounger [BTID=counterstrike-master-scrounger]
+Minefield [BTID=counterstrike-minefield]
+Mobile Long Tom [BTID=counterstrike-mobile-long-tom]
+Oda Hideyoshi [BTID=counterstrike-oda-hideyoshi]
+Panther (PNT-10K) [BTID=counterstrike-panther-pnt-10k]
+Quick Salvage Operation [BTID=counterstrike-quick-salvage-operation]
+Ryan Steiner [BTID=counterstrike-ryan-steiner]
+Secured Drop Site [BTID=counterstrike-secured-drop-site]
+Star Diversion [BTID=counterstrike-star-diversion]
+Tactical Nuke [BTID=counterstrike-tactical-nuke]
+Thor Mobile Artillery [BTID=counterstrike-thor-mobile-artillery]
+Thorn (THE-N) [BTID=counterstrike-thorn-the-n]
+Ulric Kerensky [BTID=counterstrike-ulric-kerensky]
+Vicious Kick [BTID=counterstrike-vicious-kick]
+Vindicator (VND-3L) [BTID=counterstrike-vindicator-vnd-3l]
+
+[Pack 2 Rare]
+Accelerate Conflict [BTID=counterstrike-accelerate-conflict]
+Berserker Warrior [BTID=counterstrike-berserker-warrior]
+Blow the Pass! [BTID=counterstrike-blow-the-pass]
+Charger (CGR-3K) [BTID=counterstrike-charger-cgr-3k]
+Daishi Prime (Dire Wolf) [BTID=counterstrike-daishi-prime-dire-wolf]
+Haakon Magnussen [BTID=counterstrike-haakon-magnussen]
+Massive Battlefield Confusion [BTID=counterstrike-massive-battlefield-confusion]
+Orbital Bombardment [BTID=counterstrike-orbital-bombardment]
+Ryoken B (Stormcrow) [BTID=counterstrike-ryoken-b-stormcrow]
+Tor Miraborg [BTID=counterstrike-tor-miraborg]
+Vlad of the Wards [BTID=counterstrike-vlad-of-the-wards]
+
+[Pack 2 Random]
+Accelerate Conflict [BTID=counterstrike-accelerate-conflict]
+Assassination [BTID=counterstrike-assassination]
+Berserker Warrior [BTID=counterstrike-berserker-warrior]
+Black Market Connections [BTID=counterstrike-black-market-connections]
+Blood of Kerensky [BTID=counterstrike-blood-of-kerensky]
+Blow the Pass! [BTID=counterstrike-blow-the-pass]
+Champion (CHP-1N) [BTID=counterstrike-champion-chp-1n]
+Charger (CGR-3K) [BTID=counterstrike-charger-cgr-3k]
+Daishi Prime (Dire Wolf) [BTID=counterstrike-daishi-prime-dire-wolf]
+Defensive Formation [BTID=counterstrike-defensive-formation]
+Double-Time Offense [BTID=counterstrike-double-time-offense]
+End Run [BTID=counterstrike-end-run]
+Field Construction Site [BTID=counterstrike-field-construction-site]
+For the Chancellor! [BTID=counterstrike-for-the-chancellor]
+Haakon Magnussen [BTID=counterstrike-haakon-magnussen]
+Hermes (HER-1S) [BTID=counterstrike-hermes-her-1s]
+Jenner (JR7-K) [BTID=counterstrike-jenner-jr7-k]
+Kintaro (KTO-20) [BTID=counterstrike-kintaro-kto-20]
+Lostech Cache [BTID=counterstrike-lostech-cache]
+Massive Battlefield Confusion [BTID=counterstrike-massive-battlefield-confusion]
+Operations Liaison [BTID=counterstrike-operations-liaison]
+Orbital Bombardment [BTID=counterstrike-orbital-bombardment]
+Pinpoint Air Strike [BTID=counterstrike-pinpoint-air-strike]
+Puma B (Adder) [BTID=counterstrike-puma-b-adder]
+Recon Pilot [BTID=counterstrike-recon-pilot]
+Ryoken B (Stormcrow) [BTID=counterstrike-ryoken-b-stormcrow]
+Sentinel (STL-3L) [BTID=counterstrike-sentinel-stl-3l]
+Star Formation [BTID=counterstrike-star-formation]
+Thumper Battery [BTID=counterstrike-thumper-battery]
+Tor Miraborg [BTID=counterstrike-tor-miraborg]
+Uller A (Kit Fox) [BTID=counterstrike-uller-a-kit-fox]
+Vlad of the Wards [BTID=counterstrike-vlad-of-the-wards]
+Vulcan (VT-5S) [BTID=counterstrike-vulcan-vt-5s]
+
+[Pack 3 Rare]
+Adam Steiner [BTID=counterstrike-adam-steiner]
+Blitzkrieg [BTID=counterstrike-blitzkrieg]
+Bombardier (BMB-12D) [BTID=counterstrike-bombardier-bmb-12d]
+Contract with Kell Hounds [BTID=counterstrike-contract-with-kell-hounds]
+Dasher A (Firemoth) [BTID=counterstrike-dasher-a-firemoth]
+Hip Shattered [BTID=counterstrike-hip-shattered]
+No Quarter [BTID=counterstrike-no-quarter]
+Report from the Norns [BTID=counterstrike-report-from-the-norns]
+Superior Navigation [BTID=counterstrike-superior-navigation]
+Trapped! [BTID=counterstrike-trapped]
+
+[Pack 3 Random]
+Accelerated Turnaround [BTID=counterstrike-accelerated-turnaround]
+Adam Steiner [BTID=counterstrike-adam-steiner]
+Bait and Switch [BTID=counterstrike-bait-and-switch]
+Blitzkrieg [BTID=counterstrike-blitzkrieg]
+Bombardier (BMB-12D) [BTID=counterstrike-bombardier-bmb-12d]
+Bribed Pilot [BTID=counterstrike-bribed-pilot]
+Commando (COM-5S) [BTID=counterstrike-commando-com-5s]
+Contract with Kell Hounds [BTID=counterstrike-contract-with-kell-hounds]
+Cover of Night [BTID=counterstrike-cover-of-night]
+Dasher A (Firemoth) [BTID=counterstrike-dasher-a-firemoth]
+Deploy Reinforcements [BTID=counterstrike-deploy-reinforcements]
+Fanatical Leader [BTID=counterstrike-fanatical-leader]
+Fenris B (Ice Ferret) [BTID=counterstrike-fenris-b-ice-ferret]
+Gladiator D (Executioner) [BTID=counterstrike-gladiator-d-executioner]
+Grasshopper (GHR-5J) [BTID=counterstrike-grasshopper-ghr-5j]
+Hermes (HER-3S) [BTID=counterstrike-hermes-her-3s]
+Hip Shattered [BTID=counterstrike-hip-shattered]
+Kintaro (KTO-19) [BTID=counterstrike-kintaro-kto-19]
+Lance Diversion [BTID=counterstrike-lance-diversion]
+'Mech Hangar [BTID=counterstrike-mech-hangar]
+No Quarter [BTID=counterstrike-no-quarter]
+Overrun [BTID=counterstrike-overrun]
+Puma D (Adder) [BTID=counterstrike-puma-d-adder]
+Report from the Norns [BTID=counterstrike-report-from-the-norns]
+Risky Combat Jump [BTID=counterstrike-risky-combat-jump]
+Ryoken C (Stormcrow) [BTID=counterstrike-ryoken-c-stormcrow]
+Spider (SDR-7M) [BTID=counterstrike-spider-sdr-7m]
+Strafing Run [BTID=counterstrike-strafing-run]
+Superior Navigation [BTID=counterstrike-superior-navigation]
+Trapped! [BTID=counterstrike-trapped]
+UrbanMech (UM-R63) [BTID=counterstrike-urbanmech-um-r63]
+Veteran Officer [BTID=counterstrike-veteran-officer]

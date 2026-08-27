@@ -1,0 +1,4380 @@
+[Settings]
+{
+  "name": "BattleTech TCG Draft — Limited",
+  "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
+  "boostersPerPlayer": 3,
+  "withReplacement": true,
+  "duplicateProtection": true,
+  "colorBalance": false,
+  "showSlots": true,
+  "layouts": {
+    "Pack 1": {
+      "weight": 1,
+      "slots": {
+        "Pack 1 Rare": 4,
+        "Pack 1 Random": 11
+      }
+    },
+    "Pack 2": {
+      "weight": 1,
+      "slots": {
+        "Pack 2 Rare": 4,
+        "Pack 2 Random": 11
+      }
+    },
+    "Pack 3": {
+      "weight": 1,
+      "slots": {
+        "Pack 3 Rare": 4,
+        "Pack 3 Random": 11
+      }
+    }
+  },
+  "predeterminedLayouts": [
+    "Pack 1",
+    "Pack 2",
+    "Pack 3"
+  ]
+}
+
+[CustomCards]
+[
+  {
+    "name": "Accurate Intelligence [BTID=limited-accurate-intelligence]",
+    "printed_names": {
+      "en": "Accurate Intelligence"
+    },
+    "set": "ltd",
+    "collector_number": "limited-accurate-intelligence",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Accurate_Intelligence_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\nChoose one of your 'Mechs. That 'Mech gets +1 attack."
+  },
+  {
+    "name": "Aerospace Fighter Mission [BTID=limited-aerospace-fighter-mission]",
+    "printed_names": {
+      "en": "Aerospace Fighter Mission"
+    },
+    "set": "ltd",
+    "collector_number": "limited-aerospace-fighter-mission",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/b3/Aerospace_Fighter_Mission_CCG_Limited.jpg",
+    "oracle_text": "Scrap\nMission when it is revealed.\nDeal 5 damage divided any way you choose among any number of 'Mechs and/or sites."
+  },
+  {
+    "name": "Alex Mallory [BTID=limited-alex-mallory]",
+    "printed_names": {
+      "en": "Alex Mallory"
+    },
+    "set": "ltd",
+    "collector_number": "limited-alex-mallory",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/de/Alex_Mallory_CCG_Limited.jpg",
+    "oracle_text": "{T}: Look at opponent's hand and choose a card. Opponent restocks that card and draws a card. Use this ability only during your Missions phase but not during a mission.\nScrap Alex Mallory to roll a die: 1-6, gain +(1-6) resources. Use this ability only during your Deploy phase.\n• Deputy Secretary Federated Commonwealth Ministry of Intelligence"
+  },
+  {
+    "name": "Ambush! [BTID=limited-ambush]",
+    "printed_names": {
+      "en": "Ambush!"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ambush",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/2a/Ambush%21_CCG_Limited.jpg",
+    "oracle_text": "Scrap Ambush! when it is revealed.\nReveal Ambush! when opponent attacks. Deal 1 damage to each attacking 'Mech for each 1 construction above the cost of Ambush!. Use this effect only during a mission."
+  },
+  {
+    "name": "Ammo Explosion [BTID=limited-ammo-explosion]",
+    "printed_names": {
+      "en": "Ammo Explosion"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ammo-explosion",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/5/5c/Ammo_Explosion_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked or blocking.\nChoose a 'Mech. Roll a die: 1-3, no effect; 4-6, that 'Mech receives damage equal to its base attack. This damage cannot be prevented. That 'Mech may still deal damage."
+  },
+  {
+    "name": "Arms Reduction [BTID=limited-arms-reduction]",
+    "printed_names": {
+      "en": "Arms Reduction"
+    },
+    "set": "ltd",
+    "collector_number": "limited-arms-reduction",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/9f/Arms_Reduction_CCG_Limited.jpg",
+    "oracle_text": "Scrap Arms Reduction when it is revealed.\nPlayers cannot spend more than {R}{R} on construction each turn until any one player pays 5/3P during his or her Deploy phase."
+  },
+  {
+    "name": "Arrow IV Battery [BTID=limited-arrow-iv-battery]",
+    "printed_names": {
+      "en": "Arrow IV Battery"
+    },
+    "set": "ltd",
+    "collector_number": "limited-arrow-iv-battery",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/51/Arrow_IV_Battery_CCG_Limited.jpg",
+    "oracle_text": "{T}: Deal 1 structure damage to one site. Use this ability\nonly during your Missions phase but not during a mission."
+  },
+  {
+    "name": "Assassin (ASN-21) [BTID=limited-assassin-asn-21]",
+    "printed_names": {
+      "en": "Assassin (ASN-21)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-assassin-asn-21",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4b/Assassin_%28ASN-21%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "4"
+  },
+  {
+    "name": "Atlas (AS7-D) [BTID=limited-atlas-as7-d]",
+    "printed_names": {
+      "en": "Atlas (AS7-D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-atlas-as7-d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/83/Atlas_%28AS7-D%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nAlpha Strike: +2 attack",
+    "power": "3",
+    "toughness": "11"
+  },
+  {
+    "name": "Atlas (AS7-K) [BTID=limited-atlas-as7-k]",
+    "printed_names": {
+      "en": "Atlas (AS7-K)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-atlas-as7-k",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Atlas_%28AS7-K%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 4: +4 attack\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Atlas deals -1 damage.)",
+    "power": "2",
+    "toughness": "11"
+  },
+  {
+    "name": "Awesome (AWS-8Q) [BTID=limited-awesome-aws-8q]",
+    "printed_names": {
+      "en": "Awesome (AWS-8Q)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-awesome-aws-8q",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/62/Awesome_%28AWS-8Q%29_CCG_Limited.jpg",
+    "oracle_text": "If the Awesome attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "10"
+  },
+  {
+    "name": "Awesome (AWS-9M) [BTID=limited-awesome-aws-9m]",
+    "printed_names": {
+      "en": "Awesome (AWS-9M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-awesome-aws-9m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/39/Awesome_%28AWS-9M%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack",
+    "power": "4",
+    "toughness": "10"
+  },
+  {
+    "name": "Axman (AXM-1N) [BTID=limited-axman-axm-1n]",
+    "printed_names": {
+      "en": "Axman (AXM-1N)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-axman-axm-1n",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/1a/Axman_%28AXM-1N%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack\nJump (-1 attack: +1 initiative)\nIf Axman engages in battle with at least one slow 'Mech, Axman deals +1 damage to one of those slow 'Mechs.",
+    "power": "4",
+    "toughness": "6"
+  },
+  {
+    "name": "Banshee (BNC-3E) [BTID=limited-banshee-bnc-3e]",
+    "printed_names": {
+      "en": "Banshee (BNC-3E)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-banshee-bnc-3e",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bb/Banshee_%28BNC-3E%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "9"
+  },
+  {
+    "name": "Banshee (BNC-5S) [BTID=limited-banshee-bnc-5s]",
+    "printed_names": {
+      "en": "Banshee (BNC-5S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-banshee-bnc-5s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7b/Banshee_%28BNC-5S%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +3 attack",
+    "power": "5",
+    "toughness": "9"
+  },
+  {
+    "name": "Battalion Support [BTID=limited-battalion-support]",
+    "printed_names": {
+      "en": "Battalion Support"
+    },
+    "set": "ltd",
+    "collector_number": "limited-battalion-support",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d8/Battalion_Support_CCG_Limited.jpg",
+    "oracle_text": "Put five infantry counters on Battalion Support.\nDuring your Deploy phase, you may pay {R} for each infantry counter you move to another site. Each infantry counter adds +1 attack to that site. When that site is damaged, opponent may choose to redirect 1 damage to an infantry counter for each infantry counter on that site, scrapping those counters."
+  },
+  {
+    "name": "Bearer of McKennsy Hammer [BTID=limited-bearer-of-mckennsy-hammer]",
+    "printed_names": {
+      "en": "Bearer of McKennsy Hammer"
+    },
+    "set": "ltd",
+    "collector_number": "limited-bearer-of-mckennsy-hammer",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/41/Bearer_of_McKennsy_Hammer_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\nWhen 'Mech piloted by Bearer of McKennsy Hammer attacks or blocks, roll a die: 1-3, no effect; 4-6, untap that 'Mech at end of current mission."
+  },
+  {
+    "name": "Bjorn Jorgensson [BTID=limited-bjorn-jorgensson]",
+    "printed_names": {
+      "en": "Bjorn Jorgensson"
+    },
+    "set": "ltd",
+    "collector_number": "limited-bjorn-jorgensson",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7d/Bjorn_Jorgensson_CCG_Limited.jpg",
+    "oracle_text": "'Mech piloted by Bjorn Jorgensson deals +5 damage to any target other than a 'Mech.\n• Senior Khan"
+  },
+  {
+    "name": "Black Hawk A (Nova) [BTID=limited-black-hawk-a-nova]",
+    "printed_names": {
+      "en": "Black Hawk A (Nova)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-black-hawk-a-nova",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c7/Black_Hawk_A_%28Nova%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Black Hawk A deals -1 damage.)",
+    "power": "5",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Hawk B (Nova) [BTID=limited-black-hawk-b-nova]",
+    "printed_names": {
+      "en": "Black Hawk B (Nova)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-black-hawk-b-nova",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/63/Black_Hawk_B_%28Nova%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Black Hawk B attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Hawk D (Nova) [BTID=limited-black-hawk-d-nova]",
+    "printed_names": {
+      "en": "Black Hawk D (Nova)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-black-hawk-d-nova",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4b/Black_Hawk_D_%28Nova%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 2\nJump (-1 attack: +1 initiative)",
+    "power": "",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Hawk Prime (Nova) [BTID=limited-black-hawk-prime-nova]",
+    "printed_names": {
+      "en": "Black Hawk Prime (Nova)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-black-hawk-prime-nova",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d8/Black_Hawk_Prime_%28Nova%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +6 attack Jump (-1 attack: +1 initiative)",
+    "power": "7",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Knight (BL6-KNT) [BTID=limited-black-knight-bl6-knt]",
+    "printed_names": {
+      "en": "Black Knight (BL6-KNT)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-black-knight-bl6-knt",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/99/Black_Knight_%28BL6-KNT%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 3: +3 attack",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Blackjack (BJ2) [BTID=limited-blackjack-bj2]",
+    "printed_names": {
+      "en": "Blackjack (BJ2)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-blackjack-bj2",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c8/Blackjack_%28BJ2%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Caesar (CES-3R) [BTID=limited-caesar-ces-3r]",
+    "printed_names": {
+      "en": "Caesar (CES-3R)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-caesar-ces-3r",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a9/Caesar_%28CES-3R%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "5",
+    "toughness": "6"
+  },
+  {
+    "name": "Candace Liao [BTID=limited-candace-liao]",
+    "printed_names": {
+      "en": "Candace Liao"
+    },
+    "set": "ltd",
+    "collector_number": "limited-candace-liao",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d7/Candace_Liao_CCG_Limited.jpg",
+    "oracle_text": "If\nis in play, all Subterfuge cards that are revealed are scrapped with no effect.\n• Prime Minister of the St. Ives Compact"
+  },
+  {
+    "name": "Cataphract (CTF-3D) [BTID=limited-cataphract-ctf-3d]",
+    "printed_names": {
+      "en": "Cataphract (CTF-3D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-cataphract-ctf-3d",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c1/Cataphract_%28CTF-3D%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "6"
+  },
+  {
+    "name": "Catapult (CPLT-C3) [BTID=limited-catapult-cplt-c3]",
+    "printed_names": {
+      "en": "Catapult (CPLT-C3)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-catapult-cplt-c3",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/68/Catapult_%28CPLT-C3%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)\n{T}: Deal 1 damage to 'Mech or target. Use this ability only during a mission.",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Caught in Hangar [BTID=limited-caught-in-hangar]",
+    "printed_names": {
+      "en": "Caught in Hangar"
+    },
+    "set": "ltd",
+    "collector_number": "limited-caught-in-hangar",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f3/Caught_in_Hangar_CCG_Limited.jpg",
+    "oracle_text": "Scrap Caught in Hangar when it is revealed.\nReveal Caught in Hangar during your Missions phase but not during a mission. Choose a 'Mech your opponent controls. That 'Mech may be attacked, regardless of its speed."
+  },
+  {
+    "name": "Centurion (CN9-A) [BTID=limited-centurion-cn9-a]",
+    "printed_names": {
+      "en": "Centurion (CN9-A)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-centurion-cn9-a",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/34/Centurion_%28CN9-A%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Centurion (CN9-D) [BTID=limited-centurion-cn9-d]",
+    "printed_names": {
+      "en": "Centurion (CN9-D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-centurion-cn9-d",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8d/Centurion_%28CN9-D%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Chaparral Missile Tank [BTID=limited-chaparral-missile-tank]",
+    "printed_names": {
+      "en": "Chaparral Missile Tank"
+    },
+    "set": "ltd",
+    "collector_number": "limited-chaparral-missile-tank",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/29/Chaparral_Missile_Tank_CCG_Limited.jpg",
+    "oracle_text": "{T}: Deal 1 structure damage to one\n. Use this ability only during battle."
+  },
+  {
+    "name": "Charger (CGR-1A1) [BTID=limited-charger-cgr-1a1]",
+    "printed_names": {
+      "en": "Charger (CGR-1A1)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-charger-cgr-1a1",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/03/Charger_%28CGR-1A1%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "1",
+    "toughness": "7"
+  },
+  {
+    "name": "Cicada (CDA-2A) [BTID=limited-cicada-cda-2a]",
+    "printed_names": {
+      "en": "Cicada (CDA-2A)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-cicada-cda-2a",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/92/Cicada_%28CDA-2A%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Cicada (CDA-3M) [BTID=limited-cicada-cda-3m]",
+    "printed_names": {
+      "en": "Cicada (CDA-3M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-cicada-cda-3m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8b/Cicada_%28CDA-3M%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Clint (CLNT-2-3T) [BTID=limited-clint-clnt-2-3t]",
+    "printed_names": {
+      "en": "Clint (CLNT-2-3T)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-clint-clnt-2-3t",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/25/Clint_%28CLNT-2-3T%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Clint (CLNT-2-3U) [BTID=limited-clint-clnt-2-3u]",
+    "printed_names": {
+      "en": "Clint (CLNT-2-3U)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-clint-clnt-2-3u",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/5c/Clint_%28CLNT-2-3U%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +1 attack Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Combat Engineers [BTID=limited-combat-engineers]",
+    "printed_names": {
+      "en": "Combat Engineers"
+    },
+    "set": "ltd",
+    "collector_number": "limited-combat-engineers",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/58/Combat_Engineers_CCG_Limited.jpg",
+    "oracle_text": "Play Combat Engineers only on a site.\nSite Combat Engineers enhances gets +2 attack. When that site is damaged, attacker may choose to redirect up to 5 damage to Combat Engineers, scrapping it.\nYou may move Combat Engineers to a different site during your Deploy phase. Playing Combat Engineers does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Commando (COM-2D) [BTID=limited-commando-com-2d]",
+    "printed_names": {
+      "en": "Commando (COM-2D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-commando-com-2d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/82/Commando_%28COM-2D%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "2"
+  },
+  {
+    "name": "Communications Blackout [BTID=limited-communications-blackout]",
+    "printed_names": {
+      "en": "Communications Blackout"
+    },
+    "set": "ltd",
+    "collector_number": "limited-communications-blackout",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e5/Communications_Blackout_CCG_Limited.jpg",
+    "oracle_text": "Scrap Communications Blackout when it is revealed.\nUntil the beginning of your next turn, no player may play Mission cards."
+  },
+  {
+    "name": "Communications Failure [BTID=limited-communications-failure]",
+    "printed_names": {
+      "en": "Communications Failure"
+    },
+    "set": "ltd",
+    "collector_number": "limited-communications-failure",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/8/81/Communications_Failure_CCG_Limited.jpg",
+    "oracle_text": "Put a static counter on each attacking 'Mech. Each time a 'Mech with a static counter would normally untap, roll die: 1-3, 'Mech remains tapped; 4-6, untap that 'Mech and remove all static counters."
+  },
+  {
+    "name": "Comstar Bank Account [BTID=limited-comstar-bank-account]",
+    "printed_names": {
+      "en": "Comstar Bank Account"
+    },
+    "set": "ltd",
+    "collector_number": "limited-comstar-bank-account",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8a/Comstar_Bank_Account_CCG_Limited.jpg",
+    "oracle_text": "{T}: Put a deposit counter on\nBank Account. Use\nthis ability only during your Deploy phase. {T}: {R}, plus {R} for each deposit counter you remove from Comstar Bank Account."
+  },
+  {
+    "name": "Contract with Gray Death Legion [BTID=limited-contract-with-gray-death-legion]",
+    "printed_names": {
+      "en": "Contract with Gray Death Legion"
+    },
+    "set": "ltd",
+    "collector_number": "limited-contract-with-gray-death-legion",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/67/Contract_with_Gray_Death_Legion_CCG_Limited.jpg",
+    "oracle_text": "{T}: One of your 'Mechs gets +3 attack and +2 armor. Use this ability only during a mission. If that 'Mech receives 5 or more damage, scrap Contract with\n.\nDuring your Repair/Reload phase, pay 1/2P or tap Contract with Gray Death Legion and choose an opponent. That opponent gains control of Contract with Gray Death Legion."
+  },
+  {
+    "name": "Contract with Wolf's Dragoons [BTID=limited-contract-with-wolf-s-dragoons]",
+    "printed_names": {
+      "en": "Contract with Wolf's Dragoons"
+    },
+    "set": "ltd",
+    "collector_number": "limited-contract-with-wolf-s-dragoons",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/ac/Contract_with_Wolf%27s_Dragoons_CCG_Limited.jpg",
+    "oracle_text": "{T}: One of your 'Mechs gets +4 attack and +4 armor. Use this ability only during a mission. If that 'Mech receives 5 or more damage, scrap Contract with\n.\nDuring your Repair/Reload phase, pay 1/2P or tap Contract with Wolf's Dragoons and choose an opponent. That opponent gains control of Contract with Wolf's Dragoons."
+  },
+  {
+    "name": "Coventry Metal Works [BTID=limited-coventry-metal-works]",
+    "printed_names": {
+      "en": "Coventry Metal Works"
+    },
+    "set": "ltd",
+    "collector_number": "limited-coventry-metal-works",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c0/Coventry_Metal_Works_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Reroll one of your missile die rolls. Use this ability immediately after rolling the missile die roll.\nMunitions (If you have Munitions in play and you roll a 3 on a missile roll, that missile volley deals 3 damage.)"
+  },
+  {
+    "name": "Critical Hit [BTID=limited-critical-hit]",
+    "printed_names": {
+      "en": "Critical Hit"
+    },
+    "set": "ltd",
+    "collector_number": "limited-critical-hit",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/a/a4/Critical_Hit_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked or blocking.\nChoose one of your 'Mechs. Roll a die: 1-5, return Critical Hit to your hand after mission; 6, your 'Mech gets +6 attack."
+  },
+  {
+    "name": "Crockett (CRK-5003-1) [BTID=limited-crockett-crk-5003-1]",
+    "printed_names": {
+      "en": "Crockett (CRK-5003-1)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-crockett-crk-5003-1",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e9/Crockett_%28CRK-5003-1%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "9"
+  },
+  {
+    "name": "Culling [BTID=limited-culling]",
+    "printed_names": {
+      "en": "Culling"
+    },
+    "set": "ltd",
+    "collector_number": "limited-culling",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/78/Culling_CCG_Limited.jpg",
+    "oracle_text": "Scrap Culling when it is revealed and remove it from the game.\nRestock the top card from your Scrapheap for each 3 construction above the cost of Culling."
+  },
+  {
+    "name": "Cyclops (CP11A) [BTID=limited-cyclops-cp11a]",
+    "printed_names": {
+      "en": "Cyclops (CP11A)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-cyclops-cp11a",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3c/Cyclops_%28CP11A%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Daishi A (Dire Wolf) [BTID=limited-daishi-a-dire-wolf]",
+    "printed_names": {
+      "en": "Daishi A (Dire Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-daishi-a-dire-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/cd/Daishi_A_%28Dire_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "Anti-missile Each missile assigned to a 'Mech in a group that includes Daishi A deals -1 damage.\nIf Daishi A attacks and is blocked, it may deal up to 4 of its damage to the target.",
+    "power": "12",
+    "toughness": "11"
+  },
+  {
+    "name": "Dasher C (Firemoth) [BTID=limited-dasher-c-firemoth]",
+    "printed_names": {
+      "en": "Dasher C (Firemoth)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dasher-c-firemoth",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/ba/Dasher_C_%28Firemoth%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nAnti-missile (Each missile assigned to a 'Mech in a group that includes Dasher C deals -1 damage)\nIf Dasher C is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "",
+    "toughness": "2"
+  },
+  {
+    "name": "Dasher D (Firemoth) [BTID=limited-dasher-d-firemoth]",
+    "printed_names": {
+      "en": "Dasher D (Firemoth)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dasher-d-firemoth",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/09/Dasher_D_%28Firemoth%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +3 attack\nIf Dasher D is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "3",
+    "toughness": "2"
+  },
+  {
+    "name": "Dasher Prime (Firemoth) [BTID=limited-dasher-prime-firemoth]",
+    "printed_names": {
+      "en": "Dasher Prime (Firemoth)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dasher-prime-firemoth",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/86/Dasher_Prime_%28Firemoth%29_CCG_Limited.jpg",
+    "oracle_text": "If Dasher Prime is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "3",
+    "toughness": "2"
+  },
+  {
+    "name": "Death Commando Strike [BTID=limited-death-commando-strike]",
+    "printed_names": {
+      "en": "Death Commando Strike"
+    },
+    "set": "ltd",
+    "collector_number": "limited-death-commando-strike",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/bb/Death_Commando_Strike_CCG_Limited.jpg",
+    "oracle_text": "Scrap Death Commando Strike when it is revealed.\nScrap one card in play other than a 'Mech."
+  },
+  {
+    "name": "Death From Above [BTID=limited-death-from-above]",
+    "printed_names": {
+      "en": "Death From Above"
+    },
+    "set": "ltd",
+    "collector_number": "limited-death-from-above",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/5/59/Death_From_Above_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs with Jump. Roll a die: 1, that 'Mech receives 1 damage and return Death From Above to your hand after mission; 2-6, roll one die. If your 'Mech is 60 tons or more, roll an additional die. Your 'Mech and an engaged 'Mech opponent controls each receive that much damage."
+  },
+  {
+    "name": "Dervish (DV-6M) [BTID=limited-dervish-dv-6m]",
+    "printed_names": {
+      "en": "Dervish (DV-6M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dervish-dv-6m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/33/Dervish_%28DV-6M%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 2: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "5"
+  },
+  {
+    "name": "Dervish (DV-7D) [BTID=limited-dervish-dv-7d]",
+    "printed_names": {
+      "en": "Dervish (DV-7D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dervish-dv-7d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/09/Dervish_%28DV-7D%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "DEST Pilot [BTID=limited-dest-pilot]",
+    "printed_names": {
+      "en": "DEST Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dest-pilot",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/5b/DEST_Pilot_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative, +2 attack\nIf 'Mech piloted by DEST Pilot is scrapped, roll a die: 1-4, no effect; 5-6, return DEST Pilot to your hand."
+  },
+  {
+    "name": "Dragon (DRG-1N) [BTID=limited-dragon-drg-1n]",
+    "printed_names": {
+      "en": "Dragon (DRG-1N)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragon-drg-1n",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4a/Dragon_%28DRG-1N%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Dragonfly A (Viper) [BTID=limited-dragonfly-a-viper]",
+    "printed_names": {
+      "en": "Dragonfly A (Viper)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragonfly-a-viper",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/5b/Dragonfly_A_%28Viper%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "5"
+  },
+  {
+    "name": "Dragonfly B (Viper) [BTID=limited-dragonfly-b-viper]",
+    "printed_names": {
+      "en": "Dragonfly B (Viper)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragonfly-b-viper",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/85/Dragonfly_B_%28Viper%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Dragonfly C (Viper) [BTID=limited-dragonfly-c-viper]",
+    "printed_names": {
+      "en": "Dragonfly C (Viper)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragonfly-c-viper",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0a/Dragonfly_C_%28Viper%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAP (Dragonfly C deals +1 damage to any target other than a 'Mech).",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Dragonfly D (Viper) [BTID=limited-dragonfly-d-viper]",
+    "printed_names": {
+      "en": "Dragonfly D (Viper)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragonfly-d-viper",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/29/Dragonfly_D_%28Viper%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "5"
+  },
+  {
+    "name": "Dragonfly Prime (Viper) [BTID=limited-dragonfly-prime-viper]",
+    "printed_names": {
+      "en": "Dragonfly Prime (Viper)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dragonfly-prime-viper",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/78/Dragonfly_Prime_%28Viper%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-missile (Each missile assigned to a 'Mech in a group that includes Dragonfly Prime deals -1 damage)",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Dropship Site [BTID=limited-dropship-site]",
+    "printed_names": {
+      "en": "Dropship Site"
+    },
+    "set": "ltd",
+    "collector_number": "limited-dropship-site",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/96/Dropship_Site_CCG_Limited.jpg",
+    "oracle_text": "{R}, {T}: Draw a card. Use this ability only during your Draw phase."
+  },
+  {
+    "name": "Effective Groundwork [BTID=limited-effective-groundwork]",
+    "printed_names": {
+      "en": "Effective Groundwork"
+    },
+    "set": "ltd",
+    "collector_number": "limited-effective-groundwork",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/23/Effective_Groundwork_CCG_Limited.jpg",
+    "oracle_text": "Scrap Effective Groundwork when it is revealed. Choose a site. Double the damage dealt to that site this turn."
+  },
+  {
+    "name": "Elemental Point [BTID=limited-elemental-point]",
+    "printed_names": {
+      "en": "Elemental Point"
+    },
+    "set": "ltd",
+    "collector_number": "limited-elemental-point",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1f/Elemental_Point_CCG_Limited.jpg",
+    "oracle_text": "attacks and blocks with a 'Mech. The speed of Elemental Point is the same as the 'Mech with which it attacks or blocks."
+  },
+  {
+    "name": "Elias Crichell [BTID=limited-elias-crichell]",
+    "printed_names": {
+      "en": "Elias Crichell"
+    },
+    "set": "ltd",
+    "collector_number": "limited-elias-crichell",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e1/Elias_Crichell_CCG_Limited.jpg",
+    "oracle_text": "{T}: Untap up to two resources. Use this ability only during your Deploy phase.\n• Senior Khan"
+  },
+  {
+    "name": "Elite Infantry [BTID=limited-elite-infantry]",
+    "printed_names": {
+      "en": "Elite Infantry"
+    },
+    "set": "ltd",
+    "collector_number": "limited-elite-infantry",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d2/Elite_Infantry_CCG_Limited.jpg",
+    "oracle_text": "Play Elite\nonly on a site.\nSite Elite Infantry enhances gets +1 attack. When that site is damaged, attacker may choose to redirect 5 of that damage to Elite Infantry, scrapping it.\nYou may move Elite Infantry to a different site during your Deploy phase.\nPlaying Elite Infantry does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Elite MechWarrior [BTID=limited-elite-mechwarrior]",
+    "printed_names": {
+      "en": "Elite MechWarrior"
+    },
+    "set": "ltd",
+    "collector_number": "limited-elite-mechwarrior",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e1/Elite_MechWarrior_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative, +1 attack\nIf 'Mech piloted by Elite MechWarrior is fast, it cannot be blocked except by a fast 'Mech guarding the target."
+  },
+  {
+    "name": "Enforcer (ENF-4R) [BTID=limited-enforcer-enf-4r]",
+    "printed_names": {
+      "en": "Enforcer (ENF-4R)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-enforcer-enf-4r",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/ae/Enforcer_%28ENF-4R%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Enforcer (ENF-5D) [BTID=limited-enforcer-enf-5d]",
+    "printed_names": {
+      "en": "Enforcer (ENF-5D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-enforcer-enf-5d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fd/Enforcer_%28ENF-5D%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Evantha Fetladral [BTID=limited-evantha-fetladral]",
+    "printed_names": {
+      "en": "Evantha Fetladral"
+    },
+    "set": "ltd",
+    "collector_number": "limited-evantha-fetladral",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Evantha_Fetladral_CCG_Limited.jpg",
+    "oracle_text": "{T}: +1 initiative and choose a\n. That 'Mech gets +1 attack. Use this ability only during a mission.\n• Elemental Star Commander"
+  },
+  {
+    "name": "Expert 'Mech Technicians [BTID=limited-expert-mech-technicians]",
+    "printed_names": {
+      "en": "Expert 'Mech Technicians"
+    },
+    "set": "ltd",
+    "collector_number": "limited-expert-mech-technicians",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/ab/Expert_%27Mech_Technicians_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Scrap a card from your hand and choose a 'Mech. Untap that 'Mech at end of your turn. Use this ability only during your Missions phase but not during a mission."
+  },
+  {
+    "name": "Exterminator (EXT-4D) [BTID=limited-exterminator-ext-4d]",
+    "printed_names": {
+      "en": "Exterminator (EXT-4D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-exterminator-ext-4d",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/51/Exterminator_%28EXT-4D%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-missile Each missile assigned to a 'Mech in a group that includes Exterminator deals -1 damage.",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Extra Armor Plating [BTID=limited-extra-armor-plating]",
+    "printed_names": {
+      "en": "Extra Armor Plating"
+    },
+    "set": "ltd",
+    "collector_number": "limited-extra-armor-plating",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a3/Extra_Armor_Plating_CCG_Limited.jpg",
+    "oracle_text": "Play Extra Armor Plating only on a\n.\nScrap Extra Armor Plating to prevent up to 2 damage to that 'Mech. Use this ability only during a mission. Playing Extra Armor Plating does not count as a deployment if revealed the turn you play it. Draw a card when you reveal Extra Armor Plating."
+  },
+  {
+    "name": "Falcon (FLC-4P) [BTID=limited-falcon-flc-4p]",
+    "printed_names": {
+      "en": "Falcon (FLC-4P)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-falcon-flc-4p",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f5/Falcon_%28FLC-4P%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-missile Each missile assigned to a 'Mech in a group that includes Falcon deals -1 damage.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Feint [BTID=limited-feint]",
+    "printed_names": {
+      "en": "Feint"
+    },
+    "set": "ltd",
+    "collector_number": "limited-feint",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/d/da/Feint_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs. Roll a die: 1, no effect; 2-6, prevent all damage dealt and received by that 'Mech."
+  },
+  {
+    "name": "Fenris A (Ice Ferret) [BTID=limited-fenris-a-ice-ferret]",
+    "printed_names": {
+      "en": "Fenris A (Ice Ferret)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-fenris-a-ice-ferret",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/08/Fenris_A_%28Ice_Ferret%29_CCG_Limited.jpg",
+    "oracle_text": "Anti-missile (Each missile assigned to a 'Mech in a group that includes Fenris A deals -1 damage.)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Fenris C (Ice Ferret) [BTID=limited-fenris-c-ice-ferret]",
+    "printed_names": {
+      "en": "Fenris C (Ice Ferret)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-fenris-c-ice-ferret",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/51/Fenris_C_%28Ice_Ferret%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1",
+    "power": "1",
+    "toughness": "6"
+  },
+  {
+    "name": "Fenris D (Ice Ferret) [BTID=limited-fenris-d-ice-ferret]",
+    "printed_names": {
+      "en": "Fenris D (Ice Ferret)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-fenris-d-ice-ferret",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fb/Fenris_D_%28Ice_Ferret%29_CCG_Limited.jpg",
+    "oracle_text": "Anti-missile (Each missile assigned to a 'Mech in a group that includes Fenris D deals -1 damage)",
+    "power": "5",
+    "toughness": "6"
+  },
+  {
+    "name": "Fenris Prime (Ice Ferret) [BTID=limited-fenris-prime-ice-ferret]",
+    "printed_names": {
+      "en": "Fenris Prime (Ice Ferret)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-fenris-prime-ice-ferret",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b7/Fenris_Prime_%28Ice_Ferret%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Ferro-Fibrous Armor [BTID=limited-ferro-fibrous-armor]",
+    "printed_names": {
+      "en": "Ferro-Fibrous Armor"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ferro-fibrous-armor",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Ferro-Fibrous_Armor_CCG_Limited.jpg",
+    "oracle_text": "Play Ferro-Fibrous Armor only on a\n. Add +1 to that 'Mech's Armor.\nPlaying Ferro-Fibrous Armor does not count as a deployment if revealed the turn you play it. Draw a card when you reveal Ferro-Fibrous Armor."
+  },
+  {
+    "name": "Firestarter (FS9-H) [BTID=limited-firestarter-fs9-h]",
+    "printed_names": {
+      "en": "Firestarter (FS9-H)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-firestarter-fs9-h",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/59/Firestarter_%28FS9-H%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Firestarter (FS9-S) [BTID=limited-firestarter-fs9-s]",
+    "printed_names": {
+      "en": "Firestarter (FS9-S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-firestarter-fs9-s",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Firestarter_%28FS9-S%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Firestarter deals -1 damage.)",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Flashman (FLS-8K) [BTID=limited-flashman-fls-8k]",
+    "printed_names": {
+      "en": "Flashman (FLS-8K)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-flashman-fls-8k",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/33/Flashman_%28FLS-8K%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 3: +3 attack\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Flashman deals -1 damage.)",
+    "power": "4",
+    "toughness": "8"
+  },
+  {
+    "name": "Flea (FLE-17) [BTID=limited-flea-fle-17]",
+    "printed_names": {
+      "en": "Flea (FLE-17)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-flea-fle-17",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b4/Flea_%28FLE-17%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (attack-1: +1 initiative)\nYou may deploy Flea revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "2"
+  },
+  {
+    "name": "Forged Mission Orders [BTID=limited-forged-mission-orders]",
+    "printed_names": {
+      "en": "Forged Mission Orders"
+    },
+    "set": "ltd",
+    "collector_number": "limited-forged-mission-orders",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/f/fe/Forged_Mission_Orders_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked.\nUntap one blocking 'Mech. That 'Mech neither deals nor receives damage. If no blocking 'Mechs remain, deal damage to the target as if unblocked."
+  },
+  {
+    "name": "Galen Cox [BTID=limited-galen-cox]",
+    "printed_names": {
+      "en": "Galen Cox"
+    },
+    "set": "ltd",
+    "collector_number": "limited-galen-cox",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/46/Galen_Cox_CCG_Limited.jpg",
+    "oracle_text": "If\npiloted by\nis faster than attacking 'Mech opponent controls, 'Mech piloted by Galen Cox may block while tapped.\n• Aide to Victor Stenier-Davion"
+  },
+  {
+    "name": "Gladiator A (Executioner) [BTID=limited-gladiator-a-executioner]",
+    "printed_names": {
+      "en": "Gladiator A (Executioner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-gladiator-a-executioner",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3e/Gladiator_A_%28Executioner%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +3 attack\nJump (-1 attack: +1 initiative)",
+    "power": "8",
+    "toughness": "10"
+  },
+  {
+    "name": "Gladiator B (Executioner) [BTID=limited-gladiator-b-executioner]",
+    "printed_names": {
+      "en": "Gladiator B (Executioner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-gladiator-b-executioner",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/01/Gladiator_B_%28Executioner%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack\nJump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Gladiator B deals -1 damage.)",
+    "power": "6",
+    "toughness": "10"
+  },
+  {
+    "name": "Gladiator C (Executioner) [BTID=limited-gladiator-c-executioner]",
+    "printed_names": {
+      "en": "Gladiator C (Executioner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-gladiator-c-executioner",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/ae/Gladiator_C_%28Executioner%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nAlpha Strike: +1 attack\nJump (attack -2: +1 initiative",
+    "power": "6",
+    "toughness": "10"
+  },
+  {
+    "name": "Gladiator Prime (Executioner) [BTID=limited-gladiator-prime-executioner]",
+    "printed_names": {
+      "en": "Gladiator Prime (Executioner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-gladiator-prime-executioner",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/ca/Gladiator_Prime_%28Executioner%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Gladiator Prime attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "6",
+    "toughness": "10"
+  },
+  {
+    "name": "Good Shooting! [BTID=limited-good-shooting]",
+    "printed_names": {
+      "en": "Good Shooting!"
+    },
+    "set": "ltd",
+    "collector_number": "limited-good-shooting",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/0/04/Good_Shooting%21_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs. That 'Mech gets +2 attack."
+  },
+  {
+    "name": "Grand Dragon (DRG-5K) [BTID=limited-grand-dragon-drg-5k]",
+    "printed_names": {
+      "en": "Grand Dragon (DRG-5K)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-grand-dragon-drg-5k",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/13/Grand_Dragon_%28DRG-5K%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +1 attack",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Grasshopper (GHR-5H) [BTID=limited-grasshopper-ghr-5h]",
+    "printed_names": {
+      "en": "Grasshopper (GHR-5H)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-grasshopper-ghr-5h",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/cc/Grasshopper_%28GHR-5H%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Gray Death Pilot [BTID=limited-gray-death-pilot]",
+    "printed_names": {
+      "en": "Gray Death Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-gray-death-pilot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/9e/Gray_Death_Pilot_CCG_Limited.jpg",
+    "oracle_text": "+3 initiative\nPrevent 1 damage to 'Mech piloted by Gray Death Pilot. Use this ability only during a mission."
+  },
+  {
+    "name": "Grayson Death Carlyle [BTID=limited-grayson-death-carlyle]",
+    "printed_names": {
+      "en": "Grayson Death Carlyle"
+    },
+    "set": "ltd",
+    "collector_number": "limited-grayson-death-carlyle",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a3/Grayson_Death_Carlyle_CCG_Limited.jpg",
+    "oracle_text": "{T}: Your\nmay block during current mission, regardless of their speed. Use this ability before assigning blockers.\n• Commander Gray Death Legion"
+  },
+  {
+    "name": "Guerrilla Support [BTID=limited-guerrilla-support]",
+    "printed_names": {
+      "en": "Guerrilla Support"
+    },
+    "set": "ltd",
+    "collector_number": "limited-guerrilla-support",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7b/Guerrilla_Support_CCG_Limited.jpg",
+    "oracle_text": "Put three operation counters on Guerrilla Support when it is revealed.\nRemove an operation counter at the beginning of your turn. When the last operation counter has been removed, scrap Guerrilla Support and opponent scraps a card at the beginning of his or her turn until end of game."
+  },
+  {
+    "name": "Guillotine (GLT-5M) [BTID=limited-guillotine-glt-5m]",
+    "printed_names": {
+      "en": "Guillotine (GLT-5M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-guillotine-glt-5m",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8c/Guillotine_%28GLT-5M%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Hanse Davion - The Fox [BTID=limited-hanse-davion-the-fox]",
+    "printed_names": {
+      "en": "Hanse Davion - The Fox"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hanse-davion-the-fox",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/44/Hanse_Davion_-_The_Fox_CCG_Limited.jpg",
+    "oracle_text": "For each Resource card scrapped from opponent's Stockpile, gain one resource at the beginning of your next Deploy phase.\n{T}: +1 initiative. Use this ability only during a mission.\nTactics (If you have Tactics in play, add +1 to your initiative.)\n• Prince of the Federated Suns"
+  },
+  {
+    "name": "Hatamoto-Chi (HTM-27T) [BTID=limited-hatamoto-chi-htm-27t]",
+    "printed_names": {
+      "en": "Hatamoto-Chi (HTM-27T)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hatamoto-chi-htm-27t",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0d/Hatamoto-Chi_%28HTM-27T%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +1 attack",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Hatchetman (HCT-3F) [BTID=limited-hatchetman-hct-3f]",
+    "printed_names": {
+      "en": "Hatchetman (HCT-3F)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hatchetman-hct-3f",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8d/Hatchetman_%28HCT-3F%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Hatchetman engages in battle with at least one slow 'Mech, Hatchetman deals +1 damage to one of those slow 'Mechs.",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Hatchetman (HCT-5S) [BTID=limited-hatchetman-hct-5s]",
+    "printed_names": {
+      "en": "Hatchetman (HCT-5S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hatchetman-hct-5s",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/66/Hatchetman_%28HCT-5S%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)\nIf Hatchetman engages in battle with at least one slow 'Mech, Hatchetman deals +1 damage to one of those slow 'Mechs.",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Head Shot [BTID=limited-head-shot]",
+    "printed_names": {
+      "en": "Head Shot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-head-shot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/3/33/Head_Shot_CCG_Limited.jpg",
+    "oracle_text": "Choose an engaged 'Mech opponent controls. For each structure damage dealt to that 'Mech, roll a die: 1-2, prevent the damage; 3-5, no effect; 6, that 'Mech is scrapped. If you don't roll at least one 6, return Head Shot to your hand after mission."
+  },
+  {
+    "name": "Heavy Fog [BTID=limited-heavy-fog]",
+    "printed_names": {
+      "en": "Heavy Fog"
+    },
+    "set": "ltd",
+    "collector_number": "limited-heavy-fog",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/f/f8/Heavy_Fog_CCG_Limited.jpg",
+    "oracle_text": "Attacking 'Mechs each get -2 attack and receive 2 less damage."
+  },
+  {
+    "name": "Heavy Industry [BTID=limited-heavy-industry]",
+    "printed_names": {
+      "en": "Heavy Industry"
+    },
+    "set": "ltd",
+    "collector_number": "limited-heavy-industry",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Heavy_Industry_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}{R}. Using this ability counts as one of your deployments."
+  },
+  {
+    "name": "Helicopter Support [BTID=limited-helicopter-support]",
+    "printed_names": {
+      "en": "Helicopter Support"
+    },
+    "set": "ltd",
+    "collector_number": "limited-helicopter-support",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/26/Helicopter_Support_CCG_Limited.jpg",
+    "oracle_text": "Helicopter Support cannot be attacked.\n{T}: Deal 1 damage to one engaged 'Mech opponent controls or one target and roll a die: 1-3, scrap Helicopter Support; 4-6, untap Helicopter Support. Use this ability only during battle."
+  },
+  {
+    "name": "Heroic Sacrifice [BTID=limited-heroic-sacrifice]",
+    "printed_names": {
+      "en": "Heroic Sacrifice"
+    },
+    "set": "ltd",
+    "collector_number": "limited-heroic-sacrifice",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/3/3a/Heroic_Sacrifice_CCG_Limited.jpg",
+    "oracle_text": "Play only if you have Tactics in play and only when blocked or blocking.\nDouble all damage dealt to one of your 'Mechs. Deal that 'Mech's damage to the target."
+  },
+  {
+    "name": "Highlander (HGN-732) [BTID=limited-highlander-hgn-732]",
+    "printed_names": {
+      "en": "Highlander (HGN-732)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-highlander-hgn-732",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7f/Highlander_%28HGN-732%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 3: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "10"
+  },
+  {
+    "name": "Holographic Decoy [BTID=limited-holographic-decoy]",
+    "printed_names": {
+      "en": "Holographic Decoy"
+    },
+    "set": "ltd",
+    "collector_number": "limited-holographic-decoy",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/32/Holographic_Decoy_CCG_Limited.jpg",
+    "oracle_text": "Scrap Holographic Decoy when it is revealed.\nTap one 'Mech for each 3 construction above the cost of Holographic Decoy."
+  },
+  {
+    "name": "Hoplite (HOP-4D) [BTID=limited-hoplite-hop-4d]",
+    "printed_names": {
+      "en": "Hoplite (HOP-4D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hoplite-hop-4d",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/ba/Hoplite_%28HOP-4D%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "1",
+    "toughness": "8"
+  },
+  {
+    "name": "Hornet (HNT-171) [BTID=limited-hornet-hnt-171]",
+    "printed_names": {
+      "en": "Hornet (HNT-171)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hornet-hnt-171",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/ac/Hornet_%28HNT-171%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nYou may deploy Hornet revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Hovertank Detachment [BTID=limited-hovertank-detachment]",
+    "printed_names": {
+      "en": "Hovertank Detachment"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hovertank-detachment",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/5d/Hovertank_Detachment_CCG_Limited.jpg",
+    "oracle_text": "Detachment cannot be attacked.\n{T}: Deal 1 damage to one engaged 'Mech opponent controls or one target and roll a die: 1-2, scrap Hovertank Detachment; 3-4, no effect; 5-6, untap Hovertank Detachment. Use this ability only during battle."
+  },
+  {
+    "name": "Hunchback (HBK-4G) [BTID=limited-hunchback-hbk-4g]",
+    "printed_names": {
+      "en": "Hunchback (HBK-4G)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hunchback-hbk-4g",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/db/Hunchback_%28HBK-4G%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Hussar (HSR 200-D) [BTID=limited-hussar-hsr-200-d]",
+    "printed_names": {
+      "en": "Hussar (HSR 200-D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-hussar-hsr-200-d",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/1a/Hussar_%28HSR_200-D%29_CCG_Limited.jpg",
+    "oracle_text": "You may deploy Hussar revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "1"
+  },
+  {
+    "name": "Imp (IMP-3E) [BTID=limited-imp-imp-3e]",
+    "printed_names": {
+      "en": "Imp (IMP-3E)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-imp-imp-3e",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/34/Imp_%28IMP-3E%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +3 attack\nAlpha Strike: +1 attack",
+    "power": "3",
+    "toughness": "11"
+  },
+  {
+    "name": "Improvised Weapon [BTID=limited-improvised-weapon]",
+    "printed_names": {
+      "en": "Improvised Weapon"
+    },
+    "set": "ltd",
+    "collector_number": "limited-improvised-weapon",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/8/80/Improvised_Weapon_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs. If engaged 'Mech opponent controls is dealt structure damage, put a +1 attack clubbing limb counter on that 'Mech."
+  },
+  {
+    "name": "Inexorable Advance [BTID=limited-inexorable-advance]",
+    "printed_names": {
+      "en": "Inexorable Advance"
+    },
+    "set": "ltd",
+    "collector_number": "limited-inexorable-advance",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/7/77/Inexorable_Advance_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked.\nChoose one of your 'Mechs. If that 'Mech receives no structure damage, untap that 'Mech after mission."
+  },
+  {
+    "name": "Infantry Platoon [BTID=limited-infantry-platoon]",
+    "printed_names": {
+      "en": "Infantry Platoon"
+    },
+    "set": "ltd",
+    "collector_number": "limited-infantry-platoon",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/6a/Infantry_Platoon_CCG_Limited.jpg",
+    "oracle_text": "Play\nonly on a site.\nSite Infantry Platoon enhances gets +1 attack. When that site is damaged, attacker may choose to redirect up to 3 damage to Infantry Platoon, scrapping it. Scrap Infantry Platoon to prevent 1 damage to the site it enhances. Use this ability only during a mission. You may move Infantry Platoon to a different site during your Deploy phase.\nPlaying Infantry Platoon does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Inside Job [BTID=limited-inside-job]",
+    "printed_names": {
+      "en": "Inside Job"
+    },
+    "set": "ltd",
+    "collector_number": "limited-inside-job",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/67/Inside_Job_CCG_Limited.jpg",
+    "oracle_text": "Scrap Inside Job when it is revealed.\nChoose one of your 'Mechs. If that 'Mech attacks alone, it cannot be blocked this turn."
+  },
+  {
+    "name": "ISF Counterespionage [BTID=limited-isf-counterespionage]",
+    "printed_names": {
+      "en": "ISF Counterespionage"
+    },
+    "set": "ltd",
+    "collector_number": "limited-isf-counterespionage",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8f/ISF_Counterespionage_CCG_Limited.jpg",
+    "oracle_text": "Scrap\nCounterespionage when it is revealed.\nReveal only when opponent reveals a Subterfuge card. That card is scrapped with no effect."
+  },
+  {
+    "name": "JagerMech (JM6-DD) [BTID=limited-jagermech-jm6-dd]",
+    "printed_names": {
+      "en": "JagerMech (JM6-DD)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-jagermech-jm6-dd",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/75/JagerMech_%28JM6-DD%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "JagerMech (JM6-S) [BTID=limited-jagermech-jm6-s]",
+    "printed_names": {
+      "en": "JagerMech (JM6-S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-jagermech-jm6-s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/52/JagerMech_%28JM6-S%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Jaime Wolf [BTID=limited-jaime-wolf]",
+    "printed_names": {
+      "en": "Jaime Wolf"
+    },
+    "set": "ltd",
+    "collector_number": "limited-jaime-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/5f/Jaime_Wolf_CCG_Limited.jpg",
+    "oracle_text": ":+2 initiative\n'Mech piloted by Jaime Wolf gets +1 attack for each other 'Mech in a group that includes 'Mech piloted by Jaime Wolf.\nDuring your Draw phase, you may pay {R} and scrap a card from your Stockpile. If that card is a 'Mech, put it into your hand. You may repeat this process as often as you wish.\n• Commander, Wolf's Dragoons"
+  },
+  {
+    "name": "Javelin (JVN-10N) [BTID=limited-javelin-jvn-10n]",
+    "printed_names": {
+      "en": "Javelin (JVN-10N)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-javelin-jvn-10n",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/24/Javelin_%28JVN-10N%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Jenner (JR7-D) [BTID=limited-jenner-jr7-d]",
+    "printed_names": {
+      "en": "Jenner (JR7-D)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-jenner-jr7-d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8a/Jenner_%28JR7-D%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "2"
+  },
+  {
+    "name": "Jump into Cover [BTID=limited-jump-into-cover]",
+    "printed_names": {
+      "en": "Jump into Cover"
+    },
+    "set": "ltd",
+    "collector_number": "limited-jump-into-cover",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/f/f5/Jump_into_Cover_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs with Jump. Roll a die: 1-2, that 'Mech receives 1-2 damage and return Jump Into Cover to your hand after mission; 3-6, prevent 3-6 damage to that 'Mech."
+  },
+  {
+    "name": "Justin Xiang Allard [BTID=limited-justin-xiang-allard]",
+    "printed_names": {
+      "en": "Justin Xiang Allard"
+    },
+    "set": "ltd",
+    "collector_number": "limited-justin-xiang-allard",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a5/Justin_Xiang_Allard_CCG_Limited.jpg",
+    "oracle_text": "{T}: Look at the top card of opponent's Stockpile. You may\nchoose to have opponent restock that card. Use this ability only during your Missions phase but not during a mission.\n• Secretary, Ministry of Intelligence"
+  },
+  {
+    "name": "Kai Allard-Liao [BTID=limited-kai-allard-liao]",
+    "printed_names": {
+      "en": "Kai Allard-Liao"
+    },
+    "set": "ltd",
+    "collector_number": "limited-kai-allard-liao",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/17/Kai_Allard-Liao_CCG_Limited.jpg",
+    "oracle_text": "+3 initiativa, +3 attack\nPrevent up to 2 damage to each 'Mech in a group that includes 'Mech piloted by Kai Allard-Liao. When 'Mech piloted by Kai Allard-Liao attacks or blocks, you may reveal the top card of your Stockpile. If that card is a Mission card, put it into your hand. If it is not a Mission card, restock it.\n• Heir to the St. Ives Compact"
+  },
+  {
+    "name": "Kamikaze MechWarrior [BTID=limited-kamikaze-mechwarrior]",
+    "printed_names": {
+      "en": "Kamikaze MechWarrior"
+    },
+    "set": "ltd",
+    "collector_number": "limited-kamikaze-mechwarrior",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e5/Kamikaze_MechWarrior_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\nIf 'Mech piloted by Kamikaze MechWarrior is faster than engaged 'Mech opponent controls, you may scrap 'Mech piloted by Kamikaze MechWarrior and roll two dice: 2-12, deal +(2-12) damage to engaged 'Mech opponent controls. Use this ability only during a mission."
+  },
+  {
+    "name": "Katana (CRK5003-2) [BTID=limited-katana-crk5003-2]",
+    "printed_names": {
+      "en": "Katana (CRK5003-2)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-katana-crk5003-2",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/96/Katana_%28CRK5003-2%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 3: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Kell Hound Pilot [BTID=limited-kell-hound-pilot]",
+    "printed_names": {
+      "en": "Kell Hound Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-kell-hound-pilot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f2/Kell_Hound_Pilot_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative, +1 attack"
+  },
+  {
+    "name": "Koshi A (Mist Lynx) [BTID=limited-koshi-a-mist-lynx]",
+    "printed_names": {
+      "en": "Koshi A (Mist Lynx)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-koshi-a-mist-lynx",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/46/Koshi_A_%28Mist_Lynx%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Koshi A deals -1 damage.)\nAP (Koshi A deals +1 damage to any target other than a 'Mech.)",
+    "power": "",
+    "toughness": "3"
+  },
+  {
+    "name": "Koshi B (Mist Lynx) [BTID=limited-koshi-b-mist-lynx]",
+    "printed_names": {
+      "en": "Koshi B (Mist Lynx)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-koshi-b-mist-lynx",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Koshi_B_%28Mist_Lynx%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "4"
+  },
+  {
+    "name": "Koshi C (Mist Lynx) [BTID=limited-koshi-c-mist-lynx]",
+    "printed_names": {
+      "en": "Koshi C (Mist Lynx)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-koshi-c-mist-lynx",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/08/Koshi_C_Mist_Lynx_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Koshi C deals -1 damage.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.",
+    "power": "3",
+    "toughness": "3"
+  },
+  {
+    "name": "Koshi D (Mist Lynx) [BTID=limited-koshi-d-mist-lynx]",
+    "printed_names": {
+      "en": "Koshi D (Mist Lynx)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-koshi-d-mist-lynx",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/78/Koshi_D_%28Mist_Lynx%29_CCG_Limited.jpg",
+    "oracle_text": "'Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Koshi Prime (Mist Lynx) [BTID=limited-koshi-prime-mist-lynx]",
+    "printed_names": {
+      "en": "Koshi Prime (Mist Lynx)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-koshi-prime-mist-lynx",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d2/Koshi_Prime_%28Mist_Lynx%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Lance Commander [BTID=limited-lance-commander]",
+    "printed_names": {
+      "en": "Lance Commander"
+    },
+    "set": "ltd",
+    "collector_number": "limited-lance-commander",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/2a/Lance_Commander_CCG_Limited.jpg",
+    "oracle_text": "+2 initiative\nPrevent 1 damage to any 'Mech in a group that includes 'Mech piloted by Lance Commander. Use this ability only during a mission."
+  },
+  {
+    "name": "Lancelot (LNC25-01) [BTID=limited-lancelot-lnc25-01]",
+    "printed_names": {
+      "en": "Lancelot (LNC25-01)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-lancelot-lnc25-01",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/09/Lancelot_%28LNC25-01%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +1 attack",
+    "power": "4",
+    "toughness": "5"
+  },
+  {
+    "name": "Leap Before You Look [BTID=limited-leap-before-you-look]",
+    "printed_names": {
+      "en": "Leap Before You Look"
+    },
+    "set": "ltd",
+    "collector_number": "limited-leap-before-you-look",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/8/82/Leap_Before_You_Look_CCG_Limited.jpg",
+    "oracle_text": "Play only if blocked or blocking.\nChoose a 'Mech with Jump. Deal 4 damage to that 'Mech."
+  },
+  {
+    "name": "Leo Showers [BTID=limited-leo-showers]",
+    "printed_names": {
+      "en": "Leo Showers"
+    },
+    "set": "ltd",
+    "collector_number": "limited-leo-showers",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/37/Leo_Showers_CCG_Limited.jpg",
+    "oracle_text": "{T}: Draw a card. Use this ability only during your Draw phase.\n• ilKhan of the Clans"
+  },
+  {
+    "name": "Loki A (Hellbringer) [BTID=limited-loki-a-hellbringer]",
+    "printed_names": {
+      "en": "Loki A (Hellbringer)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-loki-a-hellbringer",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8d/Loki_A_%28Hellbringer%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 3: +2 attack\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "5",
+    "toughness": "5"
+  },
+  {
+    "name": "Loki B (Hellbringer) [BTID=limited-loki-b-hellbringer]",
+    "printed_names": {
+      "en": "Loki B (Hellbringer)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-loki-b-hellbringer",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d6/Loki_B_%28Hellbringer%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "6",
+    "toughness": "5"
+  },
+  {
+    "name": "Loki Prime (Hellbringer) [BTID=limited-loki-prime-hellbringer]",
+    "printed_names": {
+      "en": "Loki Prime (Hellbringer)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-loki-prime-hellbringer",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/99/Loki_Prime_%28Hellbringer%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 5: +6 attack\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Loki Prime deals -1 damage.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)\nAP (Loki Prime deals +1 damage to any target other than a 'Mech.)",
+    "power": "6",
+    "toughness": "5"
+  },
+  {
+    "name": "Long Range Targeting System [BTID=limited-long-range-targeting-system]",
+    "printed_names": {
+      "en": "Long Range Targeting System"
+    },
+    "set": "ltd",
+    "collector_number": "limited-long-range-targeting-system",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/66/Long_Range_Targeting_System_CCG_Limited.jpg",
+    "oracle_text": "Play Long Range Targeting System only on a\n. That 'Mech deals one-half its non-missile damage (rounded down) to the target it is attacking, even if that 'Mech is blocked.\nPlaying Long Range Targeting System does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Long Tom Battery [BTID=limited-long-tom-battery]",
+    "printed_names": {
+      "en": "Long Tom Battery"
+    },
+    "set": "ltd",
+    "collector_number": "limited-long-tom-battery",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Long_Tom_Battery_CCG_Limited.jpg",
+    "oracle_text": "{T}: Deal 3 damage to one site. Use this ability only during your Missions phase but not during a mission."
+  },
+  {
+    "name": "Luck of the Fox [BTID=limited-luck-of-the-fox]",
+    "printed_names": {
+      "en": "Luck of the Fox"
+    },
+    "set": "ltd",
+    "collector_number": "limited-luck-of-the-fox",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/3/3d/Luck_of_the_Fox_CCG_Limited.jpg",
+    "oracle_text": "Choose a 'Mech opponent controls. Roll a die: 1, no effect; 2-3, return Luck of the Fox to your hand after mission; 4-6, prevent all damage dealt by that 'Mech."
+  },
+  {
+    "name": "Lured into Bog [BTID=limited-lured-into-bog]",
+    "printed_names": {
+      "en": "Lured into Bog"
+    },
+    "set": "ltd",
+    "collector_number": "limited-lured-into-bog",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/7/7d/Lured_into_Bog_CCG_Limited.jpg",
+    "oracle_text": "Play only when attacked.\nAll attacking 'Mechs may be blocked, regardless of their speed, until end of turn."
+  },
+  {
+    "name": "Mad Cat A (Timber Wolf) [BTID=limited-mad-cat-a-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat A (Timber Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mad-cat-a-timber-wolf",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/4f/Mad_Cat_A_%28Timber_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "9",
+    "toughness": "9"
+  },
+  {
+    "name": "Mad Cat B (Timber Wolf) [BTID=limited-mad-cat-b-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat B (Timber Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mad-cat-b-timber-wolf",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/90/Mad_Cat_B_%28Timber_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "7",
+    "toughness": "9"
+  },
+  {
+    "name": "Mad Cat C (Timber Wolf) [BTID=limited-mad-cat-c-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat C (Timber Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mad-cat-c-timber-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/30/Mad_Cat_C_%28Timber_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +3 attack\nMissile 1\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Mad Cat C deals -1 damage.)",
+    "power": "5",
+    "toughness": "9"
+  },
+  {
+    "name": "Mad Cat D (Timber Wolf) [BTID=limited-mad-cat-d-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat D (Timber Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mad-cat-d-timber-wolf",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fc/Mad_Cat_D_%28Timber_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +4 attack",
+    "power": "7",
+    "toughness": "9"
+  },
+  {
+    "name": "Mad Cat Prime (Timber Wolf) [BTID=limited-mad-cat-prime-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat Prime (Timber Wolf)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mad-cat-prime-timber-wolf",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e1/Mad_Cat_Prime_%28Timber_Wolf%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 2\nOverheat 3: +3 attack",
+    "power": "7",
+    "toughness": "9"
+  },
+  {
+    "name": "Man O' War A (Gargoyle) [BTID=limited-man-o-war-a-gargoyle]",
+    "printed_names": {
+      "en": "Man O' War A (Gargoyle)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-man-o-war-a-gargoyle",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bb/Man_O%27_War_A_%28Gargoyle%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +5 attack",
+    "power": "6",
+    "toughness": "7"
+  },
+  {
+    "name": "Man O' War B (Gargoyle) [BTID=limited-man-o-war-b-gargoyle]",
+    "printed_names": {
+      "en": "Man O' War B (Gargoyle)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-man-o-war-b-gargoyle",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bc/Man_O%27_War_B_%28Gargoyle%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Man O' War C (Gargoyle) [BTID=limited-man-o-war-c-gargoyle]",
+    "printed_names": {
+      "en": "Man O' War C (Gargoyle)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-man-o-war-c-gargoyle",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/29/Man_O%27_War_C_%28Gargoyle%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +3 attack",
+    "power": "9",
+    "toughness": "7"
+  },
+  {
+    "name": "Man O' War Prime (Gargoyle) [BTID=limited-man-o-war-prime-gargoyle]",
+    "printed_names": {
+      "en": "Man O' War Prime (Gargoyle)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-man-o-war-prime-gargoyle",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8c/Man_O%27_War_Prime_%28Gargoyle%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Maneuvering Ace [BTID=limited-maneuvering-ace]",
+    "printed_names": {
+      "en": "Maneuvering Ace"
+    },
+    "set": "ltd",
+    "collector_number": "limited-maneuvering-ace",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/b9/Maneuvering_Ace_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\n'Mech piloted by Maneuvering Ace may attack and block as if one speed faster. If 'Mech piloted by Maneuvering Ace is a fast 'Mech, it cannot be blocked except by 'Mechs guarding the target."
+  },
+  {
+    "name": "Manipulation of Romano [BTID=limited-manipulation-of-romano]",
+    "printed_names": {
+      "en": "Manipulation of Romano"
+    },
+    "set": "ltd",
+    "collector_number": "limited-manipulation-of-romano",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/be/Manipulation_of_Romano_CCG_Limited.jpg",
+    "oracle_text": "Scrap Manipulation of Romano when it is revealed.\nTap all guarding 'Mechs."
+  },
+  {
+    "name": "Marik Arms Trade [BTID=limited-marik-arms-trade]",
+    "printed_names": {
+      "en": "Marik Arms Trade"
+    },
+    "set": "ltd",
+    "collector_number": "limited-marik-arms-trade",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/6b/Marik_Arms_Trade_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Marik Arms Trade deals 1 damage to attacking 'Mech. Use this ability only during a mission.\nMunitions (If you have Munitions in play and you roll a 3 on a missile volley, that missile volley deals 3 damage.)"
+  },
+  {
+    "name": "Marissa Morgan [BTID=limited-marissa-morgan]",
+    "printed_names": {
+      "en": "Marissa Morgan"
+    },
+    "set": "ltd",
+    "collector_number": "limited-marissa-morgan",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/95/Marissa_Morgan_CCG_Limited.jpg",
+    "oracle_text": "{T}: +1 initiative and choose one of your\n. Prevent up to 2 damage to that 'Mech. Use this ability only during a mission.\n• Commander, Fusiliers of Oriente"
+  },
+  {
+    "name": "Masakari A (Warhawk) [BTID=limited-masakari-a-warhawk]",
+    "printed_names": {
+      "en": "Masakari A (Warhawk)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-masakari-a-warhawk",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/26/Masakari_A_%28Warhawk%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "8",
+    "toughness": "10"
+  },
+  {
+    "name": "Masakari B (Warhawk) [BTID=limited-masakari-b-warhawk]",
+    "printed_names": {
+      "en": "Masakari B (Warhawk)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-masakari-b-warhawk",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f5/Masakari_B_%28Warhawk%29_CCG_Limited.jpg",
+    "oracle_text": "NARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "8",
+    "toughness": "10"
+  },
+  {
+    "name": "Masakari C (Warhawk) [BTID=limited-masakari-c-warhawk]",
+    "printed_names": {
+      "en": "Masakari C (Warhawk)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-masakari-c-warhawk",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/96/Masakari_C_%28Warhawk%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "10",
+    "toughness": "10"
+  },
+  {
+    "name": "Masakari Prime (Warhawk) [BTID=limited-masakari-prime-warhawk]",
+    "printed_names": {
+      "en": "Masakari Prime (Warhawk)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-masakari-prime-warhawk",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/df/Masakari_Prime_%28Warhawk%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +3 attack",
+    "power": "10",
+    "toughness": "9"
+  },
+  {
+    "name": "MASC [BTID=limited-masc]",
+    "printed_names": {
+      "en": "MASC"
+    },
+    "set": "ltd",
+    "collector_number": "limited-masc",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/82/MASC_CCG_Limited.jpg",
+    "oracle_text": "Play\nonly on a\n.\n-1 attack: Prevent up to 2 damage. Use this ability only during a mission. Playing Myomer Acceleration Signal Circuitry does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Maskirovka Operatives [BTID=limited-maskirovka-operatives]",
+    "printed_names": {
+      "en": "Maskirovka Operatives"
+    },
+    "set": "ltd",
+    "collector_number": "limited-maskirovka-operatives",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/cf/Maskirovka_Operatives_CCG_Limited.jpg",
+    "oracle_text": "Scrap\nOperatives when it is revealed unless you reveal it during your Deploy phase.\n{T}: Tap a 'Mech opponent controls. Use this ability only during your Missions phase but not during a mission."
+  },
+  {
+    "name": "Master Spy [BTID=limited-master-spy]",
+    "printed_names": {
+      "en": "Master Spy"
+    },
+    "set": "ltd",
+    "collector_number": "limited-master-spy",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/b4/Master_Spy_CCG_Limited.jpg",
+    "oracle_text": "{R}, {T}: Search your Stockpile and retrieve a card of your choice instead of drawing a card. Any other player may ask to see this card. If that card is revealed in this way and it is a Subterfuge card, that player scraps two cards from his or her Stockpile. If it is not a Subterfuge card, scrap the card and five additional cards from your Stockpile. Shuffle your Stockpile afterwards. Use this ability only during your Draw phase."
+  },
+  {
+    "name": "Mauler (MAL-1R) [BTID=limited-mauler-mal-1r]",
+    "printed_names": {
+      "en": "Mauler (MAL-1R)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mauler-mal-1r",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/dc/Mauler_%28MAL-1R%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 2: +1 attack",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Maverick Mechjock [BTID=limited-maverick-mechjock]",
+    "printed_names": {
+      "en": "Maverick Mechjock"
+    },
+    "set": "ltd",
+    "collector_number": "limited-maverick-mechjock",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/03/Maverick_Mechjock_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative, +2 attack\n'Mech piloted by Maverick Mechjock cannot attack or block in a group."
+  },
+  {
+    "name": "Melissa Steiner Davion [BTID=limited-melissa-steiner-davion]",
+    "printed_names": {
+      "en": "Melissa Steiner Davion"
+    },
+    "set": "ltd",
+    "collector_number": "limited-melissa-steiner-davion",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/51/Melissa_Steiner_Davion_CCG_Limited.jpg",
+    "oracle_text": "{T}: Scrap a card from your hand to return one card from your Scrapheap to your hand. Use this ability only during your Deploy phase.\n• Archon of the Lyran Commonwealth"
+  },
+  {
+    "name": "Mercury (MCY-97) [BTID=limited-mercury-mcy-97]",
+    "printed_names": {
+      "en": "Mercury (MCY-97)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mercury-mcy-97",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/12/Mercury_%28MCY-97%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Mislabeled Drop Boxes [BTID=limited-mislabeled-drop-boxes]",
+    "printed_names": {
+      "en": "Mislabeled Drop Boxes"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mislabeled-drop-boxes",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/82/Mislabeled_Drop_Boxes_CCG_Limited.jpg",
+    "oracle_text": "Scrap Mislabeled Drop Boxes when it is revealed. Reveal the top card from a player's Stockpile until next\nis revealed. Replace one of that player's cards under construction with that 'Mech. Replaced card and all other cards revealed in this way are shuffled into that player's Stockpile. If you do not reveal a 'Mech in this way, all cards revealed are shuffled into that player's Stockpile.\nPlaying Mislabeled Drop Boxes does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Misrouted Command [BTID=limited-misrouted-command]",
+    "printed_names": {
+      "en": "Misrouted Command"
+    },
+    "set": "ltd",
+    "collector_number": "limited-misrouted-command",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/10/Misrouted_Command_CCG_Limited.jpg",
+    "oracle_text": "Scrap Misrouted Command when it is revealed.\nTap one 'Mech and put three diversion counters on it. If there are any diversion counters on that 'Mech, that 'Mech does not untap. Instead, remove a diversion counter any time that 'Mech would normally untap."
+  },
+  {
+    "name": "Missile Spotter [BTID=limited-missile-spotter]",
+    "printed_names": {
+      "en": "Missile Spotter"
+    },
+    "set": "ltd",
+    "collector_number": "limited-missile-spotter",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Missile_Spotter_CCG_Limited.jpg",
+    "oracle_text": "You may subtract 1 from any of your missile die rolls until end of mission. Use this ability immediately after rolling the die roll."
+  },
+  {
+    "name": "Mobile HQ [BTID=limited-mobile-hq]",
+    "printed_names": {
+      "en": "Mobile HQ"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mobile-hq",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a7/Mobile_HQ_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nMobile HQ cannot be attacked by slow 'Mechs.\nTactics (If you have Tactics in play, add +1 to your initiative.)"
+  },
+  {
+    "name": "Mongoose (MON-66) [BTID=limited-mongoose-mon-66]",
+    "printed_names": {
+      "en": "Mongoose (MON-66)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-mongoose-mon-66",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c5/Mongoose_%28MON-66%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Morgan Hasek Davion [BTID=limited-morgan-hasek-davion]",
+    "printed_names": {
+      "en": "Morgan Hasek Davion"
+    },
+    "set": "ltd",
+    "collector_number": "limited-morgan-hasek-davion",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d7/Morgan_Hasek_Davion_CCG_Limited.jpg",
+    "oracle_text": "{T}: +1 initiative and each attacking\ngets +1 attack. Use this ability only during a mission.\n• Marshall of the Armies, Federated Commonwealth"
+  },
+  {
+    "name": "Morgan Kell [BTID=limited-morgan-kell]",
+    "printed_names": {
+      "en": "Morgan Kell"
+    },
+    "set": "ltd",
+    "collector_number": "limited-morgan-kell",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/4e/Morgan_Kell_CCG_Limited.jpg",
+    "oracle_text": "+2 initiative\nIf 'Mech piloted by Morgan Kell attacks alone, it cannot be blocked and at end of mission put Morgan Kell into your hand.\n• Retired Commander, Kell Hounds"
+  },
+  {
+    "name": "Move to Partial Cover [BTID=limited-move-to-partial-cover]",
+    "printed_names": {
+      "en": "Move to Partial Cover"
+    },
+    "set": "ltd",
+    "collector_number": "limited-move-to-partial-cover",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/3/33/Move_to_Partial_Cover_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs. Prevent up to 2 damage to that 'Mech."
+  },
+  {
+    "name": "NAIS [BTID=limited-nais]",
+    "printed_names": {
+      "en": "NAIS"
+    },
+    "set": "ltd",
+    "collector_number": "limited-nais",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/56/NAIS_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Add +1 to one of your die rolls. Use this ability immediately after rolling the die roll. Tactics (If you have Tactics in play, add +1 to your initiative.)"
+  },
+  {
+    "name": "Natasha Kerensky [BTID=limited-natasha-kerensky]",
+    "printed_names": {
+      "en": "Natasha Kerensky"
+    },
+    "set": "ltd",
+    "collector_number": "limited-natasha-kerensky",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/be/Natasha_Kerensky_CCG_Limited.jpg",
+    "oracle_text": "+3 initiative, +3 attack\nIf 'Mech piloted by Natasha Kerensky is scrapped, roll a die: 1-4, no effect; 5-6, return Natasha Kerensky to your hand.\n• Commander Alpha Galaxy"
+  },
+  {
+    "name": "Navigation Computer [BTID=limited-navigation-computer]",
+    "printed_names": {
+      "en": "Navigation Computer"
+    },
+    "set": "ltd",
+    "collector_number": "limited-navigation-computer",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d8/Navigation_Computer_CCG_Limited.jpg",
+    "oracle_text": "Play Navigation Computer only on a\n. That 'Mech cannot be blocked by patrolling 'Mechs that are the same speed.\nPlaying Navigation Computer does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Open Supply Lines [BTID=limited-open-supply-lines]",
+    "printed_names": {
+      "en": "Open Supply Lines"
+    },
+    "set": "ltd",
+    "collector_number": "limited-open-supply-lines",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a4/Open_Supply_Lines_CCG_Limited.jpg",
+    "oracle_text": "Put three operation counters on Open Supply Lines when it is revealed.\nRemove an operation counter at the beginning of your turn. When the last operation counter has been removed, scrap Open Supply Lines and draw an additional card at the beginning of your Draw phase until end of game."
+  },
+  {
+    "name": "Operation Advisory Council [BTID=limited-operation-advisory-council]",
+    "printed_names": {
+      "en": "Operation Advisory Council"
+    },
+    "set": "ltd",
+    "collector_number": "limited-operation-advisory-council",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c1/Operation_Advisory_Council_CCG_Limited.jpg",
+    "oracle_text": "{R}{R}, {T}: Gain as many resources as you have different assets in play."
+  },
+  {
+    "name": "Orion (ON1-K) [BTID=limited-orion-on1-k]",
+    "printed_names": {
+      "en": "Orion (ON1-K)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-orion-on1-k",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/5b/Orion_%28ON1-K%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "2",
+    "toughness": "9"
+  },
+  {
+    "name": "Orion (ON1-M) [BTID=limited-orion-on1-m]",
+    "printed_names": {
+      "en": "Orion (ON1-M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-orion-on1-m",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/79/Orion_%28ON1-M%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "3",
+    "toughness": "9"
+  },
+  {
+    "name": "Overwhelm [BTID=limited-overwhelm]",
+    "printed_names": {
+      "en": "Overwhelm"
+    },
+    "set": "ltd",
+    "collector_number": "limited-overwhelm",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/d/da/Overwhelm_CCG_Limited.jpg",
+    "oracle_text": "Choose an engaged 'Mech opponent controls. All of your 'Mechs deal damage only to that 'Mech. Each of your 'Mechs gets +2 attack."
+  },
+  {
+    "name": "Panther (PNT-9R) [BTID=limited-panther-pnt-9r]",
+    "printed_names": {
+      "en": "Panther (PNT-9R)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-panther-pnt-9r",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a8/Panther_%28PNT-9R%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Perimeter Alarm [BTID=limited-perimeter-alarm]",
+    "printed_names": {
+      "en": "Perimeter Alarm"
+    },
+    "set": "ltd",
+    "collector_number": "limited-perimeter-alarm",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/eb/Perimeter_Alarm_CCG_Limited.jpg",
+    "oracle_text": "Play Perimeter Alarm only on a site.\nPatrolling 'Mechs may block attacks against the site Perimeter Alarm enhances, regardless of their speed. Playing Perimeter Alarm does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Phantom Signal [BTID=limited-phantom-signal]",
+    "printed_names": {
+      "en": "Phantom Signal"
+    },
+    "set": "ltd",
+    "collector_number": "limited-phantom-signal",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f6/Phantom_Signal_CCG_Limited.jpg",
+    "oracle_text": "{T}: Roll a die: 1-2, current attack is redirected to Phantom Signal; 3-6, no effect. Use this ability only before assigning blockers."
+  },
+  {
+    "name": "Phelan [BTID=limited-phelan]",
+    "printed_names": {
+      "en": "Phelan"
+    },
+    "set": "ltd",
+    "collector_number": "limited-phelan",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/13/Phelan_CCG_Limited.jpg",
+    "oracle_text": "{T} +1 initiative. Use this ability only during a mission.\n{T}: Restock a card you have just drawn and draw another card. Use this ability only during your Draw phase. Scrap Phelan from play to restock three cards, in any order, from the top of your Scrapheap.\n• Bondsman"
+  },
+  {
+    "name": "Point Defense System [BTID=limited-point-defense-system]",
+    "printed_names": {
+      "en": "Point Defense System"
+    },
+    "set": "ltd",
+    "collector_number": "limited-point-defense-system",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/43/Point_Defense_System_CCG_Limited.jpg",
+    "oracle_text": "Play Point Defense System only on a site. Point Defense System cannot be attacked.\nPoint Defense System prevents all missile damage to that site. When that site is damaged, attacker may choose to redirect 4 of that damage to Point Defense System, scrapping it.\nPlaying Point Defense System does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Pryde's Pride [BTID=limited-pryde-s-pride]",
+    "printed_names": {
+      "en": "Pryde's Pride"
+    },
+    "set": "ltd",
+    "collector_number": "limited-pryde-s-pride",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/a/a6/Pryde%27s_Pride_CCG_Limited.jpg",
+    "oracle_text": "Choose a 'Mech. If that 'Mech is scrapped, roll a die: 1, no effect; 2, draw a card after mission; 3-6, each 'Mech that dealt damage to that 'Mech receives 2 structure damage."
+  },
+  {
+    "name": "Puma A (Adder) [BTID=limited-puma-a-adder]",
+    "printed_names": {
+      "en": "Puma A (Adder)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-puma-a-adder",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7f/Puma_A_%28Adder%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 3",
+    "power": "1",
+    "toughness": "5"
+  },
+  {
+    "name": "Puma C (Adder) [BTID=limited-puma-c-adder]",
+    "printed_names": {
+      "en": "Puma C (Adder)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-puma-c-adder",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/53/Puma_C_%28Adder%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 2\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Puma Prime (Adder) [BTID=limited-puma-prime-adder]",
+    "printed_names": {
+      "en": "Puma Prime (Adder)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-puma-prime-adder",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/79/Puma_Prime_%28Adder%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nIf Puma Prime is blocked, it may deal up to 3 of its damage to the target.",
+    "power": "4",
+    "toughness": "5"
+  },
+  {
+    "name": "Pushing the Envelope [BTID=limited-pushing-the-envelope]",
+    "printed_names": {
+      "en": "Pushing the Envelope"
+    },
+    "set": "ltd",
+    "collector_number": "limited-pushing-the-envelope",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/60/Pushing_the_Envelope_CCG_Limited.jpg",
+    "oracle_text": "One of your 'Mechs gets +3 attack and receives 3 damage."
+  },
+  {
+    "name": "Quickdraw (QKD-4G) [BTID=limited-quickdraw-qkd-4g]",
+    "printed_names": {
+      "en": "Quickdraw (QKD-4G)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-quickdraw-qkd-4g",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c1/Quickdraw_%28QKD-4G%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Quickdraw (QKD-5M) [BTID=limited-quickdraw-qkd-5m]",
+    "printed_names": {
+      "en": "Quickdraw (QKD-5M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-quickdraw-qkd-5m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b7/Quickdraw_%28QKD-5M%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Rampage! [BTID=limited-rampage]",
+    "printed_names": {
+      "en": "Rampage!"
+    },
+    "set": "ltd",
+    "collector_number": "limited-rampage",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/d/d8/Rampage%21_CCG_Limited.jpg",
+    "oracle_text": "Play only if unblocked.\nScrap one card from your Stockpile and roll a die: 1-6, one of your attacking 'Mechs gets +(1-6) attack."
+  },
+  {
+    "name": "Rapid Cool-Down [BTID=limited-rapid-cool-down]",
+    "printed_names": {
+      "en": "Rapid Cool-Down"
+    },
+    "set": "ltd",
+    "collector_number": "limited-rapid-cool-down",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/1/17/Rapid_Cool-Down_CCG_Limited.jpg",
+    "oracle_text": "Roll a die: 1-3, 'Mechs do not receive Overheat damage; 4-6, 'Mechs do not receive Overheat damage and return Rapid Cool-Down to your hand after mission."
+  },
+  {
+    "name": "Raven (RVN-3L) [BTID=limited-raven-rvn-3l]",
+    "printed_names": {
+      "en": "Raven (RVN-3L)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-raven-rvn-3l",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bc/Raven_%28RVN-3L%29_CCG_Limited.jpg",
+    "oracle_text": "NARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one Narc 'Mech.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Reassigned Pilot [BTID=limited-reassigned-pilot]",
+    "printed_names": {
+      "en": "Reassigned Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-reassigned-pilot",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/6c/Reassigned_Pilot_CCG_Limited.jpg",
+    "oracle_text": "Roll a die: 1-3, reassign a pilot from one of your untapped 'Mechs to another one of your 'Mechs; 4-6, reassign a pilot from one of your untapped 'Mechs to another one of your 'Mechs and return Reassigned Pilot to your hand after mission."
+  },
+  {
+    "name": "Report from the Watch [BTID=limited-report-from-the-watch]",
+    "printed_names": {
+      "en": "Report from the Watch"
+    },
+    "set": "ltd",
+    "collector_number": "limited-report-from-the-watch",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/0a/Report_from_the_Watch_CCG_Limited.jpg",
+    "oracle_text": "Scrap Report from the\nwhen it is revealed. Look at the top five cards of any Stockpile. Either return those cards in any order or shuffle those cards into that Stockpile."
+  },
+  {
+    "name": "Retrieve Lost 'Mech [BTID=limited-retrieve-lost-mech]",
+    "printed_names": {
+      "en": "Retrieve Lost 'Mech"
+    },
+    "set": "ltd",
+    "collector_number": "limited-retrieve-lost-mech",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/fc/Retrieve_Lost_%27Mech_CCG_Limited.jpg",
+    "oracle_text": "Put three operation counters on Retrieve Lost\nwhen it is revealed.\nRemove an operation counter at the beginning of your turn. When the last operation counter has been removed, scrap Retrieve Lost 'Mech and return a 'Mech from your Scrapheap to play under your control with damage counters equal to one less than that 'Mech's structure."
+  },
+  {
+    "name": "Retrofitted Laser System [BTID=limited-retrofitted-laser-system]",
+    "printed_names": {
+      "en": "Retrofitted Laser System"
+    },
+    "set": "ltd",
+    "collector_number": "limited-retrofitted-laser-system",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7a/Retrofitted_Laser_System_CCG_Limited.jpg",
+    "oracle_text": "Play Retrofitted Laser System only on a\nwith a base attack of at least 1. That 'Mech has -1 attack and Overheat 2: +3 attack.\nYou may deploy Retrofitted Laser System revealed to make an additional deployment this turn."
+  },
+  {
+    "name": "Retrofitted Missile Rack [BTID=limited-retrofitted-missile-rack]",
+    "printed_names": {
+      "en": "Retrofitted Missile Rack"
+    },
+    "set": "ltd",
+    "collector_number": "limited-retrofitted-missile-rack",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/ec/Retrofitted_Missile_Rack_CCG_Limited.jpg",
+    "oracle_text": "Play Retrofitted Missile Rack only on a 'Mech with a base attack of at least 1.\nThat 'Mech has -1 attack and Missile 2.\nPlaying Retrofitted Missile Rack does not count as a deployment if revealed the turn you play it."
+  },
+  {
+    "name": "Romano Liao [BTID=limited-romano-liao]",
+    "printed_names": {
+      "en": "Romano Liao"
+    },
+    "set": "ltd",
+    "collector_number": "limited-romano-liao",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/eb/Romano_Liao_CCG_Limited.jpg",
+    "oracle_text": "{T}: Reveal the top card of opponent's Stockpile. If that card is a Resource, your opponent deploys it immediately. If it is not a Resource card, scrap it. Use this ability only during your Missions phase but not during a mission.\n• Chancellor of the Capellan Confederation"
+  },
+  {
+    "name": "Rookie Pilot [BTID=limited-rookie-pilot]",
+    "printed_names": {
+      "en": "Rookie Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-rookie-pilot",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/34/Rookie_Pilot_CCG_Limited.jpg",
+    "oracle_text": ": -3 attack.\nPlay Rookie Pilot only on a 'Mech opponent controls that does not currently have a pilot. Rookie Pilot cannot be reassigned."
+  },
+  {
+    "name": "Running Battle [BTID=limited-running-battle]",
+    "printed_names": {
+      "en": "Running Battle"
+    },
+    "set": "ltd",
+    "collector_number": "limited-running-battle",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/c/c8/Running_Battle_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked or blocking.\nFor each slow 'Mech, roll a die: 1-3, no effect; 4-6, that slow 'Mech neither deals nor receives damage."
+  },
+  {
+    "name": "Ryoken A (Storm Crow) [BTID=limited-ryoken-a-storm-crow]",
+    "printed_names": {
+      "en": "Ryoken A (Storm Crow)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ryoken-a-storm-crow",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e2/Ryoken_A_%28Storm_Crow%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 2: +2 attack",
+    "power": "7",
+    "toughness": "7"
+  },
+  {
+    "name": "Ryoken D (Storm Crow) [BTID=limited-ryoken-d-storm-crow]",
+    "printed_names": {
+      "en": "Ryoken D (Storm Crow)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ryoken-d-storm-crow",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c4/Ryoken_D_%28Storm_Crow%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 3\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech)",
+    "power": "1",
+    "toughness": "7"
+  },
+  {
+    "name": "Ryoken Prime (Storm Crow) [BTID=limited-ryoken-prime-storm-crow]",
+    "printed_names": {
+      "en": "Ryoken Prime (Storm Crow)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-ryoken-prime-storm-crow",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a7/Ryoken_Prime_%28Storm_Crow%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "6",
+    "toughness": "7"
+  },
+  {
+    "name": "Sabotage 'Mech [BTID=limited-sabotage-mech]",
+    "printed_names": {
+      "en": "Sabotage 'Mech"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sabotage-mech",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/2b/Sabotage_%27Mech_CCG_Limited.jpg",
+    "oracle_text": "Scrap Sabotage 'Mech when it is revealed.\nDeal 1 damage to one 'Mech for each 2 construction above the cost of Sabotage."
+  },
+  {
+    "name": "Sabotaged Heat Sinks [BTID=limited-sabotaged-heat-sinks]",
+    "printed_names": {
+      "en": "Sabotaged Heat Sinks"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sabotaged-heat-sinks",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/60/Sabotaged_Heat_Sinks_CCG_Limited.jpg",
+    "oracle_text": "Scrap Sabotaged Heat Sinks when it is revealed.\nReveal Sabotaged Heat Sinks when a 'Mech overheats. Deal triple Overheat damage to that 'Mech. Draw a card when you reveal Sabotaged Heat Sinks."
+  },
+  {
+    "name": "Sabotaged Missiles [BTID=limited-sabotaged-missiles]",
+    "printed_names": {
+      "en": "Sabotaged Missiles"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sabotaged-missiles",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7d/Sabotaged_Missiles_CCG_Limited.jpg",
+    "oracle_text": "Scrap Sabotaged Missiles when it is revealed.\nReveal Sabotaged Missiles when a 'Mech assigns missiles. Those missiles deal double damage to that 'Mech instead of dealing damage to their targets. Draw a card when you reveal Sabotaged Missiles."
+  },
+  {
+    "name": "Sacrifice for the Dragon! [BTID=limited-sacrifice-for-the-dragon]",
+    "printed_names": {
+      "en": "Sacrifice for the Dragon!"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sacrifice-for-the-dragon",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/5/58/Sacrifice_for_the_Dragon%21_CCG_Limited.jpg",
+    "oracle_text": "Choose one of your 'Mechs. Roll a die: 1-2, draw a card after mission; 3-5, that 'Mech gets +2 attack and receives 1 damage; 6, that 'Mech gets +6 attack and receives 2 damage."
+  },
+  {
+    "name": "SAFE Report [BTID=limited-safe-report]",
+    "printed_names": {
+      "en": "SAFE Report"
+    },
+    "set": "ltd",
+    "collector_number": "limited-safe-report",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1c/SAFE_Report_CCG_Limited.jpg",
+    "oracle_text": "Scrap SAFE Report when it is revealed.\nLook at opponent's hand. Draw a card."
+  },
+  {
+    "name": "Salvage Strike Crew [BTID=limited-salvage-strike-crew]",
+    "printed_names": {
+      "en": "Salvage Strike Crew"
+    },
+    "set": "ltd",
+    "collector_number": "limited-salvage-strike-crew",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/60/Salvage_Strike_Crew_CCG_Limited.jpg",
+    "oracle_text": "Scrap Salvage Strike Crew when it is revealed.\nReturn a card from your Scrapheap to your hand."
+  },
+  {
+    "name": "Satchel Charges [BTID=limited-satchel-charges]",
+    "printed_names": {
+      "en": "Satchel Charges"
+    },
+    "set": "ltd",
+    "collector_number": "limited-satchel-charges",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/5/5a/Satchel_Charges_CCG_Limited.jpg",
+    "oracle_text": "Play only when unblocked.\nChoose an attacking 'Mech. Roll a die: 1-2, draw a card after mission; 3-6, that 'Mech gets +2 attack for each card you scrap from your hand. You cannot scrap more than three cards in this way."
+  },
+  {
+    "name": "Saturation Bombing [BTID=limited-saturation-bombing]",
+    "printed_names": {
+      "en": "Saturation Bombing"
+    },
+    "set": "ltd",
+    "collector_number": "limited-saturation-bombing",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/cd/Saturation_Bombing_CCG_Limited.jpg",
+    "oracle_text": "Scrap Saturation Bombing when it is revealed. Deal 1 damage to one site for each 2 construction above the cost of Saturation Bombing."
+  },
+  {
+    "name": "Scrounger Crew [BTID=limited-scrounger-crew]",
+    "printed_names": {
+      "en": "Scrounger Crew"
+    },
+    "set": "ltd",
+    "collector_number": "limited-scrounger-crew",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Scrounger_Crew_CCG_Limited.jpg",
+    "oracle_text": "{T}: Scrap a card from your Stockpile to gain {R}{R}."
+  },
+  {
+    "name": "Sentinel (STN-3M) [BTID=limited-sentinel-stn-3m]",
+    "printed_names": {
+      "en": "Sentinel (STN-3M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sentinel-stn-3m",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/53/Sentinel_%28STN-3M%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Shady Business [BTID=limited-shady-business]",
+    "printed_names": {
+      "en": "Shady Business"
+    },
+    "set": "ltd",
+    "collector_number": "limited-shady-business",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f9/Shady_Business_CCG_Limited.jpg",
+    "oracle_text": "Scrap Shady Business when it is revealed.\nHide up to nine counters. If opponent guesses how many counters you have hidden, scrap that many cards from your Stockpile. Otherwise, opponent scraps that many cards from his or her Stockpile.\nScrap a card from your Stockpile at the beginning of each of your turns until end of game."
+  },
+  {
+    "name": "Shogun (SHG-2F) [BTID=limited-shogun-shg-2f]",
+    "printed_names": {
+      "en": "Shogun (SHG-2F)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-shogun-shg-2f",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d2/Shogun_%28SHG-2F%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 3: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "8"
+  },
+  {
+    "name": "Silver Sunburst Pilot [BTID=limited-silver-sunburst-pilot]",
+    "printed_names": {
+      "en": "Silver Sunburst Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-silver-sunburst-pilot",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/40/Silver_Sunburst_Pilot_CCG_Limited.jpg",
+    "oracle_text": ": +1 initiative\nRoll a die: 1-3, 'Mech piloted by Silver Sunburst Pilot gets +(1-3) attack; 4-6, no effect. Use this ability only during a mission."
+  },
+  {
+    "name": "Special Forces Op [BTID=limited-special-forces-op]",
+    "printed_names": {
+      "en": "Special Forces Op"
+    },
+    "set": "ltd",
+    "collector_number": "limited-special-forces-op",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/b5/Special_Forces_Op_CCG_Limited.jpg",
+    "oracle_text": "Roll a die: 1-3, draw a card after mission; 4-6, triple all damage dealt to a card under construction."
+  },
+  {
+    "name": "Specialized Project Team [BTID=limited-specialized-project-team]",
+    "printed_names": {
+      "en": "Specialized Project Team"
+    },
+    "set": "ltd",
+    "collector_number": "limited-specialized-project-team",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1f/Specialized_Project_Team_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nScrap Specialized Project Team to draw a card. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Spider (SDR-5V) [BTID=limited-spider-sdr-5v]",
+    "printed_names": {
+      "en": "Spider (SDR-5V)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-spider-sdr-5v",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0d/Spider_%28SDR-5V%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nYou may deploy Spider revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Stalker (STK-3F) [BTID=limited-stalker-stk-3f]",
+    "printed_names": {
+      "en": "Stalker (STK-3F)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-stalker-stk-3f",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c6/Stalker_%28STK-3F%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 3: +4 attack",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Stalker (STK-5M) [BTID=limited-stalker-stk-5m]",
+    "printed_names": {
+      "en": "Stalker (STK-5M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-stalker-stk-5m",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/42/Stalker_%28STK-5M%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 1: +1 attack\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "4",
+    "toughness": "8"
+  },
+  {
+    "name": "Steal 'Mech [BTID=limited-steal-mech]",
+    "printed_names": {
+      "en": "Steal 'Mech"
+    },
+    "set": "ltd",
+    "collector_number": "limited-steal-mech",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Steal_%27Mech_CCG_Limited.jpg",
+    "oracle_text": "Scrap Steal\nwhen it is revealed.\nChoose a 'Mech opponent controls. You and that opponent each hide a number of counters. Reveal those counters. If you reveal more counters, you gain control of that 'Mech and scrap cards from your Stockpile equal to twice your number of counters. If your opponent has more counters, opponent scraps cards from his or her Stockpile equal to his or her number of counters and controls that 'Mech."
+  },
+  {
+    "name": "Strength of the Pillar of Steel [BTID=limited-strength-of-the-pillar-of-steel]",
+    "printed_names": {
+      "en": "Strength of the Pillar of Steel"
+    },
+    "set": "ltd",
+    "collector_number": "limited-strength-of-the-pillar-of-steel",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/3/36/Strength_of_the_Pillar_of_Steel_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocking. +1 initiative Prevent 1 damage to each blocking 'Mech."
+  },
+  {
+    "name": "Studied Move [BTID=limited-studied-move]",
+    "printed_names": {
+      "en": "Studied Move"
+    },
+    "set": "ltd",
+    "collector_number": "limited-studied-move",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/2/24/Studied_Move_CCG_Limited.jpg",
+    "oracle_text": "Return a Mission card from your Scrapheap to your hand."
+  },
+  {
+    "name": "Subhash Indrahar [BTID=limited-subhash-indrahar]",
+    "printed_names": {
+      "en": "Subhash Indrahar"
+    },
+    "set": "ltd",
+    "collector_number": "limited-subhash-indrahar",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/eb/Subhash_Indrahar_CCG_Limited.jpg",
+    "oracle_text": "{T}: You may claim a card you have just drawn is a Subterfuge card and draw an additional card. If opponent challenges this claim, reveal the first card. If that card is a Subterfuge card, opponent scraps five cards from his or her Stockpile. If it is not a Subterfuge card, you scrap both drawn cards. Use this ability only during your Draw phase.\n• Director, Internal Security Force"
+  },
+  {
+    "name": "Sun Zhang MechWarrior Academy [BTID=limited-sun-zhang-mechwarrior-academy]",
+    "printed_names": {
+      "en": "Sun Zhang MechWarrior Academy"
+    },
+    "set": "ltd",
+    "collector_number": "limited-sun-zhang-mechwarrior-academy",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/cc/Sun_Zhang_MechWarrior_Academy_CCG_Limited.jpg",
+    "oracle_text": "{T}: +1 initiative. Use this ability only during a mission.\nTactics (If you have Tactics in play, add +1 to your initiative.)"
+  },
+  {
+    "name": "Support - Assembly (3 versions) [BTID=limited-support-assembly-3-versions]",
+    "printed_names": {
+      "en": "Support - Assembly (3 versions)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-support-assembly-3-versions",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/bd/Support_-_Assembly_%28version_1%29_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nAssembly (During your Repair/Reload phase, you may pay {R} once to repair 1 point of damage to one 'Mech if you have Assembly in play)"
+  },
+  {
+    "name": "Support - Logistics (3 versions) [BTID=limited-support-logistics-3-versions]",
+    "printed_names": {
+      "en": "Support - Logistics (3 versions)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-support-logistics-3-versions",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/bd/Support_-_Logistics_%28Version_1%29_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nLogistics (If you have Logistics in play, you may restock a card from your hand at end of your turn.)"
+  },
+  {
+    "name": "Support - Munitions (3 versions) [BTID=limited-support-munitions-3-versions]",
+    "printed_names": {
+      "en": "Support - Munitions (3 versions)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-support-munitions-3-versions",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/06/Support_-_Munitions_%28version_1%29_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nMunitions (If you have Munitions in play and you roll a 3 on a missile roll, that missile volley deals 3 damage)"
+  },
+  {
+    "name": "Support - Politics (3 versions) [BTID=limited-support-politics-3-versions]",
+    "printed_names": {
+      "en": "Support - Politics (3 versions)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-support-politics-3-versions",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/05/Support_-_Politics_%28version_1%29_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}"
+  },
+  {
+    "name": "Support - Tactics (3 versions) [BTID=limited-support-tactics-3-versions]",
+    "printed_names": {
+      "en": "Support - Tactics (3 versions)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-support-tactics-3-versions",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f6/Support_-_Tactics_%28version_1%29_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nTactics (If you have Tactics in play, add +1 to your initiative)"
+  },
+  {
+    "name": "Takashi Kurita [BTID=limited-takashi-kurita]",
+    "printed_names": {
+      "en": "Takashi Kurita"
+    },
+    "set": "ltd",
+    "collector_number": "limited-takashi-kurita",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/55/Takashi_Kurita_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\nOpponent cannot attack more than once per turn. Attacks that target Takashi Kurita do not count toward this limit.\n• Coordinator of the Draconis Combine"
+  },
+  {
+    "name": "Teachings of the Unfinished Book [BTID=limited-teachings-of-the-unfinished-book]",
+    "printed_names": {
+      "en": "Teachings of the Unfinished Book"
+    },
+    "set": "ltd",
+    "collector_number": "limited-teachings-of-the-unfinished-book",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/ba/Teachings_of_the_Unfinished_Book_CCG_Limited.jpg",
+    "oracle_text": "Scrap Teachings of the Unfinished Book when it is revealed.\n+2 initiative until beginning of your next turn."
+  },
+  {
+    "name": "Temporary Cease-Fire [BTID=limited-temporary-cease-fire]",
+    "printed_names": {
+      "en": "Temporary Cease-Fire"
+    },
+    "set": "ltd",
+    "collector_number": "limited-temporary-cease-fire",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/4/4d/Temporary_Cease-Fire_CCG_Limited.jpg",
+    "oracle_text": "Play only when blocked or blocking. Roll a die: 1, your 'Mechs deal no damage and draw a card after mission; 2-6, all 'Mechs deal no damage."
+  },
+  {
+    "name": "Theodore Kurita [BTID=limited-theodore-kurita]",
+    "printed_names": {
+      "en": "Theodore Kurita"
+    },
+    "set": "ltd",
+    "collector_number": "limited-theodore-kurita",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/5/5a/Theodore_Kurita_CCG_Limited.jpg",
+    "oracle_text": "{T}: You may make one additional deployment this turn. Use this ability only during your Deploy phase.\nTactics (If you have Tactics in play, add +1 to your initiative.)\n• Gunji-no-Kanrei (Deputy for Military Affairs)"
+  },
+  {
+    "name": "Think Tank [BTID=limited-think-tank]",
+    "printed_names": {
+      "en": "Think Tank"
+    },
+    "set": "ltd",
+    "collector_number": "limited-think-tank",
+    "rarity": "special",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c2/Think_Tank_CCG_Limited.jpg",
+    "oracle_text": "{T}: {R}\nScrap Think Tank to gain A, L, M, P, or T until end of game."
+  },
+  {
+    "name": "Thomas Marik [BTID=limited-thomas-marik]",
+    "printed_names": {
+      "en": "Thomas Marik"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thomas-marik",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1b/Thomas_Marik_CCG_Limited.jpg",
+    "oracle_text": "{T}: You get +1 initiative. Use this ability only during a mission.\n{T}: Draw a card. Use this ability only during your Draw phase.\n• Captain-General, Free Worlds League"
+  },
+  {
+    "name": "Thor A (Summoner) [BTID=limited-thor-a-summoner]",
+    "printed_names": {
+      "en": "Thor A (Summoner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thor-a-summoner",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/99/Thor_A_%28Summoner%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 4: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "6"
+  },
+  {
+    "name": "Thor B (Summoner) [BTID=limited-thor-b-summoner]",
+    "printed_names": {
+      "en": "Thor B (Summoner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thor-b-summoner",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b3/Thor_B_%28Summoner%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 2\nJump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Thor B deals -1 damage.)\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Thor C (Summoner) [BTID=limited-thor-c-summoner]",
+    "printed_names": {
+      "en": "Thor C (Summoner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thor-c-summoner",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/57/Thor_C_%28Summoner%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "6",
+    "toughness": "6"
+  },
+  {
+    "name": "Thor D (Summoner) [BTID=limited-thor-d-summoner]",
+    "printed_names": {
+      "en": "Thor D (Summoner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thor-d-summoner",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3c/Thor_D_%28Summoner%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-Missile (Each missile assigned to a 'Mech in a group that includes Thor D deals -1 damage.)\nIf Thor D attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "6",
+    "toughness": "6"
+  },
+  {
+    "name": "Thor Prime (Summoner) [BTID=limited-thor-prime-summoner]",
+    "printed_names": {
+      "en": "Thor Prime (Summoner)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thor-prime-summoner",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a5/Thor_Prime_%28Summoner%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "6"
+  },
+  {
+    "name": "Thug (THG-11E) [BTID=limited-thug-thg-11e]",
+    "printed_names": {
+      "en": "Thug (THG-11E)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-thug-thg-11e",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/39/Thug_%28THG-11E%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +1 attack",
+    "power": "4",
+    "toughness": "8"
+  },
+  {
+    "name": "Topple [BTID=limited-topple]",
+    "printed_names": {
+      "en": "Topple"
+    },
+    "set": "ltd",
+    "collector_number": "limited-topple",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/0/06/Topple_CCG_MechWarrior.jpg",
+    "oracle_text": "Choose an engaged 'Mech opponent controls. Roll a die: 1-4, deal 1 damage to that 'Mech and draw a card after mission; 5-6, prevent all damage dealt by that 'Mech."
+  },
+  {
+    "name": "Treachery! [BTID=limited-treachery]",
+    "printed_names": {
+      "en": "Treachery!"
+    },
+    "set": "ltd",
+    "collector_number": "limited-treachery",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/f1/Treachery%21_CCG_Limited.jpg",
+    "oracle_text": "Scrap Treachery! when it is revealed.\nNext turn, each 'Mech opponent controls able to attack your Stockpile must do so."
+  },
+  {
+    "name": "Trebuchet (TBT-5N) [BTID=limited-trebuchet-tbt-5n]",
+    "printed_names": {
+      "en": "Trebuchet (TBT-5N)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-trebuchet-tbt-5n",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/73/Trebuchet_%28TBT-5N%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 2: +2 attack",
+    "power": "",
+    "toughness": "5"
+  },
+  {
+    "name": "Trebuchet (TBT-7M) [BTID=limited-trebuchet-tbt-7m]",
+    "printed_names": {
+      "en": "Trebuchet (TBT-7M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-trebuchet-tbt-7m",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/db/Trebuchet_%28TBT-7M%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nJump (-1 attack: +1 initiative)\nNARC (You may subtract 1 from each of your missile rolls if the missiles are assigned by a 'Mech in a group that includes at least one NARC 'Mech.)",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Tsen Shang [BTID=limited-tsen-shang]",
+    "printed_names": {
+      "en": "Tsen Shang"
+    },
+    "set": "ltd",
+    "collector_number": "limited-tsen-shang",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8f/Tsen_Shang_CCG_Limited.jpg",
+    "oracle_text": "{T}: Restock a card from your hand and draw a card. Use this ability only during your Draw phase.\n• Director Maskirovka"
+  },
+  {
+    "name": "Uller B (Kit Fox) [BTID=limited-uller-b-kit-fox]",
+    "printed_names": {
+      "en": "Uller B (Kit Fox)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-uller-b-kit-fox",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0c/Uller_B_%28Kit_Fox%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Uller C (Kit Fox) [BTID=limited-uller-c-kit-fox]",
+    "printed_names": {
+      "en": "Uller C (Kit Fox)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-uller-c-kit-fox",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/86/Uller_C_%28Kit_Fox%29_CCG_Limited.jpg",
+    "oracle_text": "Anti-Missile (Each missile assigned to a 'Mech in a group that includes Uller C deals -1 damage.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)\nAP (Uller C deals +1 damage to any target other than a 'Mech.)",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Uller D (Kit Fox) [BTID=limited-uller-d-kit-fox]",
+    "printed_names": {
+      "en": "Uller D (Kit Fox)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-uller-d-kit-fox",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/dc/Uller_D_%28Kit_Fox%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 3",
+    "power": "",
+    "toughness": "3"
+  },
+  {
+    "name": "Uller Prime (Kit Fox) [BTID=limited-uller-prime-kit-fox]",
+    "printed_names": {
+      "en": "Uller Prime (Kit Fox)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-uller-prime-kit-fox",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b6/Uller_Prime_%28Kit_Fox%29_CCG_Limited.jpg",
+    "oracle_text": "",
+    "power": "4",
+    "toughness": "4"
+  },
+  {
+    "name": "UrbanMech (UM-R60) [BTID=limited-urbanmech-um-r60]",
+    "printed_names": {
+      "en": "UrbanMech (UM-R60)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-urbanmech-um-r60",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d5/UrbanMech_%28UM-R60%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nUrbanMech cannot block unless guarding.",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Veteran MechWarrior [BTID=limited-veteran-mechwarrior]",
+    "printed_names": {
+      "en": "Veteran MechWarrior"
+    },
+    "set": "ltd",
+    "collector_number": "limited-veteran-mechwarrior",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/e8/Veteran_MechWarrior_CCG_Limited.jpg",
+    "oracle_text": "+1 initiative\nUntap 'Mech piloted by Veteran MechWarrior at end of your turn."
+  },
+  {
+    "name": "Victor Steiner Davion [BTID=limited-victor-steiner-davion]",
+    "printed_names": {
+      "en": "Victor Steiner Davion"
+    },
+    "set": "ltd",
+    "collector_number": "limited-victor-steiner-davion",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/23/Victor_Steiner_Davion_CCG_Limited.jpg",
+    "oracle_text": "'Mech piloted by Victor Steiner-Davion cannot attack or block alone. Each 'Mech in a group that includes 'Mech piloted by Victor Steiner-Davion gets +2 attack.\n• Archon-Prince Designate of the Federated Commonwealth"
+  },
+  {
+    "name": "Victor (VTR-9B) [BTID=limited-victor-vtr-9b]",
+    "printed_names": {
+      "en": "Victor (VTR-9B)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-victor-vtr-9b",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8d/Victor_%28VTR-9B%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Victor (VTR-9K) [BTID=limited-victor-vtr-9k]",
+    "printed_names": {
+      "en": "Victor (VTR-9K)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-victor-vtr-9k",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/89/Victor_%28VTR-9K%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Vindicator (VND-1R) [BTID=limited-vindicator-vnd-1r]",
+    "printed_names": {
+      "en": "Vindicator (VND-1R)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vindicator-vnd-1r",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a2/Vindicator_%28VND-1R%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "Vulcan (VT-5M) [BTID=limited-vulcan-vt-5m]",
+    "printed_names": {
+      "en": "Vulcan (VT-5M)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vulcan-vt-5m",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/a/a9/Vulcan_%28VT-5M%29_CCG_Limited.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Vulture A (Mad Dog) [BTID=limited-vulture-a-mad-dog]",
+    "printed_names": {
+      "en": "Vulture A (Mad Dog)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vulture-a-mad-dog",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/e3/Vulture_A_%28Mad_Dog%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 3: +5 attack",
+    "power": "6",
+    "toughness": "7"
+  },
+  {
+    "name": "Vulture B (Mad Dog) [BTID=limited-vulture-b-mad-dog]",
+    "printed_names": {
+      "en": "Vulture B (Mad Dog)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vulture-b-mad-dog",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/ea/Vulture_B_%28Mad_Dog%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nOverheat 5: +5 attack",
+    "power": "7",
+    "toughness": "7"
+  },
+  {
+    "name": "Vulture C (Mad Dog) [BTID=limited-vulture-c-mad-dog]",
+    "printed_names": {
+      "en": "Vulture C (Mad Dog)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vulture-c-mad-dog",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f5/Vulture_C_%28Mad_Dog%29_CCG_Limited.jpg",
+    "oracle_text": "If Vulture C attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Vulture Prime (Mad Dog) [BTID=limited-vulture-prime-mad-dog]",
+    "printed_names": {
+      "en": "Vulture Prime (Mad Dog)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-vulture-prime-mad-dog",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/28/Vulture_Prime_%28Mad_Dog%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 3\nOverheat 3: +2 attack",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Whitworth (WTH-1) [BTID=limited-whitworth-wth-1]",
+    "printed_names": {
+      "en": "Whitworth (WTH-1)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-whitworth-wth-1",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7b/Whitworth_%28WTH-1%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "5"
+  },
+  {
+    "name": "Whitworth (WTH-2) [BTID=limited-whitworth-wth-2]",
+    "printed_names": {
+      "en": "Whitworth (WTH-2)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-whitworth-wth-2",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/65/Whitworth_%28WTH-2%29_CCG_Limited.jpg",
+    "oracle_text": "Missile 1\nJump (-1 attack: +1 initiative)",
+    "power": "1",
+    "toughness": "5"
+  },
+  {
+    "name": "Wolf Dragoons Pilot [BTID=limited-wolf-dragoons-pilot]",
+    "printed_names": {
+      "en": "Wolf Dragoons Pilot"
+    },
+    "set": "ltd",
+    "collector_number": "limited-wolf-dragoons-pilot",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a8/Wolf%27s_Dragoons_Pilot_CCG_Limited.jpg",
+    "oracle_text": "+2 initiative, +1 attack"
+  },
+  {
+    "name": "Wolf Trap (WFT-1) [BTID=limited-wolf-trap-wft-1]",
+    "printed_names": {
+      "en": "Wolf Trap (WFT-1)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-wolf-trap-wft-1",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/94/Wolf_Trap_%28WFT-1%29_CCG_Limited.jpg",
+    "oracle_text": "Alpha Strike: +2 attack",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Wolfhound (WLF-2) [BTID=limited-wolfhound-wlf-2]",
+    "printed_names": {
+      "en": "Wolfhound (WLF-2)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-wolfhound-wlf-2",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/24/Wolfhound_%28WLF-2%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +1 attack",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Wyvern (WVE-5N) [BTID=limited-wyvern-wve-5n]",
+    "printed_names": {
+      "en": "Wyvern (WVE-5N)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-wyvern-wve-5n",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/df/Wyvern_%28WVE-5N%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Zeus (ZEU-6S) [BTID=limited-zeus-zeu-6s]",
+    "printed_names": {
+      "en": "Zeus (ZEU-6S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-zeus-zeu-6s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/90/Zeus_%28ZEU-6S%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Zeus (ZEU-9S) [BTID=limited-zeus-zeu-9s]",
+    "printed_names": {
+      "en": "Zeus (ZEU-9S)"
+    },
+    "set": "ltd",
+    "collector_number": "limited-zeus-zeu-9s",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fb/Zeus_%28ZEU-9S%29_CCG_Limited.jpg",
+    "oracle_text": "Overheat 2: +2 attack",
+    "power": "3",
+    "toughness": "7"
+  }
+]
+
+[Pack 1 Rare]
+Arms Reduction [BTID=limited-arms-reduction]
+Bearer of McKennsy Hammer [BTID=limited-bearer-of-mckennsy-hammer]
+Communications Failure [BTID=limited-communications-failure]
+Culling [BTID=limited-culling]
+DEST Pilot [BTID=limited-dest-pilot]
+Elite Infantry [BTID=limited-elite-infantry]
+Flashman (FLS-8K) [BTID=limited-flashman-fls-8k]
+Grayson Death Carlyle [BTID=limited-grayson-death-carlyle]
+Hanse Davion - The Fox [BTID=limited-hanse-davion-the-fox]
+ISF Counterespionage [BTID=limited-isf-counterespionage]
+Kai Allard-Liao [BTID=limited-kai-allard-liao]
+Lancelot (LNC25-01) [BTID=limited-lancelot-lnc25-01]
+Mad Cat C (Timber Wolf) [BTID=limited-mad-cat-c-timber-wolf]
+Man O' War C (Gargoyle) [BTID=limited-man-o-war-c-gargoyle]
+Masakari C (Warhawk) [BTID=limited-masakari-c-warhawk]
+Mauler (MAL-1R) [BTID=limited-mauler-mal-1r]
+Morgan Kell [BTID=limited-morgan-kell]
+Orion (ON1-M) [BTID=limited-orion-on1-m]
+Pryde's Pride [BTID=limited-pryde-s-pride]
+Report from the Watch [BTID=limited-report-from-the-watch]
+Sabotaged Heat Sinks [BTID=limited-sabotaged-heat-sinks]
+SAFE Report [BTID=limited-safe-report]
+Silver Sunburst Pilot [BTID=limited-silver-sunburst-pilot]
+Takashi Kurita [BTID=limited-takashi-kurita]
+Thomas Marik [BTID=limited-thomas-marik]
+Uller C (Kit Fox) [BTID=limited-uller-c-kit-fox]
+Wyvern (WVE-5N) [BTID=limited-wyvern-wve-5n]
+
+[Pack 1 Random]
+Ambush! [BTID=limited-ambush]
+Ammo Explosion [BTID=limited-ammo-explosion]
+Arms Reduction [BTID=limited-arms-reduction]
+Awesome (AWS-9M) [BTID=limited-awesome-aws-9m]
+Banshee (BNC-3E) [BTID=limited-banshee-bnc-3e]
+Bearer of McKennsy Hammer [BTID=limited-bearer-of-mckennsy-hammer]
+Black Hawk B (Nova) [BTID=limited-black-hawk-b-nova]
+Blackjack (BJ2) [BTID=limited-blackjack-bj2]
+Cataphract (CTF-3D) [BTID=limited-cataphract-ctf-3d]
+Caught in Hangar [BTID=limited-caught-in-hangar]
+Charger (CGR-1A1) [BTID=limited-charger-cgr-1a1]
+Cicada (CDA-3M) [BTID=limited-cicada-cda-3m]
+Combat Engineers [BTID=limited-combat-engineers]
+Communications Failure [BTID=limited-communications-failure]
+Crockett (CRK-5003-1) [BTID=limited-crockett-crk-5003-1]
+Culling [BTID=limited-culling]
+Cyclops (CP11A) [BTID=limited-cyclops-cp11a]
+Dervish (DV-6M) [BTID=limited-dervish-dv-6m]
+DEST Pilot [BTID=limited-dest-pilot]
+Dragonfly B (Viper) [BTID=limited-dragonfly-b-viper]
+Dragonfly Prime (Viper) [BTID=limited-dragonfly-prime-viper]
+Elemental Point [BTID=limited-elemental-point]
+Elite Infantry [BTID=limited-elite-infantry]
+Enforcer (ENF-4R) [BTID=limited-enforcer-enf-4r]
+Extra Armor Plating [BTID=limited-extra-armor-plating]
+Falcon (FLC-4P) [BTID=limited-falcon-flc-4p]
+Fenris D (Ice Ferret) [BTID=limited-fenris-d-ice-ferret]
+Firestarter (FS9-H) [BTID=limited-firestarter-fs9-h]
+Flashman (FLS-8K) [BTID=limited-flashman-fls-8k]
+Gladiator A (Executioner) [BTID=limited-gladiator-a-executioner]
+Good Shooting! [BTID=limited-good-shooting]
+Grayson Death Carlyle [BTID=limited-grayson-death-carlyle]
+Hanse Davion - The Fox [BTID=limited-hanse-davion-the-fox]
+Hatamoto-Chi (HTM-27T) [BTID=limited-hatamoto-chi-htm-27t]
+Hatchetman (HCT-3F) [BTID=limited-hatchetman-hct-3f]
+Heavy Fog [BTID=limited-heavy-fog]
+Holographic Decoy [BTID=limited-holographic-decoy]
+Imp (IMP-3E) [BTID=limited-imp-imp-3e]
+Inexorable Advance [BTID=limited-inexorable-advance]
+ISF Counterespionage [BTID=limited-isf-counterespionage]
+JagerMech (JM6-S) [BTID=limited-jagermech-jm6-s]
+Jump into Cover [BTID=limited-jump-into-cover]
+Kai Allard-Liao [BTID=limited-kai-allard-liao]
+Katana (CRK5003-2) [BTID=limited-katana-crk5003-2]
+Koshi D (Mist Lynx) [BTID=limited-koshi-d-mist-lynx]
+Lancelot (LNC25-01) [BTID=limited-lancelot-lnc25-01]
+Loki A (Hellbringer) [BTID=limited-loki-a-hellbringer]
+Long Range Targeting System [BTID=limited-long-range-targeting-system]
+Long Tom Battery [BTID=limited-long-tom-battery]
+Mad Cat B (Timber Wolf) [BTID=limited-mad-cat-b-timber-wolf]
+Mad Cat C (Timber Wolf) [BTID=limited-mad-cat-c-timber-wolf]
+Man O' War C (Gargoyle) [BTID=limited-man-o-war-c-gargoyle]
+Marik Arms Trade [BTID=limited-marik-arms-trade]
+Masakari A (Warhawk) [BTID=limited-masakari-a-warhawk]
+Masakari B (Warhawk) [BTID=limited-masakari-b-warhawk]
+Masakari C (Warhawk) [BTID=limited-masakari-c-warhawk]
+Mauler (MAL-1R) [BTID=limited-mauler-mal-1r]
+Mercury (MCY-97) [BTID=limited-mercury-mcy-97]
+Mobile HQ [BTID=limited-mobile-hq]
+Mongoose (MON-66) [BTID=limited-mongoose-mon-66]
+Morgan Kell [BTID=limited-morgan-kell]
+Orion (ON1-K) [BTID=limited-orion-on1-k]
+Orion (ON1-M) [BTID=limited-orion-on1-m]
+Point Defense System [BTID=limited-point-defense-system]
+Pryde's Pride [BTID=limited-pryde-s-pride]
+Puma C (Adder) [BTID=limited-puma-c-adder]
+Quickdraw (QKD-4G) [BTID=limited-quickdraw-qkd-4g]
+Raven (RVN-3L) [BTID=limited-raven-rvn-3l]
+Report from the Watch [BTID=limited-report-from-the-watch]
+Retrofitted Missile Rack [BTID=limited-retrofitted-missile-rack]
+Ryoken D (Storm Crow) [BTID=limited-ryoken-d-storm-crow]
+Sabotage 'Mech [BTID=limited-sabotage-mech]
+Sabotaged Heat Sinks [BTID=limited-sabotaged-heat-sinks]
+SAFE Report [BTID=limited-safe-report]
+Shady Business [BTID=limited-shady-business]
+Silver Sunburst Pilot [BTID=limited-silver-sunburst-pilot]
+Stalker (STK-3F) [BTID=limited-stalker-stk-3f]
+Stalker (STK-5M) [BTID=limited-stalker-stk-5m]
+Sun Zhang MechWarrior Academy [BTID=limited-sun-zhang-mechwarrior-academy]
+Support - Munitions (3 versions) [BTID=limited-support-munitions-3-versions]
+Takashi Kurita [BTID=limited-takashi-kurita]
+Think Tank [BTID=limited-think-tank]
+Thomas Marik [BTID=limited-thomas-marik]
+Thor C (Summoner) [BTID=limited-thor-c-summoner]
+Thor D (Summoner) [BTID=limited-thor-d-summoner]
+Treachery! [BTID=limited-treachery]
+Uller C (Kit Fox) [BTID=limited-uller-c-kit-fox]
+Uller D (Kit Fox) [BTID=limited-uller-d-kit-fox]
+Uller Prime (Kit Fox) [BTID=limited-uller-prime-kit-fox]
+Victor (VTR-9B) [BTID=limited-victor-vtr-9b]
+Vulcan (VT-5M) [BTID=limited-vulcan-vt-5m]
+Vulture Prime (Mad Dog) [BTID=limited-vulture-prime-mad-dog]
+Wolf Trap (WFT-1) [BTID=limited-wolf-trap-wft-1]
+Wyvern (WVE-5N) [BTID=limited-wyvern-wve-5n]
+Zeus (ZEU-9S) [BTID=limited-zeus-zeu-9s]
+
+[Pack 2 Rare]
+Atlas (AS7-K) [BTID=limited-atlas-as7-k]
+Bjorn Jorgensson [BTID=limited-bjorn-jorgensson]
+Contract with Gray Death Legion [BTID=limited-contract-with-gray-death-legion]
+Daishi A (Dire Wolf) [BTID=limited-daishi-a-dire-wolf]
+Dragonfly A (Viper) [BTID=limited-dragonfly-a-viper]
+Evantha Fetladral [BTID=limited-evantha-fetladral]
+Galen Cox [BTID=limited-galen-cox]
+Guerrilla Support [BTID=limited-guerrilla-support]
+Highlander (HGN-732) [BTID=limited-highlander-hgn-732]
+Jaime Wolf [BTID=limited-jaime-wolf]
+Koshi A (Mist Lynx) [BTID=limited-koshi-a-mist-lynx]
+Leo Showers [BTID=limited-leo-showers]
+Man O' War A (Gargoyle) [BTID=limited-man-o-war-a-gargoyle]
+Manipulation of Romano [BTID=limited-manipulation-of-romano]
+Masakari Prime (Warhawk) [BTID=limited-masakari-prime-warhawk]
+Melissa Steiner Davion [BTID=limited-melissa-steiner-davion]
+Natasha Kerensky [BTID=limited-natasha-kerensky]
+Perimeter Alarm [BTID=limited-perimeter-alarm]
+Rampage! [BTID=limited-rampage]
+Romano Liao [BTID=limited-romano-liao]
+Sabotaged Missiles [BTID=limited-sabotaged-missiles]
+Satchel Charges [BTID=limited-satchel-charges]
+Steal 'Mech [BTID=limited-steal-mech]
+Teachings of the Unfinished Book [BTID=limited-teachings-of-the-unfinished-book]
+Thor B (Summoner) [BTID=limited-thor-b-summoner]
+Victor Steiner Davion [BTID=limited-victor-steiner-davion]
+
+[Pack 2 Random]
+Accurate Intelligence [BTID=limited-accurate-intelligence]
+Arrow IV Battery [BTID=limited-arrow-iv-battery]
+Atlas (AS7-D) [BTID=limited-atlas-as7-d]
+Atlas (AS7-K) [BTID=limited-atlas-as7-k]
+Banshee (BNC-5S) [BTID=limited-banshee-bnc-5s]
+Battalion Support [BTID=limited-battalion-support]
+Bjorn Jorgensson [BTID=limited-bjorn-jorgensson]
+Black Hawk D (Nova) [BTID=limited-black-hawk-d-nova]
+Caesar (CES-3R) [BTID=limited-caesar-ces-3r]
+Centurion (CN9-A) [BTID=limited-centurion-cn9-a]
+Centurion (CN9-D) [BTID=limited-centurion-cn9-d]
+Clint (CLNT-2-3T) [BTID=limited-clint-clnt-2-3t]
+Commando (COM-2D) [BTID=limited-commando-com-2d]
+Communications Blackout [BTID=limited-communications-blackout]
+Contract with Gray Death Legion [BTID=limited-contract-with-gray-death-legion]
+Coventry Metal Works [BTID=limited-coventry-metal-works]
+Daishi A (Dire Wolf) [BTID=limited-daishi-a-dire-wolf]
+Dasher C (Firemoth) [BTID=limited-dasher-c-firemoth]
+Dasher D (Firemoth) [BTID=limited-dasher-d-firemoth]
+Dervish (DV-7D) [BTID=limited-dervish-dv-7d]
+Dragonfly A (Viper) [BTID=limited-dragonfly-a-viper]
+Dragonfly C (Viper) [BTID=limited-dragonfly-c-viper]
+Dropship Site [BTID=limited-dropship-site]
+Elite MechWarrior [BTID=limited-elite-mechwarrior]
+Enforcer (ENF-5D) [BTID=limited-enforcer-enf-5d]
+Evantha Fetladral [BTID=limited-evantha-fetladral]
+Feint [BTID=limited-feint]
+Fenris A (Ice Ferret) [BTID=limited-fenris-a-ice-ferret]
+Fenris Prime (Ice Ferret) [BTID=limited-fenris-prime-ice-ferret]
+Forged Mission Orders [BTID=limited-forged-mission-orders]
+Galen Cox [BTID=limited-galen-cox]
+Gladiator C (Executioner) [BTID=limited-gladiator-c-executioner]
+Grand Dragon (DRG-5K) [BTID=limited-grand-dragon-drg-5k]
+Guerrilla Support [BTID=limited-guerrilla-support]
+Hatchetman (HCT-5S) [BTID=limited-hatchetman-hct-5s]
+Helicopter Support [BTID=limited-helicopter-support]
+Highlander (HGN-732) [BTID=limited-highlander-hgn-732]
+Hornet (HNT-171) [BTID=limited-hornet-hnt-171]
+Hovertank Detachment [BTID=limited-hovertank-detachment]
+Improvised Weapon [BTID=limited-improvised-weapon]
+Inside Job [BTID=limited-inside-job]
+Jaime Wolf [BTID=limited-jaime-wolf]
+Javelin (JVN-10N) [BTID=limited-javelin-jvn-10n]
+Kamikaze MechWarrior [BTID=limited-kamikaze-mechwarrior]
+Koshi A (Mist Lynx) [BTID=limited-koshi-a-mist-lynx]
+Koshi B (Mist Lynx) [BTID=limited-koshi-b-mist-lynx]
+Lance Commander [BTID=limited-lance-commander]
+Leo Showers [BTID=limited-leo-showers]
+Loki B (Hellbringer) [BTID=limited-loki-b-hellbringer]
+Lured into Bog [BTID=limited-lured-into-bog]
+Mad Cat D (Timber Wolf) [BTID=limited-mad-cat-d-timber-wolf]
+Mad Cat Prime (Timber Wolf) [BTID=limited-mad-cat-prime-timber-wolf]
+Man O' War A (Gargoyle) [BTID=limited-man-o-war-a-gargoyle]
+Manipulation of Romano [BTID=limited-manipulation-of-romano]
+Masakari Prime (Warhawk) [BTID=limited-masakari-prime-warhawk]
+MASC [BTID=limited-masc]
+Master Spy [BTID=limited-master-spy]
+Melissa Steiner Davion [BTID=limited-melissa-steiner-davion]
+Mislabeled Drop Boxes [BTID=limited-mislabeled-drop-boxes]
+Move to Partial Cover [BTID=limited-move-to-partial-cover]
+NAIS [BTID=limited-nais]
+Natasha Kerensky [BTID=limited-natasha-kerensky]
+Navigation Computer [BTID=limited-navigation-computer]
+Overwhelm [BTID=limited-overwhelm]
+Perimeter Alarm [BTID=limited-perimeter-alarm]
+Puma A (Adder) [BTID=limited-puma-a-adder]
+Pushing the Envelope [BTID=limited-pushing-the-envelope]
+Quickdraw (QKD-5M) [BTID=limited-quickdraw-qkd-5m]
+Rampage! [BTID=limited-rampage]
+Retrieve Lost 'Mech [BTID=limited-retrieve-lost-mech]
+Romano Liao [BTID=limited-romano-liao]
+Running Battle [BTID=limited-running-battle]
+Sabotaged Missiles [BTID=limited-sabotaged-missiles]
+Salvage Strike Crew [BTID=limited-salvage-strike-crew]
+Satchel Charges [BTID=limited-satchel-charges]
+Saturation Bombing [BTID=limited-saturation-bombing]
+Special Forces Op [BTID=limited-special-forces-op]
+Steal 'Mech [BTID=limited-steal-mech]
+Strength of the Pillar of Steel [BTID=limited-strength-of-the-pillar-of-steel]
+Studied Move [BTID=limited-studied-move]
+Support - Assembly (3 versions) [BTID=limited-support-assembly-3-versions]
+Support - Politics (3 versions) [BTID=limited-support-politics-3-versions]
+Teachings of the Unfinished Book [BTID=limited-teachings-of-the-unfinished-book]
+Thor B (Summoner) [BTID=limited-thor-b-summoner]
+Thor Prime (Summoner) [BTID=limited-thor-prime-summoner]
+Thug (THG-11E) [BTID=limited-thug-thg-11e]
+Trebuchet (TBT-5N) [BTID=limited-trebuchet-tbt-5n]
+UrbanMech (UM-R60) [BTID=limited-urbanmech-um-r60]
+Victor Steiner Davion [BTID=limited-victor-steiner-davion]
+Victor (VTR-9K) [BTID=limited-victor-vtr-9k]
+Vulture A (Mad Dog) [BTID=limited-vulture-a-mad-dog]
+Whitworth (WTH-1) [BTID=limited-whitworth-wth-1]
+Wolf Dragoons Pilot [BTID=limited-wolf-dragoons-pilot]
+Wolfhound (WLF-2) [BTID=limited-wolfhound-wlf-2]
+
+[Pack 3 Rare]
+Alex Mallory [BTID=limited-alex-mallory]
+Axman (AXM-1N) [BTID=limited-axman-axm-1n]
+Candace Liao [BTID=limited-candace-liao]
+Contract with Wolf's Dragoons [BTID=limited-contract-with-wolf-s-dragoons]
+Death Commando Strike [BTID=limited-death-commando-strike]
+Elias Crichell [BTID=limited-elias-crichell]
+Firestarter (FS9-S) [BTID=limited-firestarter-fs9-s]
+Gladiator B (Executioner) [BTID=limited-gladiator-b-executioner]
+Guillotine (GLT-5M) [BTID=limited-guillotine-glt-5m]
+Hoplite (HOP-4D) [BTID=limited-hoplite-hop-4d]
+Justin Xiang Allard [BTID=limited-justin-xiang-allard]
+Koshi C (Mist Lynx) [BTID=limited-koshi-c-mist-lynx]
+Luck of the Fox [BTID=limited-luck-of-the-fox]
+Man O' War B (Gargoyle) [BTID=limited-man-o-war-b-gargoyle]
+Marissa Morgan [BTID=limited-marissa-morgan]
+Maskirovka Operatives [BTID=limited-maskirovka-operatives]
+Morgan Hasek Davion [BTID=limited-morgan-hasek-davion]
+Open Supply Lines [BTID=limited-open-supply-lines]
+Phelan [BTID=limited-phelan]
+Reassigned Pilot [BTID=limited-reassigned-pilot]
+Rookie Pilot [BTID=limited-rookie-pilot]
+Sacrifice for the Dragon! [BTID=limited-sacrifice-for-the-dragon]
+Shogun (SHG-2F) [BTID=limited-shogun-shg-2f]
+Subhash Indrahar [BTID=limited-subhash-indrahar]
+Theodore Kurita [BTID=limited-theodore-kurita]
+Tsen Shang [BTID=limited-tsen-shang]
+Vulture B (Mad Dog) [BTID=limited-vulture-b-mad-dog]
+
+[Pack 3 Random]
+Aerospace Fighter Mission [BTID=limited-aerospace-fighter-mission]
+Alex Mallory [BTID=limited-alex-mallory]
+Assassin (ASN-21) [BTID=limited-assassin-asn-21]
+Awesome (AWS-8Q) [BTID=limited-awesome-aws-8q]
+Axman (AXM-1N) [BTID=limited-axman-axm-1n]
+Black Hawk A (Nova) [BTID=limited-black-hawk-a-nova]
+Black Hawk Prime (Nova) [BTID=limited-black-hawk-prime-nova]
+Black Knight (BL6-KNT) [BTID=limited-black-knight-bl6-knt]
+Candace Liao [BTID=limited-candace-liao]
+Catapult (CPLT-C3) [BTID=limited-catapult-cplt-c3]
+Chaparral Missile Tank [BTID=limited-chaparral-missile-tank]
+Cicada (CDA-2A) [BTID=limited-cicada-cda-2a]
+Clint (CLNT-2-3U) [BTID=limited-clint-clnt-2-3u]
+Comstar Bank Account [BTID=limited-comstar-bank-account]
+Contract with Wolf's Dragoons [BTID=limited-contract-with-wolf-s-dragoons]
+Critical Hit [BTID=limited-critical-hit]
+Dasher Prime (Firemoth) [BTID=limited-dasher-prime-firemoth]
+Death Commando Strike [BTID=limited-death-commando-strike]
+Death From Above [BTID=limited-death-from-above]
+Dragon (DRG-1N) [BTID=limited-dragon-drg-1n]
+Dragonfly D (Viper) [BTID=limited-dragonfly-d-viper]
+Effective Groundwork [BTID=limited-effective-groundwork]
+Elias Crichell [BTID=limited-elias-crichell]
+Expert 'Mech Technicians [BTID=limited-expert-mech-technicians]
+Exterminator (EXT-4D) [BTID=limited-exterminator-ext-4d]
+Fenris C (Ice Ferret) [BTID=limited-fenris-c-ice-ferret]
+Ferro-Fibrous Armor [BTID=limited-ferro-fibrous-armor]
+Firestarter (FS9-S) [BTID=limited-firestarter-fs9-s]
+Flea (FLE-17) [BTID=limited-flea-fle-17]
+Gladiator B (Executioner) [BTID=limited-gladiator-b-executioner]
+Gladiator Prime (Executioner) [BTID=limited-gladiator-prime-executioner]
+Grasshopper (GHR-5H) [BTID=limited-grasshopper-ghr-5h]
+Gray Death Pilot [BTID=limited-gray-death-pilot]
+Guillotine (GLT-5M) [BTID=limited-guillotine-glt-5m]
+Head Shot [BTID=limited-head-shot]
+Heavy Industry [BTID=limited-heavy-industry]
+Heroic Sacrifice [BTID=limited-heroic-sacrifice]
+Hoplite (HOP-4D) [BTID=limited-hoplite-hop-4d]
+Hunchback (HBK-4G) [BTID=limited-hunchback-hbk-4g]
+Hussar (HSR 200-D) [BTID=limited-hussar-hsr-200-d]
+Infantry Platoon [BTID=limited-infantry-platoon]
+JagerMech (JM6-DD) [BTID=limited-jagermech-jm6-dd]
+Jenner (JR7-D) [BTID=limited-jenner-jr7-d]
+Justin Xiang Allard [BTID=limited-justin-xiang-allard]
+Kell Hound Pilot [BTID=limited-kell-hound-pilot]
+Koshi C (Mist Lynx) [BTID=limited-koshi-c-mist-lynx]
+Koshi Prime (Mist Lynx) [BTID=limited-koshi-prime-mist-lynx]
+Leap Before You Look [BTID=limited-leap-before-you-look]
+Loki Prime (Hellbringer) [BTID=limited-loki-prime-hellbringer]
+Luck of the Fox [BTID=limited-luck-of-the-fox]
+Mad Cat A (Timber Wolf) [BTID=limited-mad-cat-a-timber-wolf]
+Man O' War B (Gargoyle) [BTID=limited-man-o-war-b-gargoyle]
+Man O' War Prime (Gargoyle) [BTID=limited-man-o-war-prime-gargoyle]
+Maneuvering Ace [BTID=limited-maneuvering-ace]
+Marissa Morgan [BTID=limited-marissa-morgan]
+Maskirovka Operatives [BTID=limited-maskirovka-operatives]
+Maverick Mechjock [BTID=limited-maverick-mechjock]
+Misrouted Command [BTID=limited-misrouted-command]
+Missile Spotter [BTID=limited-missile-spotter]
+Morgan Hasek Davion [BTID=limited-morgan-hasek-davion]
+Open Supply Lines [BTID=limited-open-supply-lines]
+Operation Advisory Council [BTID=limited-operation-advisory-council]
+Panther (PNT-9R) [BTID=limited-panther-pnt-9r]
+Phantom Signal [BTID=limited-phantom-signal]
+Phelan [BTID=limited-phelan]
+Puma Prime (Adder) [BTID=limited-puma-prime-adder]
+Rapid Cool-Down [BTID=limited-rapid-cool-down]
+Reassigned Pilot [BTID=limited-reassigned-pilot]
+Retrofitted Laser System [BTID=limited-retrofitted-laser-system]
+Rookie Pilot [BTID=limited-rookie-pilot]
+Ryoken A (Storm Crow) [BTID=limited-ryoken-a-storm-crow]
+Ryoken Prime (Storm Crow) [BTID=limited-ryoken-prime-storm-crow]
+Sacrifice for the Dragon! [BTID=limited-sacrifice-for-the-dragon]
+Scrounger Crew [BTID=limited-scrounger-crew]
+Sentinel (STN-3M) [BTID=limited-sentinel-stn-3m]
+Shogun (SHG-2F) [BTID=limited-shogun-shg-2f]
+Specialized Project Team [BTID=limited-specialized-project-team]
+Spider (SDR-5V) [BTID=limited-spider-sdr-5v]
+Subhash Indrahar [BTID=limited-subhash-indrahar]
+Support - Logistics (3 versions) [BTID=limited-support-logistics-3-versions]
+Support - Tactics (3 versions) [BTID=limited-support-tactics-3-versions]
+Temporary Cease-Fire [BTID=limited-temporary-cease-fire]
+Theodore Kurita [BTID=limited-theodore-kurita]
+Thor A (Summoner) [BTID=limited-thor-a-summoner]
+Topple [BTID=limited-topple]
+Trebuchet (TBT-7M) [BTID=limited-trebuchet-tbt-7m]
+Tsen Shang [BTID=limited-tsen-shang]
+Uller B (Kit Fox) [BTID=limited-uller-b-kit-fox]
+Veteran MechWarrior [BTID=limited-veteran-mechwarrior]
+Vindicator (VND-1R) [BTID=limited-vindicator-vnd-1r]
+Vulture B (Mad Dog) [BTID=limited-vulture-b-mad-dog]
+Vulture C (Mad Dog) [BTID=limited-vulture-c-mad-dog]
+Whitworth (WTH-2) [BTID=limited-whitworth-wth-2]
+Zeus (ZEU-6S) [BTID=limited-zeus-zeu-6s]
