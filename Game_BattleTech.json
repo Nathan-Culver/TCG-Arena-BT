@@ -9224,7 +9224,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -10038,7 +10038,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -10852,7 +10852,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -11666,7 +11666,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -12480,7 +12480,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -13294,7 +13294,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -14108,7 +14108,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -14922,7 +14922,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -15736,7 +15736,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -15822,6 +15822,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=10"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=11"
   ]
 }
