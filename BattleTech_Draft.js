@@ -47,6 +47,7 @@ function btDraftSeatProgress(controller, position) {
     packPickNumber: 0,
     waitingRound: null,
     awaitingIncomingPack: null,
+    confirmRequested: false,
     ...(controller.progress[key] ?? {}),
   }
   return controller.progress[key]
@@ -290,7 +291,17 @@ async function btDraftProcessReadyRoundsUnlocked() {
   await btDraftLoadIncomingPack(myPlayerId, progress)
 }
 
-async function btDraftConfirmPickAndPass() {
+async function btDraftTryPendingConfirmation() {
+  const controller = game?.data?.DraftController
+  if (!controller) return
+  const position = Number(game?.turn?.orderPosition ?? 0)
+  const progress = btDraftSeatProgress(controller, position)
+  if (progress.confirmRequested && !progress.waitingRound) {
+    await btDraftConfirmPickAndPass(true)
+  }
+}
+
+async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
   const controller = game?.data?.DraftController
   if (!controller) return
 
@@ -334,14 +345,26 @@ async function btDraftConfirmPickAndPass() {
   )
   const newPickCount = ownedPicks.length
   if (newPickCount !== 1) {
+    if (newPickCount < 1) {
+      // The drag can render before the debounced cards snapshot updates. Keep
+      // the request queued; onCardsUpdate will confirm the exact card once it
+      // is visible to scripting.
+      progress.confirmRequested = true
+      if (!fromCardUpdate) {
+        functions.chatLog(
+          `Draft: Pack ${packNumber} pick is syncing; confirmation will complete automatically.`
+        )
+      }
+      return
+    }
+    progress.confirmRequested = false
     functions.chatLog(
-      newPickCount < 1
-        ? `Draft: move exactly one card from Pack ${packNumber} to Draft Picks first.`
-        : `Draft: ${newPickCount} unconfirmed cards are in Draft Picks. Return cards until exactly one new pick remains.`
+      `Draft: ${newPickCount} unconfirmed cards are in Draft Picks. Return cards until exactly one new pick remains.`
     )
     return
   }
 
+  progress.confirmRequested = false
   progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
   const pickNumber = Number(progress.packPickNumber ?? 0)
   const roundKey = `${packNumber}:${pickNumber}`
