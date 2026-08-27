@@ -75,6 +75,55 @@ async function btDraftClaimStartingPacks() {
   }
 }
 
+async function btDraftRepairStartingPacks() {
+  const limited = game?.data?.LimitedController
+  const controller = game?.data?.DraftController
+  const plans = limited?.packPlans
+  if (!controller || !Array.isArray(plans) || plans.length !== 3) return 0
+
+  const myPlayerId = btDraftFindMyPlayerId()
+  if (!myPlayerId) return 0
+  const position = Number(game?.turn?.orderPosition ?? 0)
+  const progress = btDraftSeatProgress(controller, position)
+  const hasLockedPick = [...(cards?.DraftPool ?? [])].some(
+    (card) => card?.owner === myPlayerId
+  )
+  if (
+    hasLockedPick ||
+    Number(progress.confirmedPicks ?? 0) > 0 ||
+    Object.keys(controller.rounds ?? {}).length > 0
+  ) {
+    return 0
+  }
+
+  const repairs = []
+  for (const [sectionName, plannedIds] of plans) {
+    const currentCards = [...(cards?.[sectionName] ?? [])].filter(
+      (card) => card?.owner === myPlayerId || card?.owner === "UNOWNED"
+    )
+    const missingIds = [...plannedIds]
+    for (const card of currentCards) {
+      const definitionId = functions.getCardData?.(card)?.id
+      const index = missingIds.indexOf(definitionId)
+      if (index >= 0) missingIds.splice(index, 1)
+    }
+    const missingCount = Math.max(0, 15 - currentCards.length)
+    for (const cardId of missingIds.slice(0, missingCount)) {
+      repairs.push(functions.createCard(cardId, sectionName))
+    }
+  }
+
+  if (repairs.length > 0) {
+    await Promise.all(repairs)
+    limited.setupComplete = true
+    limited.setupRunning = false
+    functions.chatLog(
+      `Draft setup repaired ${repairs.length} missing card${repairs.length === 1 ? "" : "s"}.`
+    )
+  }
+  return repairs.length
+}
+
 async function btDraftRegisterPlayer(quiet = true) {
   const controller = game?.data?.DraftController
   if (!controller) return undefined
