@@ -47,7 +47,7 @@ function btDraftSeatProgress(controller, position) {
   if (controller.waitingRound == null) controller.waitingRound = null
   if (controller.awaitingIncomingPack == null) controller.awaitingIncomingPack = null
   if (controller.confirmRequested == null) controller.confirmRequested = false
-  if (controller.pendingBank == null) controller.pendingBank = null
+  if (!Array.isArray(controller.pendingHideIds)) controller.pendingHideIds = []
   if (controller.registeredCount == null) controller.registeredCount = 0
   return controller
 }
@@ -92,7 +92,6 @@ async function btDraftRepairStartingPacks() {
   )
   if (
     hasLockedPick ||
-    progress.pendingBank ||
     Number(progress.confirmedPicks ?? 0) > 0 ||
     progress.waitingRound
   ) {
@@ -239,15 +238,23 @@ async function btDraftProcessReadyRoundsUnlocked() {
   // another onCardsUpdate event.
   mySeat.releasingRound = roundKey
 
-  // A seat can only enter round.ready after onCardsUpdate has verified that
-  // this exact runtime card is already present in LimitedStockpile.
   const lockedPickId = mySeat.readyCardId
-  const bankedPick = [...(cards?.LimitedStockpile ?? [])].find(
+  const lockedPick = [...(cards?.DraftPool ?? [])].find(
     (card) => card?.owner === myPlayerId && card?.id === lockedPickId
   )
-  if (!bankedPick) {
+  const alreadyBanked = [...(cards?.LimitedStockpile ?? [])].some(
+    (card) => card?.owner === myPlayerId && card?.id === lockedPickId
+  )
+  if (lockedPick) {
+    // Every seat has confirmed. Bank this exact selected card and await the
+    // move before releasing any card from the remaining pack.
+    await functions.moveCard(lockedPick, "LimitedStockpile", { noLogs: true })
+    progress.pendingHideIds = [
+      ...new Set([...(progress.pendingHideIds ?? []), lockedPickId]),
+    ]
+  } else if (!alreadyBanked) {
     mySeat.releasingRound = null
-    functions.chatLog("Draft: waiting for your selected card to enter your deck.")
+    functions.chatLog("Draft: the confirmed pick could not be found in Draft Picks.")
     return
   }
 
@@ -300,79 +307,28 @@ async function btDraftTryPendingConfirmation() {
   if (!controller) return
   const position = Number(game?.turn?.orderPosition ?? 0)
   const progress = btDraftSeatProgress(controller, position)
-  if (progress.confirmRequested && !progress.pendingBank && !progress.waitingRound) {
+  if (progress.confirmRequested && !progress.waitingRound) {
     await btDraftConfirmPickAndPass(true)
   }
 }
 
-async function btDraftFinalizePendingBank() {
+async function btDraftHideBankedPicks() {
   const controller = game?.data?.DraftController
   if (!controller) return false
 
-  const myPlayerId = await btDraftRegisterPlayer(true)
+  const myPlayerId = btDraftFindMyPlayerId()
   if (!myPlayerId) return false
-  const totalPlayers = Number(game?.turn?.totalPlayers ?? 0)
   const myPosition = Number(game?.turn?.orderPosition ?? 0)
   const progress = btDraftSeatProgress(controller, myPosition)
-  const pending = progress.pendingBank
-  if (!pending?.cardId) return false
-
-  const bankedPick = [...(cards?.LimitedStockpile ?? [])].find(
-    (card) => card?.owner === myPlayerId && card?.id === pending.cardId
+  const pendingIds = new Set(progress.pendingHideIds ?? [])
+  if (pendingIds.size === 0) return false
+  const found = [...(cards?.LimitedStockpile ?? [])].filter(
+    (card) => card?.owner === myPlayerId && pendingIds.has(card.id)
   )
-  if (!bankedPick) {
-    // The card move can be displayed before the debounced scripting snapshot
-    // catches up. If the exact selected instance is visible in any drafting
-    // section, retry only its deck move. The round remains unready, so no pack
-    // can be released while the pick is outside the deck.
-    const misplacedPick = [
-      ...(cards?.DraftPool ?? []),
-      ...(cards?.Mission ?? []),
-      ...(cards?.Mission2 ?? []),
-      ...(cards?.Mission3 ?? []),
-      ...(cards?.DraftIncoming ?? []),
-    ].find(
-      (card) => card?.owner === myPlayerId && card?.id === pending.cardId
-    )
-    if (misplacedPick) {
-      // Do not update and then move the same card object. An awaited update can
-      // replace the runtime object and leave the following move with a stale
-      // reference. A single moveCard call is the entire retry transaction.
-      await functions.moveCard(misplacedPick, "LimitedStockpile", { noLogs: true })
-    }
-    return false
-  }
-
-  // The section itself is opponent-hidden. Set the explicit card state only
-  // after a fresh snapshot proves that the card is already in the deck.
-  if (bankedPick.isHidden !== "yes") {
-    await functions.updateCards([bankedPick], { isHidden: "yes" })
-  }
-
-  const packNumber = Number(pending.packNumber)
-  const pickNumber = Number(pending.pickNumber)
-  const roundKey = `${packNumber}:${pickNumber}`
-  const mySeat = btDraftSeatChannel(myPosition)
-  if (!mySeat) return false
-  mySeat.readyRound = roundKey
-  mySeat.readyCardId = pending.cardId
-  progress.pendingBank = null
-  progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
-  progress.waitingRound = roundKey
-
-  const readyCount = btDraftSeatChannels(totalPlayers).filter(
-    (seat) => seat?.readyRound === roundKey && seat?.readyCardId
-  ).length
-  if (readyCount < totalPlayers) {
-    functions.chatLog(
-      `Draft: pick banked and locked (${readyCount}/${totalPlayers} ready). Waiting for the other players.`
-    )
-    return true
-  }
-
-  functions.chatLog("Draft: every pick is banked. Swapping the remaining packs.")
-  if (functions.repositionCards) await functions.repositionCards()
-  await btDraftProcessReadyRounds()
+  if (found.length === 0) return false
+  await functions.updateCards(found, { isHidden: "yes" })
+  const foundIds = new Set(found.map((card) => card.id))
+  progress.pendingHideIds = [...pendingIds].filter((id) => !foundIds.has(id))
   return true
 }
 
@@ -394,10 +350,6 @@ async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
 
   const myPosition = Number(game?.turn?.orderPosition ?? 0)
   const progress = btDraftSeatProgress(controller, myPosition)
-  if (progress.pendingBank) {
-    functions.chatLog("Draft: waiting for your selected card to enter your deck.")
-    return
-  }
   if (progress.waitingRound) {
     const readyCount = btDraftSeatChannels(totalPlayers).filter(
       (seat) =>
@@ -447,18 +399,26 @@ async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
 
   progress.confirmRequested = false
   const pickNumber = Number(progress.packPickNumber ?? 0)
+  const roundKey = `${packNumber}:${pickNumber}`
   const selectedPick = ownedPicks[0]
-  progress.pendingBank = {
-    cardId: selectedPick.id,
-    packNumber,
-    pickNumber,
+  const mySeat = btDraftSeatChannel(myPosition)
+  if (!mySeat) return
+  mySeat.readyRound = roundKey
+  mySeat.readyCardId = selectedPick.id
+  progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
+  progress.waitingRound = roundKey
+
+  const readyCount = btDraftSeatChannels(totalPlayers).filter(
+    (seat) => seat?.readyRound === roundKey && seat?.readyCardId
+  ).length
+  if (readyCount < totalPlayers) {
+    functions.chatLog(
+      `Draft: pick locked (${readyCount}/${totalPlayers} ready). Waiting for the other players.`
+    )
+    return
   }
-  // One atomic single-card move. Hiding is applied from a fresh deck snapshot
-  // in btDraftFinalizePendingBank, never to this pre-move card reference.
-  await functions.moveCard(selectedPick, "LimitedStockpile", { noLogs: true })
-  functions.chatLog("Draft: banking your selected card before the pack can pass.")
-  // This is the final board operation in the confirmation transaction. It
-  // guarantees a fresh debounced snapshot even if the move did not otherwise
-  // wake this client immediately.
+
+  functions.chatLog("Draft: every player confirmed. Banking picks and swapping packs.")
   if (functions.repositionCards) await functions.repositionCards()
+  await btDraftProcessReadyRounds()
 }
