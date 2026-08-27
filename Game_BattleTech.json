@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=16"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=17"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -9293,7 +9293,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -9343,7 +9343,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -10226,7 +10226,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -10276,7 +10276,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -11159,7 +11159,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -11209,7 +11209,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -12092,7 +12092,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -12142,7 +12142,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -13025,7 +13025,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -13075,7 +13075,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -13958,7 +13958,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -14008,7 +14008,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -14891,7 +14891,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -14941,7 +14941,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -15824,7 +15824,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -15874,7 +15874,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -16757,7 +16757,7 @@
               "waitingRound": null,
               "awaitingIncomingPack": null,
               "confirmRequested": false,
-              "pendingBank": null
+              "pendingHideIds": []
             },
             "blueprint": {
               "type": "div",
@@ -16807,7 +16807,7 @@
             },
             "events": {
               "onPlayersReady": "await btDraftRegisterPlayer(true)",
-              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftFinalizePendingBank(); await btDraftProcessReadyRounds()"
+              "onCardsUpdate": "await btDraftRegisterPlayer(true); await btDraftTryPendingConfirmation(); await btDraftHideBankedPicks(); await btDraftProcessReadyRounds()"
             }
           },
           "LimitedController": {
@@ -16893,6 +16893,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=16"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=17"
   ]
 }
