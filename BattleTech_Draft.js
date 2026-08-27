@@ -49,6 +49,7 @@ function btDraftSeatProgress(controller, position) {
     waitingRound: null,
     awaitingIncomingPack: null,
     confirmRequested: false,
+    bankedPickIds: [],
     ...(controller.progress[key] ?? {}),
   }
   return controller.progress[key]
@@ -179,6 +180,41 @@ async function btDraftLoadIncomingPack(myPlayerId, progress) {
   return true
 }
 
+async function btDraftReconcileBankedPicks(myPlayerId, progress) {
+  const protectedIds = new Set(progress.bankedPickIds ?? [])
+  if (protectedIds.size === 0) return false
+
+  const alreadyBanked = new Set(
+    [...(cards?.LimitedStockpile ?? [])]
+      .filter((card) => card?.owner === myPlayerId)
+      .map((card) => card.id)
+  )
+  const misplacedById = new Map()
+  for (const sectionName of [
+    "DraftPool",
+    "Mission",
+    "Mission2",
+    "Mission3",
+    "DraftIncoming",
+  ]) {
+    for (const card of cards?.[sectionName] ?? []) {
+      if (
+        card?.owner === myPlayerId &&
+        protectedIds.has(card.id) &&
+        !alreadyBanked.has(card.id)
+      ) {
+        misplacedById.set(card.id, card)
+      }
+    }
+  }
+  const misplaced = [...misplacedById.values()]
+  if (misplaced.length === 0) return false
+
+  await functions.updateCards(misplaced, { isHidden: "yes" })
+  await functions.moveCards(misplaced, "LimitedStockpile", { noLogs: true })
+  return true
+}
+
 async function btDraftProcessReadyRounds() {
   // Never discard an update that arrives while a release is already running.
   // Ownership transfers frequently fire onCardsUpdate in the middle of the
@@ -210,12 +246,19 @@ async function btDraftProcessReadyRoundsUnlocked() {
   const progress = btDraftSeatProgress(controller, myPosition)
   await btDraftLoadIncomingPack(myPlayerId, progress)
   const roundKey = progress.waitingRound
-  if (!roundKey) return
+  if (!roundKey) {
+    await btDraftReconcileBankedPicks(myPlayerId, progress)
+    return
+  }
 
   const round = controller.rounds?.[roundKey]
   if (!round) return
   const readyCount = Object.values(round.ready ?? {}).filter(Boolean).length
   if (readyCount < totalPlayers) return
+  // The current locked pick may be banked only after the confirmation barrier
+  // opens. This also recovers any older protected pick that visually bounced
+  // back into a pack section.
+  await btDraftReconcileBankedPicks(myPlayerId, progress)
   if (round.released?.[String(myPosition)]) return
 
   const packNumber = Number(round.packNumber)
@@ -240,7 +283,14 @@ async function btDraftProcessReadyRoundsUnlocked() {
   // Bank the locked pick into this player's working Draft deck before any
   // remaining pack enters the exchange queue.
   const lockedPickId = round.ready?.[String(myPosition)]
-  const lockedPick = [...(cards?.DraftPool ?? [])].find(
+  const pickLocations = [
+    ...(cards?.DraftPool ?? []),
+    ...(cards?.Mission ?? []),
+    ...(cards?.Mission2 ?? []),
+    ...(cards?.Mission3 ?? []),
+    ...(cards?.DraftIncoming ?? []),
+  ]
+  const lockedPick = pickLocations.find(
     (card) => card?.owner === myPlayerId && card?.id === lockedPickId
   )
   if (!lockedPick) {
@@ -251,20 +301,23 @@ async function btDraftProcessReadyRoundsUnlocked() {
     const alreadyBanked = [...(cards?.LimitedStockpile ?? [])].some(
       (card) => card?.owner === myPlayerId && card?.id === lockedPickId
     )
-    if (alreadyBanked) return
-    delete round.released[String(myPosition)]
-    functions.chatLog(
-      "Draft: the locked pick could not be found in Draft Picks."
-    )
-    return
+    if (!alreadyBanked) {
+      delete round.released[String(myPosition)]
+      functions.chatLog(
+        "Draft: the locked pick could not be found in Draft Picks."
+      )
+      return
+    }
+  } else {
+    // Cards moved from a face-up Patrol can retain that state. Explicitly hide
+    // the selection before it enters the opponent-hidden Draft Stockpile.
+    await functions.updateCards([lockedPick], { isHidden: "yes" })
+    await functions.moveCards([lockedPick], "LimitedStockpile", { noLogs: true })
   }
-  // Cards moved from a face-up Patrol can retain that state. Explicitly hide
-  // the selection before it enters the opponent-hidden Draft Stockpile.
-  await functions.updateCards([lockedPick], { isHidden: "yes" })
-  await functions.moveCards([lockedPick], "LimitedStockpile", { noLogs: true })
 
+  const protectedPickIds = new Set(progress.bankedPickIds ?? [])
   const remainingCards = [...(cards?.[sectionName] ?? [])].filter(
-    (card) => card?.owner === myPlayerId
+    (card) => card?.owner === myPlayerId && !protectedPickIds.has(card?.id)
   )
 
   // Transfer the remaining pack as one batch of promises.  This minimizes
@@ -380,6 +433,10 @@ async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
   }
 
   progress.confirmRequested = false
+  progress.bankedPickIds = [...new Set([
+    ...(progress.bankedPickIds ?? []),
+    ownedPicks[0].id,
+  ])]
   progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
   const pickNumber = Number(progress.packPickNumber ?? 0)
   const roundKey = `${packNumber}:${pickNumber}`
