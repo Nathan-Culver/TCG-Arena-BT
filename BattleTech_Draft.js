@@ -11,6 +11,7 @@ const BT_DRAFT_PACK_SECTIONS = {
   2: "Mission2",
   3: "Mission3",
 }
+const BT_DRAFT_MAX_SEATS = 4
 
 // Card moves and ownership transfers fire debounced board-update events. A
 // second event must not enter the same async release while the first is still
@@ -40,31 +41,26 @@ function btDraftFindMyPlayerId() {
 }
 
 function btDraftSeatProgress(controller, position) {
-  const key = String(position)
-  controller.progress = { ...(controller.progress ?? {}) }
-  controller.progress[key] = {
-    activePack: 1,
-    confirmedPicks: 0,
-    packPickNumber: 0,
-    waitingRound: null,
-    awaitingIncomingPack: null,
-    confirmRequested: false,
-    pendingBank: null,
-    ...(controller.progress[key] ?? {}),
-  }
-  return controller.progress[key]
+  if (controller.activePack == null) controller.activePack = 1
+  if (controller.confirmedPicks == null) controller.confirmedPicks = 0
+  if (controller.packPickNumber == null) controller.packPickNumber = 0
+  if (controller.waitingRound == null) controller.waitingRound = null
+  if (controller.awaitingIncomingPack == null) controller.awaitingIncomingPack = null
+  if (controller.confirmRequested == null) controller.confirmRequested = false
+  if (controller.pendingBank == null) controller.pendingBank = null
+  if (controller.registeredCount == null) controller.registeredCount = 0
+  return controller
 }
 
-function btDraftRound(controller, roundKey, packNumber, pickNumber) {
-  controller.rounds = { ...(controller.rounds ?? {}) }
-  controller.rounds[roundKey] = {
-    packNumber,
-    pickNumber,
-    ready: {},
-    released: {},
-    ...(controller.rounds[roundKey] ?? {}),
-  }
-  return controller.rounds[roundKey]
+function btDraftSeatChannel(position) {
+  return game?.data?.[`DraftSeat${Number(position) + 1}`]
+}
+
+function btDraftSeatChannels(totalPlayers = Number(game?.turn?.totalPlayers ?? 0)) {
+  return Array.from(
+    { length: Math.min(BT_DRAFT_MAX_SEATS, totalPlayers) },
+    (_, position) => btDraftSeatChannel(position)
+  )
 }
 
 async function btDraftClaimStartingPacks() {
@@ -98,7 +94,7 @@ async function btDraftRepairStartingPacks() {
     hasLockedPick ||
     progress.pendingBank ||
     Number(progress.confirmedPicks ?? 0) > 0 ||
-    Object.keys(controller.rounds ?? {}).length > 0
+    progress.waitingRound
   ) {
     return 0
   }
@@ -144,12 +140,13 @@ async function btDraftRegisterPlayer(quiet = true) {
   }
 
   const position = Number(game?.turn?.orderPosition ?? 0)
-  controller.players = {
-    ...(controller.players ?? {}),
-    [String(position)]: playerId,
-  }
-  controller.registeredCount = Object.values(controller.players).filter(Boolean).length
+  const seat = btDraftSeatChannel(position)
+  if (!seat) return undefined
+  seat.playerId = playerId
   btDraftSeatProgress(controller, position)
+  controller.registeredCount = btDraftSeatChannels().filter(
+    (channel) => channel?.playerId
+  ).length
   await btDraftClaimStartingPacks()
 
   if (!quiet) {
@@ -214,19 +211,23 @@ async function btDraftProcessReadyRoundsUnlocked() {
   const roundKey = progress.waitingRound
   if (!roundKey) return
 
-  const round = controller.rounds?.[roundKey]
-  if (!round) return
-  const readyCount = Object.values(round.ready ?? {}).filter(Boolean).length
+  const seatChannels = btDraftSeatChannels(totalPlayers)
+  const readyCount = seatChannels.filter(
+    (seat) => seat?.readyRound === roundKey && seat?.readyCardId
+  ).length
   if (readyCount < totalPlayers) return
-  if (round.released?.[String(myPosition)]) return
+  const mySeat = btDraftSeatChannel(myPosition)
+  if (!mySeat) return
+  if (mySeat.releasedRound === roundKey || mySeat.releasingRound === roundKey) return
 
-  const packNumber = Number(round.packNumber)
+  const [packValue] = String(roundKey).split(":")
+  const packNumber = Number(packValue)
   const sectionName = BT_DRAFT_PACK_SECTIONS[packNumber]
   if (!sectionName) return
 
   const direction = packNumber === 2 ? -1 : 1
   const targetPosition = (myPosition + direction + totalPlayers) % totalPlayers
-  const targetPlayerId = controller.players?.[String(targetPosition)]
+  const targetPlayerId = btDraftSeatChannel(targetPosition)?.playerId
   if (!targetPlayerId) {
     functions.chatLog(
       `Draft: seat ${targetPosition + 1} is not registered. Every player should click Refresh Seats once.`
@@ -234,19 +235,18 @@ async function btDraftProcessReadyRoundsUnlocked() {
     return
   }
 
-  round.released = { ...(round.released ?? {}) }
   // Set the guard before transferring because every transferred card can fire
   // another onCardsUpdate event.
-  round.released[String(myPosition)] = "running"
+  mySeat.releasingRound = roundKey
 
   // A seat can only enter round.ready after onCardsUpdate has verified that
   // this exact runtime card is already present in LimitedStockpile.
-  const lockedPickId = round.ready?.[String(myPosition)]
+  const lockedPickId = mySeat.readyCardId
   const bankedPick = [...(cards?.LimitedStockpile ?? [])].find(
     (card) => card?.owner === myPlayerId && card?.id === lockedPickId
   )
   if (!bankedPick) {
-    delete round.released[String(myPosition)]
+    mySeat.releasingRound = null
     functions.chatLog("Draft: waiting for your selected card to enter your deck.")
     return
   }
@@ -268,7 +268,8 @@ async function btDraftProcessReadyRoundsUnlocked() {
   // it arrives before the current release has returned.
   if (functions.repositionCards) await functions.repositionCards()
 
-  round.released[String(myPosition)] = "done"
+  mySeat.releasingRound = null
+  mySeat.releasedRound = roundKey
   progress.waitingRound = null
   progress.packPickNumber = Number(progress.packPickNumber ?? 0) + 1
 
@@ -351,16 +352,17 @@ async function btDraftFinalizePendingBank() {
   const packNumber = Number(pending.packNumber)
   const pickNumber = Number(pending.pickNumber)
   const roundKey = `${packNumber}:${pickNumber}`
-  const round = btDraftRound(controller, roundKey, packNumber, pickNumber)
-  round.ready = {
-    ...(round.ready ?? {}),
-    [String(myPosition)]: pending.cardId,
-  }
+  const mySeat = btDraftSeatChannel(myPosition)
+  if (!mySeat) return false
+  mySeat.readyRound = roundKey
+  mySeat.readyCardId = pending.cardId
   progress.pendingBank = null
   progress.confirmedPicks = Number(progress.confirmedPicks ?? 0) + 1
   progress.waitingRound = roundKey
 
-  const readyCount = Object.values(round.ready).filter(Boolean).length
+  const readyCount = btDraftSeatChannels(totalPlayers).filter(
+    (seat) => seat?.readyRound === roundKey && seat?.readyCardId
+  ).length
   if (readyCount < totalPlayers) {
     functions.chatLog(
       `Draft: pick banked and locked (${readyCount}/${totalPlayers} ready). Waiting for the other players.`
@@ -397,8 +399,10 @@ async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
     return
   }
   if (progress.waitingRound) {
-    const waiting = controller.rounds?.[progress.waitingRound]
-    const readyCount = Object.values(waiting?.ready ?? {}).filter(Boolean).length
+    const readyCount = btDraftSeatChannels(totalPlayers).filter(
+      (seat) =>
+        seat?.readyRound === progress.waitingRound && seat?.readyCardId
+    ).length
     functions.chatLog(
       `Draft: your pick is locked. Waiting for the other players (${readyCount}/${totalPlayers} ready).`
     )
