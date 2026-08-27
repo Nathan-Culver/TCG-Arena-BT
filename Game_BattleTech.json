@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/playmat.png?v=2"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=15"
+    "decksUrl": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Preconstructed_Decks.json?v=16"
   },
   "customHelp": "BattleTech TCG phases: Untap, Draw 2, Deploy, Repair/Reload, Missions, End. Draw 5 cards to begin. Damage to a Stockpile scraps that many cards; a player wins when an opponent's Stockpile is empty. Editable precon import links: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Precon_Import_Links.md Draft and Sealed setup guide: https://github.com/Nathan-Culver/TCG-Arena-BT/blob/main/BattleTech_Limited_Setup.md",
   "cardRotation": 0,
@@ -8574,6 +8574,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -8754,6 +8758,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -9166,15 +9218,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -9194,7 +9313,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -9388,6 +9507,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -9568,6 +9691,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -9980,15 +10151,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -10008,7 +10246,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -10202,6 +10440,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -10382,6 +10624,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -10794,15 +11084,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -10822,7 +11179,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -11016,6 +11373,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -11196,6 +11557,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -11608,15 +12017,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -11636,7 +12112,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -11830,6 +12306,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -12010,6 +12490,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -12422,15 +12950,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -12450,7 +13045,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -12644,6 +13239,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -12824,6 +13423,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -13236,15 +13883,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -13264,7 +13978,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -13458,6 +14172,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -13638,6 +14356,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -14050,15 +14816,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -14078,7 +14911,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -14272,6 +15105,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -14452,6 +15289,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -14864,15 +15749,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -14892,7 +15844,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -15086,6 +16038,10 @@
           "LimitedSetupRemoval",
           "DraftPool",
           "DraftIncoming",
+          "DraftSeat1",
+          "DraftSeat2",
+          "DraftSeat3",
+          "DraftSeat4",
           "DraftController",
           "LimitedController",
           "LimitedStockpile",
@@ -15266,6 +16222,54 @@
             },
             {
               "section": "DraftIncoming",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat1",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat2",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat3",
+              "style": {
+                "position": "absolute",
+                "top": "-10000px",
+                "left": "-10000px",
+                "width": "1px",
+                "height": "1px",
+                "overflow": "hidden",
+                "pointerEvents": "none"
+              }
+            },
+            {
+              "section": "DraftSeat4",
               "style": {
                 "position": "absolute",
                 "top": "-10000px",
@@ -15678,15 +16682,82 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "DraftController": {
-            "title": "DraftController",
+          "DraftSeat1": {
+            "title": "DraftSeat1",
             "type": "custom",
             "isShared": true,
             "defaultValue": {
-              "players": {},
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat2": {
+            "title": "DraftSeat2",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat3": {
+            "title": "DraftSeat3",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftSeat4": {
+            "title": "DraftSeat4",
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "playerId": null,
+              "readyRound": null,
+              "readyCardId": null,
+              "releasingRound": null,
+              "releasedRound": null
+            },
+            "blueprint": {
+              "type": "div",
+              "children": ""
+            }
+          },
+          "DraftController": {
+            "title": "DraftController",
+            "type": "custom",
+            "defaultValue": {
               "registeredCount": 0,
-              "progress": {},
-              "rounds": {}
+              "activePack": 1,
+              "confirmedPicks": 0,
+              "packPickNumber": 0,
+              "waitingRound": null,
+              "awaitingIncomingPack": null,
+              "confirmRequested": false,
+              "pendingBank": null
             },
             "blueprint": {
               "type": "div",
@@ -15706,7 +16777,7 @@
                   "props": {
                     "className": "opacity-75"
                   },
-                  "children": "Picks: {{ game.data.DraftController.progress[String(game.turn.orderPosition)]?.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
+                  "children": "Picks: {{ game.data.DraftController.confirmedPicks ?? 0 }} | Seats: {{ game.data.DraftController.registeredCount }}"
                 },
                 {
                   "type": "div",
@@ -15822,6 +16893,6 @@
     }
   },
   "scriptsUrls": [
-    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=15"
+    "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech_Draft.js?v=16"
   ]
 }
