@@ -1,0 +1,1714 @@
+[Settings]
+{
+  "name": "BattleTech TCG Draft — Arsenal",
+  "cardBack": "https://raw.githubusercontent.com/Nathan-Culver/TCG-Arena-BT/main/BattleTech-back.png",
+  "boostersPerPlayer": 3,
+  "withReplacement": true,
+  "duplicateProtection": true,
+  "colorBalance": false,
+  "showSlots": true,
+  "layouts": {
+    "Pack 1": {
+      "weight": 1,
+      "slots": {
+        "Pack 1 Rare": 4,
+        "Pack 1 Random": 11
+      }
+    },
+    "Pack 2": {
+      "weight": 1,
+      "slots": {
+        "Pack 2 Rare": 4,
+        "Pack 2 Random": 11
+      }
+    },
+    "Pack 3": {
+      "weight": 1,
+      "slots": {
+        "Pack 3 Rare": 4,
+        "Pack 3 Random": 11
+      }
+    }
+  },
+  "predeterminedLayouts": [
+    "Pack 1",
+    "Pack 2",
+    "Pack 3"
+  ]
+}
+
+[CustomCards]
+[
+  {
+    "name": "Advanced Manufacturing Techniques [BTID=arsenal-advanced-manufacturing-techniques]",
+    "printed_names": {
+      "en": "Advanced Manufacturing Techniques"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-advanced-manufacturing-techniques",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c2/Advanced_Manufacturing_Techniques_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Add two construction counters to a card under construction that has at least five construction counters on it, or three construction counters to a card that has at least eight construction counters on it. Use this ability only during your Deploy phase. Logistics (If you have Logistics in play, you may restock a card from your hand at the end of your turn.)"
+  },
+  {
+    "name": "Airdropped Supplies [BTID=arsenal-airdropped-supplies]",
+    "printed_names": {
+      "en": "Airdropped Supplies"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-airdropped-supplies",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1b/Airdropped_Supplies_CCG_Arsenal.jpg",
+    "oracle_text": "{R}, {T}: Add a supply counter to Airdropped Supplies. Use this ability only during your Deploy phase.\n{T}: Remove a supply counter from Airdropped Supplies to choose a 'Mech you control and roll a die:\n1-2: Restock Airdropped Supplies. 3-6: Untap that 'Mech.\nUse this ability only during your Missions phase but not during a mission."
+  },
+  {
+    "name": "Bandersnatch (BNDR-01A) [BTID=arsenal-bandersnatch-bndr-01a]",
+    "printed_names": {
+      "en": "Bandersnatch (BNDR-01A)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-bandersnatch-bndr-01a",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0c/Bandersnatch_%28BNDR-01A%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 1\nAlpha Strike: +2 attack",
+    "power": "4",
+    "toughness": "7"
+  },
+  {
+    "name": "Battle Armor Squad [BTID=arsenal-battle-armor-squad]",
+    "printed_names": {
+      "en": "Battle Armor Squad"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-battle-armor-squad",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/98/Battle_Armor_Squad_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nAP (Battle Armor Squad deals +1 damage to any target other than a 'Mech.)\nAttacks or blocks at the speed of the fastest Omni 'Mech in the group accompanying it, if any.\nYou may deploy Battle Armor Squad revealed to make an additional deployment this turn.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Behemoth (Flamer Variant) [BTID=arsenal-behemoth-flamer-variant]",
+    "printed_names": {
+      "en": "Behemoth (Flamer Variant)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-behemoth-flamer-variant",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/35/Behemoth_%28Flamer_Variant%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 1\nAlpha Strike: +2 attack\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nAP (Behemoth deals +1 damage to any target other than a 'Mech.)\nBehemoth cannot block unless guarding.",
+    "power": "3",
+    "toughness": "7"
+  },
+  {
+    "name": "Berserk Elemental Point [BTID=arsenal-berserk-elemental-point]",
+    "printed_names": {
+      "en": "Berserk Elemental Point"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-berserk-elemental-point",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/3f/Berserk_Elemental_Point_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nJump (-1 attack: +1 initiative)\nAP (Berserk Elemental Point deals +1 damage to any target other than a 'Mech.)\nAttacks or blocks at the speed of the fastest Omni 'Mech in the group accompanying it, if any.\nChoose an engaged 'Mech. If that 'Mech takes structure damage later in the battle, scrap it and Berserk Elemental Point. Use this ability only during battle.",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Black Hawk S (Nova) [BTID=arsenal-black-hawk-s-nova]",
+    "printed_names": {
+      "en": "Black Hawk S (Nova)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-black-hawk-s-nova",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/52/Black_Hawk_S_%28Nova%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nAnti-missile (Each missile assigned to a 'Mech in a group that includes Black Hawk S deals -1 damage.)\nAP (Black Hawk S deals +1 damage to any target other than a 'Mech.)",
+    "power": "8",
+    "toughness": "7"
+  },
+  {
+    "name": "Black Lanner A [BTID=arsenal-black-lanner-a]",
+    "printed_names": {
+      "en": "Black Lanner A"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-black-lanner-a",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c1/Black_Lanner_A_CCG_Arsenal.jpg",
+    "oracle_text": "ECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)",
+    "power": "5",
+    "toughness": "7"
+  },
+  {
+    "name": "Blitzkrieg Elemental Point [BTID=arsenal-blitzkrieg-elemental-point]",
+    "printed_names": {
+      "en": "Blitzkrieg Elemental Point"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-blitzkrieg-elemental-point",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d1/Blitzkrieg_Elemental_Point_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nJump (-1 attack: +1 initiative)\nAP (Blitzkrieg Elemental Point deals +1 damage to any target other than a 'Mech.)\nAttacks or blocks at the speed of the fastest Omni 'Mech in the group accompanying it, if any.\nBlitzkrieg Elemental Point deals an additional 1 damage to each 'Mech blocking or blocked by it. Use this ability only during battle.",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Bulldog [BTID=arsenal-bulldog]",
+    "printed_names": {
+      "en": "Bulldog"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-bulldog",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d4/Bulldog_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "3",
+    "toughness": "3"
+  },
+  {
+    "name": "Bulldog (AC2 Variant) [BTID=arsenal-bulldog-ac2-variant]",
+    "printed_names": {
+      "en": "Bulldog (AC2 Variant)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-bulldog-ac2-variant",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/06/Bulldog_%28AC2_Variant%29_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nYou may deploy Bulldog revealed to gain an additional deployment this turn.",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Bulldog (LRM Variant) [BTID=arsenal-bulldog-lrm-variant]",
+    "printed_names": {
+      "en": "Bulldog (LRM Variant)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-bulldog-lrm-variant",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/0a/Bulldog_%28LRM_Variant%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 1\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nYou may deploy Bulldog revealed to gain an additional deployment this turn.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Burke [BTID=arsenal-burke]",
+    "printed_names": {
+      "en": "Burke"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-burke",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/00/Burke_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nIf Burke attacks and is blocked, it may deal 1 of its damage to the target.\nBurke cannot block unless guarding.",
+    "power": "4",
+    "toughness": "3"
+  },
+  {
+    "name": "Carpet Bombing [BTID=arsenal-carpet-bombing]",
+    "printed_names": {
+      "en": "Carpet Bombing"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-carpet-bombing",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/8/88/Carpet_Bombing_CCG_Arsenal.jpg",
+    "oracle_text": "Play only if you have Munitions in play. Each 'Mech and Vehicle receives 2 damage."
+  },
+  {
+    "name": "Castle Defense [BTID=arsenal-castle-defense]",
+    "printed_names": {
+      "en": "Castle Defense"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-castle-defense",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/68/Castle_Defense_CCG_Arsenal.jpg",
+    "oracle_text": "Play only when blocking.\nPrevent up to 2 damage to each guarding 'Mech."
+  },
+  {
+    "name": "Cauldron-Born Prime [BTID=arsenal-cauldron-born-prime]",
+    "printed_names": {
+      "en": "Cauldron-Born Prime"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-cauldron-born-prime",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/54/Cauldron-Born_Prime_CCG_Arsenal.jpg",
+    "oracle_text": "If Cauldron-Born Prime attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "5",
+    "toughness": "7"
+  },
+  {
+    "name": "Cavalry [BTID=arsenal-cavalry]",
+    "printed_names": {
+      "en": "Cavalry"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-cavalry",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8f/Cavalry_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nIf Cavalry is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Chameleon (CLN-7W) [BTID=arsenal-chameleon-cln-7w]",
+    "printed_names": {
+      "en": "Chameleon (CLN-7W)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-chameleon-cln-7w",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/73/Chameleon_%28CLN-7W%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Chaos March Veteran [BTID=arsenal-chaos-march-veteran]",
+    "printed_names": {
+      "en": "Chaos March Veteran"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-chaos-march-veteran",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/aa/Chaos_March_Veteran_CCG_Arsenal.jpg",
+    "oracle_text": "+1 initiative, +1 attack\n'Mech piloted by Chaos March Veteran gets an additional +2 attack. Use this ability only during battle."
+  },
+  {
+    "name": "Combat Drop [BTID=arsenal-combat-drop]",
+    "printed_names": {
+      "en": "Combat Drop"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-combat-drop",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/81/Combat_Drop_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap Combat Drop when it is revealed.\nActivate Combat Drop only during battle. Choose one of your untapped 'Mechs for every two construction counters above the cost of Combat Drop. Each of these 'Mechs joins the battle and receives 1 structure damage."
+  },
+  {
+    "name": "Command Circuit [BTID=arsenal-command-circuit]",
+    "printed_names": {
+      "en": "Command Circuit"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-command-circuit",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/65/Command_Circuit_CCG_Arsenal.jpg",
+    "oracle_text": "{R}, {T}: Roll a die. Use this ability only during\nyour Deploy phase. 1-2: Scrap Command Circuit.\n3-5: Draw one card and you may make an additional deployment this turn.\n6: Draw three cards and you may make an additional three deployments this turn."
+  },
+  {
+    "name": "Coordinator Theodore Kurita [BTID=arsenal-coordinator-theodore-kurita]",
+    "printed_names": {
+      "en": "Coordinator Theodore Kurita"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-coordinator-theodore-kurita",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/8e/Coordinator_Theodore_Kurita_CCG_Arsenal.jpg",
+    "oracle_text": "Counts as\nwhile in play.\nMaking a deployment costs each opponent an additional 0+2L.\nTactics (If you have Tactics in play, add +1 to your initiative.)"
+  },
+  {
+    "name": "Covert Elemental Point [BTID=arsenal-covert-elemental-point]",
+    "printed_names": {
+      "en": "Covert Elemental Point"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-covert-elemental-point",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/32/Covert_Elemental_Point_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nJump (-1 attack: +1 initiative)\nAP (Covert Elemental Point deals +1 damage to any target other than a 'Mech.)\nAttacks or blocks at the speed of the fastest Omni 'Mech in the group accompanying it, if any.\nIf Covert Elemental Point attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Cyrano [BTID=arsenal-cyrano]",
+    "printed_names": {
+      "en": "Cyrano"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-cyrano",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/ca/Cyrano_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nIf Cyrano is fully constructed when you reveal it, you may immediately place it in your Patrol region.\nYou may deploy Cyrano revealed to gain an additional deployment this turn.",
+    "power": "1",
+    "toughness": "1"
+  },
+  {
+    "name": "Daishi S (Dire Wolf) [BTID=arsenal-daishi-s-dire-wolf]",
+    "printed_names": {
+      "en": "Daishi S (Dire Wolf)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-daishi-s-dire-wolf",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/29/Daishi_S_%28Dire_Wolf%29_CCG_Arsenal.jpg",
+    "oracle_text": "Alpha Strike: +3 attack\nJump (-1 attack: +1 initiative)\nAP (Daishi S deals +1 damage to any target other than a 'Mech.)",
+    "power": "11",
+    "toughness": "11"
+  },
+  {
+    "name": "Dan Allard [BTID=arsenal-dan-allard]",
+    "printed_names": {
+      "en": "Dan Allard"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-dan-allard",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/c3/Dan_Allard_CCG_Arsenal.jpg",
+    "oracle_text": "+1 initiative, +2 attack\nReassign any pilot you control to any 'Mech in a group that contains 'Mech piloted by Dan Allard. Use this ability only during a mission involving 'Mech piloted by Dan Allard.\n• Co-Commander (with Morgan Kell) of the Kell Houds"
+  },
+  {
+    "name": "Defensive Embankment [BTID=arsenal-defensive-embankment]",
+    "printed_names": {
+      "en": "Defensive Embankment"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-defensive-embankment",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/20/Defensive_Embankment_CCG_Arsenal.jpg",
+    "oracle_text": "Play Defensive Embankment only in one of your regions. Activating Defensive Embankment scraps all other Terrain cards in that region.\nEach of your Vehicles gets +1 attack and +1 armor. Use this ability only during a mission whose target is in the region enhanced by Defensive Embankment."
+  },
+  {
+    "name": "Demolisher [BTID=arsenal-demolisher]",
+    "printed_names": {
+      "en": "Demolisher"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-demolisher",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/99/Demolisher_CCG_Arsenal.jpg",
+    "oracle_text": "Alpha Strike: +4 attack\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Demon [BTID=arsenal-demon]",
+    "printed_names": {
+      "en": "Demon"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-demon",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f2/Demon_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nIf Demon attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "6"
+  },
+  {
+    "name": "Desert Wasteland [BTID=arsenal-desert-wasteland]",
+    "printed_names": {
+      "en": "Desert Wasteland"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-desert-wasteland",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/a4/Desert_Wasteland_CCG_Arsenal.jpg",
+    "oracle_text": "Play Desert Wasteland only in one of your regions. Activating Desert Wasteland scraps all other Terrain cards in that region.\nEach Vehicle receives 1 damage. Damage from a 'Mech's Overheat option is applied to that 'Mech's structure instead of its armor. Use this ability only during a mission whose target is in the region enhanced by Desert Wasteland."
+  },
+  {
+    "name": "Diamond Will's [BTID=arsenal-diamond-will-s]",
+    "printed_names": {
+      "en": "Diamond Will's"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-diamond-will-s",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/fb/Diamond_Will%27s_CCG_Arsenal.jpg",
+    "oracle_text": "{R}, {R}, {T}: Roll a die. Use this ability only during your Deploy phase:\n1: Scrap Diamond Will's.\n2-5: Gain a number of resources equal to the die roll.\n6: Once this turn, you may activate a card ignoring its base construction cost."
+  },
+  {
+    "name": "Doc Trevena [BTID=arsenal-doc-trevena]",
+    "printed_names": {
+      "en": "Doc Trevena"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-doc-trevena",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/71/Doc_Trevena_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: Prevent up to 2 damage to each of your fast\n'Mechs. Use this ability only during a mission.\n• Company Commander, Tenth Skye Rangers"
+  },
+  {
+    "name": "Elizabeth O'Bannon [BTID=arsenal-elizabeth-o-bannon]",
+    "printed_names": {
+      "en": "Elizabeth O'Bannon"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-elizabeth-o-bannon",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/b4/Elizabeth_O%27Bannon_CCG_Arsenal.jpg",
+    "oracle_text": "+1 initiative, +2 attack\nWhen you activate Elizabeth O'Bannon you may search your Stockpile, Scrapheap, and/or hand for Tanya O'Bannon. You may deploy and activate that card without paying its construction cost. This does not count as a deployment. If you search your Stockpile, shuffle it afterwards.\n• Co-Champion (with Tanya O'Brannon) of Solaris, 3051-53"
+  },
+  {
+    "name": "Enhanced IR Sensors [BTID=arsenal-enhanced-ir-sensors]",
+    "printed_names": {
+      "en": "Enhanced IR Sensors"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-enhanced-ir-sensors",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/73/Enhanced_IR_Sensors_CCG_Arsenal.jpg",
+    "oracle_text": "Play Enhanced IR Sensors only on a 'Mech. That 'Mech can attack or block any 'Mech with Overheat regardless of the other 'Mech's speed."
+  },
+  {
+    "name": "Ferro-Fibrous Upgrade [BTID=arsenal-ferro-fibrous-upgrade]",
+    "printed_names": {
+      "en": "Ferro-Fibrous Upgrade"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-ferro-fibrous-upgrade",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/3/39/Ferro-Fibrous_Upgrade_CCG_Arsenal.jpg",
+    "oracle_text": "Play Ferro-Fibrous Upgrade only on a Vehicle. If Vehicle enhanced by Ferro-Fibrous Upgrade receives damage, prevent up to 3 of that damage and scrap Ferro-Fibrous Upgrade.\nYou may deploy Ferro-Fibrous Upgrade revealed to make an additional deployment this turn. Draw a card when you activate Ferro-Fibrous Upgrade."
+  },
+  {
+    "name": "Final Push [BTID=arsenal-final-push]",
+    "printed_names": {
+      "en": "Final Push"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-final-push",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/a/ac/Final_Push_CCG_Arsenal.jpg",
+    "oracle_text": "Play only when blocked.\nEach of your 'Mechs and Vehicles may deal up to an additional 2 of its damage to the target."
+  },
+  {
+    "name": "Fire Falcon A [BTID=arsenal-fire-falcon-a]",
+    "printed_names": {
+      "en": "Fire Falcon A"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-fire-falcon-a",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/15/Fire_Falcon_A_CCG_Arsenal.jpg",
+    "oracle_text": "",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Fire Falcon C [BTID=arsenal-fire-falcon-c]",
+    "printed_names": {
+      "en": "Fire Falcon C"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-fire-falcon-c",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/be/Fire_Falcon_C_CCG_Arsenal.jpg",
+    "oracle_text": "AP (Fire Falcon C deals +1 damage to any target other than a 'Mech.)",
+    "power": "4",
+    "toughness": "4"
+  },
+  {
+    "name": "Fire Falcon Prime [BTID=arsenal-fire-falcon-prime]",
+    "printed_names": {
+      "en": "Fire Falcon Prime"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-fire-falcon-prime",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/8a/Fire_Falcon_Prime_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "5",
+    "toughness": "4"
+  },
+  {
+    "name": "Fire From Cover [BTID=arsenal-fire-from-cover]",
+    "printed_names": {
+      "en": "Fire From Cover"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-fire-from-cover",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/7/72/Fire_from_Cover_CCG_Arsenal.jpg",
+    "oracle_text": "Choose one of your 'Mechs. That 'Mech gets +1 attack. Prevent 1 damage to that 'Mech."
+  },
+  {
+    "name": "Front-Loaded Supply Lines [BTID=arsenal-front-loaded-supply-lines]",
+    "printed_names": {
+      "en": "Front-Loaded Supply Lines"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-front-loaded-supply-lines",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/b/be/Front-Loaded_Supply_Lines_CCG_Arsenal.jpg",
+    "oracle_text": "Play only if you have Logistics in play. Each of your 'Mechs and Vehicles gains Alpha Strike: +2 attack."
+  },
+  {
+    "name": "Galleon-3058 [BTID=arsenal-galleon-3058]",
+    "printed_names": {
+      "en": "Galleon-3058"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-galleon-3058",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/96/Galleon-3058_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nYou may deploy Galleon-3058 revealed to gain an additional deployment this turn.",
+    "power": "2",
+    "toughness": "5"
+  },
+  {
+    "name": "Grendel D [BTID=arsenal-grendel-d]",
+    "printed_names": {
+      "en": "Grendel D"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-grendel-d",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7c/Grendel_D_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 2: +2 attack\nJump (-1 attack: +1 initiative)",
+    "power": "4",
+    "toughness": "6"
+  },
+  {
+    "name": "Grizzly [BTID=arsenal-grizzly]",
+    "printed_names": {
+      "en": "Grizzly"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-grizzly",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/91/Grizzly_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Grizzly attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "7",
+    "toughness": "9"
+  },
+  {
+    "name": "Hanse Davion's Legacy [BTID=arsenal-hanse-davion-s-legacy]",
+    "printed_names": {
+      "en": "Hanse Davion's Legacy"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-hanse-davion-s-legacy",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1b/Hanse_Davion%27s_Legacy_CCG_Arsenal.jpg",
+    "oracle_text": "If you control no Davion cards in play, scrap\n's Legacy; otherwise, Hanse Davion's Legacy cannot be scrapped from play.\nChoose an attacking 'Mech. That 'Mech gets +2 armor. Use this ability only during a mission."
+  },
+  {
+    "name": "Holovid Frameup [BTID=arsenal-holovid-frameup]",
+    "printed_names": {
+      "en": "Holovid Frameup"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-holovid-frameup",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/88/Holovid_Frameup_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap Holovid Frameup when it is revealed.\nChoose an opponent and roll a die:\n1-2: Scrap a Unique card of that player's choice and scrap three cards from your Stockpile.\n3-6: Scrap a Unique card of your choice. That player scraps three cards from his Stockpile."
+  },
+  {
+    "name": "Hot-Loaded LRMs [BTID=arsenal-hot-loaded-lrms]",
+    "printed_names": {
+      "en": "Hot-Loaded LRMs"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-hot-loaded-lrms",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/78/Hot-Loaded_LRMs_CCG_Arsenal.jpg",
+    "oracle_text": "Play Hot-Loaded LRMs only on a 'Mech or Vehicle with the Missile option.\nEnhanced 'Mech or Vehicle gets +X attack, where X is equal to the number of missiles it can fire. At end of each mission involving enhanced 'Mech or Vehicle, roll a die. If the die roll is less than or equal to the amount of structure damage taken during the mission by that 'Mech or Vehicle, scrap it."
+  },
+  {
+    "name": "J. Edgar (MG Variant) [BTID=arsenal-j-edgar-mg-variant]",
+    "printed_names": {
+      "en": "J. Edgar (MG Variant)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-j-edgar-mg-variant",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/0/09/J._Edgar_%28MG_Variant%29_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nAP (J. Edgar deals +1 damage to any target other than a 'Mech.)\nIf J. Edgar is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "5"
+  },
+  {
+    "name": "Jade Monkey [BTID=arsenal-jade-monkey]",
+    "printed_names": {
+      "en": "Jade Monkey"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-jade-monkey",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/40/Jade_Monkey_CCG_Arsenal.jpg",
+    "oracle_text": "Play Jade Monkey only on a Pilot or Command card. If card enhanced by Jade Monkey goes to your Scrapheap, you may put that card into your hand afterwards.\nYou may deploy Jade Monkey revealed to make an additional deployment this turn."
+  },
+  {
+    "name": "Janos Marik's Legacy [BTID=arsenal-janos-marik-s-legacy]",
+    "printed_names": {
+      "en": "Janos Marik's Legacy"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-janos-marik-s-legacy",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/40/Janos_Marik%27s_Legacy_CCG_Arsenal.jpg",
+    "oracle_text": "If you control no Marik cards in play, scrap\n's Legacy; otherwise, Janos Marik's Legacy cannot be scrapped from play.\nAs long as you control any Marik cards other than Janos Marik's Legacy, each of your 'Mechs cost 1 resource less to activate."
+  },
+  {
+    "name": "Jerrard Cranston [BTID=arsenal-jerrard-cranston]",
+    "printed_names": {
+      "en": "Jerrard Cranston"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-jerrard-cranston",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7e/Jerrard_Cranston_CCG_Arsenal.jpg",
+    "oracle_text": "Counts as\nwhile in play.\ndoes not untap as normal during your Untap phase.\n{T}: Choose an opponent. Opponent may not play Mission cards until the beginning of your next turn. Use this ability only during your Deploy phase.\n{R}{R}: Untap Jerrard Cranston. Use this ability only during your Deploy phase.\n• Intelligence Secretary to Victor Davion"
+  },
+  {
+    "name": "Jump Troops [BTID=arsenal-jump-troops]",
+    "printed_names": {
+      "en": "Jump Troops"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-jump-troops",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/a/ab/Jump_Troops_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: +1 initiative and the target gets +2 attack. If the target is damaged, attacking player may choose to redirect 3 damage to Jump Troops, scrapping it. Use this ability only during battle. You may deploy Jump Troops revealed to make an additional deployment this turn."
+  },
+  {
+    "name": "Katrina Steiner's Legacy [BTID=arsenal-katrina-steiner-s-legacy]",
+    "printed_names": {
+      "en": "Katrina Steiner's Legacy"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-katrina-steiner-s-legacy",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/2d/Katrina_Steiner%27s_Legacy_CCG_Arsenal.jpg",
+    "oracle_text": "If you control no Steiner cards in play, scrap\n's Legacy; otherwise, Katrina Steiner's Legacy cannot be scrapped from play.\n{T}: Make an additional deployment this turn. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Keith Smith [BTID=arsenal-keith-smith]",
+    "printed_names": {
+      "en": "Keith Smith"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-keith-smith",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d8/Keith_Smith_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: Look at the top three cards of an opponent's Stockpile and arrange them in any order. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Kodiak [BTID=arsenal-kodiak]",
+    "printed_names": {
+      "en": "Kodiak"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-kodiak",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/50/Kodiak_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 7: +7 attack\nAlpha Strike: +3 attack",
+    "power": "7",
+    "toughness": "11"
+  },
+  {
+    "name": "Lightning [BTID=arsenal-lightning]",
+    "printed_names": {
+      "en": "Lightning"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-lightning",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/92/Lightning_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nIf Lightning is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "3",
+    "toughness": "3"
+  },
+  {
+    "name": "Linebacker C [BTID=arsenal-linebacker-c]",
+    "printed_names": {
+      "en": "Linebacker C"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-linebacker-c",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/d4/Linebacker_C_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 1: +1 attack",
+    "power": "5",
+    "toughness": "8"
+  },
+  {
+    "name": "Mad Cat Pryde (Timber Wolf) [BTID=arsenal-mad-cat-pryde-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat Pryde (Timber Wolf)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-mad-cat-pryde-timber-wolf",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/31/Mad_Cat_Pryde_%28Timber_Wolf%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 3\nOverheat 4: +4 attack\nJump (-1 attack: +1 initiative)",
+    "power": "3",
+    "toughness": "9"
+  },
+  {
+    "name": "Mad Cat S (Timber Wolf) [BTID=arsenal-mad-cat-s-timber-wolf]",
+    "printed_names": {
+      "en": "Mad Cat S (Timber Wolf)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-mad-cat-s-timber-wolf",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/6f/Mad_Cat_S_%28Timber_Wolf%29_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "8",
+    "toughness": "9"
+  },
+  {
+    "name": "Magi [BTID=arsenal-magi]",
+    "printed_names": {
+      "en": "Magi"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-magi",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f0/Magi_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Maximillian Liao's Legacy [BTID=arsenal-maximillian-liao-s-legacy]",
+    "printed_names": {
+      "en": "Maximillian Liao's Legacy"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-maximillian-liao-s-legacy",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/10/Maximillian_Liao%27s_Legacy_CCG_Arsenal.jpg",
+    "oracle_text": "If you control no Liao cards in play, scrap Maximillian Liao's Legacy; otherwise, Maximillian Liao's Legacy cannot be scrapped from play.\nYou may ignore construction costs when you activate Subterfuge cards."
+  },
+  {
+    "name": "'Mech Recall [BTID=arsenal-mech-recall]",
+    "printed_names": {
+      "en": "'Mech Recall"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-mech-recall",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/0/0b/%27Mech_Recall_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nRecall when it is revealed.\nChoose a patrolling 'Mech. Put that 'Mech in its owner's hand."
+  },
+  {
+    "name": "MechWarrior Peter [BTID=arsenal-mechwarrior-peter]",
+    "printed_names": {
+      "en": "MechWarrior Peter"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-mechwarrior-peter",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/64/MechWarrior_Peter_CCG_Arsenal.jpg",
+    "oracle_text": "+1 initiative\n'Mech piloted by MechWarrior Peter may deal any amount of its damage to the target. Use this ability only if that 'Mech is fast and only if blocked."
+  },
+  {
+    "name": "Nice Grouping! [BTID=arsenal-nice-grouping]",
+    "printed_names": {
+      "en": "Nice Grouping!"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-nice-grouping",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/0/01/Nice_Grouping%21_CCG_Arsenal.jpg",
+    "oracle_text": "Play only during battle.\nChoose one of your 'Mechs and one of your opponent's 'Mechs. All missiles fired from your 'Mech at opponent's 'Mech deal damage equal to the die roll instead of normal missile damage. You may still modify those die rolls as if they were normal missile rolls."
+  },
+  {
+    "name": "Night Gyr C [BTID=arsenal-night-gyr-c]",
+    "printed_names": {
+      "en": "Night Gyr C"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-night-gyr-c",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/f8/Night_Gyr_C_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Night Gyr C attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "8",
+    "toughness": "9"
+  },
+  {
+    "name": "Nightshade [BTID=arsenal-nightshade]",
+    "printed_names": {
+      "en": "Nightshade"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-nightshade",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/80/Nightshade_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.) If Nightshade is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "2"
+  },
+  {
+    "name": "Nobori-nin C (Huntsman) [BTID=arsenal-nobori-nin-c-huntsman]",
+    "printed_names": {
+      "en": "Nobori-nin C (Huntsman)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-nobori-nin-c-huntsman",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/d/da/Nobori-nin_C_%28Huntsman%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 2\nOverheat 1: +1 attack\nJump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "7"
+  },
+  {
+    "name": "Ontos-3058 [BTID=arsenal-ontos-3058]",
+    "printed_names": {
+      "en": "Ontos-3058"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-ontos-3058",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/9/9f/Ontos-3058_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 1\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "6",
+    "toughness": "6"
+  },
+  {
+    "name": "Ontos (LRM Variant) [BTID=arsenal-ontos-lrm-variant]",
+    "printed_names": {
+      "en": "Ontos (LRM Variant)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-ontos-lrm-variant",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/42/Ontos_%28LRM_Variant%29_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 3\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "",
+    "toughness": "4"
+  },
+  {
+    "name": "Partisan-3058 [BTID=arsenal-partisan-3058]",
+    "printed_names": {
+      "en": "Partisan-3058"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-partisan-3058",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/45/Partisan-3058_CCG_Arsenal.jpg",
+    "oracle_text": "Alpha Strike: +2 attack\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nC3 (Each 'Mech with C3 in a group that includes at least one other 'Mech with C3 gets +2 attack.)",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Pillager (PLG-3Z) [BTID=arsenal-pillager-plg-3z]",
+    "printed_names": {
+      "en": "Pillager (PLG-3Z)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-pillager-plg-3z",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/7a/Pillager_%28PLG-3Z%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Pillager attacks and is blocked, it may deal up to 2 of its damage to the target.",
+    "power": "8",
+    "toughness": "11"
+  },
+  {
+    "name": "Pinto [BTID=arsenal-pinto]",
+    "printed_names": {
+      "en": "Pinto"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-pinto",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/6/68/Pinto_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nIf Pinto is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "2",
+    "toughness": "4"
+  },
+  {
+    "name": "Pouncer D [BTID=arsenal-pouncer-d]",
+    "printed_names": {
+      "en": "Pouncer D"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-pouncer-d",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/e/ea/Pouncer_D_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 3: +4 attack\nJump (-1 attack: +1 initiative)",
+    "power": "6",
+    "toughness": "5"
+  },
+  {
+    "name": "Primus Sharilar Mori [BTID=arsenal-primus-sharilar-mori]",
+    "printed_names": {
+      "en": "Primus Sharilar Mori"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-primus-sharilar-mori",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d1/Primus_Sharilar_Mori_CCG_Arsenal.jpg",
+    "oracle_text": "Counts as\nwhile in play.\n{T}: Scrap a Resource card from your hand to draw a card. Use this ability only during your Deploy phase.\nLogistics (If you have Logistics in play, you may restock a card from your hand at the end of your turn.)\n• Primus of ComStar"
+  },
+  {
+    "name": "Puma [BTID=arsenal-puma]",
+    "printed_names": {
+      "en": "Puma"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-puma",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fb/Puma_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 3\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "2",
+    "toughness": "7"
+  },
+  {
+    "name": "Ramming Speed! [BTID=arsenal-ramming-speed]",
+    "printed_names": {
+      "en": "Ramming Speed!"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-ramming-speed",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/6/69/Ramming_Speed%21_CCG_Arsenal.jpg",
+    "oracle_text": "Choose a Vehicle you control. Roll a die:\n1-2: No effect.\n3-6: That Vehicle gets +(3-6) attack.\nEither way, scrap that Vehicle at end of mission."
+  },
+  {
+    "name": "Resource Broker [BTID=arsenal-resource-broker]",
+    "printed_names": {
+      "en": "Resource Broker"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-resource-broker",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/4f/Resource_Broker_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: Put three investment counters on Resource Broker. Use this ability only during your Deploy phase.\n{T}: Remove any number of investment counters from Resource Broker to put an equal number of construction counters on any card in your Under Construction region. Show that card to all players. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Saladin [BTID=arsenal-saladin]",
+    "printed_names": {
+      "en": "Saladin"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-saladin",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/f/fd/Saladin_CCG_Arsenal.jpg",
+    "oracle_text": "Alpha Strike: +2 attack\nVehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nYou may deploy Saladin revealed to gain an additional deployment this turn.",
+    "power": "1",
+    "toughness": "2"
+  },
+  {
+    "name": "Schrek [BTID=arsenal-schrek]",
+    "printed_names": {
+      "en": "Schrek"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-schrek",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/3/33/Schrek_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nIf Schrek attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "3"
+  },
+  {
+    "name": "Secret Buildup [BTID=arsenal-secret-buildup]",
+    "printed_names": {
+      "en": "Secret Buildup"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-secret-buildup",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/e/eb/Secret_Buildup_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap Secret Buildup when it is revealed.\nLook at the top four cards of your Stockpile, choose up to two of those cards which aren't Mission cards, show them to all players, and deploy them. These do not count as deployments. Scrap the rest of those cards."
+  },
+  {
+    "name": "Shadow Cat A [BTID=arsenal-shadow-cat-a]",
+    "printed_names": {
+      "en": "Shadow Cat A"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-shadow-cat-a",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/1/15/Shadow_Cat_A_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "6"
+  },
+  {
+    "name": "Shadow Cat B [BTID=arsenal-shadow-cat-b]",
+    "printed_names": {
+      "en": "Shadow Cat B"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-shadow-cat-b",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/2b/Shadow_Cat_B_CCG_Arsenal.jpg",
+    "oracle_text": "Missile 3\nJump (-1 attack: +1 initiative)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)",
+    "power": "3",
+    "toughness": "6"
+  },
+  {
+    "name": "Skirmisher Elemental Point [BTID=arsenal-skirmisher-elemental-point]",
+    "printed_names": {
+      "en": "Skirmisher Elemental Point"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-skirmisher-elemental-point",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/7/77/Skirmisher_Elemental_Point_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nJump (-1 attack: +1 initiative)\nAP (Skirmisher Elemental Point deals +1 damage to any target other than a 'Mech.)\nAttacks or blocks at the speed of the fastest Omni 'Mech in the group accompanying it, if any.\n{T}: Deal 1 structure damage to a 'Mech that has damage counters on it. Use this ability only during your Missions phase, but not during a mission.",
+    "power": "3",
+    "toughness": "4"
+  },
+  {
+    "name": "Sloth Squad [BTID=arsenal-sloth-squad]",
+    "printed_names": {
+      "en": "Sloth Squad"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-sloth-squad",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bf/Sloth_Squad_CCG_Arsenal.jpg",
+    "oracle_text": "Battle Armor (Activates, attacks, guards, and blocks like a 'Mech, and cannot attack or block alone.)\nSloth Squad cannot block unless guarding.\nChoose an engaged 'Mech and roll a die:\n1-3: That 'Mech receives 1-3 structure damage.\n4-6: No effect.\nUse this ability only during battle. You may deploy Sloth Squad revealed to gain an additional deployment this turn. Draw a card when you activate Sloth Squad.",
+    "power": "2",
+    "toughness": "2"
+  },
+  {
+    "name": "Spartan (SPT-N2) [BTID=arsenal-spartan-spt-n2]",
+    "printed_names": {
+      "en": "Spartan (SPT-N2)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-spartan-spt-n2",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/c/c4/Spartan_%28SPT-N2%29_CCG_Arsenal.jpg",
+    "oracle_text": "Overheat 1: +1 attack\nAnti-missile (Each missile assigned to a 'Mech in a group that includes Spartan deals -1 damage.)\nIf Spartan attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "4",
+    "toughness": "8"
+  },
+  {
+    "name": "Spector (SPR-5F) [BTID=arsenal-spector-spr-5f]",
+    "printed_names": {
+      "en": "Spector (SPR-5F)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-spector-spr-5f",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/b8/Spector_%28SPR-5F%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)",
+    "power": "2",
+    "toughness": "6"
+  },
+  {
+    "name": "SRM Carrier [BTID=arsenal-srm-carrier]",
+    "printed_names": {
+      "en": "SRM Carrier"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-srm-carrier",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/2a/SRM_Carrier_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)",
+    "power": "9",
+    "toughness": "1"
+  },
+  {
+    "name": "Steel Talons [BTID=arsenal-steel-talons]",
+    "printed_names": {
+      "en": "Steel Talons"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-steel-talons",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/9/90/Steel_Talons_CCG_Arsenal.jpg",
+    "oracle_text": "Roll a die.\n1: Opponent chooses a 'Mech.\n2-6: Choose a 'Mech.\nRemove the chosen 'Mech from battle."
+  },
+  {
+    "name": "Strength of the Bear [BTID=arsenal-strength-of-the-bear]",
+    "printed_names": {
+      "en": "Strength of the Bear"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-strength-of-the-bear",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Mission",
+    "image": "https://cfw.sarna.net/wiki/images/7/7a/Strength_of_the_Bear_CCG_Arsenal.jpg",
+    "oracle_text": "Double the total armor value of each of your 'Mechs."
+  },
+  {
+    "name": "Suicide Troops [BTID=arsenal-suicide-troops]",
+    "printed_names": {
+      "en": "Suicide Troops"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-suicide-troops",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/b/bb/Suicide_Troops_CCG_Arsenal.jpg",
+    "oracle_text": "Play Suicide Troops only on a Vehicle.\nIf Vehicle enhanced by Suicide Troops attacks a site and is not blocked, put a guerrilla counter on that site. During your opponent's Repair/Reload phase, for each guerrilla counter on each site, Suicide Troops deals 2 damage to that site.\nDuring his or her Deploy phase, opponent may tap any number of 'Mechs and/or Vehicles to remove that many guerrilla counters from any combination of sites and scrap twice that many cards from his or her Stockpile."
+  },
+  {
+    "name": "Takashi Kurita's Legacy [BTID=arsenal-takashi-kurita-s-legacy]",
+    "printed_names": {
+      "en": "Takashi Kurita's Legacy"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-takashi-kurita-s-legacy",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/8/86/Takashi_Kurita%27s_Legacy_CCG_Arsenal.jpg",
+    "oracle_text": "If you control no\ncards in play, scrap\n's Legacy; otherwise, Takashi Kurita's Legacy cannot be scrapped from play.\nChoose one of your attacking 'Mechs. That 'Mech gets +2 attack. Use this ability only during a mission."
+  },
+  {
+    "name": "Tanya O'Bannon [BTID=arsenal-tanya-o-bannon]",
+    "printed_names": {
+      "en": "Tanya O'Bannon"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-tanya-o-bannon",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/f/ff/Tanya_O%27Bannon_CCG_Arsenal.jpg",
+    "oracle_text": "+1 initiative, +2 attack\nWhen you activate Tanya O'Bannon you may search your Stockpile, Scrapheap, and/or hand for Elizabeth O'Bannon. You may deploy and activate that card without paying its construction cost. This does not count as a deployment. If you search your Stockpile, shuffle it afterwards.\n• Co-Champion (with Elizabeth O'Bannon) of Solaris, 3051-53"
+  },
+  {
+    "name": "Thor M (Summoner) [BTID=arsenal-thor-m-summoner]",
+    "printed_names": {
+      "en": "Thor M (Summoner)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-thor-m-summoner",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/4/45/Thor_M_%28Summoner%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)\nIf Thor M attacks and is blocked, it may deal 1 of its damage to the target.",
+    "power": "6",
+    "toughness": "6"
+  },
+  {
+    "name": "Tormano Liao [BTID=arsenal-tormano-liao]",
+    "printed_names": {
+      "en": "Tormano Liao"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-tormano-liao",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d4/Tormano_Liao_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: Tap or untap a Command card. Use this ability only during your Missions phase, but not during a mission.\n• Mandrinn in Exile"
+  },
+  {
+    "name": "Trial of Bloodright [BTID=arsenal-trial-of-bloodright]",
+    "printed_names": {
+      "en": "Trial of Bloodright"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-trial-of-bloodright",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/4/4e/Trial_of_Bloodright_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nwhen it is revealed.\nSearch your Stockpile for any Pilot card, deploy that card, and activate it without paying its construction cost. This does not count as a deployment. Shuffle your Stockpile afterwards."
+  },
+  {
+    "name": "Trial of Grievance [BTID=arsenal-trial-of-grievance]",
+    "printed_names": {
+      "en": "Trial of Grievance"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-trial-of-grievance",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/11/Trial_of_Grievance_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nwhen it is revealed.\nGain {A}, {L}, {M}, {P}, and {T} until end of turn. You may deploy Trial of Grievance revealed to make an additional deployment this turn. Draw a card when you activate Trial of Grievance."
+  },
+  {
+    "name": "Trial of Position [BTID=arsenal-trial-of-position]",
+    "printed_names": {
+      "en": "Trial of Position"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-trial-of-position",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/1/1e/Trial_of_Position_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nwhen it is revealed.\nSearch your Stockpile for any 'Mech card, show that card to all players, and deploy it. This does not count as a deployment. Shuffle your Stockpile afterwards."
+  },
+  {
+    "name": "Trial of Possession [BTID=arsenal-trial-of-possession]",
+    "printed_names": {
+      "en": "Trial of Possession"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-trial-of-possession",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/7/7b/Trial_of_Possession_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nwhen it is revealed.\nGain control of any non-Unique Clan card an opponent controls and untap it."
+  },
+  {
+    "name": "Trial of Refusal [BTID=arsenal-trial-of-refusal]",
+    "printed_names": {
+      "en": "Trial of Refusal"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-trial-of-refusal",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/9/91/Trial_of_Refusal_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nwhen it is revealed.\nUntil the beginning of your next turn, Clan 'Mechs cannot go on missions. When you activate Trial of Refusal, gain an additional deployment this turn."
+  },
+  {
+    "name": "Uller S (Kit Fox) [BTID=arsenal-uller-s-kit-fox]",
+    "printed_names": {
+      "en": "Uller S (Kit Fox)"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-uller-s-kit-fox",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/5/5e/Uller_S_%28Kit_Fox%29_CCG_Arsenal.jpg",
+    "oracle_text": "Jump (-1 attack: +1 initiative)",
+    "power": "5",
+    "toughness": "4"
+  },
+  {
+    "name": "Unlikely Love Affair [BTID=arsenal-unlikely-love-affair]",
+    "printed_names": {
+      "en": "Unlikely Love Affair"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-unlikely-love-affair",
+    "rarity": "rare",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/20/Unlikely_Love_Affair_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap Unlikely Love Affair when it is revealed.\nChoose any Unique command card in play and restock it in its owner's deck. Draw a card when you activate Unlikely Love Affair."
+  },
+  {
+    "name": "Vehicle Repair Barn [BTID=arsenal-vehicle-repair-barn]",
+    "printed_names": {
+      "en": "Vehicle Repair Barn"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-vehicle-repair-barn",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/c/cb/Vehicle_Repair_Barn_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: {R}\n{T}: Repair 1 point of damage to each of your Vehicles. Use this ability only during your Repair/Reload phase."
+  },
+  {
+    "name": "War Funds [BTID=arsenal-war-funds]",
+    "printed_names": {
+      "en": "War Funds"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-war-funds",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/6/6c/War_Funds_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: {R}\nScrap War Funds to search your Stockpile for any Resource card, show that card to all players, and deploy it. This does not count as a deployment. Shuffle your Stockpile afterwards. Use this ability only during your Deploy phase."
+  },
+  {
+    "name": "Warrior H-8 [BTID=arsenal-warrior-h-8]",
+    "printed_names": {
+      "en": "Warrior H-8"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-warrior-h-8",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/b/bd/Warrior_H-8_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nIf Warrior H-8 is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "1",
+    "toughness": "3"
+  },
+  {
+    "name": "Weapons Depot [BTID=arsenal-weapons-depot]",
+    "printed_names": {
+      "en": "Weapons Depot"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-weapons-depot",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/2/28/Weapons_Depot_CCG_Arsenal.jpg",
+    "oracle_text": "{T}: {R}\nLogistics (If you have Logistics in play, you may restock a card from your hand at the end of your turn.)\nMunitions (If you have Munitions in play and you roll a 3 on a missile roll, each of your missiles deals 3 damage.)"
+  },
+  {
+    "name": "Yellow Jacket [BTID=arsenal-yellow-jacket]",
+    "printed_names": {
+      "en": "Yellow Jacket"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-yellow-jacket",
+    "rarity": "common",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/8/87/Yellow_Jacket_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nVTOL (Vehicles with VTOL cannot be blocked by patrolling 'Mechs or by patrolling vehicles without VTOL.)\nIf Yellow Jacket attacks and is blocked, it may deal 1 of its damage to the target.\nYou may deploy Yellow Jacket revealed to gain an additional deployment this turn.",
+    "power": "2",
+    "toughness": "3"
+  },
+  {
+    "name": "Zephyr [BTID=arsenal-zephyr]",
+    "printed_names": {
+      "en": "Zephyr"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-zephyr",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Unit",
+    "image": "https://cfw.sarna.net/wiki/images/2/2c/Zephyr_CCG_Arsenal.jpg",
+    "oracle_text": "Vehicle (Activates, attacks, guards, and blocks like a 'Mech. If damaged, roll a die. On a 6, scrap Vehicle.)\nECM (Each 'Mech in a group that includes at least one 'Mech with ECM gets +1 armor.)\nIf Zephyr is fully constructed when you reveal it, you may immediately place it in your Patrol region.",
+    "power": "3",
+    "toughness": "5"
+  },
+  {
+    "name": "Zhanzheng de Guang Terrorism [BTID=arsenal-zhanzheng-de-guang-terrorism]",
+    "printed_names": {
+      "en": "Zhanzheng de Guang Terrorism"
+    },
+    "set": "ars",
+    "collector_number": "arsenal-zhanzheng-de-guang-terrorism",
+    "rarity": "uncommon",
+    "mana_cost": "",
+    "type": "Command",
+    "image": "https://cfw.sarna.net/wiki/images/d/d2/Zhanzheng_de_Guang_Terrorism_CCG_Arsenal.jpg",
+    "oracle_text": "Scrap\nTerrorism when it is revealed. Choose an opponent.\nIf that opponent makes any deployments during his or her next turn, deal 4 damage to his or her Stockpile. If not, deal 2 damage to your Stockpile. You may make an additional deployment this turn when you activate Zhanzheng de Guang Terrorism."
+  }
+]
+
+[Pack 1 Rare]
+Coordinator Theodore Kurita [BTID=arsenal-coordinator-theodore-kurita]
+Diamond Will's [BTID=arsenal-diamond-will-s]
+Fire Falcon A [BTID=arsenal-fire-falcon-a]
+Jade Monkey [BTID=arsenal-jade-monkey]
+Katrina Steiner's Legacy [BTID=arsenal-katrina-steiner-s-legacy]
+Lightning [BTID=arsenal-lightning]
+Maximillian Liao's Legacy [BTID=arsenal-maximillian-liao-s-legacy]
+Ontos (LRM Variant) [BTID=arsenal-ontos-lrm-variant]
+Puma [BTID=arsenal-puma]
+Takashi Kurita's Legacy [BTID=arsenal-takashi-kurita-s-legacy]
+Tormano Liao [BTID=arsenal-tormano-liao]
+Unlikely Love Affair [BTID=arsenal-unlikely-love-affair]
+
+[Pack 1 Random]
+Advanced Manufacturing Techniques [BTID=arsenal-advanced-manufacturing-techniques]
+Behemoth (Flamer Variant) [BTID=arsenal-behemoth-flamer-variant]
+Blitzkrieg Elemental Point [BTID=arsenal-blitzkrieg-elemental-point]
+Bulldog [BTID=arsenal-bulldog]
+Carpet Bombing [BTID=arsenal-carpet-bombing]
+Cavalry [BTID=arsenal-cavalry]
+Chaos March Veteran [BTID=arsenal-chaos-march-veteran]
+Coordinator Theodore Kurita [BTID=arsenal-coordinator-theodore-kurita]
+Daishi S (Dire Wolf) [BTID=arsenal-daishi-s-dire-wolf]
+Diamond Will's [BTID=arsenal-diamond-will-s]
+Enhanced IR Sensors [BTID=arsenal-enhanced-ir-sensors]
+Ferro-Fibrous Upgrade [BTID=arsenal-ferro-fibrous-upgrade]
+Fire Falcon A [BTID=arsenal-fire-falcon-a]
+Front-Loaded Supply Lines [BTID=arsenal-front-loaded-supply-lines]
+Galleon-3058 [BTID=arsenal-galleon-3058]
+J. Edgar (MG Variant) [BTID=arsenal-j-edgar-mg-variant]
+Jade Monkey [BTID=arsenal-jade-monkey]
+Katrina Steiner's Legacy [BTID=arsenal-katrina-steiner-s-legacy]
+Lightning [BTID=arsenal-lightning]
+Maximillian Liao's Legacy [BTID=arsenal-maximillian-liao-s-legacy]
+MechWarrior Peter [BTID=arsenal-mechwarrior-peter]
+Night Gyr C [BTID=arsenal-night-gyr-c]
+Ontos (LRM Variant) [BTID=arsenal-ontos-lrm-variant]
+Pinto [BTID=arsenal-pinto]
+Puma [BTID=arsenal-puma]
+Resource Broker [BTID=arsenal-resource-broker]
+Saladin [BTID=arsenal-saladin]
+Sloth Squad [BTID=arsenal-sloth-squad]
+Spartan (SPT-N2) [BTID=arsenal-spartan-spt-n2]
+Takashi Kurita's Legacy [BTID=arsenal-takashi-kurita-s-legacy]
+Tormano Liao [BTID=arsenal-tormano-liao]
+Trial of Grievance [BTID=arsenal-trial-of-grievance]
+Trial of Position [BTID=arsenal-trial-of-position]
+Unlikely Love Affair [BTID=arsenal-unlikely-love-affair]
+Warrior H-8 [BTID=arsenal-warrior-h-8]
+Zephyr [BTID=arsenal-zephyr]
+
+[Pack 2 Rare]
+Airdropped Supplies [BTID=arsenal-airdropped-supplies]
+Cyrano [BTID=arsenal-cyrano]
+Doc Trevena [BTID=arsenal-doc-trevena]
+Hanse Davion's Legacy [BTID=arsenal-hanse-davion-s-legacy]
+Janos Marik's Legacy [BTID=arsenal-janos-marik-s-legacy]
+Keith Smith [BTID=arsenal-keith-smith]
+Mad Cat Pryde (Timber Wolf) [BTID=arsenal-mad-cat-pryde-timber-wolf]
+'Mech Recall [BTID=arsenal-mech-recall]
+Pillager (PLG-3Z) [BTID=arsenal-pillager-plg-3z]
+Shadow Cat B [BTID=arsenal-shadow-cat-b]
+Tanya O'Bannon [BTID=arsenal-tanya-o-bannon]
+Trial of Bloodright [BTID=arsenal-trial-of-bloodright]
+
+[Pack 2 Random]
+Airdropped Supplies [BTID=arsenal-airdropped-supplies]
+Battle Armor Squad [BTID=arsenal-battle-armor-squad]
+Berserk Elemental Point [BTID=arsenal-berserk-elemental-point]
+Bulldog (AC2 Variant) [BTID=arsenal-bulldog-ac2-variant]
+Burke [BTID=arsenal-burke]
+Castle Defense [BTID=arsenal-castle-defense]
+Combat Drop [BTID=arsenal-combat-drop]
+Cyrano [BTID=arsenal-cyrano]
+Defensive Embankment [BTID=arsenal-defensive-embankment]
+Demolisher [BTID=arsenal-demolisher]
+Doc Trevena [BTID=arsenal-doc-trevena]
+Final Push [BTID=arsenal-final-push]
+Fire Falcon Prime [BTID=arsenal-fire-falcon-prime]
+Grendel D [BTID=arsenal-grendel-d]
+Hanse Davion's Legacy [BTID=arsenal-hanse-davion-s-legacy]
+Hot-Loaded LRMs [BTID=arsenal-hot-loaded-lrms]
+Janos Marik's Legacy [BTID=arsenal-janos-marik-s-legacy]
+Jump Troops [BTID=arsenal-jump-troops]
+Keith Smith [BTID=arsenal-keith-smith]
+Mad Cat Pryde (Timber Wolf) [BTID=arsenal-mad-cat-pryde-timber-wolf]
+'Mech Recall [BTID=arsenal-mech-recall]
+Nice Grouping! [BTID=arsenal-nice-grouping]
+Nobori-nin C (Huntsman) [BTID=arsenal-nobori-nin-c-huntsman]
+Pillager (PLG-3Z) [BTID=arsenal-pillager-plg-3z]
+Pouncer D [BTID=arsenal-pouncer-d]
+Schrek [BTID=arsenal-schrek]
+Secret Buildup [BTID=arsenal-secret-buildup]
+Shadow Cat B [BTID=arsenal-shadow-cat-b]
+Spector (SPR-5F) [BTID=arsenal-spector-spr-5f]
+SRM Carrier [BTID=arsenal-srm-carrier]
+Tanya O'Bannon [BTID=arsenal-tanya-o-bannon]
+Trial of Bloodright [BTID=arsenal-trial-of-bloodright]
+Trial of Possession [BTID=arsenal-trial-of-possession]
+Vehicle Repair Barn [BTID=arsenal-vehicle-repair-barn]
+Weapons Depot [BTID=arsenal-weapons-depot]
+Zhanzheng de Guang Terrorism [BTID=arsenal-zhanzheng-de-guang-terrorism]
+
+[Pack 3 Rare]
+Command Circuit [BTID=arsenal-command-circuit]
+Dan Allard [BTID=arsenal-dan-allard]
+Elizabeth O'Bannon [BTID=arsenal-elizabeth-o-bannon]
+Holovid Frameup [BTID=arsenal-holovid-frameup]
+Jerrard Cranston [BTID=arsenal-jerrard-cranston]
+Kodiak [BTID=arsenal-kodiak]
+Magi [BTID=arsenal-magi]
+Nightshade [BTID=arsenal-nightshade]
+Primus Sharilar Mori [BTID=arsenal-primus-sharilar-mori]
+Steel Talons [BTID=arsenal-steel-talons]
+Thor M (Summoner) [BTID=arsenal-thor-m-summoner]
+Trial of Refusal [BTID=arsenal-trial-of-refusal]
+
+[Pack 3 Random]
+Bandersnatch (BNDR-01A) [BTID=arsenal-bandersnatch-bndr-01a]
+Black Hawk S (Nova) [BTID=arsenal-black-hawk-s-nova]
+Black Lanner A [BTID=arsenal-black-lanner-a]
+Bulldog (LRM Variant) [BTID=arsenal-bulldog-lrm-variant]
+Cauldron-Born Prime [BTID=arsenal-cauldron-born-prime]
+Chameleon (CLN-7W) [BTID=arsenal-chameleon-cln-7w]
+Command Circuit [BTID=arsenal-command-circuit]
+Covert Elemental Point [BTID=arsenal-covert-elemental-point]
+Dan Allard [BTID=arsenal-dan-allard]
+Demon [BTID=arsenal-demon]
+Desert Wasteland [BTID=arsenal-desert-wasteland]
+Elizabeth O'Bannon [BTID=arsenal-elizabeth-o-bannon]
+Fire Falcon C [BTID=arsenal-fire-falcon-c]
+Fire From Cover [BTID=arsenal-fire-from-cover]
+Grizzly [BTID=arsenal-grizzly]
+Holovid Frameup [BTID=arsenal-holovid-frameup]
+Jerrard Cranston [BTID=arsenal-jerrard-cranston]
+Kodiak [BTID=arsenal-kodiak]
+Linebacker C [BTID=arsenal-linebacker-c]
+Mad Cat S (Timber Wolf) [BTID=arsenal-mad-cat-s-timber-wolf]
+Magi [BTID=arsenal-magi]
+Nightshade [BTID=arsenal-nightshade]
+Ontos-3058 [BTID=arsenal-ontos-3058]
+Partisan-3058 [BTID=arsenal-partisan-3058]
+Primus Sharilar Mori [BTID=arsenal-primus-sharilar-mori]
+Ramming Speed! [BTID=arsenal-ramming-speed]
+Shadow Cat A [BTID=arsenal-shadow-cat-a]
+Skirmisher Elemental Point [BTID=arsenal-skirmisher-elemental-point]
+Steel Talons [BTID=arsenal-steel-talons]
+Strength of the Bear [BTID=arsenal-strength-of-the-bear]
+Suicide Troops [BTID=arsenal-suicide-troops]
+Thor M (Summoner) [BTID=arsenal-thor-m-summoner]
+Trial of Refusal [BTID=arsenal-trial-of-refusal]
+Uller S (Kit Fox) [BTID=arsenal-uller-s-kit-fox]
+War Funds [BTID=arsenal-war-funds]
+Yellow Jacket [BTID=arsenal-yellow-jacket]
