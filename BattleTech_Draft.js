@@ -334,10 +334,18 @@ async function btDraftFinalizePendingBank() {
       (card) => card?.owner === myPlayerId && card?.id === pending.cardId
     )
     if (misplacedPick) {
-      await functions.updateCards([misplacedPick], { isHidden: "yes" })
-      await functions.moveCards([misplacedPick], "LimitedStockpile", { noLogs: true })
+      // Do not update and then move the same card object. An awaited update can
+      // replace the runtime object and leave the following move with a stale
+      // reference. A single moveCard call is the entire retry transaction.
+      await functions.moveCard(misplacedPick, "LimitedStockpile", { noLogs: true })
     }
     return false
+  }
+
+  // The section itself is opponent-hidden. Set the explicit card state only
+  // after a fresh snapshot proves that the card is already in the deck.
+  if (bankedPick.isHidden !== "yes") {
+    await functions.updateCards([bankedPick], { isHidden: "yes" })
   }
 
   const packNumber = Number(pending.packNumber)
@@ -441,7 +449,12 @@ async function btDraftConfirmPickAndPass(fromCardUpdate = false) {
     packNumber,
     pickNumber,
   }
-  await functions.updateCards([selectedPick], { isHidden: "yes" })
-  await functions.moveCards([selectedPick], "LimitedStockpile", { noLogs: true })
+  // One atomic single-card move. Hiding is applied from a fresh deck snapshot
+  // in btDraftFinalizePendingBank, never to this pre-move card reference.
+  await functions.moveCard(selectedPick, "LimitedStockpile", { noLogs: true })
   functions.chatLog("Draft: banking your selected card before the pack can pass.")
+  // This is the final board operation in the confirmation transaction. It
+  // guarantees a fresh debounced snapshot even if the move did not otherwise
+  // wake this client immediately.
+  if (functions.repositionCards) await functions.repositionCards()
 }
